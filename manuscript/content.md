@@ -1,7 +1,7 @@
 
     
 
-## Introduction
+# Introduction
 
 ...Introduction
 
@@ -22,7 +22,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Generation Z
+## Generation Z
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -39,7 +39,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### How to get a job
+## How to get a job
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -52,7 +52,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Why I wrote this book
+## Why I wrote this book
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -72,7 +72,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
     
     
 
-## Technologies
+# Technologies
 
 ...
 
@@ -82,14 +82,14 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Books
+## Books
 
 
 
 
     
 
-### Hugo
+## Hugo
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -101,7 +101,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Jira
+## Jira
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -112,7 +112,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Machine Learning and AI
+## Machine Learning and AI
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -124,7 +124,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### Pen and Paper
+## Pen and Paper
 
 - moleskin books
 
@@ -133,7 +133,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
     
 
-### aws
+## aws
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -161,7 +161,7 @@ Book released under Creative Commons, so you are free to use it anyway you want
     
     
 
-## What is this
+# What is this
 
 Here is how it all started
 
@@ -171,7 +171,7 @@ Here is how it all started
 
     
 
-### CPU
+## CPU
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -185,7 +185,7 @@ Here is how it all started
 
     
 
-### Creative Commons
+## Creative Commons
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -196,7 +196,7 @@ Here is how it all started
 
     
 
-### Defcon
+## Defcon
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -208,7 +208,7 @@ Here is how it all started
 
     
 
-### Docker
+## Docker
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -219,7 +219,7 @@ Here is how it all started
 
     
 
-### EFF (Electronic Frontier Foundation)
+## EFF (Electronic Frontier Foundation)
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -235,7 +235,7 @@ Here is how it all started
 
     
 
-### Github
+## Github
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -246,7 +246,7 @@ Here is how it all started
 
     
 
-### OWASP
+## OWASP
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -262,7 +262,7 @@ Here is how it all started
 
     
 
-### Open Source
+## Open Source
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -275,7 +275,7 @@ Here is how it all started
 
     
 
-### Python
+## Python
 
 Here is how it all started
 
@@ -285,7 +285,7 @@ Here is how it all started
 
     
 
-### Slack
+## Slack
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -299,7 +299,7 @@ Here is how it all started
 
     
 
-### linux
+## linux
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -311,7 +311,7 @@ Here is how it all started
 
     
 
-### raspberry-pi
+## raspberry-pi
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -323,14 +323,14 @@ Here is how it all started
     
     
 
-## Concepts
+# Concepts
 
 
     
 
     
 
-### Agile and Kanban
+## Agile and Kanban
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -343,7 +343,7 @@ Here is how it all started
 
     
 
-### Change
+## Change
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -359,7 +359,7 @@ Here is how it all started
 
     
 
-### Chaos Engineering
+## Chaos Engineering
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -373,7 +373,7 @@ Here is how it all started
 
     
 
-### Continuous Integration
+## Continuous Integration
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -396,7 +396,7 @@ Here is how it all started
 
     
 
-### GDPR
+## GDPR
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -407,7 +407,7 @@ Here is how it all started
 
     
 
-### TDD (Feedback-Driven Development)
+## TDD (Feedback-Driven Development)
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -435,7 +435,7 @@ Here is how it all started
 
     
 
-### TDD (Test-Driven Development)
+## TDD (Test-Driven Development)
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -447,14 +447,14 @@ Here is how it all started
     
     
 
-## Your CV
+# Your CV
 
 
     
 
     
 
-### Git
+## Git
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -469,7 +469,7 @@ Here is how it all started
 
     
 
-### LinkedIn
+## LinkedIn
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -484,7 +484,7 @@ Here is how it all started
 
     
 
-### Personal Brand
+## Personal Brand
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -501,7 +501,7 @@ Here is how it all started
 
     
 
-### Upwork
+## Upwork
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -515,7 +515,7 @@ Here is how it all started
 
     
 
-### blogs
+## blogs
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -532,7 +532,7 @@ Here is how it all started
 
     
 
-### leanpub
+## leanpub
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -547,7 +547,7 @@ Here is how it all started
 
     
 
-### twitter
+## twitter
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -563,14 +563,14 @@ Here is how it all started
     
     
 
-## Security
+# Security
 
 
     
 
     
 
-### Security creates better developers
+## Security creates better developers
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -584,7 +584,7 @@ Here is how it all started
     
     
 
-## Life Patterns
+# Life Patterns
 
 ....
 
@@ -594,7 +594,7 @@ Here is how it all started
 
     
 
-### Be a founder
+## Be a founder
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -607,7 +607,7 @@ Here is how it all started
 
     
 
-### Learning
+## Learning
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -625,7 +625,7 @@ Here is how it all started
 
     
 
-### Refactoring
+## Refactoring
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -639,7 +639,7 @@ Here is how it all started
 
     
 
-### The Zone
+## The Zone
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -654,7 +654,7 @@ Here is how it all started
 
     
 
-### Thinking as programmer
+## Thinking as programmer
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -666,7 +666,7 @@ Here is how it all started
     
     
 
-## Misc
+# Misc
 
 Misc topics that need to be moved into a chapter
 
@@ -676,7 +676,7 @@ Misc topics that need to be moved into a chapter
 
     
 
-### Stories to tell
+## Stories to tell
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -702,7 +702,7 @@ Misc topics that need to be moved into a chapter
 
     
 
-### 
+## 
 
 
 
