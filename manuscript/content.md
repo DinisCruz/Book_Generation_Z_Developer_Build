@@ -1,4 +1,6 @@
+notes
 
+ - tweet with images that shows that students find it easier to read and learn from printed materials: https://twitter.com/nicolekearney/status/963946721662267392
     
 
 # Introduction
@@ -37,17 +39,25 @@ Book released under Creative Commons, so you are free to use it anyway you want
 {{% /panel %}}
 
 
+notes:
+ - infographic of the multiple Generations https://twitter.com/PaoliCGPI/status/961121404048601088
+
+
     
 
 ## How to get a job
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+---
+
+**Topics to cover and ideas**
+
 
  - Find companies you want to work for
     - start collaborating with them and adding value (via open source projects)
     - act like you are part of the company (understand its values, and behave in was that add value to that company, namely the tech stack)
+ - own  your carrer
+ - Added value and be good at solving problems and be proactive
 
-{{% /panel %}}
 
 
     
@@ -159,6 +169,22 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
 
     
+
+## brain
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - do you understand how your brain work?
+
+Books:
+ - [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464)
+
+
+    
     
 
 # What is this
@@ -215,6 +241,33 @@ Here is how it all started
  - ...
 
 {{% /panel %}}
+
+
+    
+
+## Dopamine
+
+[![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
+
+Do you know what Dopamine is? Do you know why mobile phone notifications are so addictive?
+
+
+- https://en.wikipedia.org/wiki/Dopamine
+
+---
+
+**Topics to cover and ideas**
+
+ - detox from your phone
+ - detox from notificaitons
+ - stop notifications
+ - related to the Zone and Deep work concepts
+ - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
+ - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
+ (they affect the brain)
+
+
+Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
 
 
     
@@ -424,6 +477,24 @@ Here is how it all started
 
     
 
+## Facts
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - be data and facts driven
+ - science up your arguments (be intellectually curious)
+ - check your sources
+ - understand the agenda of who is talking to you
+ - don&#39;t trust what is on the media namely when it is selling fear (after all if it is on the media it is because it is rare)
+ - FUD (Fear Uncertainty and Doubt) - Used to be used a lot in the technology sector
+
+
+    
+
 ## GDPR
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -446,13 +517,26 @@ Here is how it all started
 
     
 
+## Karma Points
+
+---
+
+**Topics to cover and ideas**
+
+ - &#34;Luck is when oportunity meets the prepared&#34;
+ - &#34;make their day&#34; - do this for everybody you work with a collaborate
+ - never waste an oportunity to help others, to share knowledge and to create connections
+
+
+
+    
+
 ## TDD (Test-Driven Development)
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
- - ...
-
-{{% /panel %}}
+ - the most coverage you get, the more changes you are happy to make, the better the code is because you have the confidence to make the hundreds of small changes that the only way to create a high quality and scalable application
+ - be a craftsman
 
 
     
@@ -618,6 +702,22 @@ Here is how it all started
 
     
 
+## Ideas
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - Ideas need to be protected
+ - (find video of Steve Jobs and Jonny Ive talking about ideas)
+ - http://www.businessinsider.com/steve-jobs-ideas-2014-3?IR=T
+ - the more ideas you generate the more ideas you will have. Capture them on books, create hyperlinked connections between them
+
+
+    
+
 ## Learning
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -652,15 +752,17 @@ Here is how it all started
 
 ## The Zone
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - prob is constant interruptions
  - Deep work (https://www.amazon.co.uk/Deep-Work-Focused-Success-Distracted/dp/0349411905)
  - &#34;tap dancing to work&#34;, &#34;Still day one&#34; - Jeff bezos
  - two different types of zone
+ - learn to be comfortable with incremental improvements. Detect moments of diminishing returns
+ - learn how to play the game of &#39;compound effects of ideas and capabilities&#39;
 
 
-{{% /panel %}}
+
 
 
     
@@ -704,6 +806,8 @@ Misc topics that need to be moved into a chapter
  - Bret Victor&#39;s inventing on principle (https://vimeo.com/36579366)
  - &#34;you are the product&#34; - you need to regain control of your data
 
+ - &#34;Great minds discuss ideas; average minds discuss events; small minds discuss people.&#34;
+
 
 {{% /panel %}}
 
@@ -715,7 +819,9 @@ Misc topics that need to be moved into a chapter
 
 ## 
 
+notes
 
+ - tweet with images that shows that students find it easier to read and learn from printed materials: https://twitter.com/nicolekearney/status/963946721662267392
 
 
     
