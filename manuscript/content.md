@@ -5,18 +5,33 @@ notes
 
 # Introduction
 
-Hi Generation Z Developer, if you are passionate
+Hi Generation Z Developer, if you are passionate developer who wants to learn as much as you can about your craft, this is the book for you.
+
+I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised that there a number of key gaps in your generation understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
 
 Here is the slide that started it all:
 
 ![](/images/list-of-icons.png)
 
-If you don&#39;t recognise these logos you should read this book
+It all started by me asking the audience if they recognized those logos, and realising that not only they didn&#39;t recognised the logos, they didn&#39;t knew the history behind them (and more importantly why they where created and what problem they solved)
 
-- all these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
-  - each one of these icons changed the world of technology
+All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
 
-Book released under Creative Commons, so you are free to use it anyway you want
+Each one of these icons changed the world of technology, and the paradigms shifts that they created and still impacting our world today.
+
+One of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Basically it means you are free (as in freedom) to use all the materials and content from this book in whatever way you want. As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allows X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
+
+We are in the middle of a massive technological revolution and you need to decide if you want to be a pawn or a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat the mistakes, but you will not even understand what game is being played
+
+Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
+
+**Be involved and contribute**
+
+If you have never contributed to an Open Source (or Creative Commons) project, then what about using this book as your first experiments?
+
+You can find all content for this book in [this GitHub repo](https://github.com/DinisCruz/Book_Generation_Z_Developer) and you can submit ideas and issues (you found when reading this book) [here](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues)
+
+Please share your views, suggestions and criticisms at [GitHub Issues](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues) and don&#39;t hesitate to reach out to me on [@DinisCruz](https://twitter.com/DinisCruz)
 
 
 
@@ -26,21 +41,32 @@ Book released under Creative Commons, so you are free to use it anyway you want
 
 ## Generation Z
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
- - What is Generation Z
-   - born after 1996
-   - in 2018 they are 22 year olds
-   - where 11 when the first iphone arrived
-   - pure digital and online generation
- - Briefly explain the other generations (namely X and Y)
- - I have two daughters (12 and 14) that on the tail end of this Generation
+The older members of this generation at about 22 years old at the moment, where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
 
-{{% /panel %}}
+In addition to having personal experience with this generation (I have two daughters with 12 and 14 years old), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
+
+The reason I&#39;m focusing on this Generation, due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
+
+In hindsight this is normal, since we (as a society) still don&#39;t do a very good job at explaining why things happened and why did they where needed in the first place.
 
 
-notes:
- - infographic of the multiple Generations https://twitter.com/PaoliCGPI/status/961121404048601088
+**I&#39;m worried about Gen Z**
+
+Although Gen Z have some spectacular features and values (for example they are much more tolerant and diverse than previous generations), they have a lack of intellectual curiosity that worries me
+
+We need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z
+
+Ironically, in an age when information and knowledge is a click (or google search) away, in conversation after conversation with Gen Z teenagers, I&#39;ve found that they have a very thin understanding of the history of particular technologies, why they occurred in the first place and what problem they tried to solve.
+
+My hope with this book is to break through those gaps, and provide context and references, so that better informed decisions can be made by members of this generation (who will need to save the world from the mess the previous generations are creating)
+
+**Overwhelming curiosity**
+
+What I hope to provide is a couple moments where you get this overwhelming curiosity to just learn more about topic, where you start to follow link after link about a particular topic, and that you get a number of &#39;WOW, that is fr**** awesome!&#39; moments
+
+If you are lucky enough to find yourself in this place, congratulations, you just found &#39;the zone&#39; which is this amazing enviroment when you are single minded and 100% focused learning (which is the best way to learn)
 
 
     
@@ -70,25 +96,6 @@ What is interesting is that there is nothing stopping you from doing this?
 So why don&#39;t you?
 
 After all you have nothing to lose? (and all to gain)
-
-
-    
-
-## Why I wrote this book
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - See lack of intellectual curiosity in Gen Z
- - we need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z
-    - It is important to learn the history of particular technoligies, namely why they occured in the first place (and what problem they tried to solve)
-
- - based on one of first slides presented a multiple Gen Z training sessions and presentations that I did in early 2018 (from 14 till 25 year olds)
-
- - you should have &#34;overwhelming curiosity&#34;, when in the zone, be single minded, 100% focus on what you are learning
-
- - learning to learn
- &#34;
-{{% /panel %}}
 
 
     
@@ -529,6 +536,20 @@ Here is how it all started
 
     
 
+## Inventing on Principle
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - Bret Victor&#39;s inventing on principle (https://vimeo.com/36579366)
+ - (add transcription reference) &lt;- print this and read it
+
+
+    
+
 ## Karma Points
 
 ---
@@ -852,7 +873,6 @@ Misc topics that need to be moved into a chapter
  - curse of knowledge (find book where I read it)
  - the dip
  - &#34;disagree and commit&#34;
- - Bret Victor&#39;s inventing on principle (https://vimeo.com/36579366)
  - &#34;you are the product&#34; - you need to regain control of your data
 
  - &#34;Great minds discuss ideas; average minds discuss events; small minds discuss people.&#34;
