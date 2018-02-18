@@ -7,7 +7,7 @@
 
 Here is the slide that started it all:
 
-![image](https://user-images.githubusercontent.com/656739/36346212-1982d40a-1432-11e8-92f7-32c796c70281.png)
+![](/images/list-of-icons.png)
 
 If you don&#39;t recognise these logos you should read this book
 
@@ -396,18 +396,7 @@ Here is how it all started
 
     
 
-## GDPR
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - Know your rights. What does it mean for you
-
-{{% /panel %}}
-
-
-    
-
-## TDD (Feedback-Driven Development)
+## FDD (Feedback-Driven Development)
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
@@ -429,6 +418,28 @@ Here is how it all started
     - see http://pitest.org/
     - see chaos engineering
 
+
+{{% /panel %}}
+
+
+    
+
+## GDPR
+
+{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+
+ - Know your rights. What does it mean for you
+
+{{% /panel %}}
+
+
+    
+
+## Gamifilcation
+
+{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+
+ - Game Theory
 
 {{% /panel %}}
 
