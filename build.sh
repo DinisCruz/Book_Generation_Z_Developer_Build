@@ -1,7 +1,7 @@
 cd ..
 hugo
 cd leanpub-book
-cp ../public/_manuscript/book/index.html manuscript/book.txt
+cp ../public/_manuscript/book/index.html manuscript/content.md
 
 git add -A
 git commit -m 'Committing file changes'
