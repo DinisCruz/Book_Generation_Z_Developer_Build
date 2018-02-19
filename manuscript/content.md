@@ -246,6 +246,26 @@ This book for example has a companion websites that is created using Hugo, and I
 
     
 
+## IOT (Internet of Things)
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - why it is big
+ - what it means for programmers
+ - massive job opportunities
+ - the power of software vs hardware
+ - it is all about code
+ - most IOT vendors don&#39;t understand much about modern development practices and security
+ - show shodan
+
+
+
+    
+
 ## Jira
 
 [Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
@@ -501,10 +521,21 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
 ## Python
 
-Here is how it all started
+...
 
 
+**Topics to cover and ideas**
 
+ - Here is how it all started
+ - what makes python special
+ - how guido was hired by google
+ - Guido van Rossum
+    - https://twitter.com/gvanrossum/
+    - guido created python when he was 35
+    - https://gvanrossum.github.io/
+        - http://neopythonic.blogspot.co.uk/2016/04/kings-day-speech.html
+
+ - make reference to other languages like NodeJs
 
 
     
@@ -523,25 +554,62 @@ Here is how it all started
 
     
 
+## WallabyJS and NodeJS
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - why wallabyJS is a massive paradigm shift and why is it so good
+     - real time test execution
+     - only execution of tests affected by changes
+     - ability to see the code coverage in real-time
+     - ability to easily just run one test
+         - which with the real-time coverage, provides a much better way to debug that the normal &#39;debug/breakpoint model&#39;
+
+ - why NodeJS took the world by storm
+ - the power of async code
+ - generating 20k requests with a couple lines of code
+ - coding at the speed of thought (and type)
+ - node history (based on chrome&#39;s V8)
+ - the node forking incident (io.js)
+    - why it was so important
+    - why java could had done with a fork like that
+
+
+    
+
 ## linux
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
- - linux
+ - linux history (it all started by Linus Torvalds inspired by a MINIX system)
+    - mention some of Linus views
+
  - [Linux patch submitted by an 4 year old](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=690b0543a813b0ecfc51b0374c0ce6c8275435f0)
+ - most complex software in the world
+    - git was created to manage the linux code development
+ - you need to learn it, how to install kernel drivers, how to hack it, how to rebuilt it
+ - power of raspberry pi is that it gives you a linux environment for you to play with
+ - Mac is linux under the hood (same heritage)
 
-{{% /panel %}}
+
+
 
 
     
 
 ## raspberry-pi
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - why was it created
-
-{{% /panel %}}
+    - https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation
+    - https://www.makeuseof.com/tag/raspberry-pi-creditcard-sized-arm-computer-25/
+ - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
+ - connected to maker movement and IOT world
 
 
     
@@ -556,22 +624,38 @@ Here is how it all started
 
 ## Agile and Kanban
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - history
  - why it worked
+ - agile manifesto
+    - https://www.agilealliance.org/agile101/the-agile-manifesto/
+        - Individuals and interactions over processes and tools
+        - Working software over comprehensive documentation
+        - Customer collaboration over contract negotiation
+        - Responding to change over following a plan
+
+ - [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/)
+    - Not only working software             , but also well-crafted software
+    - Not only responding to change         , but also steadily adding value
+    - Not only individuals and interactions , but also a community of professionals
+    - Not only customer collaboration       , but also productive partnerships
+
  - Anton cords
+ - explain concepts (with diagrams)
+ - how agile become dogma and created environments where agile teams where not agile at all
+    - processes become more important than understanding why something was being created in the first place, to much effort was put on estimates, to much focus was placed on what could be done in 2 weeks
+ - Scrumbam is a nice alternative
 
  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
-{{% /panel %}}
 
 
     
 
 ## Change
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Change is the only constant
  - Enjoy lose briefs (they are an opportunity to refactor those briefs into something that you are good at)
@@ -579,29 +663,47 @@ Here is how it all started
     - find the sweet spot where you are adding a lot of value
  - view problems as oportunities (which can be broken down into smaller problems and tasks)
 
+ - [Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work and in Your Life](https://www.amazon.co.uk/Who-Moved-My-Cheese-Amazing/dp/0091816971)
+ - [Our Iceberg is Melting: Changing and Succeeding Under Any Conditions](https://www.amazon.co.uk/Our-Iceberg-Melting-Succeeding-Conditions/dp/1509830111/)
 
-{{% /panel %}}
 
 
     
 
 ## Chaos Engineering
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Great concept (from 2017)
  - Security has been doing this for ages
  - Add references to site and best posts
+ - focus on resilient systems
+ - need to understand and visualize what is going on
+    - a massive problem with micro-services (and any services/monolith) based application is vibility into what is going on (and even just getting good graphs is the first step, just ask anybody who has deployed AppDynamics)
+ - integrate this concept with the SRE&#39;s &#39;Error Budget&#39;
+ - expand on the concept of &#39;Steady state&#39; (and write tests for it)
+    - how we want tests to replicate it
 
 
-{{% /panel %}}
+
+**references**:
+
+ - [The Language of Chaos Experiments in Chaos Toolkit](https://medium.com/chaos-toolkit/the-language-of-chaos-experiments-in-chaos-toolkit-bd55a5c04057)
+ - https://github.com/chaostoolkit , http://chaostoolkit.org/ , http://chaostoolkit.org/faq/
+ - http://www.oreilly.com/webops-perf/free/chaos-engineering.csp book
+ - [Chaos Engineering: Why the Label Matters](https://medium.com/russmiles/chaos-engineering-why-the-label-matters-35ddbb974fa5)
+ - [Chaos Engineering for the Business](https://medium.com/russmiles/chaos-engineering-for-the-business-17b723f26361) introduces great concept &#34;Limited scope, continuous, disaster recovery&#34;
+ - [Are you ready for Chaos Engineering?](https://medium.com/russmiles/are-you-ready-for-chaos-engineering-59b859091281)
+ - [Chaos engineering paradigm](https://www.codibly.com/2017/05/chaos-engineering-paradigm/)
+ - https://github.com/Netflix/chaosmonkey
+ - [From resilient to antifragile - Chaos Engineering Primer DevSecCon](https://www.slideshare.net/sbodiu/from-resilient-to-antifragile-chaos-engineering-primer-devseccon)
 
 
     
 
 ## Continuous Integration
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - why it matters
  - how it works
@@ -615,16 +717,15 @@ Here is how it all started
        - ZAP (to generate attack traffic)
        - ELK (to visualise traffic)
        - Write security tests that execute against site
+ - compare with CD (Continuous Delivery)O
 
-
-{{% /panel %}}
 
 
     
 
 ## FDD (Feedback-Driven Development)
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - real-time feedback in IDE (REPLs)
     - this is key to learn
@@ -633,19 +734,17 @@ Here is how it all started
  - wallabyjs
     - great example of what this UI needs to be
     - incredible how it has not be copied into all IDEs (as far as I can tell only NCrunch has the same features)
-    - why is it so good
-        - real time test execution
-        - only execution of tests affected by changes
-        - ability to see the code coverage in real-time
-        - ability to easily just run one test
-            - which with the real-time coverage, provides a much better way to debug that the normal &#39;debug/breakpoint model&#39;
-
  - all code changes (except refactoring) should require a test change
     - see http://pitest.org/
     - see chaos engineering
+ - every developer does tests all time
+    - the question is how repeatable, scalable, mesuable those tests are
+    - and how much context switching occurs
+
+ - the FDD applies to much more than just coding (see chapter on &#34;Inventing on Principle&#34;) it is also related to how we learn
 
 
-{{% /panel %}}
+
 
 
     
@@ -670,11 +769,12 @@ Here is how it all started
 
 ## GDPR
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Know your rights. What does it mean for you
+ - History of privacy
+    - [The Right to Curate an Identity](https://pbx-group-security.com/blog/2017/12/04/the-right-to-curate-an-identity/)
 
-{{% /panel %}}
 
 
     
@@ -765,6 +865,13 @@ The best companies are (or will be) following these concepts, not because its &#
 
  - the most coverage you get, the more changes you are happy to make, the better the code is because you have the confidence to make the hundreds of small changes that the only way to create a high quality and scalable application
  - be a craftsman
+ - explain history
+ - key challenges
+ - why the TDD community created dogma and lost the plot
+ - if you don&#39;t have 100% code coverage, what are those bits of code not covered by tests? (what happens if that code changes)
+ - everything should be tested
+    - history of a site that went down for hours because of a one char (pipe) change in a nginx config file
+ - explain BDD and Gherkin language
 
 
     
