@@ -1,6 +1,4 @@
-notes
 
- - tweet with images that shows that students find it easier to read and learn from printed materials: https://twitter.com/nicolekearney/status/963946721662267392
     
 
 # Introduction
@@ -113,6 +111,31 @@ After all you have nothing to lose? (and all to gain)
 
 ## Books
 
+I love books, and for a while I took had a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not. Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect for me (at that moment in time)
+
+After looking closely at why I liked books so much, I had the epiphany that &#34;Books are actually the best technology to consume and process information&#34; (see &#34;&#34;[Physical Books are the best technology for reading, and bookstores should &#39;give&#39; an eBook with every physical book published](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html)&#34;&#34; )
+
+There is also a growing body of research that shows that the use of digital technologies are also affecting kid&#39;s learning capabilities (see &#34;[students find it easier to read and learn from printed materials](https://twitter.com/nicolekearney/status/963946721662267392)&#34;)
+
+So if you don&#39;t use books or printed materials to read and review the information you are consuming, you are missing a massive trick.
+
+The digital world is really good at promoting &#39;group think&#39; and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
+
+The fact is that Books (and printed materials) are much better technologies for the consumption of information (one area where it is neutral and the advantages of the digital books is significant) are novels and fictional stories. In this case, the books is just a transient medium that is being used to tell a story, and what the reader is getting is an emotional connections with the characters/story and not really learning from the text)
+
+The reality is if you want to learn, you are better of using a book.
+
+The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused in one activity experience that is &#39;reading a piece of paper&#39;, we find tons of errors and &#39;WTF was I thinking when I wrote that!&#39; moments.
+
+Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges. The fact that you are not interrupted by the constant stream of apps/websites and that you don&#39;t have a browser at hand, does wonders for your ability to focus and to consume information.
+
+Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format. For example, notice that when you flick back pages looking for a particular passage or graph, your eyes will be looking at a particular part of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it realates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
+
+**Environmental impact of books**
+
+My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
+
+This mean that the impact of books on the environment is minimal.
 
 
 
@@ -120,42 +143,94 @@ After all you have nothing to lose? (and all to gain)
 
 ## Hugo
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+[Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
 
- - what is it
- - how the book&#39;s site was built
+In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
 
-{{% /panel %}}
+Basically what SWG (Static Website Generators) do, is to pre-create all possible web pages during a build stage, and to place them all in a single folder that can be easily deployed to any server or service that is able to host static files (including AWS S3)
+
+In practice this means that you can have a website running from valina web pages, with no backend and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
+
+Ask yourself the question: &#34;Why do you need a database?&#34;
+
+It is amazing how in tons of cases a database is not actually needed (specialy when it is possible to pre-generate all pages programatically).
+
+Hugo is also a great case-study of how modern development techniques and technologies, create products/apis that are miles ahead of the competition (with killer features)
+
+I use Hugo a lot these days, in all sort of internal and external sites, and after using (and developing) all sorts of CMS (Content Management Systems), I have to say that it provides me a spectacular and highly-productive content creation/editing workflow.
+
+This book for example has a companion websites that is created using Hugo, and I&#39;ve created a number of extra pages that help to improve my productivity (for example search and print pages)
+
 
 
     
 
 ## Jira
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+[Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
 
- - ...
+We (at Photobox Group Security) use Jira extensively in our day-to-day activities, where not only it helps us to track our tasks and risks, we create tons of custom Jira Workflows and write custom applications.
 
-{{% /panel %}}
+We basically use JIRA as an graph database (see [Creating a Graph Based Security Organisation](https://www.slideshare.net/DinisCruz/creating-a-graph-based-security-organisation-devseccon-keynote-81345667) ) and [Confluence](https://www.atlassian.com/software/confluence) as a way to display the information stored in JIRA.
+
+The key point I want to make here is that the tools that we use in the enterprise need to be customised and extended (in order to make them work).
+
+Being able to write these customisations and understanding at a much deeper level (when compared to &#39;normal&#39; or &#39;power&#39; users) what is possible with these tools, is a massive competive advantage.
+
+In fact if you are able to write custom JIRA workflows that are usable by a development team, that is a massive competitive advantage for you, and it will make you highly employable today.
 
 
     
 
 ## Machine Learning and AI
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
 
- - Kevin Kelly view of AI will be just like electricity
- - key to understand it and to be part of the revolution
+This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) kinda scenario where an super-intelligence [singularity](https://en.wikipedia.org/wiki/Technological_singularity) is going to take over the world and destroy humanity.
 
-{{% /panel %}}
+This is about the next major revolution in technology and whether you are going to be a player or a pawn in what is happening next.
+
+I highly recomend that you read Kevin Kelly&#39;s [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089] book where he provides a really clean mapping of what (most likely) will happen next.
+
+One area that Kevin talks in detail and you can already see it happening around us is the introduction of AI capabilities in all sort of devices and business activities.
+
+This is where you need to take a proactive approach and start learning about how all this works and how to program it.
+
+The great news is that in the last couple years the major cloud providers have been investing really hard on these technologies and are now providing environments where you can easily play around and learn how machine learning and AI works
+
+See for example all the different tools and technolgies that AWS is already offering in the [machine learning](https://aws.amazon.com/machine-learning/) space (Microsoft is also providing some really cool capabilities on [Azure](https://azure.microsoft.com/en-gb/overview/machine-learning/))
+
+As a developer, you will be soon be asked to write code that integrates with Machine Learning technology to process large amounts of data or to integrate an app with AI services like voice, image recognition or domain-specific analysis (for example in medicine)
+
+**Where are we going**
+
+For a nice view of what could be happening next see [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/) and [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
+
 
 
     
 
 ## Pen and Paper
 
-- moleskin books
+Another powerful technology that seems to be going out of fashion is the pen and paper (pencil is also a great option).
+
+As covered in the &#39;Book&#39; chapter, analogue techniques like the pen and paper are actually better technologies for creating and capturing ideas.
+
+The fact that a piece of paper (or notebook) is not &#39;online&#39; and one cannot easily change its contents, are actually some of its best features.
+
+What is really important is to capture the ideas and thoughts that you have. There are also studies that shows that just the fact that you write something, will make it easier for you to remember and to process that information.
+
+I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what where those ideas.
+
+The reality is that you will forget the ideas you are having today!
+
+The only way to make sure that your future self has access to those ideas, is to capture them now!
+
+It is great when you review your older notebooks (could be from last year or last week) and not only remember an idea you had since forgotten, but you are able to expand that idea and take it to the next level.
+
+My favourite are the [Moleskin books](https://www.amazon.co.uk/Moleskine-Sapphire-Large-Plain-Notebook/dp/B015NG45Q0/) plain A5 notebooks, since they represent a nice balance of white space and portability ( I use them everyday)
+
+A nice site effect of having mobile phones with cameras, is that it&#39;s easy to share a picture of one of the notebook&#39;s pages.
 
 
 
@@ -191,16 +266,47 @@ After all you have nothing to lose? (and all to gain)
 
 ## brain
 
-...
+How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
 
----
+The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
 
-**Topics to cover and ideas**
+You need understand how your brain work, so that you understand it&#39;s blind spots and why we behave in the way we do.
 
- - do you understand how your brain work?
+How do you think? How do you remember? How do you see? How rational are your decisions? Who is actually making the decisions in your head?
 
-Books:
- - [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464)
+If you have not looked at this topic before, you will be very surprised with the answers to these questions.
+
+This is where you need to apply your logical and computing side of the brain and reverse engineer how your own brain works.
+
+I&#39;ve always found the brain fascinating and the more I learned about it, the better I become at understanding how I and others think.
+
+A good place to start is the [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.co.uk/Freakonomics-Economist-Explores-Hidden-Everything/dp/0141019018) book, which uses economic techniques to answer a number of very interesting questions.
+
+The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531) takes that to another level, where it shows example after example how we are not rational at all in a number of decisions we make everyday
+
+ The best one I&#39;ve read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
+
+ **How you think**
+
+ When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
+
+   - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
+   - A fast type of thinking - where I &#39;somehow&#39; and making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
+
+I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
+
+This is why is so important to be able to spend concentrated time on a particular topic, since it takes a while to upload all relevant data to the parts of the brain focused on the task at hand.
+
+
+**Switching content and interruptions**
+
+A reason why even a 1 second interruption can be massively disruptive (for example a text message, or slack/snapchat/instragram/facebook/twitter notification) is because it breaks the mojo of your brain and destroys a number of those hyperlinked graphs you had created in your head.
+
+It is even worse when the interruption actually requires some extra activity (for example a question from somebody at the office).
+
+One area that these interruptions happen a lot in the normal developer&#39;s coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you &#39;switch context&#39;
+
+I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
 
 
     
@@ -888,9 +994,7 @@ Misc topics that need to be moved into a chapter
 
 ## 
 
-notes
 
- - tweet with images that shows that students find it easier to read and learn from printed materials: https://twitter.com/nicolekearney/status/963946721662267392
 
 
     
