@@ -239,7 +239,7 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
 
 ## aws
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - What is it
  - History
@@ -258,8 +258,6 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
  - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS (and other cloud providers is very basic)
 
  - if you have an AWS account, go a try AWS
-
-{{% /panel %}}
 
 
     
