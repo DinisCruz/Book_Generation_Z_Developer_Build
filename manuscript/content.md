@@ -109,27 +109,56 @@ After all you have nothing to lose? (and all to gain)
 
     
 
+## AWS
+
+**Topics to cover and ideas**
+
+ - What is it
+ - History
+ - How it made Amazon the powerhouse it is today
+ - Key technologies
+    - route 53
+    - EC2
+    - S3
+    - Container Service
+    - Lambda
+ - why the cloud revolution happened (why were they so successful)
+    - the failure of sysops data centers to modernise
+        - no scalability, failed to modernise, no shared resources, tool expensive, no shared learnings, insecure
+    - the cost of installing one server (£2k to £5k in large companies)
+    - vs the cost of spinning up entire racks (programmatically)
+ - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS (and other cloud providers is very basic)
+
+ - if you have an AWS account, go a try AWS
+
+
+    
+
 ## Books
 
-I love books, and for a while I took had a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not. Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect for me (at that moment in time)
+I love books, and for a while I too had the a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). 
 
-After looking closely at why I liked books so much, I had the epiphany that &#34;Books are actually the best technology to consume and process information&#34; (see &#34;&#34;[Physical Books are the best technology for reading, and bookstores should &#39;give&#39; an eBook with every physical book published](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html)&#34;&#34; )
+For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not! Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect for me (at that moment in time)
+
+After looking closely at why I liked books so much, I had the epiphany that _&#34;Books are actually the best technology to consume and process information&#34;_ (see &#34;&#34;[Physical Books are the best technology for reading, and bookstores should &#39;give&#39; an eBook with every physical book published](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html)&#34;&#34; )
 
 There is also a growing body of research that shows that the use of digital technologies are also affecting kid&#39;s learning capabilities (see &#34;[students find it easier to read and learn from printed materials](https://twitter.com/nicolekearney/status/963946721662267392)&#34;)
 
-So if you don&#39;t use books or printed materials to read and review the information you are consuming, you are missing a massive trick.
+Basically, if you don&#39;t use books or printed materials to read and review the information you are consuming (and creating), you are missing a massive trick.
 
-The digital world is really good at promoting &#39;group think&#39; and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
+The digital world is really good at promoting [group think](https://en.wikipedia.org/wiki/Groupthink) and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
 
-The fact is that Books (and printed materials) are much better technologies for the consumption of information (one area where it is neutral and the advantages of the digital books is significant) are novels and fictional stories. In this case, the books is just a transient medium that is being used to tell a story, and what the reader is getting is an emotional connections with the characters/story and not really learning from the text)
+My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), where the books are just a transient medium that is being used to tell a story (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
 
 The reality is if you want to learn, you are better of using a book.
 
-The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused in one activity experience that is &#39;reading a piece of paper&#39;, we find tons of errors and &#39;WTF was I thinking when I wrote that!&#39; moments.
+The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused activity experience that is _&#39;reading a piece of paper&#39;_, we find tons of errors and _&#39;WTF was I thinking when I wrote that!&#39;_ moments.
 
-Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges. The fact that you are not interrupted by the constant stream of apps/websites and that you don&#39;t have a browser at hand, does wonders for your ability to focus and to consume information.
+Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges! 
 
-Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format. For example, notice that when you flick back pages looking for a particular passage or graph, your eyes will be looking at a particular part of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it realates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
+The boook&#39;s _&#39;features&#39;_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
+
+Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format and with more senses. For example, notice how when you flick back pages looking for a particular passage or graph, your eyes will be looking at a particular section of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it realates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that the kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
 
 **Environmental impact of books**
 
@@ -137,6 +166,58 @@ My undestanding (and please correct me if I&#39;m wrong) is that most books thes
 
 This mean that the impact of books on the environment is minimal.
 
+**The power of the bookbook**
+
+...add story about the Ikea add called &#34;Experience the power of a bookbook&#34; &#34;At only 8mm thin, and weighing in at less than 400g, the 2015 IKEA Catalogue comes pre-installed with thousands of home furnishing ideas&#34;  https://www.youtube.com/watch?v=MOXQo7nURs0 ...
+
+
+
+
+    
+
+## Brain
+
+How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
+
+The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
+
+You need understand how your brain work, so that you understand it&#39;s blind spots and why we behave in the way we do.
+
+How do you think? How do you remember? How do you see? How rational are your decisions? Who is actually making the decisions in your head?
+
+If you have not looked at this topic before, you will be very surprised with the answers to these questions.
+
+This is where you need to apply your logical and computing side of the brain and reverse engineer how your own brain works.
+
+I&#39;ve always found the brain fascinating and the more I learned about it, the better I become at understanding how I and others think.
+
+A good place to start is the [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.co.uk/Freakonomics-Economist-Explores-Hidden-Everything/dp/0141019018) book, which uses economic techniques to answer a number of very interesting questions.
+
+The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531) takes that to another level, where it shows example after example how we are not rational at all in a number of decisions we make everyday
+
+ The best one I&#39;ve read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
+
+ **How you think**
+
+ When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
+
+   - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
+   - A fast type of thinking - where I &#39;somehow&#39; and making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
+
+I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
+
+This is why is so important to be able to spend concentrated time on a particular topic, since it takes a while to upload all relevant data to the parts of the brain focused on the task at hand.
+
+
+**Switching content and interruptions**
+
+A reason why even a 1 second interruption can be massively disruptive (for example a text message, or slack/snapchat/instragram/facebook/twitter notification) is because it breaks the mojo of your brain and destroys a number of those hyperlinked graphs you had created in your head.
+
+It is even worse when the interruption actually requires some extra activity (for example a question from somebody at the office).
+
+One area that these interruptions happen a lot in the normal developer&#39;s coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you &#39;switch context&#39;
+
+I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
 
 
     
@@ -236,78 +317,6 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
 
 
     
-
-## aws
-
-**Topics to cover and ideas**
-
- - What is it
- - History
- - How it made Amazon the powerhouse it is today
- - Key technologies
-    - route 53
-    - EC2
-    - S3
-    - Container Service
-    - Lambda
- - why the cloud revolution happened (why were they so successful)
-    - the failure of sysops data centers to modernise
-        - no scalability, failed to modernise, no shared resources, tool expensive, no shared learnings, insecure
-    - the cost of installing one server (£2k to £5k in large companies)
-    - vs the cost of spinning up entire racks (programmatically)
- - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS (and other cloud providers is very basic)
-
- - if you have an AWS account, go a try AWS
-
-
-    
-
-## brain
-
-How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
-
-The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
-
-You need understand how your brain work, so that you understand it&#39;s blind spots and why we behave in the way we do.
-
-How do you think? How do you remember? How do you see? How rational are your decisions? Who is actually making the decisions in your head?
-
-If you have not looked at this topic before, you will be very surprised with the answers to these questions.
-
-This is where you need to apply your logical and computing side of the brain and reverse engineer how your own brain works.
-
-I&#39;ve always found the brain fascinating and the more I learned about it, the better I become at understanding how I and others think.
-
-A good place to start is the [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.co.uk/Freakonomics-Economist-Explores-Hidden-Everything/dp/0141019018) book, which uses economic techniques to answer a number of very interesting questions.
-
-The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531) takes that to another level, where it shows example after example how we are not rational at all in a number of decisions we make everyday
-
- The best one I&#39;ve read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
-
- **How you think**
-
- When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
-
-   - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
-   - A fast type of thinking - where I &#39;somehow&#39; and making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
-
-I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
-
-This is why is so important to be able to spend concentrated time on a particular topic, since it takes a while to upload all relevant data to the parts of the brain focused on the task at hand.
-
-
-**Switching content and interruptions**
-
-A reason why even a 1 second interruption can be massively disruptive (for example a text message, or slack/snapchat/instragram/facebook/twitter notification) is because it breaks the mojo of your brain and destroys a number of those hyperlinked graphs you had created in your head.
-
-It is even worse when the interruption actually requires some extra activity (for example a question from somebody at the office).
-
-One area that these interruptions happen a lot in the normal developer&#39;s coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you &#39;switch context&#39;
-
-I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
-
-
-    
     
 
 # What is this
@@ -322,14 +331,20 @@ Here is how it all started
 
 ## CPU
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - power of assembly, the importance of learning how to code in ASM
- - how assemby relates to bytecode
+ - how assembly relates to bytecode in .Net (MSIL) and Java
  - spectre vulnerability
+ - I learned how to code assembly by hand
+    - a bit difficult (I was 13 at the time) but I had only one book and no internet
+    - manually translated assembly code into binary (I didn&#39;t had an asm compiler at the time)
+    - I was learning massively about architecture, memory layout, programming, etc...
+    - totally worth it
+ - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
+ - my peek and poke moment: &#39;change a pixel on screen&#39; (and falling in love with programming)
 
 
-{{% /panel %}}
 
 
     
@@ -345,25 +360,35 @@ Here is how it all started
 
     
 
-## Defcon
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - Defcon
- - relation with Blackhat
-
-{{% /panel %}}
-
-
-    
-
 ## Docker
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
- - ...
+ - explain difference with VMs (and Vagrant)
+ - Just a process
+ - its a virtual enviroment created by the linux kernel
+ - really good security features (in a way it is the future of computing)
+ - the path to &#39;Serverless&#39;
+ - explain Kubernetes (how it come from Google&#39;s Borg)
+    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
+ - add some technical examples of how to use docker (and how easy it is)
+ - why docker image development environment is so powerful and fast (explain the concept of images commits)
+    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
+    - repeatable bash scritps
+    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
+        - we need TDD for docker development
+        - big comptetitive advantage in the market place if you understand these concepts
 
-{{% /panel %}}
+ - a very good research area is the visualisation and mapping or docker environment (namely who is talking to who)
+
+
+
+**references**
+ - [Containerization](https://vimeo.com/49392667) - by MAYA Design
+  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
+
+  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
+  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
 
 
     
@@ -403,7 +428,10 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - brief history
  - major success stories
  - why is it important
- - why you should support them
+ - why you should support them (add link)
+ - net neutrality
+ - hackers it defended in court (and other privacy related cases)
+    - ones they won and lost
 
 
 {{% /panel %}}
@@ -416,6 +444,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
  - use github as your personal back up and time machine
+ - build on top of Open source
+ - with a proprietary service on top
+ - interesting open source challengers:
+   - GitLab
+   - Gogs https://github.com/gogits
+ - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
 
 {{% /panel %}}
 
@@ -432,6 +466,13 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - make of companies that are hiring now!
  - dramatic need for application security professionals
  - security is a key skills for developers (add AWS CTO quotes)
+ - owasp summits
+ - working sessions
+ - chapters, join or start one
+ - projects
+   - JuiceShop
+   - Top 10
+   - mobile testing guide
 
 {{% /panel %}}
 
@@ -442,11 +483,18 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
+ - explain key concepts
  - &#34;Cathedral and the Bazar&#34; - article that changed the world
- - the creation of the Open Source idea and movement
+ - the creation of the Open Source idea and movement (how an how)
  - Richard Stallman - Copy Left, GNU, philosopher
-
+    - explain the GNU/Linux situation
+ - Security will push code to be open (&#39;who &#39;
+    - [Reflections on Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
+ - companies using &amp; developing open source
+ - open source business models
+ - I was called a communist many times (in early open source conversations)
 {{% /panel %}}
+ - &#34;Open source as won, but Gen Z is not aware of it&#34;
 
 
     
@@ -513,6 +561,8 @@ Here is how it all started
  - history
  - why it worked
  - Anton cords
+
+ - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
 {{% /panel %}}
 
@@ -691,6 +741,24 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Serverless
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - latest industry fad, but important development
+ - of course that there is a server, just that the app abstraction goes up another level
+ - this will be successfully becauuse it is massively cost effective (story of the crazy cost reductions and performance gains from moving to a lambda based architecture)
+ - important to understand why is it gaining momentum
+ - important to understand the limitations
+ - another example of the failure of Techops to innovate
+
+
+    
+
 ## TDD (Test-Driven Development)
 
 **Topics to cover and ideas**
@@ -717,6 +785,11 @@ The best companies are (or will be) following these concepts, not because its &#
  - &#34;the opposite of SVN&#34;
  - why is it called git
  - TED talk about &#39;git for the rest of us&#39;
+ - explain git architecture
+    - graph and tree based
+    - how every commit is connected to all commits
+    - very similar to blockchain
+    - the distributed nature of git
 
 
 {{% /panel %}}
@@ -825,6 +898,37 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Bug Bounties
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - big business these days
+ - talk about history of it
+
+
+    
+
+## Defcon
+
+**Topics to cover and ideas**
+
+ - Defcon
+ - relation with Blackhat
+    - list other important security conferences (including OWASP)
+ - attendees got arrested , bit clashes with companies
+ - this was before bug bounties
+ - my experience at presenting at DefCon (how my research was done over there). Talk some details about the vulnerability we discovered and how it was exploited
+ - &#39;why you should go to defcon&#39;
+ -
+
+
+
+    
+
 ## Security creates better developers
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -892,6 +996,22 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Learn to Hack
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - You need to learn how to hack
+ - understand what hacking is and what is its history (and how the media is the one that gave it a bad name)
+ - great OWASP resources (WebGoat, JuiceShop, Testing Guides)
+ - in order to write secure code you need to understand how to exploit it
+
+
+    
+
 ## Learning
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -906,6 +1026,37 @@ The best companies are (or will be) following these concepts, not because its &#
  - learning to learn is one of the best skills that one can learn at school
 
 {{% /panel %}}
+
+
+    
+
+## Mentors
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - find them
+ - you will be surprised by how approachable they are
+    - if you have the right attitude, the mentors will see themselves in you (which is why most have a soft spot to help)
+ - Books and publications are great mentors
+
+
+    
+
+## Publish, Publish Publish
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - why is important to publish all the time
+ - graph that shows how great minds and artists publish a lot (the frequency of publishing is one the best indications of talent)
+ - story of how this book is being written and how as soon as I had some content (20% done) I published it on Leanpub
 
 
     
@@ -934,7 +1085,13 @@ The best companies are (or will be) following these concepts, not because its &#
  - two different types of zone
  - learn to be comfortable with incremental improvements. Detect moments of diminishing returns
  - learn how to play the game of &#39;compound effects of ideas and capabilities&#39;
+ - do the &#39;Happy dance&#39;
+    - always celebrate minor achievements
+    - journey is the most important part (destination is  usually very anti-climatic)
 
+ - learn to trust that the next Zone will occur and learn with the periods when you are not in the Zone
+    - what is scary is when &#39;ideas stop flowing&#39;
+ - there are ways to try to get into the Zone (professional athletes and musicians do it all the time)
 
 
 
@@ -965,7 +1122,7 @@ Misc topics that need to be moved into a chapter
 
 ## Stories to tell
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Monkey in cake
  - My dad&#39;s &#34;Building a university in field story&#34;
@@ -981,8 +1138,11 @@ Misc topics that need to be moved into a chapter
 
  - &#34;Great minds discuss ideas; average minds discuss events; small minds discuss people.&#34;
 
+ - &#34;Mathematician&#39;s Lament&#34;
 
-{{% /panel %}}
+ - https://waitbutwhy.com/ references
+
+
 
 
     
