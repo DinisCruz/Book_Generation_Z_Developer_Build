@@ -111,6 +111,9 @@ After all you have nothing to lose? (and all to gain)
 
 ## AWS
 
+AWS is Amazon&#39;s Cloud offering and is spectacular success story
+
+
 **Topics to cover and ideas**
 
  - What is it
@@ -130,6 +133,13 @@ After all you have nothing to lose? (and all to gain)
  - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS (and other cloud providers is very basic)
 
  - if you have an AWS account, go a try AWS
+
+ - AWS is what happens when a tech team becomes so good that is able to provide those services to 3rd parties
+    - think about this, Amazon.co.uk is getting their IT and development costs paid by 3rd party companies (some direct competitors with Amazon)
+    - https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp
+    - https://qz.com/1051814/what-is-amazon-really/
+    - https://www.ben-evans.com/benedictevans/2017/12/12/the-amazon-machine (great article that talks about the Amazon machine, which is the real power behind it)
+    - Amazon in 2011 was shipping to production every 10s (http://assets.en.oreilly.com/1/event/60/Velocity%20Culture%20Presentation.pdf)
 
 
     
@@ -371,11 +381,13 @@ Here is how it all started
 
 ## Creative Commons
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+https://en.wikipedia.org/wiki/Creative_Commons
+
+_These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators)_
+
+**Topics to cover and ideas**
 
  - &#34;For a typical author, obscurity is a far greater threat than piracy.&#34; Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html)
-
-{{% /panel %}}
 
 
     
@@ -818,6 +830,23 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
     
 
+## Legacy Applications
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - Why they happen
+ - The code you are writing today will be legacy tomorrow
+ - SecDevOps Legacy - and the opportunity of legacy applications (and why it might be a good idea to work on them)
+    - best features: &#34;no new features&#34;, &#34;very low expectations of changes&#34;, &#34;changes are supposed to be hard&#34;, &#34;lots of low-hanging-fruit for refactoring&#34;
+
+
+
+    
+
 ## Netflix Culture
 
 Read this https://jobs.netflix.com/culture
@@ -992,7 +1021,10 @@ The best companies are (or will be) following these concepts, not because its &#
  - Create connections with professionals
  - &#39;...you will be amazed how approachable some of the most knowledgeable professionals are&#39;
 
-{{% /panel %}}
+
+ - use twitter as your personal search engine. Here is a perfect example that happened with me when writing this book:
+    - ![image](https://user-images.githubusercontent.com/656739/36400279-e5819cb2-15c7-11e8-8711-9d533996845b.png)
+    - ![image](https://user-images.githubusercontent.com/656739/36400273-db703030-15c7-11e8-8acd-d78bcc3e2301.png)
 
 
     
@@ -1048,6 +1080,23 @@ The best companies are (or will be) following these concepts, not because its &#
 
 
     
+
+## Strings should be banned
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - Strings are not strongly typed
+ - You never want a string , you want a specific type (with a very specific format/regex)
+ - Strings are 4Gb monsters
+ - What happens is some fields are given 100k of data (what is the impact on the back end
+ - Each layer needs to validate all data that it receives and consumes
+
+
+    
     
 
 # Life Patterns
@@ -1062,13 +1111,26 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ## Be a founder
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
 
- - once you get the job, act like a &#39;founder&#39;
-    - there are lots of things that you can do
-    - think &#39;if I was the founder of a company/department/section with the responsabilities that I have, how would I behave?&#39;
+One of the concepts that I really like is the idea that you should _&#34;act like one of the founders of the business&#34;_.
 
-{{% /panel %}}
+Image you where employee #4 and you really cared deeply about the company you currently are working on!
+
+Ask yourself
+ - _&#34;If I was a founder of a company/department/section with the responsibilities that I have at the moment, how would I behave?&#34;_
+ - _&#34;What needs to be done that will make a big difference&#34;_
+ - _&#34;What can I do that will help&#34;_
+
+Hopefully you will get some interesting ideas and actions (from this mental exercise)
+
+The question now is: &#34;_what is stopping you from doing just that?&#34;_
+
+How is telling you &#34;Don&#39;t do it&#34;?
+
+You can choose to care about the team that you are currently in, and the work that needs to be done.
+
+The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
 
 
     
@@ -1091,14 +1153,11 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ## Impostor Syndrome
 
-...
+_Impostor syndrome (also known as impostor phenomenon, fraud syndrome or the impostor experience) is a concept describing individuals who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a &#34;fraud&#34;._ [wikipedia](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
----
+This happens all the time and can be very damaging to your career.
 
-**Topics to cover and ideas**
-
- - happens all the time
- - can be very damaging when starting the carer
+You really need to understand that everybody as doubts about their capacities and everybody makes mistakes. Your value is on your ability to execute and it is key that you learn to share what you do and be confortable with what you create.
 
 
     
@@ -1121,18 +1180,26 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ## Learning
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+Do you know how to learn?
 
- - if you are not passionate about learning, you are on the wrong job
- - you need to learn 10 languages and be on a constant learning curve
-    - each language will tech you something new (only the first 5 will be hard)
-    - for example very hard to learn about functional programming until coding in Node or Scala
- - the age of the &#39;professional amateur&#39;
- - the trap of &#39;management&#39; which removes learning opportunities (and most of the time is spent on meetings and &#39;non learning environments&#39;). It is key to remain technical and to always keep learning
+Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school. This is ironic, since usually very little time is spent at school in learning out to learn.
 
- - learning to learn is one of the best skills that one can learn at school
+Learning is like a muscle, the more you do it, the better your become. And just like in sports, there are specific techniques that you can use to learn more efficiently.
 
-{{% /panel %}}
+As a developer if you are not passionate about learning, you are on the wrong job!
+
+It is not about learning one Language or Framework. You need to learn 10&#43; languages and be on a constant learning curve. Each language will tech you something new (don&#39;t worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
+
+Application Security will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn)
+
+The reality is that we are in age of the &#39;professional amateur&#39;, where you very rarely have time to really specialise in a particular language or technology. And when you do specialise, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
+
+What you really need to be worried about is when you stop learning. Ironically this can happen the more you move up the company&#39;s corporate ladder. There is a big trap of management promotions, which pushes highly technical and proficient developers into &#39;management&#39; or &#39;architectural&#39; positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where &#34;employees are promoted to the maximum of their incompetence&#34;).  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and &#39;non learning activities&#39;
+
+My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning.
+
+Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
+
 
 
     
