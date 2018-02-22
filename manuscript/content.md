@@ -109,6 +109,26 @@ After all you have nothing to lose? (and all to gain)
 
     
 
+## AST (Abstract Syntax Tree)
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - Why is so important
+ - How they work
+    - object model of source code
+    - amazing paradigm shift when one can &#39;see code as a graph&#39;
+ - Using AST to write tests
+ - Powerful AST abstractions (specially when added the code refactoring mappings)
+ - how code refactoring works
+
+
+
+    
+
 ## AWS
 
 AWS is Amazon&#39;s Cloud offering and is spectacular success story
@@ -394,24 +414,52 @@ _These licenses allow creators to communicate which rights they reserve, and whi
 
 ## Docker
 
-**Topics to cover and ideas**
+As a developer it is critical that you understand how docker works and how it became so successful and widely used.
 
- - explain difference with VMs (and Vagrant)
- - Just a process
- - its a virtual enviroment created by the linux kernel
- - really good security features (in a way it is the future of computing)
- - the path to &#39;Serverless&#39;
- - explain Kubernetes (how it come from Google&#39;s Borg)
-    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
- - add some technical examples of how to use docker (and how easy it is)
+The first time I saw and user docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
+
+To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
+
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
+
+The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
+
+Docker starts in second(s) because it is just a process. The magic sauce is created by:
+
+1) a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
+2) a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer. This is a powerful graph, dynamically calculated when you are inside the docker image. What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a nerw docker image
+
+From a security poing of view, Docker as massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+
+
  - why docker image development environment is so powerful and fast (explain the concept of images commits)
     - if you don&#39;t understand git and virtual file systems you will struggle to understand git
+
+**Kubernetes**
+
+- explain Kubernetes (how it come from Google&#39;s Borg)
+    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
+
+**Serverless Computing**
+
+- the path to &#39;Serverless&#39;
+- Lambba
+**Couple examples of Docker in action**
+
+- add some technical examples of how to use docker (and how easy it is)
+
+**Testing Docker**
     - repeatable bash scritps
     - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
-        - we need TDD for docker development
-        - big comptetitive advantage in the market place if you understand these concepts
+            - we need TDD for docker development
+            - big comptetitive advantage in the market place if you understand these concepts
 
- - a very good research area is the visualisation and mapping or docker environment (namely who is talking to who)
+
+**where to focus**
+
+- a very good research area is the visualisation and mapping or docker environment
+
+
 
 
 
@@ -454,7 +502,7 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
 ## EFF (Electronic Frontier Foundation)
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - https://www.eff.org/ (one of the logos for the cover)
  - brief history
@@ -466,14 +514,13 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
     - ones they won and lost
 
 
-{{% /panel %}}
 
 
     
 
 ## Github
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - use github as your personal back up and time machine
  - build on top of Open source
@@ -483,14 +530,17 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
    - Gogs https://github.com/gogits
  - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
 
-{{% /panel %}}
 
 
     
 
 ## OWASP
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+Part of building you brand and carrer is the participation in Open Source community groups like OWASP
+
+OWASP (the Open Web Application Security Project) is a world wide organisation that is focused on Application Security.
+
+**Topics to cover and ideas**
 
  - Great community
     - chapters, conferences, guidance, tools, books, summit
@@ -506,7 +556,6 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
    - Top 10
    - mobile testing guide
 
-{{% /panel %}}
 
 
     
@@ -554,14 +603,15 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
 ## Slack
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, etc...)
+
+**Topics to cover and ideas**
 
  - Slack bots
  - Why slack one
  - Integrations
  - Copy and paste of images
 
-{{% /panel %}}
 
 
     
@@ -589,6 +639,25 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - the node forking incident (io.js)
     - why it was so important
     - why java could had done with a fork like that
+
+
+    
+
+## google
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - do you know how to use google?
+    - show examples of powerful google searches
+    - google docks (and finding vulns and credentials via google)
+ - google&#39;s history
+ - why google won
+ - what makes google algorithm work
+ - show how google tracks all clicks (why you can&#39;t just copy an google&#39;s url)
 
 
     
@@ -631,6 +700,22 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
 
     
+
+    
+
+## 
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - https://en.wikipedia.org/wiki/Strong_and_weak_typing
+ - what are they, and examples of both
+ - where each is good at, where each has problems
+ - the power of IDEs (on each type)
+
 
     
 
@@ -779,6 +864,21 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
     
 
+## Functional Programming
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - explain how it works and the power of it
+ - examples in Node
+ - dangers of creating hard to read and debug code
+
+
+    
+
 ## GDPR
 
 **Topics to cover and ideas**
@@ -870,6 +970,23 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Recursive Functions
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - explain what they are
+ - how power for symplicity
+ - show dangers
+ - the visitor pattern
+ - vulnerabilities created by it (find SSL CA vuln presented by moxi at BH)
+
+
+    
+
 ## Serverless
 
 ...
@@ -918,14 +1035,31 @@ The best companies are (or will be) following these concepts, not because its &#
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
 
  - git history: &#34;Here is how it all started...&#34;
+    - what git means in the UK and in the US
  - &#34;the opposite of SVN&#34;
  - why is it called git
  - TED talk about &#39;git for the rest of us&#39;
  - explain git architecture
     - graph and tree based
-    - how every commit is connected to all commits
+    - how every commit is connected to all commits (hashed together)
     - very similar to blockchain
     - the distributed nature of git
+ - invented to scale
+    - linux is one of the most complex and large software development project (and community) in the world
+ - Git (version control) all your documents
+ - Use Git as your backup
+    - get a version of your code or document from a couple hours (or days) ago
+ - write code that consumes Git Native objects
+ - learn about git hooks namely the post commit ones
+ - learn what is inside the .git folder
+ - collaborate with your colleages (at school or work) using git (and GitHub/GitLab)
+ - why forks and branching are so easy and fast in git (just a pointer)
+ - graph based structure/database
+ - in git the files don&#39;t exist on disk (the paths are dynamically generated based on the git graph)
+    - this is why branching is so fast (no need to copy files to the file system)
+    - best way to learn this is to clone a repo with lots of files and versions, and just checkout different branches (each with a different file structure). What is impressive in this example is how we can see major directories changes in seconds (i.e. with each branch checkout))
+ - explain why git cannot store empty folders
+ - by now (2018) we should have git based file systems
 
 
 {{% /panel %}}
@@ -942,6 +1076,9 @@ The best companies are (or will be) following these concepts, not because its &#
  - build your network
  - get recommendations
  - Graph database
+ - bought by Microsoft
+ - low signal/noise ration (and they have a really bad email/messaging system)
+
 
 {{% /panel %}}
 
@@ -959,6 +1096,13 @@ The best companies are (or will be) following these concepts, not because its &#
  - What do you represent
  - What is your voice
  - Follow up (remember how busy the others are, so keep following up)
+ - how can you be found
+ - SEO optimise your name and your published research
+
+ - use GA and Google Data Studio
+    - Data analytics
+ - get a domain name for your blog or site
+    - host a hugo based site on S3 buckets (add https)
 
 {{% /panel %}}
 
@@ -973,6 +1117,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - how it works
  - how we use it
  - success stories in finding talent in Upwork
+ - on demand economy (not just a race to the bottom)
+ - can be used to hire any type of professional
+ - Upwork and Upwork enterprise (good to get a monthly bill)
+ - use upwork to scale up your tasks
+    - make good ecoconmic decisions (who is faster and more cost effective to do particular task)
+    - delegating to a freelancer is really hard (and one that you need to learn)
 
 {{% /panel %}}
 
@@ -990,6 +1140,13 @@ The best companies are (or will be) following these concepts, not because its &#
  - view it as an exercise
  - any feedback is healthy
  - amazing feeling when one post gain traction (and it referenced in sites like redit&#39;
+ - comments are gold (get rid of any kind of spam or link-bait in comments)
+ - use you blog to ask questions (with data behind your question and the paths you have tried)
+ - write about things you are doing on the day-to-day. explain your path and personal stories about making it to work
+ - write for your future self
+ - key concept: &#34;answer questions made to you with a blog&#34; (great way to write good/relevant content and scale your time (specially important when you get asked the same question by multiple people/coleagues))
+ - Blog titles are very important (since they help with SEO a lot)
+
 
 {{% /panel %}}
 
@@ -1005,6 +1162,14 @@ The best companies are (or will be) following these concepts, not because its &#
  - great culture
  - use it to publish your books
  - direct connection with your readers
+ - story: how I built this book using leanpub
+ - story: all the other leanpub books that I have not completed
+ - pricing strategy: is it better
+    a) less readers by all are paid
+    b) lots more readers: and a significant percentage is not paying
+ - publish early and often
+    - email readers on new versions
+ - ability to get a print-ready pdf (who can be used to print on amazon
 
 {{% /panel %}}
 
@@ -1294,11 +1459,18 @@ Misc topics that need to be moved into a chapter
 
     
 
+## Diagrams to add
+
+- Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
+
+
+    
+
 ## Stories to tell
 
 **Topics to cover and ideas**
 
- - Monkey in cake
+ - Monkey in cage that don&#39;t get the bananas from celling
  - My dad&#39;s &#34;Building a university in field story&#34;
  - FISH! 4 concepts
     - Be present
@@ -1316,6 +1488,7 @@ Misc topics that need to be moved into a chapter
 
  - https://waitbutwhy.com/ references
 
+ - https://haveibeenpwned.com/
 
 
 
