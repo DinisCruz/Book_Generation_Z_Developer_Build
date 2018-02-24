@@ -5,21 +5,21 @@
 
 Hi Generation Z Developer, if you are passionate developer who wants to learn as much as you can about your craft, this is the book for you.
 
-I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised that there a number of key gaps in your generation understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
+I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised that there are a number of key gaps in your generation understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
 
 Here is the slide that started it all:
 
 ![](/images/list-of-icons.png)
 
-It all started by me asking the audience if they recognized those logos, and realising that not only they didn&#39;t recognised the logos, they didn&#39;t knew the history behind them (and more importantly why they where created and what problem they solved)
+It all started by me asking the audience if they recognized those logos, and realising that not only they didn&#39;t recognised the logos, they didn&#39;t knew the history behind them (and more importantly why they were created and what problem they solved)
 
-All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
+All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next.
 
-Each one of these icons changed the world of technology, and the paradigms shifts that they created and still impacting our world today.
+Each one of these icons changed the world of technology, and the paradigm shifts that they created and still impacting our world today.
 
-One of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Basically it means you are free (as in freedom) to use all the materials and content from this book in whatever way you want. As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allows X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
+One of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Basically it means you are free (as in freedom) to use all the materials and content from this book in whatever way you want. As you will see thorough the book, what I find interesting, is not that that a particular technology or ideas allows X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
 
-We are in the middle of a massive technological revolution and you need to decide if you want to be a pawn or a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat the mistakes, but you will not even understand what game is being played
+We are in the middle of a massive technological revolution and you need to decide if you want to be a pawn or a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat the mistakes, but you will not even understand what game is being played.
 
 Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
 
@@ -41,7 +41,7 @@ Please share your views, suggestions and criticisms at [GitHub Issues](https://g
 
 Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
-The older members of this generation at about 22 years old at the moment, where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
+The older members of this generation who are about 22 years old at the moment, were 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
 
 In addition to having personal experience with this generation (I have two daughters with 12 and 14 years old), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
 
@@ -52,9 +52,9 @@ In hindsight this is normal, since we (as a society) still don&#39;t do a very g
 
 **I&#39;m worried about Gen Z**
 
-Although Gen Z have some spectacular features and values (for example they are much more tolerant and diverse than previous generations), they have a lack of intellectual curiosity that worries me
+Although Gen Z have some spectacular features and values (for example they are much more tolerant and diverse than previous generations), they have a lack of intellectual curiosity that worries me.
 
-We need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z
+We need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z.
 
 Ironically, in an age when information and knowledge is a click (or google search) away, in conversation after conversation with Gen Z teenagers, I&#39;ve found that they have a very thin understanding of the history of particular technologies, why they occurred in the first place and what problem they tried to solve.
 
@@ -71,17 +71,17 @@ If you are lucky enough to find yourself in this place, congratulations, you jus
 
 ## How to get a job
 
-One of my objectives with his book is to help you to find a job. There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your changes
+One of my objectives with his book is to help you to find a job. There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your chances
 
 I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, that didn&#39;t happened by accident. I made a number of key decisions in my life (some with very short-term negative implications) that allowed me to align what I love to do with what the market wants to pay.
 
 **Being passionate**
 
-Find what you are passionate for, what you really care about, and align your carrer with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
+Find what you are passionate for, what you really care about, and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
 
 **Own your carer development**
 
-You are the one tha is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
+You are the one that is in charge of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
 
 And how do you start working with those companies?
 
@@ -178,7 +178,7 @@ Basically, if you don&#39;t use books or printed materials to read and review th
 
 The digital world is really good at promoting [group think](https://en.wikipedia.org/wiki/Groupthink) and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
 
-My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), where the books are just a transient medium that is being used to tell a story (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
+My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the convenience of access and the weight difference), where the books are just a transient medium that is being used to tell a story (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
 
 The reality is if you want to learn, you are better of using a book.
 
@@ -192,9 +192,9 @@ Another powerful feature of books (in addition of rendering contentin HD with re
 
 **Environmental impact of books**
 
-My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
+My undestanding (and please correct me if I&#39;m wrong) is that most books are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
 
-This mean that the impact of books on the environment is minimal.
+This means that the impact of books on the environment is minimal.
 
 **The power of the bookbook**
 
@@ -211,7 +211,7 @@ How well do you know your brain? Do you know how it works? What areas it is real
 
 The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
 
-You need understand how your brain work, so that you understand it&#39;s blind spots and why we behave in the way we do.
+You need to understand how your brain works, so that you understand it&#39;s blind spots and why we behave the way we do.
 
 How do you think? How do you remember? How do you see? How rational are your decisions? Who is actually making the decisions in your head?
 
@@ -231,7 +231,7 @@ The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https:/
 
  When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
 
-   - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
+   - A slow(ish) type of thinking - where I&#39;m basically talking to myself in my head. This is also how I tend to read (I hear the text I&#39;m reading in my head)
    - A fast type of thinking - where I &#39;somehow&#39; and making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
 
 I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
@@ -351,7 +351,7 @@ The fact that a piece of paper (or notebook) is not &#39;online&#39; and one can
 
 What is really important is to capture the ideas and thoughts that you have. There are also studies that shows that just the fact that you write something, will make it easier for you to remember and to process that information.
 
-I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what where those ideas.
+I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what were those ideas.
 
 The reality is that you will forget the ideas you are having today!
 
@@ -391,7 +391,7 @@ Here is how it all started
     - manually translated assembly code into binary (I didn&#39;t had an asm compiler at the time)
     - I was learning massively about architecture, memory layout, programming, etc...
     - totally worth it
- - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
+ - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecture (we still used today))
  - my peek and poke moment: &#39;change a pixel on screen&#39; (and falling in love with programming)
 
 
