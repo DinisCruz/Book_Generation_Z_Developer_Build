@@ -75,7 +75,7 @@ One of my objectives with his book is to help you to find a job. There is a lot 
 
 I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, that didn&#39;t happened by accident. I made a number of key decisions in my life (some with very short-term negative implications) that allowed me to align what I love to do with what the market wants to pay.
 
-**Being passionate**
+**Being passionate and love your job**
 
 Find what you are passionate for, what you really care about, and align your carrer with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
 
@@ -94,6 +94,386 @@ What is interesting is that there is nothing stopping you from doing this?
 So why don&#39;t you?
 
 After all you have nothing to lose? (and all to gain)
+
+
+    
+    
+
+# What is this
+
+Here is how it all started
+
+
+
+    
+
+    
+
+## Creative Commons
+
+https://en.wikipedia.org/wiki/Creative_Commons
+
+_These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators)_
+
+**Topics to cover and ideas**
+
+ - &#34;For a typical author, obscurity is a far greater threat than piracy.&#34; Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html)
+
+
+    
+
+## Open Source
+
+{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+
+ - explain key concepts
+ - &#34;Cathedral and the Bazar&#34; - article that changed the world
+ - the creation of the Open Source idea and movement (how an how)
+ - Richard Stallman - Copy Left, GNU, philosopher
+    - explain the GNU/Linux situation
+ - Security will push code to be open (&#39;who &#39;
+    - [Reflections on Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
+ - companies using &amp; developing open source
+ - open source business models
+ - I was called a communist many times (in early open source conversations)
+{{% /panel %}}
+ - &#34;Open source as won, but Gen Z is not aware of it&#34;
+
+
+    
+
+## CPU
+
+**Topics to cover and ideas**
+
+ - power of assembly, the importance of learning how to code in ASM
+ - how assembly relates to bytecode in .Net (MSIL) and Java
+ - spectre vulnerability
+ - I learned how to code assembly by hand
+    - a bit difficult (I was 13 at the time) but I had only one book and no internet
+    - manually translated assembly code into binary (I didn&#39;t had an asm compiler at the time)
+    - I was learning massively about architecture, memory layout, programming, etc...
+    - totally worth it
+ - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
+ - my peek and poke moment: &#39;change a pixel on screen&#39; (and falling in love with programming)
+
+
+
+
+    
+
+## Copyright
+
+...
+
+**Topics to cover and ideas**
+
+ - What is it
+ - understand its history
+ - Why was it created
+ - Is it working
+ - Positive side effects and Negative side effects
+ - Copyleft
+ - Opensource and Creative Commons are copyright licenses
+ - Music and its relationship with copyright
+    - what happens when the cost of distribution goes to zero
+    - customers will still buy (if the product and distribution is right)
+
+
+    
+
+## Docker
+
+As a developer it is critical that you understand how docker works and how it became so successful and widely used.
+
+The first time I saw and user docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
+
+To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
+
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
+
+The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
+
+Docker starts in second(s) because it is just a process. The magic sauce is created by:
+
+1) a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
+2) a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer. This is a powerful graph, dynamically calculated when you are inside the docker image. What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a nerw docker image
+
+From a security poing of view, Docker as massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+
+
+ - why docker image development environment is so powerful and fast (explain the concept of images commits)
+    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
+
+**Kubernetes**
+
+- explain Kubernetes (how it come from Google&#39;s Borg)
+    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
+
+**Serverless Computing**
+
+- the path to &#39;Serverless&#39;
+- Lambba
+**Couple examples of Docker in action**
+
+- add some technical examples of how to use docker (and how easy it is)
+
+**Testing Docker**
+    - repeatable bash scritps
+    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
+            - we need TDD for docker development
+            - big comptetitive advantage in the market place if you understand these concepts
+
+
+**where to focus**
+
+- a very good research area is the visualisation and mapping or docker environment
+
+
+
+
+
+**references**
+ - [Containerization](https://vimeo.com/49392667) - by MAYA Design
+  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
+
+  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
+  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
+
+
+    
+
+## Dopamine
+
+[![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
+
+Do you know what Dopamine is? Do you know why mobile phone notifications are so addictive?
+
+
+- https://en.wikipedia.org/wiki/Dopamine
+
+---
+
+**Topics to cover and ideas**
+
+ - detox from your phone
+ - detox from notificaitons
+ - stop notifications
+ - related to the Zone and Deep work concepts
+ - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
+ - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
+ (they affect the brain)
+
+
+Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
+
+
+    
+
+## EFF
+
+EFF (Electronic Frontier Foundation)
+
+**Topics to cover and ideas**
+
+ - https://www.eff.org/ (one of the logos for the cover)
+ - brief history
+ - major success stories
+ - why is it important
+ - why you should support them (add link)
+ - net neutrality
+ - hackers it defended in court (and other privacy related cases)
+    - ones they won and lost
+
+
+
+
+    
+
+## Free Sofware Foundation
+
+...
+
+**Topics to cover and ideas**
+
+ - history
+ - Richard&#39;s s story
+ - copy left
+ - why they were so important
+ - the problem of not mapping it to a business model
+ - the problem of taking an extreme view
+ - key arguments have been won, but lost a lot of momentum (and not fulfilled it potential)
+ - inevitability of Open Source
+    - even Microsoft does open source these days (they were the ones that called open source &#39;cancer)&#39;
+
+
+
+    
+
+## Github
+
+**Topics to cover and ideas**
+
+ - use github as your personal back up and time machine
+ - build on top of Open source
+ - with a proprietary service on top
+ - interesting open source challengers:
+   - GitLab
+   - Gogs https://github.com/gogits
+ - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
+
+
+
+    
+
+## OWASP
+
+Part of building you brand and carrer is the participation in Open Source community groups like OWASP
+
+OWASP (the Open Web Application Security Project) is a world wide organisation that is focused on Application Security.
+
+**Topics to cover and ideas**
+
+ - Great community
+    - chapters, conferences, guidance, tools, books, summit
+ - be involved
+ - make of companies that are hiring now!
+ - dramatic need for application security professionals
+ - security is a key skills for developers (add AWS CTO quotes)
+ - owasp summits
+ - working sessions
+ - chapters, join or start one
+ - projects
+   - JuiceShop
+   - Top 10
+   - mobile testing guide
+
+
+
+    
+
+## Python
+
+...
+
+
+**Topics to cover and ideas**
+
+ - Here is how it all started
+ - what makes python special
+ - how guido was hired by google
+ - Guido van Rossum
+    - https://twitter.com/gvanrossum/
+    - guido created python when he was 35
+    - https://gvanrossum.github.io/
+        - http://neopythonic.blogspot.co.uk/2016/04/kings-day-speech.html
+
+ - make reference to other languages like NodeJs
+
+
+    
+
+## Slack
+
+Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, etc...)
+
+**Topics to cover and ideas**
+
+ - Slack bots
+ - Why slack one
+ - Integrations
+ - Copy and paste of images
+
+
+
+    
+
+## WallabyJS and NodeJS
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - why wallabyJS is a massive paradigm shift and why is it so good
+     - real time test execution
+     - only execution of tests affected by changes
+     - ability to see the code coverage in real-time
+     - ability to easily just run one test
+         - which with the real-time coverage, provides a much better way to debug that the normal &#39;debug/breakpoint model&#39;
+
+ - why NodeJS took the world by storm
+ - the power of async code
+ - generating 20k requests with a couple lines of code
+ - coding at the speed of thought (and type)
+ - node history (based on chrome&#39;s V8)
+ - the node forking incident (io.js)
+    - why it was so important
+    - why java could had done with a fork like that
+
+
+    
+
+## XCode
+
+...
+
+**Topics to cover and ideas**
+
+ - Write your own mobile app today (now easy with Swift)
+
+
+    
+
+## google
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - do you know how to use google?
+    - show examples of powerful google searches
+    - google docks (and finding vulns and credentials via google)
+ - google&#39;s history
+ - why google won
+ - what makes google algorithm work
+ - show how google tracks all clicks (why you can&#39;t just copy an google&#39;s url)
+
+
+    
+
+## linux
+
+**Topics to cover and ideas**
+
+ - linux history (it all started by Linus Torvalds inspired by a MINIX system)
+    - mention some of Linus views
+
+ - [Linux patch submitted by an 4 year old](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=690b0543a813b0ecfc51b0374c0ce6c8275435f0)
+ - most complex software in the world
+    - git was created to manage the linux code development
+ - you need to learn it, how to install kernel drivers, how to hack it, how to rebuilt it
+ - power of raspberry pi is that it gives you a linux environment for you to play with
+ - Mac is linux under the hood (same heritage)
+
+
+
+
+
+    
+
+## raspberry-pi
+
+**Topics to cover and ideas**
+
+ - why was it created
+    - https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation
+    - https://www.makeuseof.com/tag/raspberry-pi-creditcard-sized-arm-computer-25/
+ - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
+ - connected to maker movement and IOT world
 
 
     
@@ -252,6 +632,21 @@ I can&#39;t explain (you need to experience it yourself) how productive is it to
 
     
 
+## Dot Language
+
+...
+
+**Topics to cover and ideas**
+
+ - Graphs as code
+ - Why is this such a big deal, major paradigm shift required
+ - Why visio and other diagram tools don&#39;t scale
+ - the fact that you can&#39;t control the diagram layout (in the same way you do in visio) is actually a major feature
+
+
+
+    
+
 ## Hugo
 
 [Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
@@ -369,333 +764,6 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
     
     
 
-# What is this
-
-Here is how it all started
-
-
-
-    
-
-    
-
-## CPU
-
-**Topics to cover and ideas**
-
- - power of assembly, the importance of learning how to code in ASM
- - how assembly relates to bytecode in .Net (MSIL) and Java
- - spectre vulnerability
- - I learned how to code assembly by hand
-    - a bit difficult (I was 13 at the time) but I had only one book and no internet
-    - manually translated assembly code into binary (I didn&#39;t had an asm compiler at the time)
-    - I was learning massively about architecture, memory layout, programming, etc...
-    - totally worth it
- - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
- - my peek and poke moment: &#39;change a pixel on screen&#39; (and falling in love with programming)
-
-
-
-
-    
-
-## Creative Commons
-
-https://en.wikipedia.org/wiki/Creative_Commons
-
-_These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators)_
-
-**Topics to cover and ideas**
-
- - &#34;For a typical author, obscurity is a far greater threat than piracy.&#34; Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html)
-
-
-    
-
-## Docker
-
-As a developer it is critical that you understand how docker works and how it became so successful and widely used.
-
-The first time I saw and user docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
-
-To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
-
-It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
-
-The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
-
-Docker starts in second(s) because it is just a process. The magic sauce is created by:
-
-1) a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
-2) a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer. This is a powerful graph, dynamically calculated when you are inside the docker image. What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a nerw docker image
-
-From a security poing of view, Docker as massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
-
-
- - why docker image development environment is so powerful and fast (explain the concept of images commits)
-    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
-
-**Kubernetes**
-
-- explain Kubernetes (how it come from Google&#39;s Borg)
-    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
-
-**Serverless Computing**
-
-- the path to &#39;Serverless&#39;
-- Lambba
-**Couple examples of Docker in action**
-
-- add some technical examples of how to use docker (and how easy it is)
-
-**Testing Docker**
-    - repeatable bash scritps
-    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
-            - we need TDD for docker development
-            - big comptetitive advantage in the market place if you understand these concepts
-
-
-**where to focus**
-
-- a very good research area is the visualisation and mapping or docker environment
-
-
-
-
-
-**references**
- - [Containerization](https://vimeo.com/49392667) - by MAYA Design
-  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
-
-  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
-  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
-
-
-    
-
-## Dopamine
-
-[![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
-
-Do you know what Dopamine is? Do you know why mobile phone notifications are so addictive?
-
-
-- https://en.wikipedia.org/wiki/Dopamine
-
----
-
-**Topics to cover and ideas**
-
- - detox from your phone
- - detox from notificaitons
- - stop notifications
- - related to the Zone and Deep work concepts
- - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
- - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
- (they affect the brain)
-
-
-Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
-
-
-    
-
-## EFF (Electronic Frontier Foundation)
-
-**Topics to cover and ideas**
-
- - https://www.eff.org/ (one of the logos for the cover)
- - brief history
- - major success stories
- - why is it important
- - why you should support them (add link)
- - net neutrality
- - hackers it defended in court (and other privacy related cases)
-    - ones they won and lost
-
-
-
-
-    
-
-## Github
-
-**Topics to cover and ideas**
-
- - use github as your personal back up and time machine
- - build on top of Open source
- - with a proprietary service on top
- - interesting open source challengers:
-   - GitLab
-   - Gogs https://github.com/gogits
- - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
-
-
-
-    
-
-## OWASP
-
-Part of building you brand and carrer is the participation in Open Source community groups like OWASP
-
-OWASP (the Open Web Application Security Project) is a world wide organisation that is focused on Application Security.
-
-**Topics to cover and ideas**
-
- - Great community
-    - chapters, conferences, guidance, tools, books, summit
- - be involved
- - make of companies that are hiring now!
- - dramatic need for application security professionals
- - security is a key skills for developers (add AWS CTO quotes)
- - owasp summits
- - working sessions
- - chapters, join or start one
- - projects
-   - JuiceShop
-   - Top 10
-   - mobile testing guide
-
-
-
-    
-
-## Open Source
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - explain key concepts
- - &#34;Cathedral and the Bazar&#34; - article that changed the world
- - the creation of the Open Source idea and movement (how an how)
- - Richard Stallman - Copy Left, GNU, philosopher
-    - explain the GNU/Linux situation
- - Security will push code to be open (&#39;who &#39;
-    - [Reflections on Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
- - companies using &amp; developing open source
- - open source business models
- - I was called a communist many times (in early open source conversations)
-{{% /panel %}}
- - &#34;Open source as won, but Gen Z is not aware of it&#34;
-
-
-    
-
-## Python
-
-...
-
-
-**Topics to cover and ideas**
-
- - Here is how it all started
- - what makes python special
- - how guido was hired by google
- - Guido van Rossum
-    - https://twitter.com/gvanrossum/
-    - guido created python when he was 35
-    - https://gvanrossum.github.io/
-        - http://neopythonic.blogspot.co.uk/2016/04/kings-day-speech.html
-
- - make reference to other languages like NodeJs
-
-
-    
-
-## Slack
-
-Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, etc...)
-
-**Topics to cover and ideas**
-
- - Slack bots
- - Why slack one
- - Integrations
- - Copy and paste of images
-
-
-
-    
-
-## WallabyJS and NodeJS
-
-...
-
----
-
-**Topics to cover and ideas**
-
- - why wallabyJS is a massive paradigm shift and why is it so good
-     - real time test execution
-     - only execution of tests affected by changes
-     - ability to see the code coverage in real-time
-     - ability to easily just run one test
-         - which with the real-time coverage, provides a much better way to debug that the normal &#39;debug/breakpoint model&#39;
-
- - why NodeJS took the world by storm
- - the power of async code
- - generating 20k requests with a couple lines of code
- - coding at the speed of thought (and type)
- - node history (based on chrome&#39;s V8)
- - the node forking incident (io.js)
-    - why it was so important
-    - why java could had done with a fork like that
-
-
-    
-
-## google
-
-...
-
----
-
-**Topics to cover and ideas**
-
- - do you know how to use google?
-    - show examples of powerful google searches
-    - google docks (and finding vulns and credentials via google)
- - google&#39;s history
- - why google won
- - what makes google algorithm work
- - show how google tracks all clicks (why you can&#39;t just copy an google&#39;s url)
-
-
-    
-
-## linux
-
-**Topics to cover and ideas**
-
- - linux history (it all started by Linus Torvalds inspired by a MINIX system)
-    - mention some of Linus views
-
- - [Linux patch submitted by an 4 year old](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=690b0543a813b0ecfc51b0374c0ce6c8275435f0)
- - most complex software in the world
-    - git was created to manage the linux code development
- - you need to learn it, how to install kernel drivers, how to hack it, how to rebuilt it
- - power of raspberry pi is that it gives you a linux environment for you to play with
- - Mac is linux under the hood (same heritage)
-
-
-
-
-
-    
-
-## raspberry-pi
-
-**Topics to cover and ideas**
-
- - why was it created
-    - https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation
-    - https://www.makeuseof.com/tag/raspberry-pi-creditcard-sized-arm-computer-25/
- - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
- - connected to maker movement and IOT world
-
-
-    
-    
-
 # Concepts
 
 
@@ -746,6 +814,20 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 
  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
+
+
+    
+
+## CV Testing
+
+...
+
+**Topics to cover and ideas**
+
+ - Test your pipeline
+ - &#34;config changes can be more dangerous than code changes&#34;
+    - find source (quote from [AWS re:Invent 2017: Performing Chaos at Netflix Scale (DEV334)](https://www.youtube.com/watch?v=LaKGx0dAUlo) )
+    - the reason this is true is because we don&#39;t test out config changes (at least the same way we test our code)
 
 
     
@@ -840,7 +922,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 
  - the FDD applies to much more than just coding (see chapter on &#34;Inventing on Principle&#34;) it is also related to how we learn
 
-
+  - Power of Feedback loops
 
 
 
@@ -849,6 +931,9 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 ## Facts
 
 ...
+
+**Data-driven decisions**
+
 
 ---
 
@@ -970,6 +1055,27 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Pair Programming
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - https://en.wikipedia.org/wiki/Pair_programming
+ - idea that pair programming is not optimal at the moment
+ - When I code in a &#39;real-time coding environment&#39; I am pair programming with myself
+ - a much more interesting pair programing model is one where programmer A codes and programmer B writes the test
+    - this is a situation where we actually want the more experienced programmer to be writing the code, since for code to scale we want &#39;coding excellence as BAU&#39;
+    - the more powerful and effective code the code written by the less experienced developer, the more scalable and effective the current development environment is
+    - specially important, given the current skills shortage with developers and the companies preference to use an XYZ budget to hire 2x less experienced developers vs 1x more experience developers
+
+
+
+
+    
+
 ## Recursive Functions
 
 ...
@@ -1020,6 +1126,24 @@ The best companies are (or will be) following these concepts, not because its &#
  - explain BDD and Gherkin language
 
 
+ ** bugs as features**
+
+  - replicate bugs first (before trying to fix them)
+  - link my slideshare presentation on this topic
+
+
+
+    
+
+## graphs
+
+...
+
+**Topics to cover and ideas**
+
+ -
+
+
     
     
 
@@ -1027,6 +1151,29 @@ The best companies are (or will be) following these concepts, not because its &#
 
 
     
+
+    
+
+## Blogs
+
+**Topics to cover and ideas**
+
+ - Workpress, medium, Blogger
+ - find your voice
+ - hard part are the first 50
+ - it is really hard to write
+ - view it as an exercise
+ - any feedback is healthy
+ - amazing feeling when one post gain traction (and it referenced in sites like redit&#39;
+ - comments are gold (get rid of any kind of spam or link-bait in comments)
+ - use you blog to ask questions (with data behind your question and the paths you have tried)
+ - write about things you are doing on the day-to-day. explain your path and personal stories about making it to work
+ - write for your future self
+ - key concept: &#34;answer questions made to you with a blog&#34; (great way to write good/relevant content and scale your time (specially important when you get asked the same question by multiple people/coleagues))
+ - Blog titles are very important (since they help with SEO a lot)
+
+
+
 
     
 
@@ -1129,30 +1276,6 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
-## blogs
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - Workpress, medium, Blogger
- - find your voice
- - hard part are the first 50
- - it is really hard to write
- - view it as an exercise
- - any feedback is healthy
- - amazing feeling when one post gain traction (and it referenced in sites like redit&#39;
- - comments are gold (get rid of any kind of spam or link-bait in comments)
- - use you blog to ask questions (with data behind your question and the paths you have tried)
- - write about things you are doing on the day-to-day. explain your path and personal stories about making it to work
- - write for your future self
- - key concept: &#34;answer questions made to you with a blog&#34; (great way to write good/relevant content and scale your time (specially important when you get asked the same question by multiple people/coleagues))
- - Blog titles are very important (since they help with SEO a lot)
-
-
-{{% /panel %}}
-
-
-    
-
 ## leanpub
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -1233,6 +1356,30 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Pointers
+
+...
+
+---
+
+**Topics to cover and ideas**
+
+ - How they work
+    - C/C&#43;&#43; programing will really help to understand how it works
+ - how all methods calls in Java and .NET are pointers
+ - how managed languages solve this
+    - is .NET managed? (who is enforcing the type?)
+ - understand the difference between Stack and Heap
+ - understand and exploit buffer overflows (stack and heap based exploits)
+    - Countermeasures
+        - Canaries
+        - ASLR (Address space layout randomization)
+    - understanding how buffer overflows work will do wonders for your understanding on how memory works
+
+
+
+    
+
 ## Security creates better developers
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -1274,6 +1421,28 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## BBS and Modems
+
+...
+
+**Topics to cover and ideas**
+
+ - How it blew up my home&#39;s telephone systems trying out BBS (I had to manually disconnect the phone line and recreate the plug to connect to the modem)
+ - story on my first connections to an BBS (with sync communications) and the files I downloaded from them
+ - story of the first BBS we published and the first couple users we had
+ - expand on other network concepts
+    - TCP vs UDP
+    - Routers
+    - NAT
+ - publish your own server on your own broadband connection (easy to do)
+ - see this video [Warriors of the net](https://www.youtube.com/watch?v=PBWhzz_Gn10) published in [2002](http://www.warriorsofthe.net/) which is a brilliant explanation of the internet, tcp packets and even security.  I remember being the first time I actually visualised how the internet and its multiple components work (now take a step back and realise that all of that happens in milliseconds around the world in today&#39;s technology)
+    - these are really important concepts to understand
+
+
+
+
+    
+
 ## Be a founder
 
 The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
@@ -1296,6 +1465,22 @@ How is telling you &#34;Don&#39;t do it&#34;?
 You can choose to care about the team that you are currently in, and the work that needs to be done.
 
 The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
+
+
+    
+
+## Curse of Knowledge
+
+...
+
+**Topics to cover and ideas**
+
+ - (find book that mentioned it)
+ - tapping a song story
+ - the power and problem of making paradigm shifts
+    - very hard to see and remember what the world/pattern/idea looked like before making the paradigm shift
+ - where&#39;s wally story
+    - very hard to unsee
 
 
     
@@ -1323,6 +1508,26 @@ _Impostor syndrome (also known as impostor phenomenon, fraud syndrome or the imp
 This happens all the time and can be very damaging to your career.
 
 You really need to understand that everybody as doubts about their capacities and everybody makes mistakes. Your value is on your ability to execute and it is key that you learn to share what you do and be confortable with what you create.
+
+
+    
+
+## Kind is naked
+
+...
+
+**Topics to cover and ideas**
+
+ - always be ready to challenge status quo
+ - Steve jobs quote (&#34;it has always been done like that&#34;)
+ - don&#39;t assume that because a lot of people are doing, doesn&#39;t make it right or that it cannot be changed
+ - my barefoot walking story
+    - mainly social
+    - hard on the mind
+    - I liked it a lot
+    - &#34;it is not because 99.9% of others don&#39;t do it, that makes it wrong&#34;
+ - every major changes in our culture or society started with a small number of &#39;rebels&#39;
+ - our industry (IT, development, security) is very receptive and encouraging of different ways of thinking
 
 
     
@@ -1462,6 +1667,25 @@ Misc topics that need to be moved into a chapter
 ## Diagrams to add
 
 - Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
+
+
+    
+
+## O2 Platform
+
+...
+
+
+**Topics to cover and ideas**
+
+ - explain what is it
+ - o2platform.com , https://github.com/o2platform
+ - fluentnode and fluentsharp
+ - REPL
+ - how this was my php
+    - spent a year coding it
+    - unlucky to come out of it when the economy crashed
+ - what I&#39;ve learned
 
 
     
