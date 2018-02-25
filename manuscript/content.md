@@ -5,21 +5,23 @@
 
 Hi Generation Z Developer, if you are passionate developer who wants to learn as much as you can about your craft, this is the book for you.
 
-I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised that there a number of key gaps in your generation understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
+I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised a number of key gaps in your generation is understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
 
-Here is the slide that started it all:
+Here is the slide that started it all, how many do you recognize?
 
 ![](/images/list-of-icons.png)
 
-It all started by me asking the audience if they recognized those logos, and realising that not only they didn&#39;t recognised the logos, they didn&#39;t knew the history behind them (and more importantly why they where created and what problem they solved)
+My presentation started by me asking the audience if they recognized those logos, and then realising that not only they didn&#39;t recognised most of the logos, they didn&#39;t knew the history behind them. More importantly **why** they where created, and what was the problem (or itch) they addressesed
 
 All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
 
 Each one of these icons changed the world of technology, and the paradigms shifts that they created and still impacting our world today.
 
-One of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Basically it means you are free (as in freedom) to use all the materials and content from this book in whatever way you want. As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allows X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
+For example one of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Creative Commons gives a number of  rights to the consumer of creations. This book is release under an &#39;Creative Commons Attribution-ShareAlike 4.0&#39; license, which basically means you are free (as in freedom) to use all the materials and content from this book (only requirements are that you provide some acknoledgement of the source and that you use a similar license). You can even sell books based on content from this book.
 
-We are in the middle of a massive technological revolution and you need to decide if you want to be a pawn or a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat the mistakes, but you will not even understand what game is being played
+As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allowed X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
+
+We are in the middle of a massive technological and cultural revolution and you need to decide if you want to be a pawn, a player or even a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat past mistakes, but you will not even understand what game is being played.
 
 Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
 
@@ -29,7 +31,7 @@ If you have never contributed to an Open Source (or Creative Commons) project, t
 
 You can find all content for this book in [this GitHub repo](https://github.com/DinisCruz/Book_Generation_Z_Developer) and you can submit ideas and issues (you found when reading this book) [here](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues)
 
-Please share your views, suggestions and criticisms at [GitHub Issues](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues) and don&#39;t hesitate to reach out to me on [@DinisCruz](https://twitter.com/DinisCruz)
+Please share your views, suggestions and criticisms and don&#39;t hesitate to reach out to me on [@DinisCruz](https://twitter.com/DinisCruz)
 
 
 
@@ -41,14 +43,15 @@ Please share your views, suggestions and criticisms at [GitHub Issues](https://g
 
 Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
-The older members of this generation at about 22 years old at the moment, where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
+The older members of this generation at about 22 years old at the moment (2018), they where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
 
-In addition to having personal experience with this generation (I have two daughters with 12 and 14 years old), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
+In addition to having personal experience with this generation (I have two daughters aged 12 and 14), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
 
 The reason I&#39;m focusing on this Generation, due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
 
 In hindsight this is normal, since we (as a society) still don&#39;t do a very good job at explaining why things happened and why did they where needed in the first place.
 
+Without an understanding of the past, we only learn from shadows and curated versions of reality.
 
 **I&#39;m worried about Gen Z**
 
@@ -66,12 +69,18 @@ What I hope to provide is a couple moments where you get this overwhelming curio
 
 If you are lucky enough to find yourself in this place, congratulations, you just found &#39;the zone&#39; which is this amazing enviroment when you are single minded and 100% focused learning (which is the best way to learn)
 
+Whenever you find yourself with this headspace, dont stop! Fololow it as long as your brain allows it, and don&#39;t stop for anything (namely social events, eat or sleep). This &#39;zone&#39; is a magical place to be , so learn to recognize when you are inside it and explore it as much as you can.
+
 
     
 
 ## How to get a job
 
-One of my objectives with his book is to help you to find a job. There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your changes
+One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employeer is happy to pay for.
+
+It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future&#39;s direction and path with every decision that you make everyday.
+
+There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your changes and opportunities.
 
 I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, that didn&#39;t happened by accident. I made a number of key decisions in my life (some with very short-term negative implications) that allowed me to align what I love to do with what the market wants to pay.
 
@@ -81,15 +90,15 @@ Find what you are passionate for, what you really care about, and align your car
 
 **Own your carer development**
 
-You are the one tha is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
+You are the one that is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
 
 And how do you start working with those companies?
 
-Easy, start collaborating on their Open Source projects. Act like you are part of the company (understand its values, and behave in was that add value to that company, namely the tech stack)
+Easy, start collaborating on their Open Source projects. Act like you are part of the company (understand their values, and behave in ways that that add value to that company, namely the tech stack)
 
-Start meeting key individuals (and developers) from those companies, and build relationships that not only will teach you a lot, but can potentially lead to very interesting job offers (or references). Start learning how to add value and how to become really good at proactively solving problems (which is one of the most valuable assets you can bring to a company)
+Start by meeting offline and online the key individuals (and developers) from those companies and communities in a way that adds value to them                                                                                                                                                              . Build relationships that will teach you a lot, and potentially lead to very interesting job offers (or references). Start learning how to add value and how to become really good at proactively solving problems (which is one of the most valuable assets you can bring to a company)
 
-What is interesting is that there is nothing stopping you from doing this?
+What is interesting is that there is nothing stopping you from doing this!
 
 So why don&#39;t you?
 
@@ -101,7 +110,7 @@ After all you have nothing to lose? (and all to gain)
 
 # What is this
 
-Here is how it all started
+Important ideas and technologies to understand what they are that why they where created in the first place.
 
 
 
@@ -124,10 +133,7 @@ _These licenses allow creators to communicate which rights they reserve, and whi
 
 ## Open Source
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - explain key concepts
- - &#34;Cathedral and the Bazar&#34; - article that changed the world
+- explain key concepts
  - the creation of the Open Source idea and movement (how an how)
  - Richard Stallman - Copy Left, GNU, philosopher
     - explain the GNU/Linux situation
@@ -136,8 +142,36 @@ _These licenses allow creators to communicate which rights they reserve, and whi
  - companies using &amp; developing open source
  - open source business models
  - I was called a communist many times (in early open source conversations)
-{{% /panel %}}
  - &#34;Open source as won, but Gen Z is not aware of it&#34;
+
+
+**The Cathedral and the Bazaar
+
+  - https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
+
+  - In this book/essay Raymond provides 19 lessons which are still as relevant today (2018) as when they were published (1998)
+
+     - Every good work of software starts by scratching a developer&#39;s personal itch.
+     - Good programmers know what to write. Great ones know what to rewrite (and reuse).
+     - Plan to throw one [version] away; you will, anyhow. (Copied from Frederick Brooks&#39; The Mythical Man-Month)
+     - If you have the right attitude, interesting problems will find you.
+     - When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
+     - Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
+     - Release early. Release often. And listen to your customers.
+     - Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+     - Smart data structures and dumb code works a lot better than the other way around.
+     - If you treat your beta-testers as if they&#39;re your most valuable resource, they will respond by becoming your most valuable resource.
+     - The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.
+     - Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
+     - Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away. (Attributed to Antoine de Saint-Exupéry)
+     - Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
+     - When writing gateway software of any kind, take pains to disturb the data stream as little as possible—and never throw away information unless the recipient forces you to!
+     - When your language is nowhere near Turing-complete, syntactic sugar can be your friend.
+     - A security system is only as secure as its secret. Beware of pseudo-secrets.
+     - To solve an interesting problem, start by finding a problem that is interesting to you.
+     - Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
+
+
 
 
     
@@ -481,7 +515,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 
 # Technologies
 
-...
+Another important technologies to know.
 
 
 
@@ -504,6 +538,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
  - Using AST to write tests
  - Powerful AST abstractions (specially when added the code refactoring mappings)
  - how code refactoring works
+ - source code is not the best medium to consume code
+    - explain how O2Platform&#39;s Method Streams work and how they are a lot more effective
+    - what you want to see is all the code relevant to the path you are looking at
+ - we also need the equivalent of AST and static complilation for all the &#39;coding&#39; that exists in all the cloud environments and between services (i.e. we need a DSL)
+    - for example for AWS lambdas and how they behave
+
 
 
 
@@ -530,27 +570,30 @@ AWS is Amazon&#39;s Cloud offering and is spectacular success story
         - no scalability, failed to modernise, no shared resources, tool expensive, no shared learnings, insecure
     - the cost of installing one server (£2k to £5k in large companies)
     - vs the cost of spinning up entire racks (programmatically)
- - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS (and other cloud providers is very basic)
+ - AWS today is as complex as an OS (windows or linux). It can only be managed in a programmatic way. But today the testing capabilities of AWS and other cloud providers is still very low (namely on end-to-end tests and configurations changes)
 
- - if you have an AWS account, go a try AWS
+ - If you don&#39;t have an AWS or Azure or Google Cloud account, what are you wait for? All have really generous free tiers that allow you to try a large number of their capabilities for free. And as long as you shut down everything everyday, the costs shouldn&#39;t be that high.
 
  - AWS is what happens when a tech team becomes so good that is able to provide those services to 3rd parties
     - think about this, Amazon.co.uk is getting their IT and development costs paid by 3rd party companies (some direct competitors with Amazon)
     - https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp
     - https://qz.com/1051814/what-is-amazon-really/
-    - https://www.ben-evans.com/benedictevans/2017/12/12/the-amazon-machine (great article that talks about the Amazon machine, which is the real power behind it)
     - Amazon in 2011 was shipping to production every 10s (http://assets.en.oreilly.com/1/event/60/Velocity%20Culture%20Presentation.pdf)
+
+**The amazon machine**
+ - how amazon become one of the best development houses in the world
+ - https://www.ben-evans.com/benedictevans/2017/12/12/the-amazon-machine (great article that talks about the Amazon machine, which is the real power behind it)
 
 
     
 
-## Books
+## Books AAAAA
 
 I love books, and for a while I too had the a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). 
 
-For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not! Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect for me (at that moment in time)
+For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not! Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect (at that moment in time)
 
-After looking closely at why I liked books so much, I had the epiphany that _&#34;Books are actually the best technology to consume and process information&#34;_ (see &#34;&#34;[Physical Books are the best technology for reading, and bookstores should &#39;give&#39; an eBook with every physical book published](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html)&#34;&#34; )
+After looking closely at why I liked books so much, I had the [epiphany](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html) that _&#34;Books are actually the best technology to consume and process information&#34;_.
 
 There is also a growing body of research that shows that the use of digital technologies are also affecting kid&#39;s learning capabilities (see &#34;[students find it easier to read and learn from printed materials](https://twitter.com/nicolekearney/status/963946721662267392)&#34;)
 
@@ -558,23 +601,23 @@ Basically, if you don&#39;t use books or printed materials to read and review th
 
 The digital world is really good at promoting [group think](https://en.wikipedia.org/wiki/Groupthink) and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
 
-My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), where the books are just a transient medium that is being used to tell a story (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
+My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), in this case the books are just a transient medium that is being used to tell a story, just like in a movie (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
 
-The reality is if you want to learn, you are better of using a book.
+The reality is if you want to learn, you are better of using a book or printed materials.
 
-The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused activity experience that is _&#39;reading a piece of paper&#39;_, we find tons of errors and _&#39;WTF was I thinking when I wrote that!&#39;_ moments.
+The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused activity experience that is _&#39;reading a piece of paper&#39;_, we find tons of errors and _&#39;WTF was I thinking when I wrote that!&#39;_ moments. In fact making notes on printed versions of digital content, is exactly how I am writing and reviewing this book&#39;s content.
 
 Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges! 
 
 The boook&#39;s _&#39;features&#39;_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
 
-Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format and with more senses. For example, notice how when you flick back pages looking for a particular passage or graph, your eyes will be looking at a particular section of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it realates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that the kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
+Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format and with more senses. For example, notice how when you flick back pages looking for a particular passage or diagram, your eyes will be looking at a particular section of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it relates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that the kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
 
 **Environmental impact of books**
 
 My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
 
-This mean that the impact of books on the environment is minimal.
+This mean that these days, the impact of books on the environment is minimal.
 
 **The power of the bookbook**
 
@@ -612,7 +655,7 @@ The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https:/
  When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
 
    - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
-   - A fast type of thinking - where I &#39;somehow&#39; and making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
+   - A fast type of thinking - where I &#39;somehow&#39; am making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
 
 I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
 
@@ -628,6 +671,26 @@ It is even worse when the interruption actually requires some extra activity (fo
 One area that these interruptions happen a lot in the normal developer&#39;s coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you &#39;switch context&#39;
 
 I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
+
+
+    
+
+## DSL
+
+DSL (Domain Specific Language)
+
+...
+
+**Topics to cover and ideas**
+
+ - what are they
+ - why are they so important
+ - abstractions layers
+   - make the code as simple as posible
+   - .net extension methods are a great compiler trick to achieve very clean domain(ish) languages with strongly type
+   - why support for static compilation and code complete is very important (groovy and javascript problem)
+ - refactor the code to make it aligned with the bsuiness functions it is execution
+
 
 
     
@@ -845,6 +908,18 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
  - [Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work and in Your Life](https://www.amazon.co.uk/Who-Moved-My-Cheese-Amazing/dp/0091816971)
  - [Our Iceberg is Melting: Changing and Succeeding Under Any Conditions](https://www.amazon.co.uk/Our-Iceberg-Melting-Succeeding-Conditions/dp/1509830111/)
 
+
+
+    
+
+## Change Engineering
+
+...
+
+**Topics to cover and ideas**
+
+ - what is it
+ - see my slideshare presentation
 
 
     
@@ -1173,6 +1248,21 @@ The best companies are (or will be) following these concepts, not because its &#
  - Blog titles are very important (since they help with SEO a lot)
 
 
+
+
+    
+
+## Future Self
+
+...
+
+**Topics to cover and ideas**
+
+ - create assets that will be useful for him/her
+ - power of opensourcing your ideas
+ - letters to a younger self are not that useful (unless you have a time machine)
+ - this is why you want to share
+ - example of how I use it (twitter case study)
 
 
     
@@ -1619,6 +1709,21 @@ Ideally this learning environment will be part of your job. If not, then evening
 
     
 
+## Start with Why
+
+...
+
+**Topics to cover and ideas**
+
+ - key concepts from &#39;Start with Why&#39; presentation
+    - Why
+    - How
+    - What
+ - point is not to challenge everything, but to understand why things happen, or why we are doing something
+
+
+    
+
 ## The Zone
 
 **Topics to cover and ideas**
@@ -1649,6 +1754,28 @@ Ideally this learning environment will be part of your job. If not, then evening
  - Elon Musk &#34;cost of rocket&#39;s atoms&#34;
 
 {{% /panel %}}
+
+
+    
+
+## Workflows
+
+...
+
+**Topics to cover and ideas**
+
+ - Thinking in systems and workflows
+ - this is actually how most programming works
+ - create systems with
+    - Incremental Gains
+    - Marginal gains theory
+ - power of digital flows and analogue flows
+ - what I look for in a workflow
+ - why books work but a type-writter doesn&#39;t
+ - show JIRA workflows examples
+ - explain workflow I&#39;m using when writing this book
+    - for example print, make notes, digitalise notes, repeat
+
 
 
     
