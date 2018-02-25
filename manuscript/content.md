@@ -88,6 +88,10 @@ I really like the Gen Z realization that a job is something that should be rewar
 
 Find what you are passionate for, what you really care about, and align your carrer with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
 
+**Having one competitive advantage**
+
+The best way to get a job is to have 1 (one) competitive advantage. One activity or task that you can do better than the person/company hiring you. For example in the 1990s for a lot of companies it was using a computer, in the 2000s is was using the internet. For development or security, for a while all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that the ones that could do it, where the ones that proactively embraced those technologies and learned them agaist all odds (at the time when most companies, including technological companies, where ignoring it). These days, it is thinks like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other technologies/ideas covered in this book :)
+
 **Own your carer development**
 
 You are the one that is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
@@ -127,6 +131,21 @@ _These licenses allow creators to communicate which rights they reserve, and whi
 **Topics to cover and ideas**
 
  - &#34;For a typical author, obscurity is a far greater threat than piracy.&#34; Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html)
+ - how CC is changing research
+    - for example collaboration of code and datasets on cancer research
+ - the amount of data that is being shared today is hugo
+    - show examples from the multiple visualisation&#39;s books (and websites)
+    - show example of data released by the UK
+        - https://data.gov.uk/ which uses http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ (compatible with Creative Commons Attribution License 4.0 )
+
+  - more and more there is an moral and techical argument that all data created by government should be released under an creative commons license, and all code paid by the government should be released under an open source license
+  - publishing your research under an CC license is harder than it looks. It means that you have made the paradigm shift from close to open.
+     - It means that you now view your value as someone who can execute ideas (and are happy to share your creations)
+     - anybody can have ideas, the execution is the hard part
+        - in fact deciding what NOT to do is that hard part (what ideas to say NO is one of the most important decisions to do)
+            - this is easy when you have a good vision of the journey ahead.
+
+
 
 
     
@@ -143,6 +162,30 @@ _These licenses allow creators to communicate which rights they reserve, and whi
  - open source business models
  - I was called a communist many times (in early open source conversations)
  - &#34;Open source as won, but Gen Z is not aware of it&#34;
+ - When you open source an app or code, what will happen next is : Nothing!
+    - it is veru hard to create a community around an open source project
+    - what you will have done (with adding the license file to your code (which is all it takes, assuming you wrote all the code so far)), is to create future opportunities for that code and sent a strong message about your agenda (i.e. you are not going to lock in the future the users that are using your current code today).
+       - you are allowing somebody (which could be you) in the future to use your code
+       - you are also protecting your research, so that if you move companies, you can still use that code (there is nothing worse for a programmer than to having to rewrite something that was working ok (specially when it is a framework that supports a particular workflow)
+
+ - big success of companies collaborating internally externally (i.e. internal collaboration between different teams via open source code)
+    - although most devs have access to all code, the number of cross-team pull requests is very low (open source license help a lot with this)
+    - allowing other to use your code is a great way to find programmers to hire or companies to buy
+    - the myth of the company that will take your code and just run with it (they will be massive locked to your code)
+        - example of team that created a fork of Chrome (to add security features) and couldn&#39;t keep up with Chrome&#39;s development speed
+        - the open source tax (when you don&#39;t contribute back your changes)
+  - companies should pay developers to work on open source apps/modules that are used in the company.
+    - my experience with helping an open source project (that we used), and then getting help from a key developer from that project in a hard problem that we were having
+
+ - Question: &#34;Why don&#39;t you open source your code?&#34;
+    - I bet the answer is a combination of:
+        - &#34;I don&#39;t think my code is good enough&#34;
+        - &#34;I&#39;m embarrassed about my code&#34;
+        - &#34;Nobody will want to use my code&#34;
+    - the first thing to understand is that I have heard these same excuses from all sorts of developers and companies, for code in all sorts of quality and completeness.
+    - this is your [Lizard brain](https://facilethings.com/blog/en/lizard-brain) in action (making excuses of why you shouldn&#39;t do something)
+    - the key is to just do it (add the license and slowly staring building the community)
+
 
 
 **The Cathedral and the Bazaar
@@ -176,20 +219,95 @@ _These licenses allow creators to communicate which rights they reserve, and whi
 
     
 
+## Docker
+
+As a developer it is critical that you understand how docker works and how it became so successful and widely used.
+
+The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
+
+To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
+
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
+
+The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
+
+Docker starts in second(s) because it is just a process. The magic sauce is created by:
+
+1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
+2. a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer.This is a powerful graph db, where each file location is dynamically calculated when you are inside the docker image.
+
+From a security poing of view, Docker has massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+
+
+--
+
+**Topics to cover and ideas**
+
+
+ - _What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a new docker image_
+    - rewrite paragraph (above) that tries to explain how docker file system works and how new images are created)
+
+ - why docker image development environment is so powerful and fast (explain the concept of images commits)
+    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
+
+**Kubernetes**
+
+ - what problem it solves
+    - k8s architecutre
+    - the power of coding your server environment (just a higher level of programming abstraction layers)
+ - AWS Elactic container service
+ - Digital Ocean Docker droplet
+ - explain Kubernetes (how it come from Google&#39;s Borg)
+    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
+ - Docker Compose and Swarm
+
+**Couple examples of Docker in action**
+
+- add some technical examples of how to use docker (and how easy it is)
+
+**Testing Docker**
+    - repeatable bash scritps
+    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
+            - we need TDD for docker development
+            - big comptetitive advantage in the market place if you understand these concepts
+
+
+**where to focus**
+
+- a very good research area is the visualisation and mapping or docker environment
+
+
+
+**references**
+ - [Containerization](https://vimeo.com/49392667) - by MAYA Design
+  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
+
+  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
+  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
+
+
+    
+
 ## CPU
 
 **Topics to cover and ideas**
 
  - power of assembly, the importance of learning how to code in ASM
  - how assembly relates to bytecode in .Net (MSIL) and Java
- - spectre vulnerability
+ - spectre and meltdown vulnerability
  - I learned how to code assembly by hand
     - a bit difficult (I was 13 at the time) but I had only one book and no internet
     - manually translated assembly code into binary (I didn&#39;t had an asm compiler at the time)
-    - I was learning massively about architecture, memory layout, programming, etc...
+    - I was learning massively about architecture, memory layout, programming, etc... (without noticing). I was in the &#39;zone&#39;
     - totally worth it
+    - learning about hardware interupts, TSR (Terminate and Stay Resident),and kernel vs user land memory did wonders for my understanding of Window&#39;s programming/architecture and computer science
  - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
  - my peek and poke moment: &#39;change a pixel on screen&#39; (and falling in love with programming)
+ - mention history of processors:
+    -  Zilog Z80,Motorola 68000 and Intel x80, x286 and Pentium
+        - &#34;I remember when 286 was fast&#34;
+
+ - Great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
 
 
 
@@ -212,94 +330,6 @@ _These licenses allow creators to communicate which rights they reserve, and whi
  - Music and its relationship with copyright
     - what happens when the cost of distribution goes to zero
     - customers will still buy (if the product and distribution is right)
-
-
-    
-
-## Docker
-
-As a developer it is critical that you understand how docker works and how it became so successful and widely used.
-
-The first time I saw and user docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
-
-To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
-
-It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
-
-The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
-
-Docker starts in second(s) because it is just a process. The magic sauce is created by:
-
-1) a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
-2) a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer. This is a powerful graph, dynamically calculated when you are inside the docker image. What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a nerw docker image
-
-From a security poing of view, Docker as massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
-
-
- - why docker image development environment is so powerful and fast (explain the concept of images commits)
-    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
-
-**Kubernetes**
-
-- explain Kubernetes (how it come from Google&#39;s Borg)
-    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
-
-**Serverless Computing**
-
-- the path to &#39;Serverless&#39;
-- Lambba
-**Couple examples of Docker in action**
-
-- add some technical examples of how to use docker (and how easy it is)
-
-**Testing Docker**
-    - repeatable bash scritps
-    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
-            - we need TDD for docker development
-            - big comptetitive advantage in the market place if you understand these concepts
-
-
-**where to focus**
-
-- a very good research area is the visualisation and mapping or docker environment
-
-
-
-
-
-**references**
- - [Containerization](https://vimeo.com/49392667) - by MAYA Design
-  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
-
-  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
-  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
-
-
-    
-
-## Dopamine
-
-[![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
-
-Do you know what Dopamine is? Do you know why mobile phone notifications are so addictive?
-
-
-- https://en.wikipedia.org/wiki/Dopamine
-
----
-
-**Topics to cover and ideas**
-
- - detox from your phone
- - detox from notificaitons
- - stop notifications
- - related to the Zone and Deep work concepts
- - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
- - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
- (they affect the brain)
-
-
-Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
 
 
     
@@ -339,22 +369,6 @@ EFF (Electronic Frontier Foundation)
  - key arguments have been won, but lost a lot of momentum (and not fulfilled it potential)
  - inevitability of Open Source
     - even Microsoft does open source these days (they were the ones that called open source &#39;cancer)&#39;
-
-
-
-    
-
-## Github
-
-**Topics to cover and ideas**
-
- - use github as your personal back up and time machine
- - build on top of Open source
- - with a proprietary service on top
- - interesting open source challengers:
-   - GitLab
-   - Gogs https://github.com/gogits
- - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
 
 
 
@@ -409,7 +423,7 @@ OWASP (the Open Web Application Security Project) is a world wide organisation t
 
 ## Slack
 
-Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, etc...)
+Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, Phone, Smoke Signals, etc...)
 
 **Topics to cover and ideas**
 
@@ -574,13 +588,15 @@ The fact that a piece of paper (or notebook) is not &#39;online&#39; and one can
 
 What is really important is to capture the ideas and thoughts that you have. There are also studies that shows that just the fact that you write something, will make it easier for you to remember and to process that information.
 
-I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what where those ideas.
+I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd or 3rd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what where those ideas (even after a couple years).
+
+These days, to keep track of what I have reviewed and processed, I have the workflow/habit or crossing-over the ideas or texts that I moved to a digital format or delegated.
 
 The reality is that you will forget the ideas you are having today!
 
 The only way to make sure that your future self has access to those ideas, is to capture them now!
 
-It is great when you review your older notebooks (could be from last year or last week) and not only remember an idea you had since forgotten, but you are able to expand that idea and take it to the next level.
+It is great when you review your older notebooks (could be from last week or year) and not only remember an idea you had since forgotten, but you are able to expand that idea and take it to the next level.
 
 My favourite are the [Moleskin books](https://www.amazon.co.uk/Moleskine-Sapphire-Large-Plain-Notebook/dp/B015NG45Q0/) plain A5 notebooks, since they represent a nice balance of white space and portability ( I use them everyday)
 
@@ -674,7 +690,7 @@ This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator))
 
 This is about the next major revolution in technology and whether you are going to be a player or a pawn in what is happening next.
 
-I highly recomend that you read Kevin Kelly&#39;s [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089] book where he provides a really clean mapping of what (most likely) will happen next.
+I highly recomend that you read Kevin Kelly&#39;s [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089) book where he provides a really clean mapping of what (most likely) will happen next.
 
 One area that Kevin talks in detail and you can already see it happening around us is the introduction of AI capabilities in all sort of devices and business activities.
 
@@ -688,7 +704,10 @@ As a developer, you will be soon be asked to write code that integrates with Mac
 
 **Where are we going**
 
-For a nice view of what could be happening next see [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/) and [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
+For a nice view of what could be happening next see
+  - [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/)
+  - [Homo Deus: A Brief History of Tomorrow](https://www.amazon.co.uk/Homo-Deus-Brief-History-Tomorrow/dp/1910701874)
+  - [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
 
 
 
@@ -778,6 +797,34 @@ DSL (Domain Specific Language)
 
     
 
+## Dopamine
+
+[![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
+
+Do you know what Dopamine is? Do you know why mobile phone notifications are so addictive?
+
+
+- https://en.wikipedia.org/wiki/Dopamine
+
+---
+
+**Topics to cover and ideas**
+
+ - detox from your phone
+ - detox from notificaitons
+ - stop notifications
+ - related to the Zone and Deep work concepts
+ - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
+ - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
+ (they affect the brain)
+ - &#34;why do you have the huge to check your phone when you hear an interruption&#34;. it is like a thread has started in your brain that wont complete until you check it.
+ - the problem is that these dopamine interruptions make you lose context (and lose the &#39;zone&#39;)
+
+Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
+
+
+    
+
 ## Dot Language
 
 ...
@@ -840,6 +887,20 @@ The key point I want to make here is that the tools that we use in the enterpris
 Being able to write these customisations and understanding at a much deeper level (when compared to &#39;normal&#39; or &#39;power&#39; users) what is possible with these tools, is a massive competive advantage.
 
 In fact if you are able to write custom JIRA workflows that are usable by a development team, that is a massive competitive advantage for you, and it will make you highly employable today.
+
+**Use Jira in your life**
+
+Create Jira projects for your life activities (with Epics to track group of tasks)
+
+Create a Kanban board for your personal tasks and Epics.
+
+Create custom workflows and learn how to manage Jira. This will give you tons of confidence when using Jira in the real world (or when intervewing)
+
+And since Atlassian has evaluation version for their cloud version of Jira, there isn&#39;t any cost to try this.
+
+Now you have no excuse to not having used Jira before (at a level more advanced that most corporate users and the developers interviewing you)
+
+
 
 
     
@@ -1195,11 +1256,20 @@ The best companies are (or will be) following these concepts, not because its &#
 **Topics to cover and ideas**
 
  - latest industry fad, but important development
- - of course that there is a server, just that the app abstraction goes up another level
- - this will be successfully becauuse it is massively cost effective (story of the crazy cost reductions and performance gains from moving to a lambda based architecture)
  - important to understand why is it gaining momentum
  - important to understand the limitations
  - another example of the failure of Techops to innovate
+ - the path to &#39;Serverless&#39;
+ - How AWS Lambda changed the paradigm
+    - big example of how it can work in enterprise enviroments
+    - lots of powerful side applications (for example creating AWS WAF rules)
+        - Writing AWS WAF rules is a skill that would get you hired! (for example dynamically blocking IPs)
+ - serverless doesn&#39;t mean &#39;no servers&#39;
+    - of course that there is a server, just that the app abstraction goes up another level (it lots of cases it is an function)
+    - this will be successfully because it is massively cost effective (story of the crazy cost reductions and performance gains from moving to a lambda based architecture)
+    - when you look at how much process and memory (in aggregate) is actually used in by apps in dev, qa and production, you will see that the amount of waste and over-provisioning is huge (i.e. resources not used)
+    - once we add more scalable and dynamic micro-services architectures and applications that are able to &#39;self-degragade&#39; their features based on load (and other factors like security), we will have a very powerful, resilient, available and secure application environment.
+
 
 
     
@@ -1324,6 +1394,30 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## Github
+
+**Topics to cover and ideas**
+
+ - use github as your personal back up and time machine
+ - build on top of Open source
+ - with a proprietary service on top
+ - interesting open source challengers:
+   - GitLab
+   - Gogs https://github.com/gogits
+ - amazing innovation, how many times it pushes to production everyday. GH is one of the best development teams in the world
+ - Github is your CV
+    - shows how you code, how you interact with others
+    - your commits and pull requests show your voice
+    - your accepted pull requests by other Open Source repos (the more popular the better) should go on your CV (they are your badges of honor)
+    - number of people/projects using your tools ia validation of your skills (much better than LinkedIn recommentation system)
+  - you should have a long tail of projects and forks (altough beware of the polution caused by forks that you don&#39;t contribute to). Keep this curated, since after all it is your research playground
+  - Github Bug Bounty programme (Gamification)
+
+
+
+
+    
+
 ## LinkedIn
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -1432,6 +1526,38 @@ The best companies are (or will be) following these concepts, not because its &#
 
 
     
+
+    
+
+## 3rd-party-modules
+
+...
+
+**Topics to cover and ideas**
+
+ - package management systems (https://en.wikipedia.org/wiki/List_of_software_package_management_systems)
+ - massive problem for quality and securtiy
+    - add examples of npm changes that broke tons of apps
+        - https://medium.freecodecamp.org/npm-package-hijacking-from-the-hijackers-perspective-af0c48ab9922
+    - add story about nmp module hack (simulated)
+ - this applies to both open source and proprietary code
+    - at least with open source we have the ability to see that is inside the code (at least we have a change to detect and even fix (if we are paying attention))
+        - and eventually as a community we will be able to add (or paid for) enough eyeballs to review it (namely the dependencies we use)
+        - we can leverage the community&#39;s trust in packages (just like AVs today) and be able to quickly propagate information about bad packages
+            - https://snyk.io/ is a really good commercial service in this space
+
+ - Bitcoin mining
+    - injection in 3rd party javascript library (to which read out webpages for blind or partially sighted people) hit tons of websites in the uk https://www.theregister.co.uk/2018/02/11/browsealoud_compromised_coinhive/
+    - Bitcoin mining via module injection is going to dramatically change the security of 3rd party modules, since there is now a business model for attacking 3rd party modules (up until now the options to monetise those libraries was not very easy). Just to be clear, the reason more 3rd party libraries (used my millions of applications) have not been compromised is not because they were developed and deployed securely, it was just that the malicious attackers did not a good business model to exploit it (now they do)
+    - there is even an interesting question if it is ok for popular open source libraries to mine bitcoins from their users.
+        - for example what if JQuery did this and it took 0.1% of the user&#39;s CPU (or %1% of the QA servers) and used these funds to support the develpment of the next version (and pay for example for dedicated developers or security reviews)
+        - this could solve the problem of how to fund the development of popular open source frameworks
+        - maybe the browsers or servers could even support this natively (with 5% or 10% of CPU allocated for 3rd party services bitcoin mining)
+
+
+
+
+
 
     
 
@@ -1814,6 +1940,21 @@ Misc topics that need to be moved into a chapter
 ## Diagrams to add
 
 - Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
+
+
+    
+
+## Generation Z Research
+
+**articles**
+ - [What 5,000 Gen Z’ers Tell Us About the Future of Work](https://medium.com/@doorofclubs/what-5-000-gen-zers-tell-us-about-the-future-of-work-6dd00f796e8f) - see reference on importance of mentoring 
+ - [Why Generation Z will change the world](https://medium.com/@fluidui/why-generation-z-will-change-the-world-18b400268fa8)
+ -[If you’re over 25, you’re probably wrong about Generation Z. They’re the best crop of teenagers America has ever produced.](https://medium.com/@jelenawoehr/if-youre-over-25-you-re-probably-wrong-about-generation-z-39f479df069d)
+ 
+**videos**
+
+- [A manifest from Generation Z](https://www.youtube.com/watch?v=CrX5O2XWHws) , Elise By Olsen , TEDxOslo
+
 
 
     
