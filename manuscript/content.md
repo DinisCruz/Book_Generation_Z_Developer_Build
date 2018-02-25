@@ -644,15 +644,19 @@ I can&#39;t explain (you need to experience it yourself) how productive is it to
 
 In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
 
-Basically what SWG (Static Website Generators) do, is to pre-create all possible web pages during a build stage, and to place them all in a single folder that can be easily deployed to any server or service that is able to host static files (including AWS S3)
+Basically what SWG (Static Website Generators) do, is to pre-create all possible web pages during a build stage, and to place them all in a single folder that can be easily deployed to any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
 
 In practice this means that you can have a website running from valina web pages, with no backend and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
 
 Ask yourself the question: &#34;Why do you need a database?&#34;
 
-It is amazing how in tons of cases a database is not actually needed (specialy when it is possible to pre-generate all pages programatically).
+It is amazing how in tons of cases a database is not actually needed (specialy when it is possible to pre-generate all pages programmatically).
 
-Hugo is also a great case-study of how modern development techniques and technologies, create products/apis that are miles ahead of the competition (with killer features)
+In fact Hugo is using a very efficient and scalable database and cache: The file system :)
+
+I really like the pattern of using the file system as a database, specially when combined with git for deployment.
+
+Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
 
 I use Hugo a lot these days, in all sort of internal and external sites, and after using (and developing) all sorts of CMS (Content Management Systems), I have to say that it provides me a spectacular and highly-productive content creation/editing workflow.
 
@@ -793,7 +797,6 @@ DSL (Domain Specific Language)
 
 ...
 
----
 
 **Topics to cover and ideas**
 
@@ -802,8 +805,23 @@ DSL (Domain Specific Language)
  - massive job opportunities
  - the power of software vs hardware
  - it is all about code
- - most IOT vendors don&#39;t understand much about modern development practices and security
- - show shodan
+ - security
+    - most IOT vendors don&#39;t understand much about modern development practices and security
+    - [shodan](https://www.shodan.io/) google for IoT (find tons of vulnerable devices)
+    - IoT worms (example of power grid exploit)
+        - the ones that generated billions of requests and Tb of data
+    - hacking baby cameras and dools
+
+  - developers have a big responsibility here
+  - risk&#39;s mappings of reality could be a great way to get vendors to do the right thing
+  - Electricity analogy (take current devices and add AI)
+  - it is already amongst us (controled by Siri and Alexa)
+    - what happens when these bots start to clash to one another (see[my 2020 vision, AI Edition](https://www.linkedin.com/pulse/my-2020-vision-ai-edition-taras-novak) )
+  - Arduino
+    - What is it, why is it important, how much it costs
+    - spend money on new IoT devices in kickstarter, for example on [Arduino](https://www.kickstarter.com/discover/advanced?ref=nav_search&amp;term=arduino) related projects (even better invent something and start a kickstarter campain, if that is successful, you will be highly employable)
+    - get an arduino (or raspberry pi) and create your own IoT appliance for your home ( this is a great story to go on your CV)
+
 
 
 
@@ -1297,7 +1315,9 @@ The best companies are (or will be) following these concepts, not because its &#
     - best way to learn this is to clone a repo with lots of files and versions, and just checkout different branches (each with a different file structure). What is impressive in this example is how we can see major directories changes in seconds (i.e. with each branch checkout))
  - explain why git cannot store empty folders
  - by now (2018) we should have git based file systems
-
+ - git is also great for site deployment
+    - explain pattern of having a special web method that listen for github webhooks and triggers a pull (updating the site in seconds)
+    - git deployment also works great for binaries (for example we one setup an git deployment workflow for .Net binaries). Upgrades and rollbacks become a simple fact of doing a git checkout
 
 {{% /panel %}}
 
