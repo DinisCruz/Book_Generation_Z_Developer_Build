@@ -3,41 +3,473 @@
 
 -# Content Chapters
 
+    
+
+    
+        
+
+# Introduction
+Hi Generation Z Developer, if you are passionate developer who wants to learn as much as you can about your craft, this is the book for you.
+
+I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised a number of key gaps in your generation is understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
+
+Here is the slide that started it all, how many do you recognize?
+
+![](/images/list-of-icons.png)
+
+My presentation started by me asking the audience if they recognized those logos, and then realising that not only they didn&#39;t recognised most of the logos, they didn&#39;t knew the history behind them. More importantly **why** they where created, and what was the problem (or itch) they addressesed
+
+All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
+
+Each one of these icons changed the world of technology, and the paradigms shifts that they created and still impacting our world today.
+
+For example one of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Creative Commons gives a number of  rights to the consumer of creations. This book is release under an &#39;Creative Commons Attribution-ShareAlike 4.0&#39; license, which basically means you are free (as in freedom) to use all the materials and content from this book (only requirements are that you provide some acknoledgement of the source and that you use a similar license). You can even sell books based on content from this book.
+
+As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allowed X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
+
+We are in the middle of a massive technological and cultural revolution and you need to decide if you want to be a pawn, a player or even a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat past mistakes, but you will not even understand what game is being played.
+
+Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
+
+**Be involved and contribute**
+
+If you have never contributed to an Open Source (or Creative Commons) project, then what about using this book as your first experiments?
+
+You can find all content for this book in [this GitHub repo](https://github.com/DinisCruz/Book_Generation_Z_Developer) and you can submit ideas and issues (you found when reading this book) [here](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues)
+
+Please share your views, suggestions and criticisms and don&#39;t hesitate to reach out to me on [@DinisCruz](https://twitter.com/DinisCruz)
 
 
-true
+
+
+        
+        
+
+## Generation Z
+Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
+
+The older members of this generation at about 22 years old at the moment (2018), they where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
+
+In addition to having personal experience with this generation (I have two daughters aged 12 and 14), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
+
+The reason I&#39;m focusing on this Generation, due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
+
+In hindsight this is normal, since we (as a society) still don&#39;t do a very good job at explaining why things happened and why did they where needed in the first place.
+
+Without an understanding of the past, we only learn from shadows and curated versions of reality.
+
+**I&#39;m worried about Gen Z**
+
+Although Gen Z have some spectacular features and values (for example they are much more tolerant and diverse than previous generations), they have a lack of intellectual curiosity that worries me
+
+We need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z
+
+Ironically, in an age when information and knowledge is a click (or google search) away, in conversation after conversation with Gen Z teenagers, I&#39;ve found that they have a very thin understanding of the history of particular technologies, why they occurred in the first place and what problem they tried to solve.
+
+My hope with this book is to break through those gaps, and provide context and references, so that better informed decisions can be made by members of this generation (who will need to save the world from the mess the previous generations are creating)
+
+**Overwhelming curiosity**
+
+What I hope to provide is a couple moments where you get this overwhelming curiosity to just learn more about topic, where you start to follow link after link about a particular topic, and that you get a number of &#39;WOW, that is fr**** awesome!&#39; moments
+
+If you are lucky enough to find yourself in this place, congratulations, you just found &#39;the zone&#39; which is this amazing enviroment when you are single minded and 100% focused learning (which is the best way to learn)
+
+Whenever you find yourself with this headspace, dont stop! Fololow it as long as your brain allows it, and don&#39;t stop for anything (namely social events, eat or sleep). This &#39;zone&#39; is a magical place to be , so learn to recognize when you are inside it and explore it as much as you can.
+
+        
+
+## How to get a job
+One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employeer is happy to pay for.
+
+It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future&#39;s direction and path with every decision that you make everyday.
+
+There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your changes and opportunities.
+
+I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, that didn&#39;t happened by accident. I made a number of key decisions in my life (some with very short-term negative implications) that allowed me to align what I love to do with what the market wants to pay.
+
+**Being passionate and love your job**
+
+Find what you are passionate for, what you really care about, and align your carrer with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
+
+**Having one competitive advantage**
+
+The best way to get a job is to have 1 (one) competitive advantage. One activity or task that you can do better than the person/company hiring you. For example in the 1990s for a lot of companies it was using a computer, in the 2000s is was using the internet. For development or security, for a while all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that the ones that could do it, where the ones that proactively embraced those technologies and learned them agaist all odds (at the time when most companies, including technological companies, where ignoring it). These days, it is thinks like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other technologies/ideas covered in this book :)
+
+**Own your carer development**
+
+You are the one that is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
+
+And how do you start working with those companies?
+
+Easy, start collaborating on their Open Source projects. Act like you are part of the company (understand their values, and behave in ways that that add value to that company, namely the tech stack)
+
+Start by meeting offline and online the key individuals (and developers) from those companies and communities in a way that adds value to them                                                                                                                                                              . Build relationships that will teach you a lot, and potentially lead to very interesting job offers (or references). Start learning how to add value and how to become really good at proactively solving problems (which is one of the most valuable assets you can bring to a company)
+
+What is interesting is that there is nothing stopping you from doing this!
+
+So why don&#39;t you?
+
+After all you have nothing to lose? (and all to gain)
+
+        
+    
+
+    
+
+    
+        
+
+# What is this
+Important ideas and technologies to understand what they are that why they where created in the first place.
 
 
 
-true
+
+        
+        
+
+## Docker
+As a developer it is critical that you understand how docker works and how it became so successful and widely used.
+
+The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
+
+To understand Docker and its power, the first concept to master is how docker is a _&#34;process that exposes a multi-layered file system as an fully isolated OS&#34;_
+
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I&#39;ve seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
+
+The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
+
+Docker starts in second(s) because it is just a process. The magic sauce is created by:
+
+1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
+2. a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer.This is a powerful graph db, where each file location is dynamically calculated when you are inside the docker image.
+
+From a security poing of view, Docker has massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user&#39;s data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+
+
+--
+
+**Topics to cover and ideas**
+
+
+ - _What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a new docker image_
+    - rewrite paragraph (above) that tries to explain how docker file system works and how new images are created)
+
+ - why docker image development environment is so powerful and fast (explain the concept of images commits)
+    - if you don&#39;t understand git and virtual file systems you will struggle to understand git
+
+**Kubernetes**
+
+ - what problem it solves
+    - k8s architecutre
+    - the power of coding your server environment (just a higher level of programming abstraction layers)
+ - AWS Elactic container service
+ - Digital Ocean Docker droplet
+ - explain Kubernetes (how it come from Google&#39;s Borg)
+    - this container&#39;s capability was why google grew so fast and innovated so much in the last decade
+ - Docker Compose and Swarm
+
+**Couple examples of Docker in action**
+
+- add some technical examples of how to use docker (and how easy it is)
+
+**Testing Docker**
+    - repeatable bash scritps
+    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn&#39;t very good
+            - we need TDD for docker development
+            - big comptetitive advantage in the market place if you understand these concepts
+
+
+**where to focus**
+
+- a very good research area is the visualisation and mapping or docker environment
 
 
 
-true
+**references**
+ - [Containerization](https://vimeo.com/49392667) - by MAYA Design
+  - [Containerization: The Most Influential Invention That You&#39;ve Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
+
+  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
+  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
+
+        
+    
+
+    
+
+    
+        
+
+# Technologies
+Another important technologies to know.
 
 
 
-false
+
+        
+        
+
+## Books
+I love books, and for a while I too had the a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). 
+
+For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not! Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect (at that moment in time)
+
+After looking closely at why I liked books so much, I had the [epiphany](http://blog.diniscruz.com/2013/09/physical-books-are-best-technology-for.html) that _&#34;Books are actually the best technology to consume and process information&#34;_.
+
+There is also a growing body of research that shows that the use of digital technologies are also affecting kid&#39;s learning capabilities (see &#34;[students find it easier to read and learn from printed materials](https://twitter.com/nicolekearney/status/963946721662267392)&#34;)
+
+Basically, if you don&#39;t use books or printed materials to read and review the information you are consuming (and creating), you are missing a massive trick.
+
+The digital world is really good at promoting [group think](https://en.wikipedia.org/wiki/Groupthink) and to present the previous technologies as &#39;legacy&#39; and old-fashioned.
+
+My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), in this case the books are just a transient medium that is being used to tell a story, just like in a movie (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
+
+The reality is if you want to learn, you are better of using a book or printed materials.
+
+The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused activity experience that is _&#39;reading a piece of paper&#39;_, we find tons of errors and _&#39;WTF was I thinking when I wrote that!&#39;_ moments. In fact making notes on printed versions of digital content, is exactly how I am writing and reviewing this book&#39;s content.
+
+Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges! 
+
+The boook&#39;s _&#39;features&#39;_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
+
+Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format and with more senses. For example, notice how when you flick back pages looking for a particular passage or diagram, your eyes will be looking at a particular section of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it relates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that the kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
+
+**Environmental impact of books**
+
+My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
+
+This mean that these days, the impact of books on the environment is minimal.
+
+**The power of the bookbook**
+
+...add story about the Ikea add called &#34;Experience the power of a bookbook&#34; &#34;At only 8mm thin, and weighing in at less than 400g, the 2015 IKEA Catalogue comes pre-installed with thousands of home furnishing ideas&#34;  https://www.youtube.com/watch?v=MOXQo7nURs0 ...
 
 
 
-false
+        
+
+## Pen and Paper
+Another powerful technology that seems to be going out of fashion is the pen and paper (pencil is also a great option).
+
+As covered in the &#39;Book&#39; chapter, analogue techniques like the pen and paper are actually better technologies for creating and capturing ideas.
+
+The fact that a piece of paper (or notebook) is not &#39;online&#39; and one cannot easily change its contents, are actually some of its best features.
+
+What is really important is to capture the ideas and thoughts that you have. There are also studies that shows that just the fact that you write something, will make it easier for you to remember and to process that information.
+
+I have so many examples of situations when I started writing just some ideas, and after a couple pages, the real interesting ideas come out (due to the hyperlinked nature of how ideas are generated in the brain). What is important is the realisation that those 2nd or 3rd generation of ideas would had not been captured without the first batch of ideas and notes. I&#39;ve also found that my brain retains the location of where I made some notes, and I&#39;m able to go back to those notebooks and remember what where those ideas (even after a couple years).
+
+These days, to keep track of what I have reviewed and processed, I have the workflow/habit or crossing-over the ideas or texts that I moved to a digital format or delegated.
+
+The reality is that you will forget the ideas you are having today!
+
+The only way to make sure that your future self has access to those ideas, is to capture them now!
+
+It is great when you review your older notebooks (could be from last week or year) and not only remember an idea you had since forgotten, but you are able to expand that idea and take it to the next level.
+
+My favourite are the [Moleskin books](https://www.amazon.co.uk/Moleskine-Sapphire-Large-Plain-Notebook/dp/B015NG45Q0/) plain A5 notebooks, since they represent a nice balance of white space and portability ( I use them everyday)
+
+A nice site effect of having mobile phones with cameras, is that it&#39;s easy to share a picture of one of the notebook&#39;s pages.
 
 
 
-false
+        
+
+## Brain
+How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
+
+The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
+
+You need understand how your brain work, so that you understand it&#39;s blind spots and why we behave in the way we do.
+
+How do you think? How do you remember? How do you see? How rational are your decisions? Who is actually making the decisions in your head?
+
+If you have not looked at this topic before, you will be very surprised with the answers to these questions.
+
+This is where you need to apply your logical and computing side of the brain and reverse engineer how your own brain works.
+
+I&#39;ve always found the brain fascinating and the more I learned about it, the better I become at understanding how I and others think.
+
+A good place to start is the [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.co.uk/Freakonomics-Economist-Explores-Hidden-Everything/dp/0141019018) book, which uses economic techniques to answer a number of very interesting questions.
+
+The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531) takes that to another level, where it shows example after example how we are not rational at all in a number of decisions we make everyday
+
+ The best one I&#39;ve read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
+
+ **How you think**
+
+ When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
+
+   - A slow(ish) type of thinking - where I&#39;m basically taking to myself in my head. This is also how I tend to read (I heard the text I&#39;m reading in my head)
+   - A fast type of thinking - where I &#39;somehow&#39; am making a large number of analysis and decisions, and &#39;know&#39; what I&#39;m thinking without really needing to articulate in my head all the explanations of what I&#39;m doing. This is the kind of thinking that one tends to get when in &#39;the Zone&#39; (which is that magical place where ideas &#39;just flow&#39; and we are hyper productive)
+
+I&#39;ve also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I&#39;m working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
+
+This is why is so important to be able to spend concentrated time on a particular topic, since it takes a while to upload all relevant data to the parts of the brain focused on the task at hand.
+
+
+**Switching content and interruptions**
+
+A reason why even a 1 second interruption can be massively disruptive (for example a text message, or slack/snapchat/instragram/facebook/twitter notification) is because it breaks the mojo of your brain and destroys a number of those hyperlinked graphs you had created in your head.
+
+It is even worse when the interruption actually requires some extra activity (for example a question from somebody at the office).
+
+One area that these interruptions happen a lot in the normal developer&#39;s coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you &#39;switch context&#39;
+
+I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
+
+        
+
+## Hugo
+[Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
+
+In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
+
+Basically what SWG (Static Website Generators) do, is to pre-create all possible web pages during a build stage, and to place them all in a single folder that can be easily deployed to any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
+
+In practice this means that you can have a website running from valina web pages, with no backend and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
+
+Ask yourself the question: &#34;Why do you need a database?&#34;
+
+It is amazing how in tons of cases a database is not actually needed (specialy when it is possible to pre-generate all pages programmatically).
+
+In fact Hugo is using a very efficient and scalable database and cache: The file system :)
+
+I really like the pattern of using the file system as a database, specially when combined with git for deployment.
+
+Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
+
+I use Hugo a lot these days, in all sort of internal and external sites, and after using (and developing) all sorts of CMS (Content Management Systems), I have to say that it provides me a spectacular and highly-productive content creation/editing workflow.
+
+This book for example has a companion websites that is created using Hugo, and I&#39;ve created a number of extra pages that help to improve my productivity (for example search and print pages)
+
+
+        
+
+## Machine Learning and AI
+One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
+
+This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) kinda scenario where an super-intelligence [singularity](https://en.wikipedia.org/wiki/Technological_singularity) is going to take over the world and destroy humanity.
+
+This is about the next major revolution in technology and whether you are going to be a player or a pawn in what is happening next.
+
+I highly recomend that you read Kevin Kelly&#39;s [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089) book where he provides a really clean mapping of what (most likely) will happen next.
+
+One area that Kevin talks in detail and you can already see it happening around us is the introduction of AI capabilities in all sort of devices and business activities.
+
+This is where you need to take a proactive approach and start learning about how all this works and how to program it.
+
+The great news is that in the last couple years the major cloud providers have been investing really hard on these technologies and are now providing environments where you can easily play around and learn how machine learning and AI works
+
+See for example all the different tools and technolgies that AWS is already offering in the [machine learning](https://aws.amazon.com/machine-learning/) space (Microsoft is also providing some really cool capabilities on [Azure](https://azure.microsoft.com/en-gb/overview/machine-learning/))
+
+As a developer, you will be soon be asked to write code that integrates with Machine Learning technology to process large amounts of data or to integrate an app with AI services like voice, image recognition or domain-specific analysis (for example in medicine)
+
+**Where are we going**
+
+For a nice view of what could be happening next see
+  - [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/)
+  - [Homo Deus: A Brief History of Tomorrow](https://www.amazon.co.uk/Homo-Deus-Brief-History-Tomorrow/dp/1910701874)
+  - [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
+
+
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+
+# Life Patterns
+....
 
 
 
-true
+
+        
+        
+
+## Learning
+Do you know how to learn?
+
+Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school and life. This is ironic, since usually very little time is spent at school and life in learning out to learn.
+
+Learning is like a muscle, the more you do it, the better your become. And just like in sports, there are specific techniques that you can use to learn more efficiently.
+
+As a developer if you are not passionate about learning, you are on the wrong job!
+
+It is not about learning one Language or Framework. You need to learn 10&#43; languages and be on a constant learning curve. Each language will tech you something new (don&#39;t worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
+
+It is about learning new paradigms, about interconnecting your skills. What you learn in one domain, will be applicable in another. For example, being a better musician, artist, athlete, car mechanic or philosopher will make you a better developer
+
+Application Security (AppSec) will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn). AppSec focus on how &#39;it&#39; really works, now just how it behaves as a black box.
+
+The reality is that we are in age of the &#39;professional amateur&#39;, where you very rarely have time to really specialise in a particular language or technology. And when you do specialise, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
+
+What you really need to be worried about is when you stop learning. Ironically this can happen the more you move up the company&#39;s corporate ladder. There is a big trap of management, which pushes highly technical and proficient developers into &#39;management&#39; or &#39;architectural&#39; positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where &#34;employees are promoted to the maximum of their incompetence&#34;).  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and &#39;non learning activities&#39;
+
+My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning. And programming is one of the best ways to do this.
+
+Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
 
 
+        
 
-false
+## Be a founder
+The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
 
+One of the concepts that I really like is the idea that you should _&#34;act like one of the founders of the business&#34;_.
 
+Image you where employee #4 and you really cared deeply about the company you currently are working on!
 
-false
+Ask yourself:
+
+ _**&#34;If I was a founder of the company/department/section I work now, with the responsibilities that I have at the moment: ?&#34;**_
+
+   - _&#34;Wow would I behave everyday?&#34;_
+   - _&#34;What needs to be done now, that will make a big difference?&#34;_
+   - _&#34;What can I do that will help?&#34;_
+   - _&#34;What would I do differently?&#34;
+   - _&#34;What values and principles would I fight for?&#34;_
+
+Hopefully you will get some interesting ideas and actions (from this mental exercise)
+
+The question now is: &#34;_what is stopping you from doing just that?&#34;_
+
+How is telling you &#34;Don&#39;t do it&#34;?
+
+At the moment it is just you!
+
+You can even do this for companies that don&#39;t employ you. You can contribute to their open source projects, you can write blog posts about them (and use twitter to reach out to key individuals)
+
+You can choose to care about the team that you are currently in, and the work that needs to be done.
+
+The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
+
+        
+    
+
+    
+
+    
+
+    
+
+    
 
 
 
