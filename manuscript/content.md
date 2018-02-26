@@ -436,7 +436,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 
     
 
-## WallabyJS and NodeJS
+## WallabyJS
 
 ...
 
@@ -450,15 +450,14 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
      - ability to see the code coverage in real-time
      - ability to easily just run one test
          - which with the real-time coverage, provides a much better way to debug that the normal &#39;debug/breakpoint model&#39;
+     - ability to run all the tests impacted by an code change (blast radious of code changes)
 
- - why NodeJS took the world by storm
- - the power of async code
- - generating 20k requests with a couple lines of code
- - coding at the speed of thought (and type)
- - node history (based on chrome&#39;s V8)
- - the node forking incident (io.js)
-    - why it was so important
-    - why java could had done with a fork like that
+ - the power of sub-second execution
+    - when tests require more than 1 sec to run, there is some problem somewhere
+    - only full end-to-end test should take that long
+    - power of &#39;surrogate dependencies&#39; (link to presentation)
+ - we need similar capabilities for cloud infrasture
+ - add ideas from Bret Victor&#39;s [Inventing on principle](https://vimeo.com/36579366) presentation (name the need for inventors to be close to what they create and have quick feedback)
 
 
     
@@ -490,6 +489,8 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
  - what makes google algorithm work
  - show how google tracks all clicks (why you can&#39;t just copy an google&#39;s url)
 
+ - Google move to graphs (see what happens when you search for a movie)
+
 
     
 
@@ -505,7 +506,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
     - git was created to manage the linux code development
  - you need to learn it, how to install kernel drivers, how to hack it, how to rebuilt it
  - power of raspberry pi is that it gives you a linux environment for you to play with
- - Mac is linux under the hood (same heritage)
+ - Mac is &#39;just about&#39; linux under the hood (same heritage), but with a better UI and integrations
 
 
 
@@ -522,6 +523,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
     - https://www.makeuseof.com/tag/raspberry-pi-creditcard-sized-arm-computer-25/
  - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
  - connected to maker movement and IOT world
+ - article [Raspberry Pi device will &#39;reboot computing in schools&#39;](https://www.theguardian.com/education/2012/jan/09/raspberry-pi-computer-revolutionise-computing-schools)
 
 
     
@@ -904,12 +906,97 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
 
     
+
+## Node JS
+
+...
+
+**Topics to cover and ideas**
+
+ - why NodeJS took the world by storm
+ - the power of async code
+ - generating 20k requests with a couple lines of code
+ - coding at the speed of thought (and type)
+ - node history (based on chrome&#39;s V8)
+ - the node forking incident (io.js)
+    - why it was so important
+    - why java could had done with a fork like that
+
+
+    
     
 
 # Concepts
 
 
     
+
+    
+
+## BDD (Behaviour-Driven Development)
+
+**Topics to cover and ideas**
+
+ - what is it
+ - great evolution
+ - where is works
+    - when it works well it is amazing
+ - great connection with business
+ - can create bit white elaphants (like like Selenium)
+    - requires quite a lot of discipline and investment to keep up to date
+
+ - explain Gherkin language
+
+
+
+    
+
+## TDD (Test-Driven Development)
+
+**Topics to cover and ideas**
+
+ - the most coverage you get, the more changes you are happy to make, the better the code is because you have the confidence to make the hundreds of small changes that the only way to create a high quality and scalable application
+ - be a craftsman
+ - explain history
+ - key challenges
+ - why the TDD community created dogma and lost the plot
+ - if you don&#39;t have 100% code coverage, what are those bits of code not covered by tests? (what happens if that code changes)
+ - everything should be tested
+    - history of a site that went down for hours because of a one char (pipe) change in a nginx config file
+
+
+ ** bugs as features**
+
+  - replicate bugs first (before trying to fix them)
+  - link my slideshare presentation on this topic
+
+
+
+    
+
+## FDD (Feedback-Driven Development)
+
+**Topics to cover and ideas**
+
+ - real-time feedback in IDE (REPLs)
+    - this is key to learn
+    - run code as you lift your fingers or press save
+ - show screenshot of my typical dev environment
+ - wallabyjs
+    - great example of what this UI needs to be
+    - incredible how it has not be copied into all IDEs (as far as I can tell only NCrunch has the same features)
+ - all code changes (except refactoring) should require a test change
+    - see http://pitest.org/
+    - see chaos engineering
+ - every developer does tests all time
+    - the question is how repeatable, scalable, mesuable those tests are
+    - and how much context switching occurs
+
+ - the FDD applies to much more than just coding (see chapter on &#34;Inventing on Principle&#34;) it is also related to how we learn
+
+  - Power of Feedback loops
+
+
 
     
 
@@ -1056,32 +1143,6 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
     
 
-## FDD (Feedback-Driven Development)
-
-**Topics to cover and ideas**
-
- - real-time feedback in IDE (REPLs)
-    - this is key to learn
-    - run code as you lift your fingers or press save
- - show screenshot of my typical dev environment
- - wallabyjs
-    - great example of what this UI needs to be
-    - incredible how it has not be copied into all IDEs (as far as I can tell only NCrunch has the same features)
- - all code changes (except refactoring) should require a test change
-    - see http://pitest.org/
-    - see chaos engineering
- - every developer does tests all time
-    - the question is how repeatable, scalable, mesuable those tests are
-    - and how much context switching occurs
-
- - the FDD applies to much more than just coding (see chapter on &#34;Inventing on Principle&#34;) it is also related to how we learn
-
-  - Power of Feedback loops
-
-
-
-    
-
 ## Facts
 
 ...
@@ -1107,13 +1168,20 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
 ...
 
----
-
 **Topics to cover and ideas**
 
  - explain how it works and the power of it
  - examples in Node
  - dangers of creating hard to read and debug code
+    - I&#39;ve seen cases where code exists that nobody really understands how it works (in Scala environments)
+        - this is a security risk
+        - developers though they were the problem (problem was function that was too complex)
+        - it is not because you can that you should
+        - code readability and maintainability (by the ones that have to maintain the code, not by the one who wrote it) is a big factor in the quality, value and risk of a piece of code
+        - another situation is the ability to not create a full list of urls/endpoints (when function programming is used for handling web-requests)
+ - when functions are objects
+ - that said, when funtional programing is well used it can produce code that is super elegant and efficient
+
 
 
     
@@ -1130,13 +1198,21 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
     
 
-## Gamifilcation
+## Gamification
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+- Game Theory
+ - add Ted talk on it
+ - You (Gen Z) see this everyday in your digital interactions (the badges, the nudgets, the rewards, the streaks)
+    - you are being manipulated into being hooked into the apps your used
+    - you are the product, not the client
+    - there are teams that their job is to find more ways to hook you (and your time) into their platform
+        - supported by lots of Science and Research (into how we consciously and unconsciously behave)
+    - understand when you are being played (or brains are not designed to control the stimulus we receive)
+ - the power of nudges and FOMO (Fear Of Missing Out)
+ - that said, as a developer this is a really powerful skil to have
+    - when developing gamification systems quick feedback loops are critcal
 
- - Game Theory
 
-{{% /panel %}}
 
 
     
@@ -1157,8 +1233,6 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
 ## Karma Points
 
----
-
 **Topics to cover and ideas**
 
  - &#34;Luck is when oportunity meets the prepared&#34;
@@ -1173,7 +1247,6 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
 ...
 
----
 
 **Topics to cover and ideas**
 
@@ -1181,7 +1254,7 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
  - The code you are writing today will be legacy tomorrow
  - SecDevOps Legacy - and the opportunity of legacy applications (and why it might be a good idea to work on them)
     - best features: &#34;no new features&#34;, &#34;very low expectations of changes&#34;, &#34;changes are supposed to be hard&#34;, &#34;lots of low-hanging-fruit for refactoring&#34;
-
+    - add link and references to this presentation
 
 
     
@@ -1274,30 +1347,6 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
-## TDD (Test-Driven Development)
-
-**Topics to cover and ideas**
-
- - the most coverage you get, the more changes you are happy to make, the better the code is because you have the confidence to make the hundreds of small changes that the only way to create a high quality and scalable application
- - be a craftsman
- - explain history
- - key challenges
- - why the TDD community created dogma and lost the plot
- - if you don&#39;t have 100% code coverage, what are those bits of code not covered by tests? (what happens if that code changes)
- - everything should be tested
-    - history of a site that went down for hours because of a one char (pipe) change in a nginx config file
- - explain BDD and Gherkin language
-
-
- ** bugs as features**
-
-  - replicate bugs first (before trying to fix them)
-  - link my slideshare presentation on this topic
-
-
-
-    
-
 ## graphs
 
 ...
@@ -1317,22 +1366,49 @@ The best companies are (or will be) following these concepts, not because its &#
 
     
 
+## 
+
+**Topics to cover and ideas**
+
+ - What is your personal brand
+ - What is your online avatar (how do you want people to think about you)
+ - How can you be found
+ - Who are you
+ - What do you represent
+ - What is your voice
+ - Follow up (remember how busy the others are, so keep following up)
+ - how can you be found
+ - SEO optimise your name and your published research
+
+ - use GA and Google Data Studio
+    - Data analytics
+ - get a domain name for your blog or site
+    - host a hugo based site on S3 buckets (add https)
+
+
+
+    
+
 ## Blogs
 
 **Topics to cover and ideas**
 
  - Workpress, medium, Blogger
  - find your voice
- - hard part are the first 50
+ - hard part are the first 50 blog posts
  - it is really hard to write
  - view it as an exercise
  - any feedback is healthy
- - amazing feeling when one post gain traction (and it referenced in sites like redit&#39;
+ - amazing feeling when one post gain traction (and it referenced in sites like redit)
  - comments are gold (get rid of any kind of spam or link-bait in comments)
- - use you blog to ask questions (with data behind your question and the paths you have tried)
+ - use your blog to ask questions (with data behind your question and the paths you have tried)
+    - don&#39;t worry about how rusty and rough they are, what matter is that you have started to publish
+    - it is your blog and you are learning
  - write about things you are doing on the day-to-day. explain your path and personal stories about making it to work
  - write for your future self
- - key concept: &#34;answer questions made to you with a blog&#34; (great way to write good/relevant content and scale your time (specially important when you get asked the same question by multiple people/coleagues))
+ - key concept: &#34;answer questions made to you with a blog&#34; (great way to write good/relevant content and scale your time (specially important when you get asked the same question by multiple people/colleagues))
+    - i.e. when somebody asks you a question, write a blog post with the answer and send them the link to it
+
  - Blog titles are very important (since they help with SEO a lot)
 
 
@@ -1352,12 +1428,16 @@ The best companies are (or will be) following these concepts, not because its &#
  - this is why you want to share
  - example of how I use it (twitter case study)
 
+  - use twitter as your personal search engine. Here is a perfect example that happened with me when writing this book:
+     - ![image](https://user-images.githubusercontent.com/656739/36400279-e5819cb2-15c7-11e8-8711-9d533996845b.png)
+     - ![image](https://user-images.githubusercontent.com/656739/36400273-db703030-15c7-11e8-8acd-d78bcc3e2301.png)
+
 
     
 
 ## Git
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - git history: &#34;Here is how it all started...&#34;
     - what git means in the UK and in the US
@@ -1381,15 +1461,16 @@ The best companies are (or will be) following these concepts, not because its &#
  - why forks and branching are so easy and fast in git (just a pointer)
  - graph based structure/database
  - in git the files don&#39;t exist on disk (the paths are dynamically generated based on the git graph)
+        - &#34;Git is fundamentally a content-addressable filesystem with a VCS user interface written on top of it&#34; (https://git-scm.com/book/en/v1/Git-Internals)
     - this is why branching is so fast (no need to copy files to the file system)
-    - best way to learn this is to clone a repo with lots of files and versions, and just checkout different branches (each with a different file structure). What is impressive in this example is how we can see major directories changes in seconds (i.e. with each branch checkout))
+    - best way to learn this is to clone a repo with lots of files and versions, and just checkout different branches (each with a different file structure). What is impressive in this example is how we can see major directories changing in seconds in front of us (i.e. with each branch checkout)
  - explain why git cannot store empty folders
  - by now (2018) we should have git based file systems
  - git is also great for site deployment
     - explain pattern of having a special web method that listen for github webhooks and triggers a pull (updating the site in seconds)
     - git deployment also works great for binaries (for example we one setup an git deployment workflow for .Net binaries). Upgrades and rollbacks become a simple fact of doing a git checkout
+ - use Git everyday
 
-{{% /panel %}}
 
 
     
@@ -1412,6 +1493,7 @@ The best companies are (or will be) following these concepts, not because its &#
     - number of people/projects using your tools ia validation of your skills (much better than LinkedIn recommentation system)
   - you should have a long tail of projects and forks (altough beware of the polution caused by forks that you don&#39;t contribute to). Keep this curated, since after all it is your research playground
   - Github Bug Bounty programme (Gamification)
+  - use Github commit dashboard (a box for everyday that you did a commit) as a way to check &#39;how am I doing&#39; (since you don&#39;t want to see big periods with no commits (warning: don&#39;t go over the top and try to have a commit EVERY day, sometimes it is good to rest and not commit anything)
 
 
 
@@ -1420,7 +1502,7 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ## LinkedIn
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Your cv
  - connect to people so that you can reach them
@@ -1431,38 +1513,11 @@ The best companies are (or will be) following these concepts, not because its &#
  - low signal/noise ration (and they have a really bad email/messaging system)
 
 
-{{% /panel %}}
-
-
-    
-
-## Personal Brand
-
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - What is your personal brand
- - What is your online avatar (how do you want people to think about you)
- - How can you be found
- - Who are you
- - What do you represent
- - What is your voice
- - Follow up (remember how busy the others are, so keep following up)
- - how can you be found
- - SEO optimise your name and your published research
-
- - use GA and Google Data Studio
-    - Data analytics
- - get a domain name for your blog or site
-    - host a hugo based site on S3 buckets (add https)
-
-{{% /panel %}}
-
-
     
 
 ## Upwork
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - what is it
  - how it works
@@ -1475,16 +1530,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - make good ecoconmic decisions (who is faster and more cost effective to do particular task)
     - delegating to a freelancer is really hard (and one that you need to learn)
 
-{{% /panel %}}
-
 
     
 
 ## leanpub
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
-
- - reference leanpub manifest
+- reference leanpub manifest
  - more than just a website
  - great culture
  - use it to publish your books
@@ -1496,16 +1547,15 @@ The best companies are (or will be) following these concepts, not because its &#
     b) lots more readers: and a significant percentage is not paying
  - publish early and often
     - email readers on new versions
- - ability to get a print-ready pdf (who can be used to print on amazon
-
-{{% /panel %}}
+ - ability to get a print-ready pdf (who can be used to print on amazon.com or amazon.co.uk)
+    - there are print on demand books, with no cost to you
 
 
     
 
 ## twitter
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Use it only for your carrer (no personal, tweets)
  - Tweet for your future self
@@ -1513,10 +1563,7 @@ The best companies are (or will be) following these concepts, not because its &#
  - Create connections with professionals
  - &#39;...you will be amazed how approachable some of the most knowledgeable professionals are&#39;
 
-
- - use twitter as your personal search engine. Here is a perfect example that happened with me when writing this book:
-    - ![image](https://user-images.githubusercontent.com/656739/36400279-e5819cb2-15c7-11e8-8711-9d533996845b.png)
-    - ![image](https://user-images.githubusercontent.com/656739/36400273-db703030-15c7-11e8-8acd-d78bcc3e2301.png)
+ - see future self chapter for an example of me using twitter as my personal search engine
 
 
     
@@ -1565,7 +1612,6 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ...
 
----
 
 **Topics to cover and ideas**
 
@@ -1618,13 +1664,14 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ## Security creates better developers
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
+
 
  - Security requires to go deep
  - to really understand what is going on
  - promotes a &#39;problem solving&#39; and &#39;pragmatic&#39; approach that is very useful in development
 
-{{% /panel %}}
+
 
 
     
@@ -1633,7 +1680,6 @@ The best companies are (or will be) following these concepts, not because its &#
 
 ...
 
----
 
 **Topics to cover and ideas**
 
@@ -1642,6 +1688,7 @@ The best companies are (or will be) following these concepts, not because its &#
  - Strings are 4Gb monsters
  - What happens is some fields are given 100k of data (what is the impact on the back end
  - Each layer needs to validate all data that it receives and consumes
+ - add link to John W article
 
 
     
@@ -1654,6 +1701,69 @@ The best companies are (or will be) following these concepts, not because its &#
 
 
     
+
+    
+
+## Learning
+
+Do you know how to learn?
+
+Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school and life. This is ironic, since usually very little time is spent at school and life in learning out to learn.
+
+Learning is like a muscle, the more you do it, the better your become. And just like in sports, there are specific techniques that you can use to learn more efficiently.
+
+As a developer if you are not passionate about learning, you are on the wrong job!
+
+It is not about learning one Language or Framework. You need to learn 10&#43; languages and be on a constant learning curve. Each language will tech you something new (don&#39;t worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
+
+It is about learning new paradigms, about interconnecting your skills. What you learn in one domain, will be applicable in another. For example, being a better musician, artist, athlete, car mechanic or philosopher will make you a better developer
+
+Application Security (AppSec) will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn). AppSec focus on how &#39;it&#39; really works, now just how it behaves as a black box.
+
+The reality is that we are in age of the &#39;professional amateur&#39;, where you very rarely have time to really specialise in a particular language or technology. And when you do specialise, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
+
+What you really need to be worried about is when you stop learning. Ironically this can happen the more you move up the company&#39;s corporate ladder. There is a big trap of management, which pushes highly technical and proficient developers into &#39;management&#39; or &#39;architectural&#39; positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where &#34;employees are promoted to the maximum of their incompetence&#34;).  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and &#39;non learning activities&#39;
+
+My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning. And programming is one of the best ways to do this.
+
+Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
+
+
+
+    
+
+## Be a founder
+
+The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
+
+One of the concepts that I really like is the idea that you should _&#34;act like one of the founders of the business&#34;_.
+
+Image you where employee #4 and you really cared deeply about the company you currently are working on!
+
+Ask yourself:
+
+ _**&#34;If I was a founder of the company/department/section I work now, with the responsibilities that I have at the moment: ?&#34;**_
+
+   - _&#34;Wow would I behave everyday?&#34;_
+   - _&#34;What needs to be done now, that will make a big difference?&#34;_
+   - _&#34;What can I do that will help?&#34;_
+   - _&#34;What would I do differently?&#34;
+   - _&#34;What values and principles would I fight for?&#34;_
+
+Hopefully you will get some interesting ideas and actions (from this mental exercise)
+
+The question now is: &#34;_what is stopping you from doing just that?&#34;_
+
+How is telling you &#34;Don&#39;t do it&#34;?
+
+At the moment it is just you!
+
+You can even do this for companies that don&#39;t employ you. You can contribute to their open source projects, you can write blog posts about them (and use twitter to reach out to key individuals)
+
+You can choose to care about the team that you are currently in, and the work that needs to be done.
+
+The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
+
 
     
 
@@ -1675,32 +1785,6 @@ The best companies are (or will be) following these concepts, not because its &#
     - these are really important concepts to understand
 
 
-
-
-    
-
-## Be a founder
-
-The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
-
-One of the concepts that I really like is the idea that you should _&#34;act like one of the founders of the business&#34;_.
-
-Image you where employee #4 and you really cared deeply about the company you currently are working on!
-
-Ask yourself
- - _&#34;If I was a founder of a company/department/section with the responsibilities that I have at the moment, how would I behave?&#34;_
- - _&#34;What needs to be done that will make a big difference&#34;_
- - _&#34;What can I do that will help&#34;_
-
-Hopefully you will get some interesting ideas and actions (from this mental exercise)
-
-The question now is: &#34;_what is stopping you from doing just that?&#34;_
-
-How is telling you &#34;Don&#39;t do it&#34;?
-
-You can choose to care about the team that you are currently in, and the work that needs to be done.
-
-The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
 
 
     
@@ -1733,6 +1817,8 @@ The irony is that the more you care and the more you behave like a founder, the 
  - (find video of Steve Jobs and Jonny Ive talking about ideas)
  - http://www.businessinsider.com/steve-jobs-ideas-2014-3?IR=T
  - the more ideas you generate the more ideas you will have. Capture them on books, create hyperlinked connections between them
+ - in my mind, ideas are like little fairies (which are fragile and precious and need to be protected/nurtured).
+    - every time an idea is not captured and hyperlinked, it is like a killing one of those fairies (since in most cases those ideas will be lost forever)
 
 
     
@@ -1741,9 +1827,17 @@ The irony is that the more you care and the more you behave like a founder, the 
 
 _Impostor syndrome (also known as impostor phenomenon, fraud syndrome or the impostor experience) is a concept describing individuals who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a &#34;fraud&#34;._ [wikipedia](https://en.wikipedia.org/wiki/Impostor_syndrome)
 
-This happens all the time and can be very damaging to your career.
+This happens all the time to a lot of people, and can be very damaging to your career.
 
 You really need to understand that everybody as doubts about their capacities and everybody makes mistakes. Your value is on your ability to execute and it is key that you learn to share what you do and be confortable with what you create.
+
+
+**Topics to cover and ideas**
+
+ - find post about what can happen (quickly) after Impostor Syndrome
+    - Fraudster Syndrome (or something similar)
+        - &#34;I&#39;m past it&#34;
+        - &#34;it was a good run, but now I can&#39;t do it anymore&#34;
 
 
     
@@ -1784,37 +1878,9 @@ You really need to understand that everybody as doubts about their capacities an
 
     
 
-## Learning
-
-Do you know how to learn?
-
-Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school. This is ironic, since usually very little time is spent at school in learning out to learn.
-
-Learning is like a muscle, the more you do it, the better your become. And just like in sports, there are specific techniques that you can use to learn more efficiently.
-
-As a developer if you are not passionate about learning, you are on the wrong job!
-
-It is not about learning one Language or Framework. You need to learn 10&#43; languages and be on a constant learning curve. Each language will tech you something new (don&#39;t worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
-
-Application Security will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn)
-
-The reality is that we are in age of the &#39;professional amateur&#39;, where you very rarely have time to really specialise in a particular language or technology. And when you do specialise, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
-
-What you really need to be worried about is when you stop learning. Ironically this can happen the more you move up the company&#39;s corporate ladder. There is a big trap of management promotions, which pushes highly technical and proficient developers into &#39;management&#39; or &#39;architectural&#39; positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where &#34;employees are promoted to the maximum of their incompetence&#34;).  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and &#39;non learning activities&#39;
-
-My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning.
-
-Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
-
-
-
-    
-
 ## Mentors
 
 ...
-
----
 
 **Topics to cover and ideas**
 
@@ -1822,6 +1888,12 @@ Ideally this learning environment will be part of your job. If not, then evening
  - you will be surprised by how approachable they are
     - if you have the right attitude, the mentors will see themselves in you (which is why most have a soft spot to help)
  - Books and publications are great mentors
+ - use the ones that you can physically or digially reach
+ - push your company or school to create mentor network (based on Slack for example)
+    - this is what we did at Photobox Group Security
+
+ - [What 5,000 Gen Z’ers Tell Us About the Future of Work](https://medium.com/@doorofclubs/what-5-000-gen-zers-tell-us-about-the-future-of-work-6dd00f796e8f) - see reference on importance of mentoring
+
 
 
     
@@ -1895,11 +1967,10 @@ Ideally this learning environment will be part of your job. If not, then evening
 
 ## Thinking as programmer
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - Elon Musk &#34;cost of rocket&#39;s atoms&#34;
 
-{{% /panel %}}
 
 
     
@@ -1947,7 +2018,6 @@ Misc topics that need to be moved into a chapter
 ## Generation Z Research
 
 **articles**
- - [What 5,000 Gen Z’ers Tell Us About the Future of Work](https://medium.com/@doorofclubs/what-5-000-gen-zers-tell-us-about-the-future-of-work-6dd00f796e8f) - see reference on importance of mentoring 
  - [Why Generation Z will change the world](https://medium.com/@fluidui/why-generation-z-will-change-the-world-18b400268fa8)
  -[If you’re over 25, you’re probably wrong about Generation Z. They’re the best crop of teenagers America has ever produced.](https://medium.com/@jelenawoehr/if-youre-over-25-you-re-probably-wrong-about-generation-z-39f479df069d)
  
