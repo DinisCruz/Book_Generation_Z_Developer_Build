@@ -511,6 +511,7 @@ The irony is that the more you care and the more you behave like a founder, the 
         
 
             
+                
 ## Creative Commons
 
 https://en.wikipedia.org/wiki/Creative_Commons
@@ -535,10 +536,12 @@ _These licenses allow creators to communicate which rights they reserve, and whi
             - this is easy when you have a good vision of the journey ahead.
 
 
+                
             
         
 
             
+                
 ## Open Source
 
 - explain key concepts
@@ -604,10 +607,12 @@ _These licenses allow creators to communicate which rights they reserve, and whi
      - Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
 
 
+                
             
         
 
             
+                
 ## CPU
 
 **Topics to cover and ideas**
@@ -630,10 +635,12 @@ _These licenses allow creators to communicate which rights they reserve, and whi
  - Great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
 
 
+                
             
         
 
             
+                
 ## Copyright
 
 ...
@@ -650,10 +657,12 @@ _These licenses allow creators to communicate which rights they reserve, and whi
  - Music and its relationship with copyright
     - what happens when the cost of distribution goes to zero
     - customers will still buy (if the product and distribution is right)
+                
             
         
 
             
+                
 ## EFF
 
 EFF (Electronic Frontier Foundation)
@@ -670,10 +679,12 @@ EFF (Electronic Frontier Foundation)
     - ones they won and lost
 
 
+                
             
         
 
             
+                
 ## Free Sofware Foundation
 
 ...
@@ -690,10 +701,12 @@ EFF (Electronic Frontier Foundation)
  - inevitability of Open Source
     - even Microsoft does open source these days (they were the ones that called open source &#39;cancer)&#39;
 
+                
             
         
 
             
+                
 ## OWASP
 
 Part of building you brand and carrer is the participation in Open Source community groups like OWASP
@@ -716,10 +729,12 @@ OWASP (the Open Web Application Security Project) is a world wide organisation t
    - Top 10
    - mobile testing guide
 
+                
             
         
 
             
+                
 ## Python
 
 ...
@@ -737,10 +752,12 @@ OWASP (the Open Web Application Security Project) is a world wide organisation t
         - http://neopythonic.blogspot.co.uk/2016/04/kings-day-speech.html
 
  - make reference to other languages like NodeJs
+                
             
         
 
             
+                
 ## Slack
 
 Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, Phone, Smoke Signals, etc...)
@@ -752,10 +769,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
  - Integrations
  - Copy and paste of images
 
+                
             
         
 
             
+                
 ## WallabyJS
 
 ...
@@ -778,10 +797,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
     - power of &#39;surrogate dependencies&#39; (link to presentation)
  - we need similar capabilities for cloud infrasture
  - add ideas from Bret Victor&#39;s [Inventing on principle](https://vimeo.com/36579366) presentation (name the need for inventors to be close to what they create and have quick feedback)
+                
             
         
 
             
+                
 ## XCode
 
 ...
@@ -789,10 +810,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 **Topics to cover and ideas**
 
  - Write your own mobile app today (now easy with Swift)
+                
             
         
 
             
+                
 ## google
 
 ...
@@ -810,10 +833,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
  - show how google tracks all clicks (why you can&#39;t just copy an google&#39;s url)
 
  - Google move to graphs (see what happens when you search for a movie)
+                
             
         
 
             
+                
 ## linux
 
 **Topics to cover and ideas**
@@ -830,10 +855,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
 
 
 
+                
             
         
 
             
+                
 ## raspberry-pi
 
 **Topics to cover and ideas**
@@ -844,6 +871,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
  - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
  - connected to maker movement and IOT world
  - article [Raspberry Pi device will &#39;reboot computing in schools&#39;](https://www.theguardian.com/education/2012/jan/09/raspberry-pi-computer-revolutionise-computing-schools)
+                
             
         
     
@@ -856,6 +884,7 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
         
 
             
+                
 ## AST (Abstract Syntax Tree)
 
 ...
@@ -878,10 +907,12 @@ Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger
     - for example for AWS lambdas and how they behave
 
 
+                
             
         
 
             
+                
 ## AWS
 
 AWS is Amazon&#39;s Cloud offering and is spectacular success story
@@ -916,10 +947,12 @@ AWS is Amazon&#39;s Cloud offering and is spectacular success story
 **The amazon machine**
  - how amazon become one of the best development houses in the world
  - https://www.ben-evans.com/benedictevans/2017/12/12/the-amazon-machine (great article that talks about the Amazon machine, which is the real power behind it)
+                
             
         
 
             
+                
 ## DSL
 
 DSL (Domain Specific Language)
@@ -936,10 +969,12 @@ DSL (Domain Specific Language)
    - why support for static compilation and code complete is very important (groovy and javascript problem)
  - refactor the code to make it aligned with the bsuiness functions it is execution
 
+                
             
         
 
             
+                
 ## Dopamine
 
 [![](/images/dopamine.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dopamine.svg/220px-Dopamine.svg.png)
@@ -964,10 +999,12 @@ Do you know what Dopamine is? Do you know why mobile phone notifications are so 
  - the problem is that these dopamine interruptions make you lose context (and lose the &#39;zone&#39;)
 
 Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psychologytoday.com/blog/brain-wise/201209/why-were-all-addicted-texts-twitter-and-google)
+                
             
         
 
             
+                
 ## Dot Language
 
 ...
@@ -979,10 +1016,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - Why visio and other diagram tools don&#39;t scale
  - the fact that you can&#39;t control the diagram layout (in the same way you do in visio) is actually a major feature
 
+                
             
         
 
             
+                
 ## IOT (Internet of Things)
 
 ...
@@ -1013,10 +1052,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
     - get an arduino (or raspberry pi) and create your own IoT appliance for your home ( this is a great story to go on your CV)
 
 
+                
             
         
 
             
+                
 ## Node JS
 
 ...
@@ -1031,6 +1072,7 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - the node forking incident (io.js)
     - why it was so important
     - why java could had done with a fork like that
+                
             
         
     
@@ -1043,6 +1085,7 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
         
 
             
+                
 ## BDD (Behaviour-Driven Development)
 
 **Topics to cover and ideas**
@@ -1057,10 +1100,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
  - explain Gherkin language
 
+                
             
         
 
             
+                
 ## TDD (Test-Driven Development)
 
 **Topics to cover and ideas**
@@ -1080,10 +1125,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
   - replicate bugs first (before trying to fix them)
   - link my slideshare presentation on this topic
 
+                
             
         
 
             
+                
 ## FDD (Feedback-Driven Development)
 
 **Topics to cover and ideas**
@@ -1106,6 +1153,7 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
   - Power of Feedback loops
 
+                
             
         
 
@@ -1113,6 +1161,7 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
         
 
             
+                
 ## Agile and Kanban
 
 **Topics to cover and ideas**
@@ -1140,10 +1189,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
+                
             
         
 
             
+                
 ## CV Testing
 
 ...
@@ -1154,10 +1205,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - &#34;config changes can be more dangerous than code changes&#34;
     - find source (quote from [AWS re:Invent 2017: Performing Chaos at Netflix Scale (DEV334)](https://www.youtube.com/watch?v=LaKGx0dAUlo) )
     - the reason this is true is because we don&#39;t test out config changes (at least the same way we test our code)
+                
             
         
 
             
+                
 ## Change
 
 **Topics to cover and ideas**
@@ -1171,10 +1224,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - [Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work and in Your Life](https://www.amazon.co.uk/Who-Moved-My-Cheese-Amazing/dp/0091816971)
  - [Our Iceberg is Melting: Changing and Succeeding Under Any Conditions](https://www.amazon.co.uk/Our-Iceberg-Melting-Succeeding-Conditions/dp/1509830111/)
 
+                
             
         
 
             
+                
 ## Change Engineering
 
 ...
@@ -1183,10 +1238,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
  - what is it
  - see my slideshare presentation
+                
             
         
 
             
+                
 ## Chaos Engineering
 
 **Topics to cover and ideas**
@@ -1214,10 +1271,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - [Chaos engineering paradigm](https://www.codibly.com/2017/05/chaos-engineering-paradigm/)
  - https://github.com/Netflix/chaosmonkey
  - [From resilient to antifragile - Chaos Engineering Primer DevSecCon](https://www.slideshare.net/sbodiu/from-resilient-to-antifragile-chaos-engineering-primer-devseccon)
+                
             
         
 
             
+                
 ## Continuous Integration
 
 **Topics to cover and ideas**
@@ -1236,10 +1295,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
        - Write security tests that execute against site
  - compare with CD (Continuous Delivery)O
 
+                
             
         
 
             
+                
 ## Facts
 
 ...
@@ -1257,10 +1318,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - understand the agenda of who is talking to you
  - don&#39;t trust what is on the media namely when it is selling fear (after all if it is on the media it is because it is rare)
  - FUD (Fear Uncertainty and Doubt) - Used to be used a lot in the technology sector
+                
             
         
 
             
+                
 ## Functional Programming
 
 ...
@@ -1279,10 +1342,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - when functions are objects
  - that said, when funtional programing is well used it can produce code that is super elegant and efficient
 
+                
             
         
 
             
+                
 ## GDPR
 
 **Topics to cover and ideas**
@@ -1291,10 +1356,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - History of privacy
     - [The Right to Curate an Identity](https://pbx-group-security.com/blog/2017/12/04/the-right-to-curate-an-identity/)
 
+                
             
         
 
             
+                
 ## Gamification
 
 - Game Theory
@@ -1310,10 +1377,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
     - when developing gamification systems quick feedback loops are critcal
 
 
+                
             
         
 
             
+                
 ## Inventing on Principle
 
 ...
@@ -1324,10 +1393,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
  - Bret Victor&#39;s inventing on principle (https://vimeo.com/36579366)
  - (add transcription reference) &lt;- print this and read it
+                
             
         
 
             
+                
 ## Karma Points
 
 **Topics to cover and ideas**
@@ -1336,10 +1407,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - &#34;make their day&#34; - do this for everybody you work with a collaborate
  - never waste an oportunity to help others, to share knowledge and to create connections
 
+                
             
         
 
             
+                
 ## Legacy Applications
 
 ...
@@ -1352,10 +1425,12 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - SecDevOps Legacy - and the opportunity of legacy applications (and why it might be a good idea to work on them)
     - best features: &#34;no new features&#34;, &#34;very low expectations of changes&#34;, &#34;changes are supposed to be hard&#34;, &#34;lots of low-hanging-fruit for refactoring&#34;
     - add link and references to this presentation
+                
             
         
 
             
+                
 ## Netflix Culture
 
 Read this https://jobs.netflix.com/culture
@@ -1375,10 +1450,12 @@ The best companies are (or will be) following these concepts, not because its &#
 **Topics to cover and ideas**
 
  -
+                
             
         
 
             
+                
 ## Pair Programming
 
 ...
@@ -1396,10 +1473,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - specially important, given the current skills shortage with developers and the companies preference to use an XYZ budget to hire 2x less experienced developers vs 1x more experience developers
 
 
+                
             
         
 
             
+                
 ## Recursive Functions
 
 ...
@@ -1413,10 +1492,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - show dangers
  - the visitor pattern
  - vulnerabilities created by it (find SSL CA vuln presented by moxi at BH)
+                
             
         
 
             
+                
 ## Serverless
 
 ...
@@ -1440,10 +1521,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - when you look at how much process and memory (in aggregate) is actually used in by apps in dev, qa and production, you will see that the amount of waste and over-provisioning is huge (i.e. resources not used)
     - once we add more scalable and dynamic micro-services architectures and applications that are able to &#39;self-degragade&#39; their features based on load (and other factors like security), we will have a very powerful, resilient, available and secure application environment.
 
+                
             
         
 
             
+                
 ## graphs
 
 ...
@@ -1451,6 +1534,7 @@ The best companies are (or will be) following these concepts, not because its &#
 **Topics to cover and ideas**
 
  -
+                
             
         
     
@@ -1466,6 +1550,7 @@ The best companies are (or will be) following these concepts, not because its &#
         
 
             
+                
 ## Blogs
 
 **Topics to cover and ideas**
@@ -1489,10 +1574,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - Blog titles are very important (since they help with SEO a lot)
 
 
+                
             
         
 
             
+                
 ## Future Self
 
 ...
@@ -1508,10 +1595,12 @@ The best companies are (or will be) following these concepts, not because its &#
   - use twitter as your personal search engine. Here is a perfect example that happened with me when writing this book:
      - ![image](https://user-images.githubusercontent.com/656739/36400279-e5819cb2-15c7-11e8-8711-9d533996845b.png)
      - ![image](https://user-images.githubusercontent.com/656739/36400273-db703030-15c7-11e8-8acd-d78bcc3e2301.png)
+                
             
         
 
             
+                
 ## Git
 
 **Topics to cover and ideas**
@@ -1548,10 +1637,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - git deployment also works great for binaries (for example we one setup an git deployment workflow for .Net binaries). Upgrades and rollbacks become a simple fact of doing a git checkout
  - use Git everyday
 
+                
             
         
 
             
+                
 ## Github
 
 **Topics to cover and ideas**
@@ -1573,10 +1664,12 @@ The best companies are (or will be) following these concepts, not because its &#
   - use Github commit dashboard (a box for everyday that you did a commit) as a way to check &#39;how am I doing&#39; (since you don&#39;t want to see big periods with no commits (warning: don&#39;t go over the top and try to have a commit EVERY day, sometimes it is good to rest and not commit anything)
 
 
+                
             
         
 
             
+                
 ## LinkedIn
 
 **Topics to cover and ideas**
@@ -1588,10 +1681,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - Graph database
  - bought by Microsoft
  - low signal/noise ration (and they have a really bad email/messaging system)
+                
             
         
 
             
+                
 ## Upwork
 
 **Topics to cover and ideas**
@@ -1606,10 +1701,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - use upwork to scale up your tasks
     - make good ecoconmic decisions (who is faster and more cost effective to do particular task)
     - delegating to a freelancer is really hard (and one that you need to learn)
+                
             
         
 
             
+                
 ## leanpub
 
 - reference leanpub manifest
@@ -1626,10 +1723,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - email readers on new versions
  - ability to get a print-ready pdf (who can be used to print on amazon.com or amazon.co.uk)
     - there are print on demand books, with no cost to you
+                
             
         
 
             
+                
 ## twitter
 
 **Topics to cover and ideas**
@@ -1641,6 +1740,7 @@ The best companies are (or will be) following these concepts, not because its &#
  - &#39;...you will be amazed how approachable some of the most knowledgeable professionals are&#39;
 
  - see future self chapter for an example of me using twitter as my personal search engine
+                
             
         
     
@@ -1653,6 +1753,7 @@ The best companies are (or will be) following these concepts, not because its &#
         
 
             
+                
 ## 3rd-party-modules
 
 ...
@@ -1681,10 +1782,12 @@ The best companies are (or will be) following these concepts, not because its &#
 
 
 
+                
             
         
 
             
+                
 ## Bug Bounties
 
 ...
@@ -1694,10 +1797,12 @@ The best companies are (or will be) following these concepts, not because its &#
 
  - big business these days
  - talk about history of it
+                
             
         
 
             
+                
 ## Defcon
 
 **Topics to cover and ideas**
@@ -1711,10 +1816,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - &#39;why you should go to defcon&#39;
  -
 
+                
             
         
 
             
+                
 ## Pointers
 
 ...
@@ -1735,10 +1842,12 @@ The best companies are (or will be) following these concepts, not because its &#
         - ASLR (Address space layout randomization)
     - understanding how buffer overflows work will do wonders for your understanding on how memory works
 
+                
             
         
 
             
+                
 ## Security creates better developers
 
 **Topics to cover and ideas**
@@ -1749,10 +1858,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - promotes a &#39;problem solving&#39; and &#39;pragmatic&#39; approach that is very useful in development
 
 
+                
             
         
 
             
+                
 ## Strings should be banned
 
 ...
@@ -1766,6 +1877,7 @@ The best companies are (or will be) following these concepts, not because its &#
  - What happens is some fields are given 100k of data (what is the impact on the back end
  - Each layer needs to validate all data that it receives and consumes
  - add link to John W article
+                
             
         
     
@@ -1778,6 +1890,7 @@ The best companies are (or will be) following these concepts, not because its &#
         
 
             
+                
 ## BBS and Modems
 
 ...
@@ -1796,10 +1909,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - these are really important concepts to understand
 
 
+                
             
         
 
             
+                
 ## Curse of Knowledge
 
 ...
@@ -1812,10 +1927,12 @@ The best companies are (or will be) following these concepts, not because its &#
     - very hard to see and remember what the world/pattern/idea looked like before making the paradigm shift
  - where&#39;s wally story
     - very hard to unsee
+                
             
         
 
             
+                
 ## Ideas
 
 ...
@@ -1830,10 +1947,12 @@ The best companies are (or will be) following these concepts, not because its &#
  - the more ideas you generate the more ideas you will have. Capture them on books, create hyperlinked connections between them
  - in my mind, ideas are like little fairies (which are fragile and precious and need to be protected/nurtured).
     - every time an idea is not captured and hyperlinked, it is like a killing one of those fairies (since in most cases those ideas will be lost forever)
+                
             
         
 
             
+                
 ## Impostor Syndrome
 
 _Impostor syndrome (also known as impostor phenomenon, fraud syndrome or the impostor experience) is a concept describing individuals who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a &#34;fraud&#34;._ [wikipedia](https://en.wikipedia.org/wiki/Impostor_syndrome)
@@ -1849,10 +1968,12 @@ You really need to understand that everybody as doubts about their capacities an
     - Fraudster Syndrome (or something similar)
         - &#34;I&#39;m past it&#34;
         - &#34;it was a good run, but now I can&#39;t do it anymore&#34;
+                
             
         
 
             
+                
 ## Kind is naked
 
 ...
@@ -1869,10 +1990,12 @@ You really need to understand that everybody as doubts about their capacities an
     - &#34;it is not because 99.9% of others don&#39;t do it, that makes it wrong&#34;
  - every major changes in our culture or society started with a small number of &#39;rebels&#39;
  - our industry (IT, development, security) is very receptive and encouraging of different ways of thinking
+                
             
         
 
             
+                
 ## Learn to Hack
 
 ...
@@ -1885,10 +2008,12 @@ You really need to understand that everybody as doubts about their capacities an
  - understand what hacking is and what is its history (and how the media is the one that gave it a bad name)
  - great OWASP resources (WebGoat, JuiceShop, Testing Guides)
  - in order to write secure code you need to understand how to exploit it
+                
             
         
 
             
+                
 ## Mentors
 
 ...
@@ -1905,10 +2030,12 @@ You really need to understand that everybody as doubts about their capacities an
 
  - [What 5,000 Gen Z’ers Tell Us About the Future of Work](https://medium.com/@doorofclubs/what-5-000-gen-zers-tell-us-about-the-future-of-work-6dd00f796e8f) - see reference on importance of mentoring
 
+                
             
         
 
             
+                
 ## Publish, Publish Publish
 
 ...
@@ -1920,10 +2047,12 @@ You really need to understand that everybody as doubts about their capacities an
  - why is important to publish all the time
  - graph that shows how great minds and artists publish a lot (the frequency of publishing is one the best indications of talent)
  - story of how this book is being written and how as soon as I had some content (20% done) I published it on Leanpub
+                
             
         
 
             
+                
 ## Refactoring
 
 {{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
@@ -1934,10 +2063,12 @@ You really need to understand that everybody as doubts about their capacities an
 
 
 
+                
             
         
 
             
+                
 ## Start with Why
 
 ...
@@ -1949,10 +2080,12 @@ You really need to understand that everybody as doubts about their capacities an
     - How
     - What
  - point is not to challenge everything, but to understand why things happen, or why we are doing something
+                
             
         
 
             
+                
 ## The Zone
 
 **Topics to cover and ideas**
@@ -1972,20 +2105,24 @@ You really need to understand that everybody as doubts about their capacities an
  - there are ways to try to get into the Zone (professional athletes and musicians do it all the time)
 
 
+                
             
         
 
             
+                
 ## Thinking as programmer
 
 **Topics to cover and ideas**
 
  - Elon Musk &#34;cost of rocket&#39;s atoms&#34;
 
+                
             
         
 
             
+                
 ## Workflows
 
 ...
@@ -2004,6 +2141,7 @@ You really need to understand that everybody as doubts about their capacities an
  - explain workflow I&#39;m using when writing this book
     - for example print, make notes, digitalise notes, repeat
 
+                
             
         
     
@@ -2016,13 +2154,16 @@ You really need to understand that everybody as doubts about their capacities an
         
 
             
+                
 ## Diagrams to add
 
 - Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
+                
             
         
 
             
+                
 ## Generation Z Research
 
 **articles**
@@ -2033,10 +2174,12 @@ You really need to understand that everybody as doubts about their capacities an
 
 - [A manifest from Generation Z](https://www.youtube.com/watch?v=CrX5O2XWHws) , Elise By Olsen , TEDxOslo
 
+                
             
         
 
             
+                
 ## O2 Platform
 
 ...
@@ -2052,10 +2195,12 @@ You really need to understand that everybody as doubts about their capacities an
     - spent a year coding it
     - unlucky to come out of it when the economy crashed
  - what I&#39;ve learned
+                
             
         
 
             
+                
 ## Stories to tell
 
 **Topics to cover and ideas**
@@ -2080,6 +2225,7 @@ You really need to understand that everybody as doubts about their capacities an
 
  - https://haveibeenpwned.com/
 
+                
             
         
     
@@ -2093,20 +2239,7 @@ You really need to understand that everybody as doubts about their capacities an
         
 
             
-## GitHub Issues
-
-## GitHub Issues
-
-All content related to this book is hosted at the GitHub [DinisCruz/Book_Generation_Z_Developer](https://github.com/DinisCruz/Book_Generation_Z_Developer) repo.
-
-This repo not only contains all text (in Markdown), but also all pending [issues and ideas](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues). I&#39;m using the exact workflow and ideas presented in this book in the development of this book :)
-
-You can read more about GitHub and Git in the respective chapters, but if you want to be involved in an open source and Creative Commons project, this would be a good place to start.
-
-Here are the current list of issues (as of the last time this book was generated) that you can help out
-
-
-
+                
             
         
     

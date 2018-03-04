@@ -18,7 +18,7 @@ url: https://api.github.com/repos/diniscruz/Book_Generation_Z_Developer/issues?l
 Using GitHub api on **04 Mar 2018** the following **4** issues had the **show-in-book** label:
 
 
-- Add chapter on Typography and Design : #5
-- Add chapter on &#39;Closure&#39; : #4
-- Re-apply context fixes submitted to Build repo : #3
-- Add chapter on &#34;Coordinated Disclosure&#34; : #2
+- Add chapter on Typography and Design : [#5](https://api.github.com/repos/DinisCruz/Book_Generation_Z_Developer/issues/5)
+- Add chapter on &#39;Closure&#39; : [#4](https://api.github.com/repos/DinisCruz/Book_Generation_Z_Developer/issues/4)
+- Re-apply context fixes submitted to Build repo : [#3](https://api.github.com/repos/DinisCruz/Book_Generation_Z_Developer/issues/3)
+- Add chapter on &#34;Coordinated Disclosure&#34; : [#2](https://api.github.com/repos/DinisCruz/Book_Generation_Z_Developer/issues/2)
