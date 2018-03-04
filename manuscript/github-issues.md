@@ -14,7 +14,8 @@ Here are the current list of issues (as of the last time this book was generated
 
 
 
-url: https://api.github.com/repos/diniscruz/Book_Generation_Z_Developer/issues?labels=show-in-book
+### Issues list
+
 Using GitHub api on **04 Mar 2018** the following **4** issues had the **show-in-book** label:
 
 
