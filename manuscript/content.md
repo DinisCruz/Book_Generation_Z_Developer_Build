@@ -211,6 +211,8 @@ Another important technologies to know.
         
 
 ## Books
+I love books, the ‘real world’ physical ones, the [BookBook](https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMOXQo7nURs0)(s). Not the digital alternatives who are a shadow of a book and are not good technologies to consume knowledge.
+
 I love books, and for a while I too had the a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). 
 
 For reference I buy hundreds of books per year and spend far too much money than I should on books. Have I read them all, no of course not! Have I found amazing books to read every year that improved my skills and knowledge, absolutely yes!!! The reason I buy so many books (multiple per topic) is because until I start reading them, I don&#39;t know which one is perfect (at that moment in time)
@@ -240,11 +242,6 @@ Another powerful feature of books (in addition of rendering contentin HD with re
 My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
 
 This mean that these days, the impact of books on the environment is minimal.
-
-**The power of the bookbook**
-
-...add story about the Ikea add called &#34;Experience the power of a bookbook&#34; &#34;At only 8mm thin, and weighing in at less than 400g, the 2015 IKEA Catalogue comes pre-installed with thousands of home furnishing ideas&#34;  https://www.youtube.com/watch?v=MOXQo7nURs0 ...
-
 
 
         
@@ -2091,6 +2088,24 @@ You really need to understand that everybody as doubts about their capacities an
 
         
         
+
+            
+        
+
+            
+## GitHub Issues
+
+## GitHub Issues
+
+All content related to this book is hosted at the GitHub [DinisCruz/Book_Generation_Z_Developer](https://github.com/DinisCruz/Book_Generation_Z_Developer) repo.
+
+This repo not only contains all text (in Markdown), but also all pending [issues and ideas](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues). I&#39;m using the exact workflow and ideas presented in this book in the development of this book :)
+
+You can read more about GitHub and Git in the respective chapters, but if you want to be involved in an open source and Creative Commons project, this would be a good place to start.
+
+Here are the current list of issues (as of the last time this book was generated) that you can help out
+
+
 
             
         
