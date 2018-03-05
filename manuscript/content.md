@@ -487,6 +487,74 @@ You can choose to care about the team that you are currently in, and the work th
 The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
 
         
+
+## Backup your life
+Backing up your code (and ideas) is one of the most important patterns that you must master. Your current approach to backups will depend on how much have you lost, and how painful it was.
+
+The reality is that sometime and somewhere in the future, you will lose some of your data (and ideas).
+
+This could be something as simple as a lost laptop, or some data that was deleted by accident, or even an ransomware attack that encrypted all the files in your devices or servers. If you don&#39;t have a good strategy and habits for how you do your backups, it is just a matter of time before you have a catastrophic event.
+
+Trust me, there are few things in life more soul destroying and demotivating, than having to re-create something again (that you were happy with and you had spent a lot of time creating). Even worse when you are not able to recreate it, which in a business environment can easily lead to you being fired for lack of due-diligence or negligence.
+
+The solution is to think about where you classify and store your data (and ideas), so that you can come up with strategies that work in your day-to-day activities.
+
+I&#39;m going to provide a number of examples of how I do it, which hopefully will give you some ideas:
+
+- **Secrets Minimisation** - From a security point of view, the less secrets you have the better (and the easier it is to backup the rest). This is where the more you embrace the idea to publish as much of your data (and ideas) as possible, the easier it is to use web based services as your backup medium.
+- **Passwords** - A clearly important piece of data not to lose or disclose. My strategy is to pick formulas that I can remember and to use 2FA authentication (like SMS) as much as possible (which dramatically reduce the importance of passwords)
+- **Future Self** - Part of my drive to share, is to think that one day in the future, my future self will need it. This is also why I like to Open Source as much as as possible, since it makes sure that as I move jobs, I don&#39;t have to start from scratch (for example what happened with me and the O2 Platform research or the Maturity Model tool I developed recently)
+- **Git** - Git is not just a version control which you use when you want to commit to the main repo. I&#39;ve seen developers that code for days before doing a commit. This is missing a massive trick. Not only during those periods between commits there is a high risk of data loss, the developer is also missing the opportunity to go back to a version created a couple hours ago (which was better than the current one). Basically there is only so much Ctrl-Z can help you. Note that you should be using git to store as much data (and ideas) as possible, since this workflow is not just for source code (another reason why I like to use markdown for content and DOT for graphs)
+- **Autosave and Commits** - When using git as a data store, I always enable auto-save on the IDEs so that I never have unsaved text in memory. I then use git commits (and git staging) to really understand what has been changed (and to double check those changes before committing to the target branch). This is very empowering and liberating, since I don&#39;t really worry about losing anything
+- **GitHub** - I push as much code (and ideas) on GitHub as possible. For example I have repos (some private) that act like document storage and (literally) backups. My expectation is that GitHub&#39;s backup strategy is sound and better than mine.
+- **DropBox and GDocs** - Same thing for DropBox and Google Docs. I use them to store data and rely (as most companies do) on their security and backups (very important to have 2FA on these accounts and to pay for the commercial versions, which provide features like version control and much more storage)
+- **Twitter** - I use twitter as my personal search engine, and use it to store all sort of links and ideas that I might be interested in the future
+- **Google** - A great site effect of putting your data (and ideas) online on a public and hyperlinked location (for example on a blog or slideshare), is that Google (and [Web Archive](https://web.archive.org/) project) will eventually index it (and keep a copy for ever). I actually have used these service&#39;s caches to recover ideas that I published ages ago, on a platform or site that has since disappeared!
+- **Simulate disaster** - Ask yourself, if you lost your laptop now, how painful it would be? For example at this very moment, the only thing I would lose if my laptop disappeared (or was stolen) would be the text in this chapter (and in about 30m, I wouldn&#39;t lose anything, since I will have committed this text into Git and GitHub)
+- **External Drives** - For large files and VM (not really much these days) I also have a number of external drives in my house that hold it (although some of the most interesting research VMs, like the ones I was using when developing the O2 Platform, have been moved to dropbox)
+
+ Finally, you probably noticed that every time I mentioned code I also added a note about &#39;ideas&#39;. The reason is that you also need to backup your ideas so that your future self has access to them. The reality is that you will forget about those ideas and the connections that got you there. The only way to make sure they are not lost forever is to publish them into an hyperlinked medium.
+
+ You basically need to backup your life!
+
+ Please make sure that when (not if) some of your devices lose (or encrypt) your creations, you have a quick and efficient way to recover them.
+
+        
+
+## The future needs you
+Sometimes the future just doesn&#39;t happen! It needs people like you to make the difference.
+
+Re-enforcing the concept that what matters is not ideas but energy and focus in execution, there are a number of ideas that although brilliant, we still need the right individuals at the right place in order for them to become a reality.
+
+This happens in all fields (for example there is a great interview by Elon Musk where he talks about how the concorde and moon landings are good examples of us going backwards in technological capabilities).
+
+On the developing/coding world, in addition to the WallbyJS (real-time unit test execution and code-coverage visualisation) that I cannot understand why all IDEs do not replicate and deeply integrate those capabilities in their engines, another amazing example is the **Zoetrope (Interacting with the Ephemeral Web)** research by Adobe.
+
+This research was published in [this YouTube video](https://www.youtube.com/watch?v=7C-B7qdClak), and it shows a working real-time time machine for web pages (and other content).
+
+This research transformed the [Ephemeral](https://en.wiktionary.org/wiki/ephemeral) and &#39;no-past&#39; nature of web pages, into a multi-dimensional graph, where the previous versions of a page&#39;s content can be visualised, transformed and analysed in all sorts of ways (check out the video and you will be blown away).
+
+Given how powerful this idea is, the interesting question is &#34;Why hasn&#39;t it evolved!&#34;.
+
+My view is that because there is a significant amount of research and technology required to reach the workflow shown in that video, and the fact that the technology and ideas where not released under an Open Source license (or Creative Commons), any new attempts would have to start from scratch (since it clearly looks like Adobe did not continued the research projects)
+
+Also important is that an individual&#39;s vision and an sustainable economic model matter (i.e. someone who understand the problem and someone who is funding the research).  Although the key concepts are clearly shown in the video and easy to understand, in the last 10 years we had not had an individual (or team) with the right energy and drive that has decided to replicate this research into an Open Source environment, and built a strong community around it.
+
+I&#39;m very frustrated by this lack of development, since there are tons of areas in Application Security where this kind of anti-ephemeral technology would be massively important.
+
+Gen Z dev, if you are looking for a place to start replicating this idea, here is one for you:
+
+**Create a tool/website to search and visualise the git files history** (for example how to do a search across previous versions of files)
+
+That is not a problem that has been solved today, and not only you would let a lot about how git works, you would be creating a tool very useful to you and the development community. As an example that would allow for the easily discovery of secrets stored in git repos that have been &#39;deleted&#39; using commits (which means that the secrets still exist in that repo and are available to anybody that can clone it)
+
+**Pick a vision and be the one that makes the deference**
+
+Part of your path as a Gen Z developer, is to find something that you are really passionate for which you can execute. The win-win scenario is when you pick an idea that either is quite new (like chaos engineering) or has been around for a while but the momentum has been lost. For example the Zoetrope mentioned here, or SAST technology (Static analysis of software/applications/infrastructure for finding security issues)
+
+
+
+        
     
 
     
@@ -1431,6 +1499,24 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
             
                 
+## Micro-Services
+
+...
+
+**Topics to cover and ideas**
+
+ - explain concepts
+ - where they work great
+ - Swagger.io
+ - problem of understanding how they work together
+ - move from a &#39;blob of code&#39; (the monolith app) into a &#39;large blog&#39; (the constlation of Micro-services that nobody really has a good understanding of all moving parts and inter-dependencies)
+    - this is where Chaos Monkey is a great tool to understand side effects
+                
+            
+        
+
+            
+                
 ## Netflix Culture
 
 Read this https://jobs.netflix.com/culture
@@ -1473,6 +1559,22 @@ The best companies are (or will be) following these concepts, not because its &#
     - specially important, given the current skills shortage with developers and the companies preference to use an XYZ budget to hire 2x less experienced developers vs 1x more experience developers
 
 
+                
+            
+        
+
+            
+                
+## REPL
+
+...
+
+**Topics to cover and ideas**
+
+ - explain concept: Read Execute Print Loop
+ - how O2 Platform did this really well
+ - concept still not very well understood and used
+    - some languages have added this to their core workflows (Scala for example)
                 
             
         
@@ -1778,6 +1880,7 @@ The best companies are (or will be) following these concepts, not because its &#
         - for example what if JQuery did this and it took 0.1% of the user&#39;s CPU (or %1% of the QA servers) and used these funds to support the develpment of the next version (and pay for example for dedicated developers or security reviews)
         - this could solve the problem of how to fund the development of popular open source frameworks
         - maybe the browsers or servers could even support this natively (with 5% or 10% of CPU allocated for 3rd party services bitcoin mining)
+        - Add story behind the developers that were thinking of doing this using the sleep function
 
 
 
@@ -2235,6 +2338,11 @@ You really need to understand that everybody as doubts about their capacities an
         
         
 
+            
+        
+
+            
+                
             
         
 
