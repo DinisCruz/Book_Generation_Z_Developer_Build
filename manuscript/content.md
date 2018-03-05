@@ -1764,6 +1764,7 @@ The best companies are (or will be) following these concepts, not because its &#
   - you should have a long tail of projects and forks (altough beware of the polution caused by forks that you don&#39;t contribute to). Keep this curated, since after all it is your research playground
   - Github Bug Bounty programme (Gamification)
   - use Github commit dashboard (a box for everyday that you did a commit) as a way to check &#39;how am I doing&#39; (since you don&#39;t want to see big periods with no commits (warning: don&#39;t go over the top and try to have a commit EVERY day, sometimes it is good to rest and not commit anything)
+  - Use GitHub projects to understand the Kanban workflow
 
 
                 
