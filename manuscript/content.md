@@ -79,7 +79,7 @@ Whenever you find yourself with this headspace, dont stop! Fololow it as long as
         
 
 ## How to get a job
-One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employeer is happy to pay for.
+One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
 
 It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future&#39;s direction and path with every decision that you make everyday.
 
@@ -89,15 +89,15 @@ I really like the Gen Z realization that a job is something that should be rewar
 
 **Being passionate and love your job**
 
-Find what you are passionate for, what you really care about, and align your carrer with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
+Find what you are passionate for, what you really care about, and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
 
 **Having one competitive advantage**
 
-The best way to get a job is to have 1 (one) competitive advantage. One activity or task that you can do better than the person/company hiring you. For example in the 1990s for a lot of companies it was using a computer, in the 2000s is was using the internet. For development or security, for a while all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that the ones that could do it, where the ones that proactively embraced those technologies and learned them agaist all odds (at the time when most companies, including technological companies, where ignoring it). These days, it is thinks like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other technologies/ideas covered in this book :)
+The best way to get a job is to have 1 (one) competitive advantage. One activity or task that you can do better than the person/company hiring you. For example in the 1990s for a lot of companies it was using a computer, in the 2000s is was using the internet. For development or security, for a while all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that the ones that could do it, where the ones that proactively embraced those technologies and learned them against all odds (at the time when most companies, including technological companies, where ignoring it). These days, it is thinks like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other technologies/ideas covered in this book :)
 
 **Own your carer development**
 
-You are the one that is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are alligned with those paths
+You are the one that is in change of your carer. Don&#39;t let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are aligned with those paths
 
 And how do you start working with those companies?
 
@@ -110,6 +110,20 @@ What is interesting is that there is nothing stopping you from doing this!
 So why don&#39;t you?
 
 After all you have nothing to lose? (and all to gain)
+
+        
+
+## How this book is being created
+This book is being created using the principles and technologies described in this book :)
+
+ - All content is available under an CC License (Creative Commons)
+ - Markdown is used to write the content
+ - All content is managed using git and published under an public GitHub repository
+ - GitHub Issues are used to track bugs, issues and ideas 
+ - Leanpub is used to create and publish the digital versions of this book
+ - Content is being published early and often on Leanpub and on some blogs (to share the ideas, get feedback and build community) 
+
+ If you have never used git, github or markdown, why don&#39;t you help out in the creation of this book? You can do this by opening up issues with your feedback on the ideas and content (I really value those comments since it helps me to make sure the content makes sense to the target audience)
 
         
     
@@ -373,6 +387,39 @@ For a nice view of what could be happening next see
 
         
 
+## IDE
+We need to talk about your IDE! (Integrated development environment) 
+
+How much time have you spent: choosing it, customizing it, making it suit your development workflow, making it automate actions that you do as a developer, making it automatically execute tests
+
+Your IDE is one of the most important tools in your arsenal and the more time you spend looking after it, the better a programmer you will be:
+
+The IDE is like a car in a race that you are the driver. You really need to spend time caring about it, since your performance as a developer will be affected by how effective your IDE is for the task at hand
+
+ Note that this doesn&#39;t mean that the most feature rich IDE will be better. You need to pick the best tool for the job:
+ - for example Visual Studio has tons of features but that made it quite slow (and Windows specific), which is why other editors (like Atom) started to gain traction. Microsoft then released VS Code which is much more lightweight and effective.
+ - Sometimes Notepad or Vim are the best IDES
+ - I quite like the JetBrains suite of tools (WebStorm for Node , PyCharm for Python and IntelliJ for Java)
+ - Eclipse can also be a great editor (specially if you customize it)
+ - Cloud IDEs (like Cloud9) can be amazing in some cases (in one project I had a special docker instance that added Cloud9 to a node application)
+ 
+ One of the key requirements for me in the IDE is the ability to:
+
+ - run tests quickly (once you stopped typing)
+ - run tests affected by the latest code changes
+ - show code coverage in the IDE
+
+At the moment the only place where I have seen those features happening is in NCrunch (for .NET) and WallabyJS (for node/javascript). The auto test execution capability that some IDEs have, are a decent compromise, but not as effective (and productive as those two tools)
+
+The key point is that you need to take the time and care to chose your IDE, since it has the power to dramatically increase your productivity   
+
+
+**Topics to cover and ideas**
+
+ 
+
+        
+
 ## Jira
 [Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
 
@@ -518,6 +565,25 @@ I&#39;m going to provide a number of examples of how I do it, which hopefully wi
  You basically need to backup your life!
 
  Please make sure that when (not if) some of your devices lose (or encrypt) your creations, you have a quick and efficient way to recover them.
+
+        
+
+## Talking to yourself digitally
+Talking to yourself in an digital way is not a sign of madness :)
+
+It is a sign that you are capturing your ideas, knowledge and workflow. 
+
+I do this a lot, since I find that it gives me a way to capture what I&#39;m doing in a format that I can easily access later. I&#39;m hyperlinking my knowledge/ideas and speaking to my future self.
+
+By talking to yourself, I basically mean that you are having digital threads (on git commits, github threads, blogs, twitter or slack) where the main person talking (i.e. adding digital content) is you. You describe a problem you have, you write possible solutions and when you find the answer you document that too.
+
+It is very important to be comfortable in talking to yourself digital, since it is not easy and it can feel quite awkward. But it is totally worth it usually the main beneficially of those threads is actually you (I have many examples of years later finding blog posts I wrote where the step-by-step details I posted help me not to have to solve the same problem again). That said one of the loneliest moments you can have is when you have a particular problem and the only thread you find on the Internet is actually you a couple years ago talking about that problem and asking for help (it is on that that moment that you realise that you are the only one in the world that cares about that issue :) ) 
+
+Usually the reason why you will not do this is because you think (wrongly) that:
+ -  **Nobody will be interested in this info** - this is wrong. Posting your ideas and workflows will help others to understand your thinking and actions. It leaves your workflow behind, which is where the really learning occurs. The worse part is that if you do document the solution later, when describing a journey from &#39;A to F&#39;, you will describe the final solution as linear A, B,C,D,E and F steps. In fact, in practice when solving the problem the first time, you actually went on an number of tangents which are as interesting and valuable as the final solution. In this &#39;A to F&#39; example the path you took was actually A,B, G, M,Z, T, E, D and finally the F steps (usually the final solution was not discovered in an linear and in-sequence way)    
+ -  **This info is obvious** - caused by the &#39;curse of knowledge&#39; where now that you understand it, the solution is obvious (except that it wasn&#39;t obvious to you before you solved it)
+ - **I will look stupid by asking this question (and providing the answer)** - There are no stupid questions! If you did not knew the answer then that was a valid question (usually the gap is in the way knowledge is shared and captured in your environment). Everybody was a novice once, and did not know that answer! That said, what can be very annoying and counter-productive are the individuals that keep asking the same question and not learning (so as long as you keep learning, you should share your questions, and when you find them, your answers). In fact a really good side effect (in teams) for sharing simpler questions, is that it lowers the bar of what is a question that can be asked, and it can dramatically increases collaboration and team knowledge propagation.
+ - **Who am I to say this** - caused by &#39;impostor syndrome&#39; where you are your worse enemy
 
         
 
@@ -828,15 +894,17 @@ OWASP (the Open Web Application Security Project) is a world wide organisation t
                 
 ## Slack
 
-Slack is how we communicate daily (just like we used to using ICQ, MSN Messenger, Skype, Phone, Smoke Signals, etc...)
+Similar to WhatsApp Slack is how we communicate daily inside companies and communities (just like we used to using ICQ, MSN Messenger, Skype, Phone, Smoke Signals, etc...) 
 
 **Topics to cover and ideas**
 
  - Slack bots
- - Why slack one
- - Integrations
+    - power of bots to automate workflows    
+ - Why slack won
+ - Integrations using Zapier or ITTT
  - Copy and paste of images
-
+ - there are large numbers of Slack communities that you can join, for example OWASP or the Open Security Summit one
+ 
                 
             
         
@@ -1021,6 +1089,45 @@ AWS is Amazon&#39;s Cloud offering and is spectacular success story
 
             
                 
+## Blockchain
+
+...
+
+**Topics to cover and ideas**
+
+ - Key concept to understand
+ - Power of Ledges
+ - Massive hype at the moment , but it will change a lot of industries
+    - due to its ability to allow trust to occur between un-trusted parties
+ - Not just bitcoin
+    - amazing to think that we still don&#39;t know who created bitcoin
+
+                
+            
+        
+
+            
+                
+## Browser Automation
+
+...
+
+**Topics to cover and ideas**
+
+ - code the browser
+    - write electron (or selenium) scripts
+    - write code on Inspector window (Dev Tools)
+ - amazing feeling when you actually automate something as simple as an login screen
+ - most companies have not solved how to do this effectively (for example to automatically test for site performance and security issues/problems)
+ - understand the power of automating the browser
+ - ability to create an API from any website (worse case scenario is to automate the browser)
+ - understand how bots work
+                
+            
+        
+
+            
+                
 ## DSL
 
 DSL (Domain Specific Language)
@@ -1126,6 +1233,25 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
             
                 
+## Ngrok
+
+...
+
+**Topics to cover and ideas**
+
+  - Explain how it works
+  - Great example of streams 
+  - Can be easily created in NodeJs using Streams (or nc.exe)
+  - Shows how easy it is to ex-filtrate data from an company
+  - Great example of innovation (and to provide 1 service that does something well correctly, with quickly evolving solid features)
+    - developer with great understanding(and philosophy) of customer service and support
+  - Task: Build an NGrok like service using AWS Lambdas
+                
+            
+        
+
+            
+                
 ## Node JS
 
 ...
@@ -1140,6 +1266,39 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - the node forking incident (io.js)
     - why it was so important
     - why java could had done with a fork like that
+                
+            
+        
+
+            
+                
+## Streams
+
+...
+
+**Topics to cover and ideas**
+
+  - Key concept in programming. Paradigm shift when you see data as an stream
+    - sequence of transformations until you reach the end-state
+  - One of the reasons Node JS scaled so much
+  - gulp example
+  - AWS Logs transformation in Lambda using gz streams (from gz to gz) 
+
+                
+            
+        
+
+            
+                
+## Web Proxies
+
+...
+
+**Topics to cover and ideas**
+
+ - Fiddler, Zap Proxy
+ - Key to understand how the web works
+ - don&#39;t just use them, program on top of them
                 
             
         
@@ -1279,7 +1438,21 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
             
                 
-## Change
+## Change Engineering
+
+...
+
+**Topics to cover and ideas**
+
+ - what is it
+ - see my slideshare presentation
+                
+            
+        
+
+            
+                
+## Changes
 
 **Topics to cover and ideas**
 
@@ -1292,20 +1465,6 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - [Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work and in Your Life](https://www.amazon.co.uk/Who-Moved-My-Cheese-Amazing/dp/0091816971)
  - [Our Iceberg is Melting: Changing and Succeeding Under Any Conditions](https://www.amazon.co.uk/Our-Iceberg-Melting-Succeeding-Conditions/dp/1509830111/)
 
-                
-            
-        
-
-            
-                
-## Change Engineering
-
-...
-
-**Topics to cover and ideas**
-
- - what is it
- - see my slideshare presentation
                 
             
         
@@ -1369,6 +1528,42 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
             
                 
+## Deadlines
+
+...
+
+**Topics to cover and ideas**
+
+ - understand that many deadlines are just indications of an arbitrary point in the future when somebody would like to see something done
+  - usually deadlines are set without a realistic understanding of the original problem, the resources available and what is the definition of success
+ - Being able to hit deadlines is really important in business and life. The better you are at doing this, the more you will be trusted to deliver. 
+    - What is important is to understand what are deadlines that can be missed, what are deadlines that are completely unrealistic and what are deadlines that HAVE to be meet (usually the ones connected to a specific event that cannot be moved)
+    - unrealistic deadlines can cause a lot of damage and prevent a lot of &#39;important but not urgent&#39; activities (for example not improving the test environment because there isn&#39;t time before the next deadline). There are moments where there is a false economy of just focusing on short/medium term activities
+ - Solution is to break the problem into small milestones and be flexible (I prefer Kanban to Agile, with Scrumban not a bad alternative) 
+ - Developers are the ones that actually have the real power to do something about meeting the deadlines, since they are the ones that will actually do the work
+ - One of the reasons Agile doesn&#39;t work very well is due to the amount of guess work that happens in the sprint planning
+                
+            
+        
+
+            
+                
+## DevOps
+
+...
+
+**Topics to cover and ideas**
+
+ - Applying development techniques and technologies to Operations
+ - &#39;Congratulations, you now own/manage a Data Center&#39;
+ - DevOps is the evolution of deployment/operations scripts
+ - SecDevOps is about adding security to this pipeline and introducing security controls/checks earlier in the development life cycle 
+                
+            
+        
+
+            
+                
 ## Facts
 
 ...
@@ -1386,6 +1581,30 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
  - understand the agenda of who is talking to you
  - don&#39;t trust what is on the media namely when it is selling fear (after all if it is on the media it is because it is rare)
  - FUD (Fear Uncertainty and Doubt) - Used to be used a lot in the technology sector
+ - we are living in challenging times which and it is important to understand that facts and solid science are how we need to think about problems and solutions.
+   - not to say that we need to have 100% facts and assurance before decisions are made, but it is important to try to have &#39;fact based decisions&#39; as much as possible
+                
+            
+        
+
+            
+                
+## Feedback loops
+
+...
+
+**Topics to cover and ideas**
+
+ - key to create scalable workflows. it is all about effectiveness. 
+ - Positive reinforcement, adjust to navigation
+ - explain using feedback loops from control systems and engineering
+ - TDD is a gigantic feedback loop 
+ - Bret Victor&#39;s inventing on principle (https://vimeo.com/36579366) is all about feedback loops
+ - not about just &#39;giving feedback&#39; . the key for feedback loops is that the input will affect the output which will affect the input (good example are how a driver uses the driving wheel in a car)
+ - used in music (to create special electric guitar sounds) 
+ - one interesting challenge is how to measure it
+ - I think I have a really good instinct for how feedback loops can exist in business and development 
+- exponential growth can happen easily in an feedback loop
                 
             
         
@@ -1600,6 +1819,22 @@ The best companies are (or will be) following these concepts, not because its &#
 
             
                 
+## SRE (Site Reliability Engineering )
+
+...
+
+**Topics to cover and ideas**
+
+ - Amazing concept and thining from Google
+ - How Google&#39;s run production sites
+ - There are jobs today to be SREs (with big demand in the industry)
+ - This is very connected to the concept of &#39;You build it, you own it&#39;
+                
+            
+        
+
+            
+                
 ## Serverless
 
 ...
@@ -1629,13 +1864,35 @@ The best companies are (or will be) following these concepts, not because its &#
 
             
                 
+## Spotify Model
+
+...
+
+**Topics to cover and ideas**
+
+ - Tribes and Squads
+ - Important to understand how it works
+ - When implemented correctly can bring focus and break a lot of inefficiencies 
+ - Business understands the concept and in some cases even adopts it 
+ - Note that Spotify does not use the Spotify model :)
+
+                
+            
+        
+
+            
+                
 ## graphs
 
 ...
 
 **Topics to cover and ideas**
 
- -
+ - See my presentation on Graphs
+ - Graphs are everywhere
+ - I&#39;ve been thinking in graphs for years
+ - very hard paradigm shift to make
+ - requires an ability to think in nodes and edges
                 
             
         
@@ -1926,6 +2183,31 @@ The best companies are (or will be) following these concepts, not because its &#
 
             
                 
+## Don&#39;t touch production
+
+...
+
+**Topics to cover and ideas**
+
+ - requiring access to production systems (to debug an issue or even worse, to make deployment changes) represents a failure at multiple levels
+    - deployment workflow
+    - logging and visualization of what is going on in the servers (and live environment)
+    - ability to quickly push changes (or revert recent deployments/changes)
+    - QA and test environments (that don&#39;t match production)
+ - it is very important that there is an air-gap between the development workflow and the deployment/production workflow
+ - having access to production systems introduces massive security risks and makes massive assets the devices uses to access that data (imagine for example that the developer&#39;s laptop had some malware which provided remote access to a malicious agent)
+ - it is a sign of maturity when issues can be debugged and resolved without the developers (and security professionals) requiring access to production systems
+ - same concept for having access to production data. We once had an incident where some S3 keys where compromised (S3 keys allow access to data in AWS), which belonged to an BI (Business Intelligence) team that was working on some business analysis. Upon investigation we found that that key allowed access to highly sensitive data which the BI team did not actually needed for their analysis. This is why teams (and individuals) need to be allergic to being given access to data and systems (the more you have access to, the more responsibility you have, and the more damaging a compromise of your system will be)
+ - this is also related to the concept of &#39;Infrastructure as Code&#39; where everything in the deployment/production environments is &#39;scripted&#39; (i.e. code). 
+    - &#39;code&#39; in this case needs to be managed correctly (with version control, change management, code reviews, testing, etc...)
+    - related to the DevOps movement
+
+                
+            
+        
+
+            
+                
 ## Pointers
 
 ...
@@ -1984,6 +2266,26 @@ The best companies are (or will be) following these concepts, not because its &#
                 
             
         
+
+            
+                
+## Threat Modeling
+
+Threat Modeling is a technique used by security professionals to understand the side effects of a particular code journey or pattern.
+
+
+
+**Topics to cover and ideas**
+
+ - helps with the two curses of developers
+    - Changes to the Brief
+    - Lack of accountability for those changes
+ - Threat modeling allows the brief to be locked, since new features will require a review of the threat modeling
+ - Not doing threat models means that that the &#39;Security implications of X have not been considered&#39; (X is a project, a sprint, a new feature, a new integration with 3rd party, etc...)   
+ - Threat model leads to the creation of risks which are then given to the business owners
+                
+            
+        
     
     
     
@@ -1991,6 +2293,22 @@ The best companies are (or will be) following these concepts, not because its &#
         
 # Life Patterns
         
+        
+
+            
+                
+## Automate your Workflows
+
+...
+
+**Topics to cover and ideas**
+
+ - Checkout technologies like Zapier and ITTT (If This Then That)
+ - Key to make you scale
+ - Task: Write ITTT to automatically write a tweet when you publish a blog 
+ - This is related to the concepts of thinking in graphs and getting rid of spreadsheets
+                
+            
         
 
             
@@ -2013,6 +2331,26 @@ The best companies are (or will be) following these concepts, not because its &#
     - these are really important concepts to understand
 
 
+                
+            
+        
+
+            
+                
+## Civic Responsibility
+
+...
+
+**Topics to cover and ideas**
+
+ - As a developer you have a major civic responsibility
+ - code is law
+ - you are one of the most important pieces of the puzzle
+ - you can chose where you work and if your code is having a positive or negative impact in the world (if you can&#39;t chose that at the moment, make sure you are actively looking at changing your job)
+ - Give risks created to business owners
+    - make them accountable for the decisions they are making
+    - ensure that business owners
+ - (See ethics questions)
                 
             
         
@@ -2140,6 +2478,36 @@ You really need to understand that everybody as doubts about their capacities an
 
             
                 
+## Power of Habits
+
+...
+
+**Topics to cover and ideas**
+
+
+ - Habits are really powerful and are what allows for long term changes to occur
+ - Find out what good and bad habits you have
+ - Map out the motivation that you have for them
+ - Focus on changing in small increments 
+ - Sometimes doing something in a binary way (yes/no) is easier (for example drink vs no drink, smoke vs no smoke)
+ - this also applies to teams and how you interact with others
+ - starting an ambitious habit and then failing can back fire
+ - reverse engineer your life and optimise it for maximizing your opportunities
+ - good habits can actually free up your time and give you more flexibility 
+ - some ideas for habits to get (from a technology/development point of view)
+    - think in graphs
+    - create automated test and deployment environments (even for the smallest project)
+    - try to understand how things/apps/code/functions work (i.e. &#39;follow the packet&#39;)
+    - using programming thinking for normal business challenges
+    - align the code in a way that makes it easier to read
+ - see [&#39;Superhuman by Habit: A Guide to Becoming the Best Possible Version of Yourself, One Tiny Habit at a Time&#39;](https://www.amazon.co.uk/Superhuman-Habit-Becoming-Possible-Yourself/dp/1503295591/) by Tynan
+
+                
+            
+        
+
+            
+                
 ## Publish, Publish Publish
 
 ...
@@ -2159,11 +2527,10 @@ You really need to understand that everybody as doubts about their capacities an
                 
 ## Refactoring
 
-{{% panel theme=&#34;success&#34; header=&#34;Topics to cover&#34; %}}
+**Topics to cover and ideas**
 
  - What is it
  - How to apply to your life
-{{% /panel %}}
 
 
 
@@ -2195,7 +2562,7 @@ You really need to understand that everybody as doubts about their capacities an
 **Topics to cover and ideas**
 
  - prob is constant interruptions
- - Deep work (https://www.amazon.co.uk/Deep-Work-Focused-Success-Distracted/dp/0349411905)
+ - Also called &#39;Flow&#39; or Deep work (https://www.amazon.co.uk/Deep-Work-Focused-Success-Distracted/dp/0349411905)
  - &#34;tap dancing to work&#34;, &#34;Still day one&#34; - Jeff bezos
  - two different types of zone
  - learn to be comfortable with incremental improvements. Detect moments of diminishing returns
@@ -2207,6 +2574,8 @@ You really need to understand that everybody as doubts about their capacities an
  - learn to trust that the next Zone will occur and learn with the periods when you are not in the Zone
     - what is scary is when &#39;ideas stop flowing&#39;
  - there are ways to try to get into the Zone (professional athletes and musicians do it all the time)
+ - add reference to &#39;Mindset&#39; book
+
 
 
                 
@@ -2255,6 +2624,21 @@ You really need to understand that everybody as doubts about their capacities an
         
 # Misc
         
+        
+
+            
+                
+## Gen Z digital environment
+
+**Topics to cover and ideas**
+
+ - Used to run as root and install apps and apis
+ - Empowered and expectation that thinks happen fast and close to real time
+ - Power users of technology (specially the mobile apps they use)
+ - hyperlinked
+ - Expectation of challenging work environment (where they learn a lot). Money is not the only focus
+                
+            
         
 
             

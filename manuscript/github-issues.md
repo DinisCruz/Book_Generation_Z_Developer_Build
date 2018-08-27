@@ -17,7 +17,7 @@ Here are the current list of issues (as of the last time this book was generated
 
 ### Issues list
 
-Using GitHub api on **06 Mar 2018** the following **5** issues had the **show-in-book** label:
+Using GitHub api on **27 Aug 2018** the following **5** issues had the **show-in-book** label:
 
 
 - Add chapter on &#39;cloud-native&#39; : [#6](https://api.github.com/repos/DinisCruz/Book_Generation_Z_Developer/issues/6)
