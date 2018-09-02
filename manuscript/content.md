@@ -171,28 +171,27 @@ Here is the synopsis of the are MVP ideas and workflows
 ## MVP table 
 
             
-this is the mvp table ...
+MVP Table 
 
 
-|   title | status              |
-|---------|---------------------|    
-| MVP table | content | 0 |    
-| Creative Commons License | content | 1479 |    
-| Open Source | draft | 848 |    
-| MVP for Gen Z Dev |  | 215 |    
-| Docker | content | 591 |    
-| CPU | draft | 199 |    
-| Copyright | draft | 61 |    
-| EFF | draft | 50 |    
-| Free Sofware Foundation | draft | 70 |    
-| OWASP | draft | 90 |    
-| Python | draft | 42 |    
-| Slack | draft | 73 |    
-| WallabyJS | draft | 144 |    
-| XCode | draft | 16 |    
-| google | draft | 65 |    
-| linux | draft | 98 |    
-| raspberry-pi | draft | 53 |
+| name | what | task | price | image | status | wc  |
+|------|------|------|-------|-------|--------| ----|    
+| Creative Commons License | what | task | image| content | 1479 |    
+| Open Source |  |  | | draft | 848 |    
+| MVP for Gen Z Dev |  |  | |  | 215 |    
+| Docker |  |  | | content | 591 |    
+| CPU |  |  | | draft | 199 |    
+| Copyright |  |  | | draft | 61 |    
+| EFF |  |  | | draft | 50 |    
+| Free Sofware Foundation |  |  | | draft | 70 |    
+| OWASP |  |  | | draft | 90 |    
+| Python |  |  | | draft | 42 |    
+| Slack |  |  | | draft | 73 |    
+| WallabyJS |  |  | | draft | 144 |    
+| XCode |  |  | | draft | 16 |    
+| google |  |  | | draft | 65 |    
+| linux |  |  | | draft | 98 |    
+| raspberry-pi |  |  | | draft | 53 |
  
             
         
