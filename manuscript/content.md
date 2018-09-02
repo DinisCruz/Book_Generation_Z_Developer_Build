@@ -45,9 +45,8 @@ Please share your views, suggestions and criticisms and don't hesitate to reach 
         
         
 
-## Generation Z 
-
             
+## Generation Z             
 Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
 The older members of this generation at about 22 years old at the moment (2018). They where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
@@ -81,9 +80,8 @@ Whenever you find yourself with this headspace, dont stop! Fololow it as long as
             
         
 
-## How to get a job 
-
             
+## How to get a job             
 One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
 
 It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future's direction and path with every decision that you make everyday.
@@ -119,9 +117,8 @@ After all you have nothing to lose? (and all to gain)
             
         
 
-## How this book is being created 
-
             
+## How this book is being created             
 This book is being created using the principles and technologies described in this book :)
 
  - All content is available under an CC License (Creative Commons)
@@ -162,10 +159,8 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
         
         
 
-## MVP table 
-
             
-MVP Table 
+### MVP Table 
 
 | name | what | task | price |
 |------|------|------|-------|        
@@ -189,13 +184,12 @@ MVP Table
 |  google |  |  |  |            
 |  linux |  |  |  |            
 |  raspberry-pi |  |  |  |
- 
+
             
         
 
-## Creative Commons 
-
             
+## Creative Commons             
 Choosing which license you chose to share your work is one of the most important decisions you make in your professional life.
 
 You can either go down a path where you think that everything you create (outside paid work) is super precious and you need to protect it or you can realise that your value is on your ability to think about ideas, and (more importantly) your ability to execute those ideas.
@@ -305,9 +299,8 @@ Remember that these days (specially in technology) you will be changing jobs and
             
         
 
-## Docker 
-
             
+## Docker             
 As a developer it is critical that you understand how docker works and how it became so successful and widely used.
 
 The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
@@ -375,9 +368,8 @@ From a security poing of view, Docker has massive advantages. Finally it is poss
             
         
 
-## Hugo 
-
             
+## Hugo             
 [Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
 
 In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
@@ -404,9 +396,8 @@ This book for example has a companion websites that is created using Hugo, and I
             
         
 
-## Jira 
-
             
+## Jira             
 [Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
 
 We (at Photobox Group Security) use Jira extensively in our day-to-day activities, where not only it helps us to track our tasks and risks, we create tons of custom Jira Workflows and write custom applications.
@@ -451,9 +442,8 @@ Another important technologies to know.
         
         
 
-## Books 
-
             
+## Books             
 I love books, the ‘real world’ physical ones, the [BookBook](https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMOXQo7nURs0)(s). Not the digital alternatives who are a shadow of a book and are not good technologies to consume knowledge.
 
 I love books, and for a while I too had the a guilty feeling of 'holding on to legacy technology', as the world moved into consuming more and more digital content (including digital books). 
@@ -490,9 +480,8 @@ This mean that these days, the impact of books on the environment is minimal.
             
         
 
-## Pen and Paper 
-
             
+## Pen and Paper             
 Another powerful technology that seems to be going out of fashion is the pen and paper (pencil is also a great option).
 
 As covered in the 'Book' chapter, analogue techniques like the pen and paper are actually better technologies for creating and capturing ideas.
@@ -520,9 +509,8 @@ A nice site effect of having mobile phones with cameras, is that it's easy to sh
             
         
 
-## Brain 
-
             
+## Brain             
 How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
 
 The human brain is one of the world's great wonders and we live in a age where we now know a tremendous amount of details on how it works.
@@ -568,9 +556,8 @@ I can't explain (you need to experience it yourself) how productive is it to cod
             
         
 
-## Machine Learning and AI 
-
             
+## Machine Learning and AI             
 One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
 
 This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) kinda scenario where an super-intelligence [singularity](https://en.wikipedia.org/wiki/Technological_singularity) is going to take over the world and destroy humanity.
@@ -601,9 +588,8 @@ For a nice view of what could be happening next see:
             
         
 
-## IDE 
-
             
+## IDE             
 We need to talk about your IDE! (Integrated development environment) 
 
 How much time have you spent: choosing it, customizing it, making it suit your development workflow, making it automate actions that you do as a developer, making it automatically execute tests
@@ -664,9 +650,8 @@ The key point is that you need to take the time and care to chose your IDE, sinc
         
         
 
-## Learning 
-
             
+## Learning             
 Do you know how to learn?
 
 Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school and life. This is ironic, since usually very little time is spent at school and life in learning out to learn.
@@ -693,9 +678,8 @@ Ideally this learning environment will be part of your job. If not, then evening
             
         
 
-## Be a founder 
-
             
+## Be a founder             
 The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
 
 One of the concepts that I really like is the idea that you should _"act like one of the founders of the business"_.
@@ -729,9 +713,8 @@ The irony is that the more you care and the more you behave like a founder, the 
             
         
 
-## Backup your life 
-
             
+## Backup your life             
 Backing up your code (and ideas) is one of the most important patterns that you must master. Your current approach to backups will depend on how much have you lost, and how painful it was.
 
 The reality is that sometime and somewhere in the future, you will lose some of your data (and ideas).
@@ -765,9 +748,8 @@ I'm going to provide a number of examples of how I do it, which hopefully will g
             
         
 
-## Talking to yourself digitally 
-
             
+## Talking to yourself digitally             
 Talking to yourself in an digital way is not a sign of madness :)
 
 It is a sign that you are capturing your ideas, knowledge and workflow. 
@@ -787,9 +769,8 @@ Usually the reason why you will not do this is because you think (wrongly) that:
             
         
 
-## The future needs you 
-
             
+## The future needs you             
 Sometimes the future just doesn't happen! It needs people like you to make the difference.
 
 Re-enforcing the concept that what matters is not ideas but energy and focus in execution, there are a number of ideas that although brilliant, we still need the right individuals at the right place in order for them to become a reality.
