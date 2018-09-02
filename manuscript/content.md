@@ -172,6 +172,8 @@ Here is the synopsis of the are MVP ideas and workflows
 
             
 this is the mvp table ...
+
+
 |   title | status              |
 |---------|---------------------|    
 | MVP table | content | 0 |    
