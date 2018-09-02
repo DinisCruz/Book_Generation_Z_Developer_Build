@@ -8,26 +8,26 @@
     
         
 
-# Introduction
-Hi Generation Z Developer, if you are passionate developer who wants to learn as much as you can about your craft, this is the book for you.
+# Introduction  
+Hi Generation Z Developer, if you are and who want to learn as much as you can about your craft, this is the book for you.
 
-I decided to write this book after doing a series of presentations to Gen Z audiences, where I realised a number of key gaps in your generation is understanding of the history behind a number of key technologies that underpin the technological revolution that we are the in middle of.
+I decided to write this book after doing a series of presentations to Gen Z audiences, where I discovered gaps in your generation&#39;s understanding of the history behind a number of key ideas and technologies that underpin the technological revolution that we are the in middle of. I also wanted to share a number of real-world concepts, practices and technologies that will make you a much better and effective professional in today&#39;s highly competitive tech world. 
 
 Here is the slide that started it all, how many do you recognize?
 
 ![](/images/list-of-icons.png)
 
-My presentation started by me asking the audience if they recognized those logos, and then realising that not only they didn&#39;t recognised most of the logos, they didn&#39;t knew the history behind them. More importantly **why** they where created, and what was the problem (or itch) they addressesed
+My presentation started by me asking the audience if they recognized those logos, and then realising that not only they didn&#39;t recognized most of the logos, they didn&#39;t knew the history behind them. More importantly **why** they where created, and what was the problem (or itch) they addressed
 
 All these icons where &#39;catalysts of change&#39; and it is important to understand the history behind them, why they occured, and what happened next
 
 Each one of these icons changed the world of technology, and the paradigms shifts that they created and still impacting our world today.
 
-For example one of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Creative Commons gives a number of  rights to the consumer of creations. This book is release under an &#39;Creative Commons Attribution-ShareAlike 4.0&#39; license, which basically means you are free (as in freedom) to use all the materials and content from this book (only requirements are that you provide some acknoledgement of the source and that you use a similar license). You can even sell books based on content from this book.
+For example one of these changes/revolutions was the Creative Commons copyright license, which was one of my _&#39;WFT you don&#39;t know what that means&#39;_ realizations. Creative Commons gives a number of  rights to the consumer of creations. This book is released under an &#39;Creative Commons Attribution 4.0 International License.&#39; license, which basically means you are free (as in freedom) to use all the materials and content from this book (only requirements are that you provide some acknowledgement of the source). You can even sell books based on content from this book.
 
 As you will seen thorough the book, what I find interesting, is not that that a particular technology or ideas allowed X to happen. What matters to me are the ways those ideas change how we act, how we think and how we behave.
 
-We are in the middle of a massive technological and cultural revolution and you need to decide if you want to be a pawn, a player or even a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat past mistakes, but you will not even understand what game is being played.
+We are in the middle of a massive technological and cultural revolution and you need to decide if you want to be a pawn, a player or even a play-maker in this new world. If you don&#39;t understand the past, you are bound to not only repeat its mistakes, but you will not even understand what game is being played.
 
 Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
 
@@ -45,14 +45,16 @@ Please share your views, suggestions and criticisms and don&#39;t hesitate to re
         
         
 
-## Generation Z
+## Generation Z 
+
+            
 Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
-The older members of this generation at about 22 years old at the moment (2018), they where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
+The older members of this generation at about 22 years old at the moment (2018). They where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
 
-In addition to having personal experience with this generation (I have two daughters aged 12 and 14), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
+In addition to having personal experience with this generation (I have two daughters aged 13 and 15), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to &#39;hack&#39; and working with projects that aim at teaching developers coding skills usable in the real-world).
 
-The reason I&#39;m focusing on this Generation, due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
+The reason I&#39;m focusing on this Generation is due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
 
 In hindsight this is normal, since we (as a society) still don&#39;t do a very good job at explaining why things happened and why did they where needed in the first place.
 
@@ -76,9 +78,12 @@ If you are lucky enough to find yourself in this place, congratulations, you jus
 
 Whenever you find yourself with this headspace, dont stop! Fololow it as long as your brain allows it, and don&#39;t stop for anything (namely social events, eat or sleep). This &#39;zone&#39; is a magical place to be , so learn to recognize when you are inside it and explore it as much as you can.
 
+            
         
 
-## How to get a job
+## How to get a job 
+
+            
 One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
 
 It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future&#39;s direction and path with every decision that you make everyday.
@@ -111,9 +116,12 @@ So why don&#39;t you?
 
 After all you have nothing to lose? (and all to gain)
 
+            
         
 
-## How this book is being created
+## How this book is being created 
+
+            
 This book is being created using the principles and technologies described in this book :)
 
  - All content is available under an CC License (Creative Commons)
@@ -125,6 +133,7 @@ This book is being created using the principles and technologies described in th
 
  If you have never used git, github or markdown, why don&#39;t you help out in the creation of this book? You can do this by opening up issues with your feedback on the ideas and content (I really value those comments since it helps me to make sure the content makes sense to the target audience)
 
+            
         
     
 
@@ -133,16 +142,174 @@ This book is being created using the principles and technologies described in th
     
         
 
-# What is this
-Important ideas and technologies to understand what they are that why they where created in the first place.
+# MVP for Gen Z Dev  
+This section will try to define what should be the MVP for a Generation Z Developer.
 
+MVP is a term used regularly in the software development industry to mean [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product), and it represents the minimum set of features and capabilities that a particular product/release/version should have in order to add value to the end users/customers.
 
+From a Gen Z Dev point of view (i.e. you the reader), the technologies and workflows described in this section are key to make you highly productive and effective team player.
 
+Although you might not use them all in your day-to-day activities, it is very important to understand what they are and why they where created in the first place.
+
+In this section I will try to give you ideas on practical steps you can take, and here is first one:
+
+&gt; TASK: Write blog posts with your experiments and challenges in understanding and using these ideas, technologies or workflows.
+
+Drop me a link to these posts so that you have at least one reader :)
+
+Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the article and my twitter handle tag `@DinisCruz`)
+
+### MVP 
+
+Here is the synopsis of the are MVP ideas and workflows
+
+{{% mvp-table %}}
 
         
         
 
-## Docker
+## MVP table 
+
+            
+this is the mvp table ...
+|   title | status              |
+|---------|---------------------|    
+| MVP table | content | 0 |    
+| Creative Commons License | content | 1479 |    
+| Open Source | draft | 848 |    
+| MVP for Gen Z Dev |  | 215 |    
+| Docker | content | 591 |    
+| CPU | draft | 199 |    
+| Copyright | draft | 61 |    
+| EFF | draft | 50 |    
+| Free Sofware Foundation | draft | 70 |    
+| OWASP | draft | 90 |    
+| Python | draft | 42 |    
+| Slack | draft | 73 |    
+| WallabyJS | draft | 144 |    
+| XCode | draft | 16 |    
+| google | draft | 65 |    
+| linux | draft | 98 |    
+| raspberry-pi | draft | 53 |
+ 
+            
+        
+
+## Creative Commons License 
+
+            
+Choosing which license you chose to share your work is one of the most important decisions you make in your professional life.
+
+You can either go down a path where you think that everything you create (outside paid work) is super precious and you need to protect it or you can realise that your value is on your ability to think about ideas, and (more importantly) your ability to execute those ideas.
+
+In the first path you are afraid that your ideas will be copied and you don&#39;t share them, on the 2nd path you are happy to share your ideas as much as possible. 
+
+The best way to share your ideas and way of thinking is to release your content and ideas under an Create Commons Copyright License 
+
+So what is Create Commons?
+
+Let&#39;s start by looking at the definition of [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) from Wikipedia:
+
+&gt; A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted work. A CC license is used when an author wants to give people the right to share, use, and build upon a work that they have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of their own work) and protects the people who use or redistribute an author&#39;s work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work
+
+This license is basically defining the rules of the game that are applied to the content that you publish. By releasing your content under this license (and your code under Open Source) you are sending a strong message of your values and positioning. You are also maximizing the potential reach and impact of your ideas. Like Steve Jobs said in his [Stanford Commencement address](https://news.stanford.edu/2005/06/14/jobs-061505/) in 2005 _&#34;...you can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future...&#34;_ , you could be generating a number of opportunities for your future self, or you could even be teaching something to your future self (it&#39;s amazing how much we forget)
+
+### Creative Commons license variations and this book
+
+This book is released under the (Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en_US) will defines the following teams (see website):
+
+&gt; You are free to:
+&gt;
+&gt; - Share — copy and redistribute the material in any medium or format
+&gt; - Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+&gt;
+&gt; Under the following terms:
+&gt;  - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+&gt;
+&gt; The licensor cannot revoke these freedoms as long as you follow the license terms.
+&gt;
+&gt; No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Although all CC licenses allow content to be shared, some have more restrictions:
+ 
+ - **Attribution-ShareAlike 4.0** - need to attribute and use the same CC license (this has a &#39;viral&#39; effect since it forces changes to also have a CC license)
+ - **Attribution-NoDerivatives 4.0** - need to attribute and don&#39;t allow changes
+ - **Attribution-NonCommercial-NoDerivatives 4.0** -  need to attribute, don&#39;t allow commercial use and don&#39;t allow changes 
+ 
+ I don&#39;t like the licenses above since they put restrictions on how the content can be used (which is against my views of sharing, but for companies or individuals that are new to CC, these are good first steps.
+
+ For reference here is a table with the multiple license&#39;s variations:
+
+ [![](/images/wikipedia-creative-commons-licenses.png)](https://en.wikipedia.org/wiki/Creative_Commons_license)
+
+
+### Obscurity is your biggest threat
+
+ Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html) provides this amazing quite: _&#39;For a typical author, obscurity is a far greater threat than piracy.&#39;_. 
+
+ What this means is that you have more to lose by not publishing your ideas, music, or art. 
+
+### Creative Commons is changing science
+
+ Ironically, most modern science was built on the idea of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected 
+ 
+ Good news is that in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See for example the collaboration of code and data-sets that is happening on areas like cancer research
+
+ Also amazing is the massive amount of data that is being shared today by government&#39;s agencies. See these books for amazing info-graphics created from this data:
+
+ - [Information is Beautiful](https://www.amazon.co.uk/Information-Beautiful-New-David-McCandless/dp/0007492898)
+ - [Visualize This: The FlowingData Guide to Design, Visualization, and Statistics](https://www.amazon.co.uk/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889)
+ - [Knowledge is Beautiful ](https://www.amazon.co.uk/Knowledge-Beautiful-David-McCandless/dp/0007427921)
+
+See the https://data.gov.uk/ website for data-sets provided by the Uk Government (released under the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) which is compatible with Creative Commons Attribution License 4.0 )
+
+It is key that you learn how to play in this world where massive amounts of data are available, since, more and more there is an moral and technical argument that all data created by government should be released under an creative commons license, and all code paid by the government should be released under an open source license. Think about the implications that this will have on industries and professions that rely of data to make decisions.
+
+### The importance of creating commercially viable models
+
+Note that this doesn&#39;t mean that there should no financial return (ever) from sharing your ideas or content.
+
+I&#39;m a big believer that for behaviors to scale and be sustainable, there needs to be an working economic and financial model behind those open workflows.
+
+Basically authors should be paid for their work 
+
+Also key is that the operational teams that support those authors are also paid (for example Wikipedia or Mozilla have highly skilled and well paid professionals working as employees). 
+
+Sometimes the payment is hard cash (i.e. the authors/teams are paid to create that content).  Sometimes the &#39;payment&#39; happens in terms of: future opportunities, personal development or karma points (i.e. doing the right thing or sharing knowledge with others the same way it was shared with you).
+
+One of the big myths behind open source and creative commons is that its authors are all working for free in their bedroom by amateurs. In reality most of the value is created during paid jobs, by highly skilled professionals, with companies supporting the creating of the released code or content.
+
+### It is harder than it looks
+
+Don&#39;t let the fact that you (might) think that what you have created has little value to prevent you from publishing it. This Impostor Syndrome effect can be very damaging and paralyzing, and you need to take a pragmatic view of what will happen
+
+ - If what you wrote is not that interesting or valuable to others, then your will have a small amount of readers and you have not lost anything
+ - If what you have created does get some readers and more importantly, feedback or comments, then you gained a bit and moved the needle a little bit (remember that it is all about incremental gains, and there is no such thing as &#39;overnight success&#39;)
+
+The bottom line is that publishing your research under an CC license is harder than it looks. 
+
+You actually have to do it, and that first step (and the next 100) are the hardest part
+
+Doing that journey under an Creative Commons path, means that you have made the paradigm shift from close to open It means that you now view your value as someone who can execute ideas (and are happy to share your creations)
+
+Remember that anybody can have ideas, execution is the hard part.    
+
+### Align your future with Creative Commons
+
+Finally, when choosing which company to work for, take into account their current Creative Commons and Open Source strategy culture for internally developed technology ideas (this should have an impact on your choices.
+
+In most companies, only a very small part of what they create should be closed and proprietary. The rest should released under open licenses. 
+
+Remember that these days (specially in technology) you will be changing jobs and companies regularly. Your really want to make sure that you still have access to those ideas and code when you move of, since nothing is more soul-destroying than having to re-do something you have already created before (or not having access to good ideas you had in the past).
+
+
+
+            
+        
+
+## Docker 
+
+            
 As a developer it is critical that you understand how docker works and how it became so successful and widely used.
 
 The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
@@ -207,6 +374,7 @@ From a security poing of view, Docker has massive advantages. Finally it is poss
   - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
   - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
 
+            
         
     
 
@@ -215,7 +383,7 @@ From a security poing of view, Docker has massive advantages. Finally it is poss
     
         
 
-# Technologies
+# Technologies  
 Another important technologies to know.
 
 
@@ -224,7 +392,9 @@ Another important technologies to know.
         
         
 
-## Books
+## Books 
+
+            
 I love books, the ‘real world’ physical ones, the [BookBook](https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMOXQo7nURs0)(s). Not the digital alternatives who are a shadow of a book and are not good technologies to consume knowledge.
 
 I love books, and for a while I too had the a guilty feeling of &#39;holding on to legacy technology&#39;, as the world moved into consuming more and more digital content (including digital books). 
@@ -247,20 +417,23 @@ The same happens with reviewing materials. It not coincidence that we all have e
 
 Yes, the fact that books are offline is one of the book&#39;s main competitive advantanges! 
 
-The boook&#39;s _&#39;features&#39;_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
+The book&#39;s _&#39;features&#39;_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
 
 Another powerful feature of books (in addition of rendering contentin HD with real-time refresh rate), is that they allow your brain to consume information in a 3D format and with more senses. For example, notice how when you flick back pages looking for a particular passage or diagram, your eyes will be looking at a particular section of the page. This means that your brain not only is capturing the content that it is reading, it is also capturing (and storing) the location of that content, and how it relates to the rest of the page. One of the reasons that lead me to the epiphany of the value of books was how I noticed that it was bothering me the fact that the kindle reorders paragraphs and pages when you flick back (and how it was affecting my ability to find content I&#39;ve already read)
 
 **Environmental impact of books**
 
-My undestanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forrests (i.e. forests where they plant at least as many new trees as they cut).
+My understanding (and please correct me if I&#39;m wrong) is that most books these are are printed from either recycled paper or from sustainable forests (i.e. forests where they plant at least as many new trees as they cut).
 
 This mean that these days, the impact of books on the environment is minimal.
 
 
+            
         
 
-## Pen and Paper
+## Pen and Paper 
+
+            
 Another powerful technology that seems to be going out of fashion is the pen and paper (pencil is also a great option).
 
 As covered in the &#39;Book&#39; chapter, analogue techniques like the pen and paper are actually better technologies for creating and capturing ideas.
@@ -285,9 +458,12 @@ A nice site effect of having mobile phones with cameras, is that it&#39;s easy t
 
 
 
+            
         
 
-## Brain
+## Brain 
+
+            
 How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
 
 The human brain is one of the world&#39;s great wonders and we live in a age where we now know a tremendous amount of details on how it works.
@@ -330,9 +506,12 @@ One area that these interruptions happen a lot in the normal developer&#39;s cod
 
 I can&#39;t explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
 
+            
         
 
-## Hugo
+## Hugo 
+
+            
 [Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
 
 In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
@@ -356,9 +535,12 @@ I use Hugo a lot these days, in all sort of internal and external sites, and aft
 This book for example has a companion websites that is created using Hugo, and I&#39;ve created a number of extra pages that help to improve my productivity (for example search and print pages)
 
 
+            
         
 
-## Machine Learning and AI
+## Machine Learning and AI 
+
+            
 One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
 
 This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) kinda scenario where an super-intelligence [singularity](https://en.wikipedia.org/wiki/Technological_singularity) is going to take over the world and destroy humanity.
@@ -379,15 +561,19 @@ As a developer, you will be soon be asked to write code that integrates with Mac
 
 **Where are we going**
 
-For a nice view of what could be happening next see
+For a nice view of what could be happening next see:
+
   - [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/)
   - [Homo Deus: A Brief History of Tomorrow](https://www.amazon.co.uk/Homo-Deus-Brief-History-Tomorrow/dp/1910701874)
   - [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
 
 
+            
         
 
-## IDE
+## IDE 
+
+            
 We need to talk about your IDE! (Integrated development environment) 
 
 How much time have you spent: choosing it, customizing it, making it suit your development workflow, making it automate actions that you do as a developer, making it automatically execute tests
@@ -418,9 +604,12 @@ The key point is that you need to take the time and care to chose your IDE, sinc
 
  
 
+            
         
 
-## Jira
+## Jira 
+
+            
 [Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
 
 We (at Photobox Group Security) use Jira extensively in our day-to-day activities, where not only it helps us to track our tasks and risks, we create tons of custom Jira Workflows and write custom applications.
@@ -447,6 +636,7 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
 
 
 
+            
         
     
 
@@ -467,7 +657,7 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
     
         
 
-# Life Patterns
+# Life Patterns  
 ....
 
 
@@ -476,7 +666,9 @@ Now you have no excuse to not having used Jira before (at a level more advanced 
         
         
 
-## Learning
+## Learning 
+
+            
 Do you know how to learn?
 
 Learning to learn is one of the most important skills that you can have, and in fact, that is the main skill to learn from school and life. This is ironic, since usually very little time is spent at school and life in learning out to learn.
@@ -500,9 +692,12 @@ My view is that no matter your role, you must make sure that you remain highly t
 Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
 
 
+            
         
 
-## Be a founder
+## Be a founder 
+
+            
 The single thing that you personally control when you go to work, is your attitude to your work and how you approach it.
 
 One of the concepts that I really like is the idea that you should _&#34;act like one of the founders of the business&#34;_.
@@ -533,9 +728,12 @@ You can choose to care about the team that you are currently in, and the work th
 
 The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
 
+            
         
 
-## Backup your life
+## Backup your life 
+
+            
 Backing up your code (and ideas) is one of the most important patterns that you must master. Your current approach to backups will depend on how much have you lost, and how painful it was.
 
 The reality is that sometime and somewhere in the future, you will lose some of your data (and ideas).
@@ -566,9 +764,12 @@ I&#39;m going to provide a number of examples of how I do it, which hopefully wi
 
  Please make sure that when (not if) some of your devices lose (or encrypt) your creations, you have a quick and efficient way to recover them.
 
+            
         
 
-## Talking to yourself digitally
+## Talking to yourself digitally 
+
+            
 Talking to yourself in an digital way is not a sign of madness :)
 
 It is a sign that you are capturing your ideas, knowledge and workflow. 
@@ -585,9 +786,12 @@ Usually the reason why you will not do this is because you think (wrongly) that:
  - **I will look stupid by asking this question (and providing the answer)** - There are no stupid questions! If you did not knew the answer then that was a valid question (usually the gap is in the way knowledge is shared and captured in your environment). Everybody was a novice once, and did not know that answer! That said, what can be very annoying and counter-productive are the individuals that keep asking the same question and not learning (so as long as you keep learning, you should share your questions, and when you find them, your answers). In fact a really good side effect (in teams) for sharing simpler questions, is that it lowers the bar of what is a question that can be asked, and it can dramatically increases collaboration and team knowledge propagation.
  - **Who am I to say this** - caused by &#39;impostor syndrome&#39; where you are your worse enemy
 
+            
         
 
-## The future needs you
+## The future needs you 
+
+            
 Sometimes the future just doesn&#39;t happen! It needs people like you to make the difference.
 
 Re-enforcing the concept that what matters is not ideas but energy and focus in execution, there are a number of ideas that although brilliant, we still need the right individuals at the right place in order for them to become a reality.
@@ -620,6 +824,7 @@ Part of your path as a Gen Z developer, is to find something that you are really
 
 
 
+            
         
     
 
@@ -640,38 +845,8 @@ Part of your path as a Gen Z developer, is to find something that you are really
     
 
         
-# What is this
+# MVP for Gen Z Dev
         
-        
-
-            
-                
-## Creative Commons
-
-https://en.wikipedia.org/wiki/Creative_Commons
-
-_These licenses allow creators to communicate which rights they reserve, and which rights they waive for the benefit of recipients or other creators)_
-
-**Topics to cover and ideas**
-
- - &#34;For a typical author, obscurity is a far greater threat than piracy.&#34; Tim O&#39;Reilly on [Piracy is Progressive Taxation, and Other Thoughts on the Evolution of Online Distribution](http://www.openp2p.com/pub/a/p2p/2002/12/11/piracy.html)
- - how CC is changing research
-    - for example collaboration of code and datasets on cancer research
- - the amount of data that is being shared today is hugo
-    - show examples from the multiple visualisation&#39;s books (and websites)
-    - show example of data released by the UK
-        - https://data.gov.uk/ which uses http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ (compatible with Creative Commons Attribution License 4.0 )
-
-  - more and more there is an moral and techical argument that all data created by government should be released under an creative commons license, and all code paid by the government should be released under an open source license
-  - publishing your research under an CC license is harder than it looks. It means that you have made the paradigm shift from close to open.
-     - It means that you now view your value as someone who can execute ideas (and are happy to share your creations)
-     - anybody can have ideas, the execution is the hard part
-        - in fact deciding what NOT to do is that hard part (what ideas to say NO is one of the most important decisions to do)
-            - this is easy when you have a good vision of the journey ahead.
-
-
-                
-            
         
 
             
@@ -1164,11 +1339,11 @@ Do you know what Dopamine is? Do you know why mobile phone notifications are so 
 **Topics to cover and ideas**
 
  - detox from your phone
- - detox from notificaitons
+ - detox from notifications
  - stop notifications
  - related to the Zone and Deep work concepts
  - Your ability to perform uninterrupted and focused work is one of your most important skills and a massive competitive advantage. This is how the best code is produced
- - you are addicted to your phone. Mobile phones &#39;attention grabbing activites&#39; are the new smoking
+ - you are addicted to your phone. Mobile phones &#39;attention grabbing activities&#39; are the new smoking
  (they affect the brain)
  - &#34;why do you have the huge to check your phone when you hear an interruption&#34;. it is like a thread has started in your brain that wont complete until you check it.
  - the problem is that these dopamine interruptions make you lose context (and lose the &#39;zone&#39;)
@@ -1416,6 +1591,22 @@ Notes [Why We&#39;re All Addicted to Texts, Twitter and Google](https://www.psyc
 
  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 
+                
+            
+        
+
+            
+                
+## Amazon Press Release
+
+...
+
+**Topics to cover and ideas**
+
+ - great concept
+ - describe the definition of success
+ - use FAQs to explain details
+ - works for main pieces of work and smaller projects
                 
             
         
@@ -2643,6 +2834,25 @@ You really need to understand that everybody as doubts about their capacities an
 
             
                 
+## Books to read
+
+Here are some books that really help me:
+
+ - &#34;10 rules for the new economy&#34;
+ - &#34;The cathedral and the bazar&#34;
+ - &#34;7 habits of highly effective people&#34;
+ - &#34;Fish&#34;
+ - 1 minute manager&#34;
+ - &#34;Mathematician lament&#34;
+ - &#34;Badass: Making Users Awesome&#34;
+ - &#34;The Checklist Manifesto: How to Get Things Right&#34;
+ - &#34;Superhuman by Habit&#34;
+                
+            
+        
+
+            
+                
 ## Diagrams to add
 
 - Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
@@ -2713,6 +2923,39 @@ You really need to understand that everybody as doubts about their capacities an
 
  - https://haveibeenpwned.com/
 
+                
+            
+        
+
+            
+                
+## Technium
+
+...
+
+**Topics to cover and ideas**
+
+ - https://blogthinkbig.com/technium-technology-is-the-the-seventh-kingdom-of-nature
+ - https://www.edge.org/conversation/kevin_kelly-the-technium-and-the-7th-kingdom-of-life
+ - https://www.edge.org/conversation/kevin_kelly-the-technium
+ - https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174
+
+                
+            
+        
+
+            
+                
+## Wait but why
+
+...
+
+**Topics to cover and ideas**
+
+ - amazing research
+ - makes you think
+ - https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html
+ - https://waitbutwhy.com/2016/03/cryonics.html 
                 
             
         
