@@ -7,16 +7,19 @@
 ## MVP table 
 MVP Table 
 
-{width=10}
+{width=5}
 ![](images/logo-creative-commons.png)
 
 {width=10px }
 ![](images/logo-creative-commons.png)
 
-{width=10pt }
+{width=20pt }
 ![](images/logo-creative-commons.png)
 
-{width=100% }
+{width=5% }
+![](images/logo-creative-commons.png)
+
+{width=15% }
 ![](images/logo-creative-commons.png)
 
 | name | what | task | price | image | status | wc  |
