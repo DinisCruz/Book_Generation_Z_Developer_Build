@@ -2107,8 +2107,8 @@ The best companies are (or will be) following these concepts, not because its 'c
  - example of how I use it (twitter case study)
 
   - use twitter as your personal search engine. Here is a perfect example that happened with me when writing this book:
-     - ![image](https://user-images.githubusercontent.com/656739/36400279-e5819cb2-15c7-11e8-8711-9d533996845b.png)
-     - ![image](https://user-images.githubusercontent.com/656739/36400273-db703030-15c7-11e8-8acd-d78bcc3e2301.png)
+     - ![image](images/future-self-1.png)
+     - ![image](images/future-self-2.png)
                 
             
         
@@ -2851,6 +2851,7 @@ EFF (Electronic Frontier Foundation)
 ## Generation Z Research
 
 **articles**
+
  - [Why Generation Z will change the world](https://medium.com/@fluidui/why-generation-z-will-change-the-world-18b400268fa8)
  -[If you’re over 25, you’re probably wrong about Generation Z. They’re the best crop of teenagers America has ever produced.](https://medium.com/@jelenawoehr/if-youre-over-25-you-re-probably-wrong-about-generation-z-39f479df069d)
  
@@ -2900,6 +2901,7 @@ EFF (Electronic Frontier Foundation)
  - the dip
  - "disagree and commit"
  - "you are the product" - you need to regain control of your data
+ - 4 hour work week fisherman story
 
  - "Great minds discuss ideas; average minds discuss events; small minds discuss people."
 
