@@ -165,10 +165,10 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 | name | what | task | price |
 |------|------|------|-------|        
 |  Creative Commons | Copyright License to release content under | Release a blog post or other content under a CC license | zero |        
-|  Docker |  |  |  |        
-|  Hugo |  |  |  |        
-|  Jira | Issue tracking (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |            
-|  Open Source |  |  |  |            
+|  Docker | Containerization technology that is super fast at applications or micro-services execution | Install docker and try the ubuntu, apache, elk and gogs images | free |        
+|  Hugo | static site generator and major paradigm shift on how to think about websites creation and deployment | install hugo, create a website and publish it (ideally using AWS S3) | zero (hosting might have some costs) |        
+|  Jira | Web based issue tracking system (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |            
+|  Open Source | Copyright License to release software that guarantees a number of freedoms | Release some code under an Open Source license | zero |            
 |  TDD (Test-Driven Development) |  |  |  |            
 |  AWS |  |  |  |            
 |  Continuous Integration |  |  |  |            
@@ -300,129 +300,364 @@ Remember that these days (specially in technology) you will be changing jobs and
         
 
             
-## Docker             
-As a developer it is critical that you understand how docker works and how it became so successful and widely used.
+## Open Source             
+The first thing to learn about [Open Source](https://opensource.org/) is that it is not just a licence to release software or a way to get code for free (as in no cost). 
 
-The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed and sandboxed.
+Open Source is a way of thinking about code and applications, in a way that there isn't an explicit 'lock-in' on the user by the creator. When code is released under an Open Source license, the consumer of that code (namely the developer) gains a number of very important freedoms which have been proven to create very effective and powerful development environments.
+
+You use Open Source applications and code everyday, can you name them? 
+
+There is nothing you can do today on the Internet that doesn't touch some Open Source code, and the amount of code that is currently available to you under an Open Source is insane.
+
+An Open Source licence is a copyright license that gives you the right to access, modify and distribute source code. This is a variation of what has been called an [Copyleft](https://en.wikipedia.org/wiki/Copyleft) license. Copyleft is actually an Copyright license based on the idea of giving away rights to the user, instead of the most common use of Copyright, which takes right's away.
+
+### Think and behave in an Open Source way
+
+As with the Creative Commons license, Open Source is a way of thinking and behaving about code. 
+
+You has a developer should be releasing everything you do with an Open Source license. This will make sure that your 'future self' can still access that code, while maximizing the potential usage and exposure of that code.
+
+You should also be an active contributor to Open Source projects! 
+
+Not only you will learn a lot, that participation can really help you in finding a job. 
+
+If you are able to get your code changes approved and merged into the code-based of popular Open Source projects, you show the world the quality of your work and communication skills. I can guarantee to you that adding to your CV mentions of these contributions will immediately give you a lot of respect by your peers and interviewees. In fact a great way to get a job in a company is to contribute to an Open Source project hosted by that company.
+
+### Who uses Open Source
+
+![](images/open-source-tree.png)
+
+As you can see from the image above just about everybody is using Open Source these days, on all sorts of industries and use cases. Even Microsoft who used to call [Open Source a cancer](https://web.archive.org/web/20011108013601/http://www.suntimes.com/output/tech/cst-fin-micro01.html), eventually changed paradigm and now claims to ['love linux'](https://cloudblogs.microsoft.com/windowsserver/2015/05/06/microsoft-loves-linux/) and has recently bought [GitHub](https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/).
+
+### History
+
+Open Source is an idea created 20 years ago (in a meeting on February 3rd, 1998) with a number of heavy weights of the Free Software movement, who had the objective to create a common language and framework (and license) to be used by the community. 
+
+This lead to the creation of the [Open Source Initiative](https://opensource.org/) who approves multiple community created [Open Source Licenses](https://en.wikipedia.org/wiki/Open-source_license). 
+
+One of the challenges that the Open Source license tried to address, was the more aggressive and viral nature of the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) (General Public License). GPL requires that the developer's release under the same GPL license, all code that uses or modifies the original GPL code. 
+
+Basically, once you add some GPL code to you app, you also need to release that app under GPL. In practice this proved to be to restrictive to the adoption of lots of libraries and applications. Even worse, that limitation went against what most Open Source creators want, which is the wide and seamless use of their code
+
+Here is an definition of [Open Source software](https://en.wikipedia.org/wiki/Open-source_software) from Wikipedia:
+
+> _Open-source software (OSS) is a type of computer software whose source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner_
+
+If you look at the arc of history, there is a tendency for code to be open, even when there are massive forces that don't want that (i.e. the companies selling proprietary/closed-source software). 
+
+In addition to efficiency, innovation, reduced lock-in and better collaboration, Security is one of the reasons we need the code to be open. 
+
+At least when code is open and available, we have the ability to check what is going on, and be much more effective when reviewing its security (see [Reflections on Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf) for more on trust chains). 
+
+Note that this doesn't mean that Open Source software is auto-magically secure just by being Open Source (we still need an ecosystem that rewards or pays for security reviews and secure development practices) 
+
+Another major evolution in the history of open source was its effect on companies like Google and Facebook, where Open Source applications and code where a major contributor to their scalability and success. 
+
+### Open source business models
+
+It is amazing to see the change in the industry and thinking around Open Source. In early days of Open Source, me and many others were called 'communists', just by defending that code and ideas should be shared and made free.
+
+These days there are tons of business models that have been proven to work on top of an Open Source models. For example here are [12 examples](http://www.openhealthnews.com/articles/2012/open-source-business-models-more-depth-view) :
+ 
+ - Software Support Business Model, Software Services Business Model, Software as a Service (SaaS) Model
+ - AdWare Business Model
+ - Consulting Services, Independent Contractors/Developers, Indirect Services & Accessories
+ - Proprietary Software Model, Premium Software Model, Dual Licensing Model, Hybrid Model, Public Domain Model
+ - Platform Integration Services, Hardware Integration Model
+ - Non-Profit Business Models 
+ - Defensive Business Model/Strategy
+
+For Open Source to scale and be sustainable in the long term, it has to be supported by an viable economic model (one where there is a positive feedback loop of value for its creators and maintainers). These examples of Open Source business models (and the successful companies/services that use them) are behind a significant number of the open source contributions that we see today. Of course that there are other forms of receiving value form contributing to Open Source, namely learning something new, contributor brand enhancement or even just purely the joy we get from sharing knowledge.
+
+In a weird way, the Open Source revolution has happened, most of the key battles have been won, but a large number of Gen Z are not aware of it (and are not poised to benefit from these business models and strategies). The danger is that there is still a lot of to do in the Open Source world and we need the Gen Z to be a big driver and innovator. 
+
+
+
+### Releasing code under an Open Source license
+
+Question: 'Why don't you open source your code?'. I bet the answer is a combination of:
+
+ - "I don't think my code is good enough"
+ - "I'm embarrassed about my code"
+ - "Nobody will want to use my code"
+
+The first thing to understand is that I have heard these same excuses from all sorts of developers and companies, for code in all sorts of quality and completeness.
+
+This is your [Lizard brain](https://facilethings.com/blog/en/lizard-brain) in action (making excuses of why you shouldn't do something)
+
+The key is to just do it! 
+
+Create a GitHub or BitBucket repo, add the license and start building your community.
+
+So how do you Open Source some code?
+
+ 1. Create a repo and add code to it
+ 2. Add file containing an Open Source license
+ 3. That's it!
+
+And then, after you Open Sourced your app or code, what will happen next is: Nothing!
+
+The reality is that it is very hard to create a community around an open source project (most open source projects have been created and are maintained by a very small number of developers)
+
+What you will have done by adding the license file to your code, is to create future opportunities for that code and sent a strong message about your agenda (i.e. you are not going to lock in the future the users that are using your current code today):
+
+ - you are allowing somebody (which could be you) in the future to use your code
+ - you are also protecting your research, so that if you move companies, you can still use that code (there is nothing worse for a programmer than to having to rewrite something that was working ok (specially when it is a framework that supports a particular workflow)
+
+I believe that we have moral imperative to share our ideas.  I don't want to be the one that close ideas and don't let other benefit and learn from them. These days everything you do is a variation of what somebody has done before (i.e. you are adding an incremental change), after all you are sitting in shoulders of the giants that come before you.  
+
+### Open Source as a way for companies to collaborate and find talent    
+
+There has been big success stories of companies collaborating internally externally (i.e. internal collaboration between different teams via open source code)
+
+Ironically, although most developers have internal access to all code, the number of cross-team pull requests is very low. Publishing the same code under an Open Source license will help a lot in its internal reach, usage and collaboration.
+
+This also means that by allowing others to use their code, cleaver companies are creating a great way to find programmers to hire (or companies to buy). As a developer you should take advantage of this and be an active contributor on the open source projects of the companies you want to work for (this is a great way to meet the key developers from those organizations, which might turn up to be key decision makers in your job application)
+
+### Open Source as a way to define the agenda
+
+When I see code (or applications) that are not released under an Open Source license, namely the scenarios when the application is provided for 'free; (as in zero cost, not as in freedom), I always think 'What is their agenda?', 'Why are they not Open Sourcing the code?', 'Is this a plan to hook the users, make the dependent on the technology and then start charging at a later stage?'.
+
+When the companies (or authors) release code under an Open Source license they allow their users to have the ability (if they want) to control their own destiny. 
+
+Although hard to quantify, I have seen lots of examples where much better engineering decisions have been made due to the fact that ability to lock the user in restrictive licenses is not there.
+
+
+### The Cathedral and the Bazaar
+
+As with many others, my paradigm shift into an Open Source mindset happened 20 years ago after I read the [The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) essay and book, where Eric Raymond provides 19 lessons which are still as relevant today (2018) as when they were published (1998). 
+
+Here are some of the best ones:
+
+ - Every good work of software starts by scratching a developer's personal itch.
+ - Good programmers know what to write. Great ones know what to rewrite (and reuse).          
+ - Release early. Release often. And listen to your customers.
+ - Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone. 
+ - If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource.
+ - To solve an interesting problem, start by finding a problem that is interesting to you.
+
+In the book Eric compares the creation of proprietary applications to an Cathedral and the development of open source to an Bazaar. 
+
+In Eric's view, Cathedrals are: massive and expensive undertakings, take ages to create, don't have much innovation (apart from a couple major areas), have all sorts of top-down management problems, are super expensive , don't usually work very well (for the intended purposes) and don't usually turn up the way they were originally designed.
+
+On the other hand the Bazaars behave like living organisms, always innovating and with always somebody somewhere trying something new.
+
+I actually prefer to see the beauty in both Cathedrals and Bazaars. Each has it magic and situations when they are exactly what is required.
+
+What I find interesting about this analogy, is that with the understanding that we now have of developing software in ways that are super-effective, that promote continuous refactoring and that are constantly deploying one small/medium change at the time (which is what we get from effective TDD and DevOps environments), we can actually 'build amazing Cathedrals out of Bazaar' (i.e. create an Cathedrals by continuously refactor and improve what started has an Bazaar). 
+
+This goes to the heart of what I have noticed in effective development environments with crazy-high code coverage: 'the more code and capabilities are added to the application, the faster changes can be made' (which is the opposite of what happens in a lot of projects, where the higher the quantity of code, the slower everything becomes).
+
+
+            
+        
+
+            
+## Docker             
+As a developer it is critical that you understand how docker works and how it became so successful and widely used. Docker is one of those revolutions that occur regularly in the IT industry where the right product comes at the right time and meets a number of very specific pain points that developers have.
+
+From a practical point of view, docker means that it is very easy for you to easily try and use a wide variety of applications and environments. For example you can start a local (fully working instance) of the [ELK Stack](https://www.elastic.co/elk-stack) (Elastic search + Logstash + Kibana) in docker, simply by running the `sudo docker pull sebp/elk` command (without installing anything on your host machine)
+
+The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed.
 
 To understand Docker and its power, the first concept to master is how docker is a _"process that exposes a multi-layered file system as an fully isolated OS"_
 
 It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
 
-The problem is that Docker is much more than just a faster VM. Btw, by fast, I mean super-fast. normal VMs book in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time.
+The problem is that Docker is much more than just a faster VM, and By fast, I mean super-fast. normal VMs boot in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time (just run `docker run -it node bash` and when inside the docker container run `node -e 'console.log(20+22)'`).
 
 Docker starts in second(s) because it is just a process. The magic sauce is created by:
 
-1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access)
-2. a layered (i.e. docker images) file system, where each layer contains a diff with the previous layer.This is a powerful graph db, where each file location is dynamically calculated when you are inside the docker image.
+1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access and other key parts of the OS)
+2. a layered file system, where each layer contains a diff with the previous layer. This is a powerful graph db, where each file location is dynamically calculated when you are inside the docker image. Basically what is happening is that each layer is immutable, and when a file is changed inside docker it is either a) saved as new docker image or b) lost when the docker image stops. An final 'docker image' is just a collection of multiple images, all stacked up, one of top of the other. 
+ 
 
-From a security poing of view, Docker has massive advantages. Finally it is possible to run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user's data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+### Kubernetes
 
+Once you want to:
 
---
+1. use multiple docker images in parallel (for example an image for the web server, an image for file system and an image with a database) or 
 
-**Topics to cover and ideas**
+2. start multiple images at the same time (for example a web server behind an load balancer) 
 
+you will need to start looking at what is called orchestration technologies.
 
- - _What is happening is that each layer is immutable, and when a file is changed inside docker it is either a) lost when the docker image stops or b) saved a new docker image_
-    - rewrite paragraph (above) that tries to explain how docker file system works and how new images are created)
+The docker team has published a light version of orchestration called [Docker Compose](https://docs.docker.com/compose/) and [Docker Swarm](https://docs.docker.com/engine/swarm/), but what is widely used in the production is [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
 
- - why docker image development environment is so powerful and fast (explain the concept of images commits)
-    - if you don't understand git and virtual file systems you will struggle to understand git
+Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to scale massively in its web search and in services like GMail. Everything at Google is a container and as early as 2014 Google claimed to start [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
 
-**Kubernetes**
+The problem that Kubernetes solves is the codification of an application environment, plus its deployment strategy and its scalably requirements. 
 
- - what problem it solves
-    - k8s architecutre
-    - the power of coding your server environment (just a higher level of programming abstraction layers)
- - AWS Elactic container service
- - Digital Ocean Docker droplet
- - explain Kubernetes (how it come from Google's Borg)
-    - this container's capability was why google grew so fast and innovated so much in the last decade
- - Docker Compose and Swarm
+This is very powerful, since it allows you to basically say: _"I want x number of pods (i.e. web servers and database) to always be available, and if they stop, make sure they are restarted (and configured accordingly)"_
 
-**Couple examples of Docker in action**
+The reason why is so important to understand this is because you need to evolve from: creating environments by clicking on a lot of of things, to: codifying your server environment (which is just a higher level of programming abstraction layer). 
 
-- add some technical examples of how to use docker (and how easy it is)
+Note that you also get a similar workflow with tools like [AWS CloudFormation](https://aws.amazon.com/cloudformation/) 
 
-**Testing Docker**
-    - repeatable bash scritps
-    - testing of docker images and builds is still a very imature space (no good tools, IDEs and Test Runners). I played with BATS but it wasn't very good
-            - we need TDD for docker development
-            - big comptetitive advantage in the market place if you understand these concepts
+One easy way to give Kubernetes a test drive is to use [AWS EKS](https://aws.amazon.com/eks/)
 
+### Security advantages
 
-**where to focus**
+From a security point of view, Docker has massive advantages. 
 
-- a very good research area is the visualisation and mapping or docker environment
+The first is an explicit mapping of what needs to be installed and what resources (for example ports) need to be made available.
 
+Docker also makes possible to safely run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user's data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
 
+### Testing and visualizing Docker
 
-**references**
- - [Containerization](https://vimeo.com/49392667) - by MAYA Design
-  - [Containerization: The Most Influential Invention That You've Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs)
+One area where we are still quite immature (as an industry) is the testing of Docker images and Kubernetes setups.
 
-  - [Trillions](https://vimeo.com/7395079) - video from MAYA Design
-  - [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073)
+There isn't good tools, IDEs and Test Runners for docker and kubernetes. Basically we need a TDD workflow for docker development!
+
+If I was you, this would definitely be an area I would focus my research (while blogging about your efforts). 
+
+Another great research area is the visualization and mapping of kubernetes environment (i.e. who is speaking to who, and how is that traffic authentication and authorized)
+
+You would have big competitive advantage in the market place if you understood these concepts and had practical experience at solving them.
+
+### It all stated with physical containers
+
+For a great introduction to Containers see MAYA Design's [Containerization](https://vimeo.com/49392667) animation, and the Wendover Productions' [Containerization: The Most Influential Invention That You've Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs) video
+
+To see what is coming next see MAYA Design's [Trillions](https://vimeo.com/7395079) - video and the [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073) book
 
             
         
 
             
 ## Hugo             
-[Hugo IO](https://gohugo.io) is a Static Website Generator (SWG) and represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
+[Hugo IO](https://gohugo.io) is a SWG (Static Website Generator that represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
 
-In addition to having a great environment to create content (and to maintain it), what hugo represents is a completely different paradigm shift on how to create and publish websites.
+In addition to having a great environment to create content (and to maintain it), what hugo creates is a completely different paradigm shift on how to create and publish websites.
 
-Basically what SWG (Static Website Generators) do, is to pre-create all possible web pages during a build stage, and to place them all in a single folder that can be easily deployed to any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
+Basically an SWG pre-generates all possible web pages during the build stage .... and that's it! 
 
-In practice this means that you can have a website running from valina web pages, with no backend and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
+Once the build is finished (usually in less than a second), the entire content of the website is available in an local/CI folder, that can be easily deployed/copied/synced with any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
 
-Ask yourself the question: "Why do you need a database?"
+In practice this means that you have a website running from vanilla web pages, with no backed and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
 
-It is amazing how in tons of cases a database is not actually needed (specialy when it is possible to pre-generate all pages programmatically).
+"Why no backend?" Well ... ask yourself the question: "Why do you need a database?" (i.e. What is the database actually doing, that you can't pre-generated all in one go?)
 
-In fact Hugo is using a very efficient and scalable database and cache: The file system :)
+It is amazing how in any real-world scenarios a database is not actually needed!
 
-I really like the pattern of using the file system as a database, specially when combined with git for deployment.
+That said, Hugo is actually using a very efficient and scalable database and cache: The file system :)
+
+I really like the pattern of using the file system as a database, specially when combined with git for deployment, and GitHub for CMS (Content Management System)
+
+Hugo also makes it really easy to create (and understand) an CD (Continuous Deployment) environment. Since it covers the key steps required: 
+
+ - build the site 
+ - edit the site
+ - see changes
+ - publish/sync the generated files (to a server/service serving static files)
+ - (ideally you should also be writing tests, which I would do using: NodeJS, CoffeeScript, Mocha, Cheerio and WallabyJS)
+
+Another key feature is the integration with [LiveReload](https://github.com/livereload/livereload-js) (which very important to experience in a practical/personal way). Assuming you have the editor and web browser side-by-side in your screen, Hugo+LiveReload creates an environment where you can see your content changes immediately reflected in the browser, in an quasi-real-time way (i.e as soon as the file is saved, the browser is reloaded and the new content in rendered)
 
 Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
 
-I use Hugo a lot these days, in all sort of internal and external sites, and after using (and developing) all sorts of CMS (Content Management Systems), I have to say that it provides me a spectacular and highly-productive content creation/editing workflow.
+After using (and developing) all sorts of CMS (Content Management Systems), I have to say that it gives me a spectacular and highly-productive content creation/editing workflow. 
 
-This book for example has a companion websites that is created using Hugo, and I've created a number of extra pages that help to improve my productivity (for example search and print pages)
+I use Hugo a lot these days, in all sort of internal and external sites, here are some examples:
 
+ - The Open Security Summit 2018 website (https://open-security-summit.org/) is a highly complex data driven website (which will look like a database-powered site) that is entirely built on top of Hugo. All source code is available on [this GitHub repo](https://github.com/OpenSecuritySummit/oss2018) and the Hugo setup enabled 157 contributors to create 3575 commits
+ - The Photobox Group Security Site (https://pbx-group-security.com/) is a simpler example of a fully working Hugo site in action
+ - This book you are reading uses Hugo in two ways:
+    1) locally hosted website with a number of extra pages that helps to improve my productivity when writing the book (for example: an hugo-based search, and print-friendly pages), 
+    2) markdown generation for Leanpub publishing (which adds a couple extra features like the ability to create the MVP table from the content of its child pages)
+
+### Simple example (MVP)
+
+Here is simple example of my very first test of using Hugo where changes on the left are shown automagically on the right (I always start learning a new technology by creating the simplest possible version that works, i.e. an MVP)
+
+![](images/hugo-simple-example.jpg)
+
+### More advanced example (with graphs)
+
+Here is a more advanced usage of Hugo, where we are using Hugo to create VisJs visualizations of Neo4J graphs populated from JIRA data
+
+![](images/hugo-with-graphs.jpg)
+
+### Do Static Site Generators scale?
+
+Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll at scale:
+
+ - HealthCare.gov - see '[It's Called Jekyll, and It Works(https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)'
+ - Obama's fundraising website - see '[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)'
 
             
         
 
             
 ## Jira             
-[Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage they day to day tasks/activities.
+[Jira](https://www.atlassian.com/software/jira) is a web application that is widely used by development, engineering and technical teams to manage their day to day tasks and activities.
 
-We (at Photobox Group Security) use Jira extensively in our day-to-day activities, where not only it helps us to track our tasks and risks, we create tons of custom Jira Workflows and write custom applications.
+There is massive worldwide adoption by all types of companies, and we (at Photobox Group Security) use Jira extensively in our day-to-day. We use it for example to manage: vulnerabilities, risks, task management, incident handling, OKRs management, asset register, threat modeling, data journeys and even to create an pseudo org chart for the stakeholders of risks. 
 
-We basically use JIRA as an graph database (see [Creating a Graph Based Security Organisation](https://www.slideshare.net/DinisCruz/creating-a-graph-based-security-organisation-devseccon-keynote-81345667) ) and [Confluence](https://www.atlassian.com/software/confluence) as a way to display the information stored in JIRA.
+To make this work we are very advanced users of Jira, where we create tons of custom Workflows and even write custom applications that consume Jira's APIs.
 
-The key point I want to make here is that the tools that we use in the enterprise need to be customised and extended (in order to make them work).
+We basically use Jira as an graph database and [Confluence](https://www.atlassian.com/software/confluence) as a way to display the information stored in JIRA. See the [Creating a Graph Based Security Organization](https://www.slideshare.net/DinisCruz/creating-a-graph-based-security-organisation-devseccon-keynote-81345667) presentation for more ideas on how we do this.
 
-Being able to write these customisations and understanding at a much deeper level (when compared to 'normal' or 'power' users) what is possible with these tools, is a massive competive advantage.
+The key point I want to make here is: in order to make the tools that we use in the enterprise work, they need to be customized and extended. 
 
-In fact if you are able to write custom JIRA workflows that are usable by a development team, that is a massive competitive advantage for you, and it will make you highly employable today.
+Being able to write these customization's and understanding at a much deeper level what is possible with these tools (when compared to 'normal' or 'power' users), is a massive competitive advantage. Customizing and extending tools should not be seen as an exception, it should be the rule. 
 
-**Use Jira in your life**
+The reason this scales is due to the compound effect (i.e. increased returns) of the features implemented. The changes/features we make today, will make us more productive tomorrow, which will help us to make more changes, which make us even more productive.
+
+In fact as a developer, if you are able to write custom JIRA workflows that are usable by your team, that will be a massive competitive advantage for you, and it will make you highly employable today.
+
+### Reality is the one that is complex
+
+It is important to note that once the complexities and interconnections of reality start to be mapped in Jira, it can be very overwhelming. 
+
+For example we use Jira heavily in our incident handling process, where we can easily create 100+ issues during an incident, with each issue being a relevant question or action to be answers or executed during the incident. It is easy to look at that setup and think that it is too complex and a massive bureaucracy. But in reality that combination of issues (of type: Incident, Task, Vulnerability and Epics) represent an accurate representation of the complex reality and massive amount of information that is created during an incident (the alternative are completely unmanageable and unreadable email, slack threads or word docs). 
+
+All the work comes together via powerful up-to-date  Confluence pages (which we convert to PDFs and distribute via slack/email) that answer the key questions of: 'What has happened?', 'What are the facts?', 'What are the hypothesis we are exploring?', 'What is happening now?' and 'What are the next steps?'. This is how we keep everybody involved in sync, and how we provide regular management updates.
+
+The other massive advantages of this setup, is that it allows us to do very effective post-incident analysis and to create playbooks with predefined tasks to be executed when a similar incident occurs in the future. Basically our playbooks are not a word document with tasks and actions, our playbooks are a lists of Jira Tasks that are used to populate the incident set of tasks.
+
+For more ideas about this topic see the [SecDevOps Risk Workflow](https://leanpub.com/secdevops/) book that I'm also writing and the [SecDevOps Risk Workflow - v0.6](https://www.slideshare.net/DinisCruz/secdevops-risk-workflow-v06) presentation .
+
+
+### Use Jira in your life
 
 Create Jira projects for your life activities (with Epics to track group of tasks)
 
 Create a Kanban board for your personal tasks and Epics.
 
-Create custom workflows and learn how to manage Jira. This will give you tons of confidence when using Jira in the real world (or when intervewing)
+Create custom workflows and learn how to manage Jira. This will give you tons of confidence when using Jira in the real world (or when intervening)
 
-And since Atlassian has evaluation version for their cloud version of Jira, there isn't any cost to try this.
+And since Atlassian has evaluation version for their cloud version of Jira, there isn't any cost to try this. You have no excuse to not having used Jira before (at a level more advanced that most corporate users and the developers interviewing you)
 
-Now you have no excuse to not having used Jira before (at a level more advanced that most corporate users and the developers interviewing you)
+### What makes Jira so powerful
 
+Although Jira has tons of really annoying features and bugs, its feature set is very powerful, and with finely tunned process and customization's it will make the difference on your productivity and will change how you work.
 
+Here are some the really powerful features that Jira has:
+ 
+ - **Issues** - that can be easily linked to each other (i.e. nodes and edges)
+ - **Links** - which can be named, and allow the creation of named edges, for example 'RISK-111 is-created-by VULN-222'
+ - **Workflows** - state machine environment where the issue's status can be visually mapped and powerful buttons be created, for example for status transitions like 'Accept Risk'
+ - **Activity logging** - ability to log every change and status transition
+ - **Labels** - ability to apply all sorts of loosely created labels/tags to issues (we use this to help managing specific workflows, for example by adding the 'Needs_Risk_Mapping' label to an issue)
+ - **Components** - ability to map issues to components which map directly into business' areas or applications
+ - **Kanban boards** - powerful way to view the current tasks and what status they are
+ - **Dashboards** - ability to create all sorts of diagrams and tables from Jira data (although we tend to use Confluence for data visualization)
+
+### Its all about People, Process and Technology
+
+In order to create a successful Jira environment (the 'Technology' part) we have to start with the 'People' part (in this case you). It is the mindset of the individual user that helps to kickstart these workflows.
+
+The other key element to make this work is the 'Process' of how things work. What I found is that it is very hard for participants to really 'get' these processes and to really understand at a deeper level how the hyperlinked graph-based architecture works. By nature there will be a lot of changes, not only of past workflows, but of existing workflows (i.e. change is the only constant)
+
+Ironically this means that Jira is not key to make this work. 
+
+I have built similar systems using GitHub.
+
+Although GitHub doesn't have some of the most advanced features of Jira (like workflows), the fact that GitHub has native Markdown support, that all content is managed using git and that it is super fast, makes it also an effective graph database.
+
+With the right People and Process, lots of technologies can be used to make this work. As long as they can be used a Graph Database with every piece of data being available in an hyperlinkable way
 
             
         
@@ -521,6 +756,8 @@ How do you think? How do you remember? How do you see? How rational are your dec
 
 If you have not looked at this topic before, you will be very surprised with the answers to these questions.
 
+As a developer your brain is your tool. What makes you special and different from other developers is your ability to create mental models, process information, codify your intentions and execute your ideas.
+
 This is where you need to apply your logical and computing side of the brain and reverse engineer how your own brain works.
 
 I've always found the brain fascinating and the more I learned about it, the better I become at understanding how I and others think.
@@ -531,19 +768,21 @@ The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https:/
 
  The best one I've read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
 
- **How you think**
+ **How I think**
 
  When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
 
    - A slow(ish) type of thinking - where I'm basically taking to myself in my head. This is also how I tend to read (I heard the text I'm reading in my head)
    - A fast type of thinking - where I 'somehow' am making a large number of analysis and decisions, and 'know' what I'm thinking without really needing to articulate in my head all the explanations of what I'm doing. This is the kind of thinking that one tends to get when in 'the Zone' (which is that magical place where ideas 'just flow' and we are hyper productive)
 
-I've also found that although my brain is able to hold a large amount of hyperlilnked information (creating a graph of linked data that I'm working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time).
+The more time you can spend on the 2nd type the more productive you will be.
+
+I've also found that although my brain is able to hold a large amount of hyperlinked information (creating a graph of linked data that I'm working on), it is not good at all at multi-tasking (i.e. working on multiple domain problems at the same time or performing a manual activity).
 
 This is why is so important to be able to spend concentrated time on a particular topic, since it takes a while to upload all relevant data to the parts of the brain focused on the task at hand.
 
 
-**Switching content and interruptions**
+**Switching context and interruptions**
 
 A reason why even a 1 second interruption can be massively disruptive (for example a text message, or slack/snapchat/instragram/facebook/twitter notification) is because it breaks the mojo of your brain and destroys a number of those hyperlinked graphs you had created in your head.
 
@@ -655,19 +894,39 @@ Learning is like a muscle, the more you do it, the better your become. And just 
 
 As a developer if you are not passionate about learning, you are on the wrong job!
 
-It is not about learning one Language or Framework. You need to learn 10+ languages and be on a constant learning curve. Each language will tech you something new (don't worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
+It is not about learning one, or two or three programming languages or development frameworks. You need to learn 10+ languages and be on a constant learning curve. Each language will tech you something new (don't worry, only the first 5 will be hard, after that, the key paradigms will always feel familiar). For example, it is very hard to learn about functional programming until you start coding in Node or in Scala (after banging your head against the wall for a bit, it will click, and you will love its power and ability to write really simple code)
 
 It is about learning new paradigms, about interconnecting your skills. What you learn in one domain, will be applicable in another. For example, being a better musician, artist, athlete, car mechanic or philosopher will make you a better developer
 
-Application Security (AppSec) will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn). AppSec focus on how 'it' really works, now just how it behaves as a black box.
+Application Security (AppSec) will take this to another level, since you will be asked to code review in all sorts of languages (which is great, since that is the best way to learn). AppSec focus on how 'it' really works, now just how it behaves.
 
-The reality is that we are in age of the 'professional amateur', where you very rarely have time to really specialise in a particular language or technology. And when you do specialise, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
+The reality is that we are in age of the 'professional amateur', where you very rarely have time to really specialize in a particular language or technology. And when you do specialize, if you are not careful, you will be stuck in the past and be the one that is responsible for maintaining the legacy applications.
 
-What you really need to be worried about is when you stop learning. Ironically this can happen the more you move up the company's corporate ladder. There is a big trap of management, which pushes highly technical and proficient developers into 'management' or 'architectural' positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where "employees are promoted to the maximum of their incompetence").  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and 'non learning activities'
+The best description I've read about how learning occurs is in the [Badass: Making Users Awesome](https://www.amazon.co.uk/Badass-Making-Awesome-Kathy-Sierra/dp/1491919019) book, where Kathy Sierra outlines two key requirements to learn:
 
-My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning. And programming is one of the best ways to do this.
+ - **Practice right** - it is not about how much one practices, but how effective that practice is. This is connected with the idea of being in 'the zone' and it really shows that the real talent is not in being good/excellent in a particular area (for example playing guitar) but in is having the ability and perseverance  to practice and learn effectively. Ironically too much talent can actually back fire, since it makes the first part easy and doesn't prepare the student for the hard road ahead. One of my best teachers always said "being good is 1% talent and 99% perspiration'
+- **Consume large amounts of good examples** - the very interesting data point here is how much we learn subliminally and by osmosis. Related to the idea that books are much better mediums to learn, when we learn we absorb much more that we think we do. This is why it is so important to keep seeing (and learning from) good examples of what we are are trying to learn. When we see or read from somebody that has gained mastery of a particular topic, we are learning all sorts of things. This is why as a developer is is key that you read lots of source code and try lots of technologies, since each one will teach you much more than you realise. Remember that all Open Source code is available (usually on GitHub). Spent time on projects you use and dig deep into the source code.
 
-Ideally this learning environment will be part of your job. If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem (if you love learning, that extra effort should feel like leisure/relaxing).
+What you really should to be worried about is when you stop learning. 
+
+Ironically this can happen the more you move up the company's corporate ladder. There is a big trap of management, which pushes highly technical and proficient developers into 'management' or 'architectural' positions (this is also called the [Peters Principle](https://en.wikipedia.org/wiki/Peter_principle) where "employees are promoted to the maximum of their incompetence").  When this happens, these highly knowledgeable professionals have very little time to spend on technical issues, spending most of of their on meetings, spreadsheets and 'non learning activities'
+
+Here are some ideas for how to keep the technical skills up-to-date:
+
+ - Be involved as a technical resources (not as a manager) for a couple hours per week in real-world projects (ideally around cloud solutions or incident handling)
+ - ask the team to create DSLs (Domain Specific Languages) that abstract their work into easy to code components, and then write code on top of those DSLs
+ - write and review tests (best way to learn is to read source code, specially unit/integration tests, since they tell the story of what is being tested)
+ - write integration scripts to automate day-to-day tasks (for example using Zapier and AWS Lambdas)
+
+My view is that no matter your role, you must make sure that you remain highly technical, have a deep understanding of what is going on, and always keep learning. Programming is one of the best ways to do this.
+
+### Work in a learning environment 
+
+Ideally this learning environment will be part of your job. 
+
+If not, then evenings and weekends are a great time to learn, while you find another job that puts learning at the center of their ecosystem 
+
+If you are learning things you are passionate about,  the extra effort to learn should feel easy, and actually be relaxing.
 
 
             
@@ -822,77 +1081,6 @@ Part of your path as a Gen Z developer, is to find something that you are really
         
 # MVP for Gen Z Dev
         
-        
-
-            
-                
-## Open Source
-
-- explain key concepts
- - the creation of the Open Source idea and movement (how an how)
- - Richard Stallman - Copy Left, GNU, philosopher
-    - explain the GNU/Linux situation
- - Security will push code to be open ('who '
-    - [Reflections on Trusting Trust](https://www.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
- - companies using & developing open source
- - open source business models
- - I was called a communist many times (in early open source conversations)
- - "Open source as won, but Gen Z is not aware of it"
- - When you open source an app or code, what will happen next is : Nothing!
-    - it is veru hard to create a community around an open source project
-    - what you will have done (with adding the license file to your code (which is all it takes, assuming you wrote all the code so far)), is to create future opportunities for that code and sent a strong message about your agenda (i.e. you are not going to lock in the future the users that are using your current code today).
-       - you are allowing somebody (which could be you) in the future to use your code
-       - you are also protecting your research, so that if you move companies, you can still use that code (there is nothing worse for a programmer than to having to rewrite something that was working ok (specially when it is a framework that supports a particular workflow)
-
- - big success of companies collaborating internally externally (i.e. internal collaboration between different teams via open source code)
-    - although most devs have access to all code, the number of cross-team pull requests is very low (open source license help a lot with this)
-    - allowing other to use your code is a great way to find programmers to hire or companies to buy
-    - the myth of the company that will take your code and just run with it (they will be massive locked to your code)
-        - example of team that created a fork of Chrome (to add security features) and couldn't keep up with Chrome's development speed
-        - the open source tax (when you don't contribute back your changes)
-  - companies should pay developers to work on open source apps/modules that are used in the company.
-    - my experience with helping an open source project (that we used), and then getting help from a key developer from that project in a hard problem that we were having
-
- - Question: "Why don't you open source your code?"
-    - I bet the answer is a combination of:
-        - "I don't think my code is good enough"
-        - "I'm embarrassed about my code"
-        - "Nobody will want to use my code"
-    - the first thing to understand is that I have heard these same excuses from all sorts of developers and companies, for code in all sorts of quality and completeness.
-    - this is your [Lizard brain](https://facilethings.com/blog/en/lizard-brain) in action (making excuses of why you shouldn't do something)
-    - the key is to just do it (add the license and slowly staring building the community)
-
-
-
-**The Cathedral and the Bazaar**
-
-  - https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar
-
-  - In this book/essay Raymond provides 19 lessons which are still as relevant today (2018) as when they were published (1998)
-
-     - Every good work of software starts by scratching a developer's personal itch.
-     - Good programmers know what to write. Great ones know what to rewrite (and reuse).
-     - Plan to throw one [version] away; you will, anyhow. (Copied from Frederick Brooks' The Mythical Man-Month)
-     - If you have the right attitude, interesting problems will find you.
-     - When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
-     - Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
-     - Release early. Release often. And listen to your customers.
-     - Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
-     - Smart data structures and dumb code works a lot better than the other way around.
-     - If you treat your beta-testers as if they're your most valuable resource, they will respond by becoming your most valuable resource.
-     - The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.
-     - Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
-     - Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away. (Attributed to Antoine de Saint-Exupéry)
-     - Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
-     - When writing gateway software of any kind, take pains to disturb the data stream as little as possible—and never throw away information unless the recipient forces you to!
-     - When your language is nowhere near Turing-complete, syntactic sugar can be your friend.
-     - A security system is only as secure as its secret. Beware of pseudo-secrets.
-     - To solve an interesting problem, start by finding a problem that is interesting to you.
-     - Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
-
-
-                
-            
         
 
             
