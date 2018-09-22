@@ -49,70 +49,66 @@ Please share your views, suggestions and criticisms and don't hesitate to reach 
 ## Generation Z             
 Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088) and represents a very interesting mix of great values and digital capabilities.
 
-The older members of this generation at about 22 years old at the moment (2018). They where 11 when the first iPhone come out (2007) and are the first real digital/online generation (they never experienced a world without internet or without google). This is the generation that is entering the market place at the moment.
+The older members of this generation is about 22 years old at the moment (2018). They where 11 when the first iPhone come out (2007) and are the first real digital/online generation. They never experienced a world without internet or without google. This is the generation that is entering the market place at the moment.
 
-In addition to having personal experience with this generation (I have two daughters aged 13 and 15), I have been involved (professionally) in a number of projects with this generation (for example teaching High School kids in the UK how to 'hack' and working with projects that aim at teaching developers coding skills usable in the real-world).
+In addition to having personal experience with this generation (I have two daughters aged 13 and 15), I have been involved, professionally, in a number of projects with this generation; for example teaching High School kids in the UK how to 'hack' and working with projects that aim at teaching developers coding skills usable in the real-world.
 
-The reason I'm focusing on this Generation is due to my realization that they missed a number of key revolutions (in the technology space) whose history understanding is fundamental (in order to be competitive in the market place).
+I'm focusing on this Generation because I believe they've missed the historical understanding of a number of key technology revolutions in order to be competitive in the market place.
 
-In hindsight this is normal, since we (as a society) still don't do a very good job at explaining why things happened and why did they where needed in the first place.
-
-Without an understanding of the past, we only learn from shadows and curated versions of reality.
+Without a full understanding of the past, we only learn from shadows and curated versions of reality.
 
 **I'm worried about Gen Z**
 
-Although Gen Z have some spectacular features and values (for example they are much more tolerant and diverse than previous generations), they have a lack of intellectual curiosity that worries me
+Although Gen Z have some spectacular features and values, for example they are much more tolerant and diverse than previous generations, they have a lack of intellectual curiosity that worries me.
 
-We need to learn from the past (in order not to repeat it), but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z
+We need to learn from the past in order not to repeat it, but lots of key technological revolutions and paradigm shifts seem to be not understood by Gen Z.
 
-Ironically, in an age when information and knowledge is a click (or google search) away, in conversation after conversation with Gen Z teenagers, I've found that they have a very thin understanding of the history of particular technologies, why they occurred in the first place and what problem they tried to solve.
+They are in an age when information and knowledge is a click or google search away. Yet in conversation after conversation with Gen Z teenagers I've found that they have a very thin understanding of the history of particular technologies, why they occurred in the first place and what problems the technology tried to solve.
 
-My hope with this book is to break through those gaps, and provide context and references, so that better informed decisions can be made by members of this generation (who will need to save the world from the mess the previous generations are creating)
+My hope with this book is to break through those gaps and provide context and references, so that better informed decisions can be made by members of this generation. They afterall will need to save the world from the mess the previous generations are creating.
 
 **Overwhelming curiosity**
 
-What I hope to provide is a couple moments where you get this overwhelming curiosity to just learn more about topic, where you start to follow link after link about a particular topic, and that you get a number of 'WOW, that is fr**** awesome!' moments
+What I hope to provide is a couple moments where you get this overwhelming curiosity to just learn more about topic, where you start to follow link after link about a particular topic, and that you get a number of 'WOW, that is fr**** awesome!' moments.
 
-If you are lucky enough to find yourself in this place, congratulations, you just found 'the zone' which is this amazing enviroment when you are single minded and 100% focused learning (which is the best way to learn)
+If you are lucky enough to find yourself in this place, congratulations, you just found 'the zone'. An amazing enviroment when you are single minded and 100% focused learning, which is the best way to learn.
 
-Whenever you find yourself with this headspace, dont stop! Fololow it as long as your brain allows it, and don't stop for anything (namely social events, eat or sleep). This 'zone' is a magical place to be , so learn to recognize when you are inside it and explore it as much as you can.
+Whenever you find yourself in this headspace, dont stop! Follow it as long as your brain allows it, and don't stop for anything, namely social events, eat or sleep (as long as you respect your physical and mental health). This 'zone' is a magical place to be , so learn to recognize when you are inside it and explore it as much as you can.
+
 
             
         
 
             
 ## How to get a job             
-One of my objectives with his book is to help you to find a great job, one that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
+One of my objectives with his book is to help you to find a great job. One that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
 
-It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future's direction and path with every decision that you make everyday.
+It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future's direction and path with every decision you make.
 
-There is a lot of competition out there and if you look at what is coming next (namely AI and the next billion of internet users), you need to maximise your changes and opportunities.
+There is a lot of competition out there and if you look at what is coming next, namely AI and the next billions of internet users, you need to maximise your changes and opportunities.
 
-I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, that didn't happened by accident. I made a number of key decisions in my life (some with very short-term negative implications) that allowed me to align what I love to do with what the market wants to pay.
+I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, it didn't happened by accident. I made a number of key decisions in my life, some with very short-term negative implications, that allowed me to align what I love to do with what the market wants to pay.
 
 **Being passionate and love your job**
 
-Find what you are passionate for, what you really care about, and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are the company that is employing you to work on those topics.
+Find what you are passionate for, what you really care about, and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are to the company that is employing you.
 
 **Having one competitive advantage**
 
-The best way to get a job is to have 1 (one) competitive advantage. One activity or task that you can do better than the person/company hiring you. For example in the 1990s for a lot of companies it was using a computer, in the 2000s is was using the internet. For development or security, for a while all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that the ones that could do it, where the ones that proactively embraced those technologies and learned them against all odds (at the time when most companies, including technological companies, where ignoring it). These days, it is thinks like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other technologies/ideas covered in this book :)
+The best way to get a job is to have ONE competitive advantage. One activity or task that you can do better than the person or company hiring you. For example in the 1990s for a lot of companies it was simply that you could use a computer! In the 2000s is was using the Internet. In the early days of software development or security, all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that those who could do it were the ones who proactively embraced the technologies and learned them against all odds. Individuals can become experts at new technology faster than the tech companies. You can be first in line for a job when they need that expertise. These days, it is technologies like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other ideas covered in this book :)
 
-**Own your carer development**
+**Own your career development**
 
-You are the one that is in change of your carer. Don't let anybody tell you what you should be doing and what paths to follow. You need to discover these paths by yourself (via trial and error), and a great way to do that is to work for companies that are aligned with those paths
+You are the one in change of your career. Yes, listen to advice but only you can ultimately choose which paths to follow. You need to discover those paths by yourself, via trial and error, and a great way to do that is to work for companies who are aligned with those paths.
 
 And how do you start working with those companies?
 
-Easy, start collaborating on their Open Source projects. Act like you are part of the company (understand their values, and behave in ways that that add value to that company, namely the tech stack)
+Easy, start collaborating on their Open Source projects. Act like you are part of the company. Understand their values, and behave in ways that that add value to that company, namely the tech stack.
 
-Start by meeting offline and online the key individuals (and developers) from those companies and communities in a way that adds value to them                                                                                                                                                              . Build relationships that will teach you a lot, and potentially lead to very interesting job offers (or references). Start learning how to add value and how to become really good at proactively solving problems (which is one of the most valuable assets you can bring to a company)
+Start by approaching the key individuals and developers from those companies and communities, offline and online, in a way that adds value to them. Build relationships that will teach you a lot, and potentially lead to very interesting job offers, or at least references. Start learning how to add value and how to become good at proactively solving problems, which is one of the most valuable assets you can bring to a company.
 
-What is interesting is that there is nothing stopping you from doing this!
+What's interesting is that there is nothing stopping you from doing this! We are in very open, collaborative and creative times. You have nothing to lose by giving it all you've got, and all to gain.
 
-So why don't you?
-
-After all you have nothing to lose? (and all to gain)
 
             
         
@@ -165,22 +161,22 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 | name | what | task | price |
 |------|------|------|-------|        
 |  Creative Commons | Copyright License to release content under | Release a blog post or other content under a CC license | zero |        
+|  Open Source | Copyright License to release software that guarantees a number of freedoms | Release some code under an Open Source license | zero |        
 |  Docker | Containerization technology that is super fast at applications or micro-services execution | Install docker and try the ubuntu, apache, elk and gogs images | free |        
 |  Hugo | static site generator and major paradigm shift on how to think about websites creation and deployment | install hugo, create a website and publish it (ideally using AWS S3) | zero (hosting might have some costs) |        
-|  Jira | Web based issue tracking system (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |            
-|  Open Source | Copyright License to release software that guarantees a number of freedoms | Release some code under an Open Source license | zero |            
+|  Jira | Web based issue tracking system (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |        
+|  OWASP | Worldwide community focused on Application Security | Attend a chapter meeting and contribute to an project | free |        
+|  Python | Programming language that all developers should master | Create and publish an Python tool | free |        
+|  Slack and ChatOps | Communication and decision making platform | Create Slack Workspace and write a Slack bot integration | free |            
 |  TDD (Test-Driven Development) |  |  |  |            
 |  AWS |  |  |  |            
 |  Continuous Integration |  |  |  |            
 |  Dot Language |  |  |  |            
-|  Free Sofware Foundation |  |  |  |            
+|  Electron |  |  |  |            
 |  GitHub Flow |  |  |  |            
 |  IOT (Internet of Things) |  |  |  |            
-|  OWASP |  |  |  |            
-|  Python |  |  |  |            
-|  Slack |  |  |  |            
 |  WallabyJS |  |  |  |            
-|  XCode |  |  |  |            
+|  XCode and Swift |  |  |  |            
 |  google |  |  |  |            
 |  linux |  |  |  |            
 |  raspberry-pi |  |  |  |
@@ -208,7 +204,7 @@ This license is basically defining the rules of the game that are applied to the
 
 ### Creative Commons license variations and this book
 
-This book is released under the (Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en_US) will defines the following teams (see website):
+This book is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en_US) which defines the following terms (see website):
 
 > You are free to:
 >
@@ -661,6 +657,278 @@ With the right People and Process, lots of technologies can be used to make this
 
             
         
+
+            
+## OWASP             
+[OWASP](https://www.owasp.org/) (the Open Web Application Security Project) is a worldwide organization focused on Application Security. We are the good guys that are trying to make the world a safer place :)
+
+I have been heavily involved in OWASP for a long time, and it is one of the more open, friendly, knowledgeable and carer-enhancing communities you can find. I've meet some of my best friends in the industry though OWASP and what I've learned from its projects and events is too long to list here :) 
+
+There are many ways that actively participating in OWASP will make you a better developer and enhance your carer. Part of building your brand, skills and network is the participation in Open Source communities, and OWASP is a a perfect place to do that.
+
+The first place to start is your local Owasp Chapter. With [100s of chapters](https://www.owasp.org/index.php/OWASP_Chapter) worldwide, you shouldn't be to far from one (if not then [start one](https://www.tfaforms.com/261541), the London Chapter started many years ago over beers in a London pub). Attend a chapter meeting, learn something new and create connections.
+
+Next step is to check out the [OWASP projects](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory) and see which ones are relevant to your current work/research, and more importantly, which ones you should be involved as a contributor. Most OWASP projects, even the bigger and most successful ones, are usually maintained by only a couple individuals, and ALL projects are desperate for contributors and help! It is not that hard to start, just fork the project in GitHub, see the open issues and start sending the Pull Requests.
+
+Check out the main [OWASP Conferences](https://www.owasp.org/index.php/Category:OWASP_AppSec_Conference) and events like the [Open Security Summit](https://open-security-summit.org/) which are amazing places to learn and meet highly talented professionals, all happy to share knowledge and teach.
+
+Finally, join up [OWASP Slack](http://owaspslack.com) where you will find everybody and 100s of channels dedicated to everything OWASP related (projects, chapters, conferences, topics)
+
+### Find jobs via OWASP contributions
+
+Due to its open nature and focus on finding solutions for hard problems (related to application security), OWASP's community is made by the 'doers', i.e. the ones that actually get things done at companies and know what they are doing. 
+
+This means that regardless if you want to want to get a job in an security team, active participation in OWASP projects is a perfect and very effective way to meet individuals that can help you find the job you want.
+
+That said, there is a massive skills shortage in the market for Application Security specialists. The main reason is because you can't really do Application Security unless you have a developer background. My advise to all developers I meet, is to seriously consider an Application Security carer. Not only it is an industry that is on a massive growth curve, it really needs new talent, energy , development skill and ideas.
+
+
+            
+        
+
+            
+## Python             
+[Python](https://en.wikipedia.org/wiki/Python_(programming_language)) is great language to master since it contains a large number of the key development paradigms that you need to know, while being easy to learn and read. 
+
+Python started in 1991 by [Guido van Rossum](https://twitter.com/gvanrossum/) when he was 35 and the key focus was in making a simple but powerful language. 
+
+A great feature added early on was the REPL (Read Eval Print Loop) environment. This is what you see when you run `python` from the command line and get an interactive shell that allows the execution of Python code. That said, I don't use the Python command line very often, since I have a similar (and more powerful) REPL environment using Python tests (and TDD)
+
+### Use Python for AWS automation
+
+Even if you are not using Python as your main development language, due to it massive adoption and powerful ability to write small apps/function, you should use it often (for all sorts of automation tasks).
+
+A perfect example of the power of Python is in the development of Serverless functions (executed as an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model-handler-types.html)) or in advanced customization's of event-driven workflows (like the one provided by [Zapier Python support](https://zapier.com/help/code-python/))
+
+The [AWS SDL for python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) is something you should spend quite a lot of time with and really explore its capabilities (while learning to take python into another level). 
+
+This API gives you access to just about everything you can do in AWS, and as a developer you need to really start thinking of AWS as an 'app' that you code your application on top of its capabilities. You need to get into the practice of writing code (driven by tests) vs clicking on things.
+
+For example here is a code snippet that starts a virtual machine in AWS:
+
+```
+import boto3
+ec2         = boto3.client('ec2')
+instance_id = sys.argv[2]
+response    = ec2.start_instances(InstanceIds=[instance_id])
+print(response)
+```
+
+### Don't click on things
+
+Clicking on an UI with your mouse, is a non-repeatable, non-automated and non-scalable way to perform a specific task. What you want to do is to write tools, APIs and DSLs that allow the easy and automated execution of those tasks.
+
+For example here is a python script that tests the execution of an Lambda function
+
+```
+    def test_hello_world(self):
+        handler         = 'lambdas.s3.hello_world.run'
+        payload         = {"name": "lambda-runner"}
+        expected_result = 'hello {0}'.format(payload.get('name'))
+
+        self.aws.lambda_create_function(self.name, self.role, handler, self.s3_bucket, self.s3_key)
+        result = self.aws.lambda_invoke_function(self.name, payload)
+        assert result == expected_result
+```
+
+### Python for data parsing and analysis
+
+Another really powerful use of Python is to perform all sorts of data parsing, modeling and analysis.
+
+As a very practical real world scenario, if somebody sends me multiple excel documents with data to analyse, the first thing I do is to:
+
+- export it to csv, 
+- use python to normalize the raw data into json file(s)
+- use an data visualizing tool or API (for example ELK, Neo4J or [visjs](http://visjs.org/)). 
+
+This is not very hard to do, and is faster then trying to make sense of the excel documents (namely when needing to do data correlation between different excel sheets or files)
+
+            
+        
+
+            
+## Slack and ChatOps             
+It is easy to underestimate [Slack](https://slack.com/)'s capabilities, not realise that Slack is a massive agent for change, and that Slack's empowered workflows will play a  big  part in your future as a developer. 
+
+Initially Slack might look like just an evolution of instant messaging tools like: [Skype](https://en.wikipedia.org/wiki/Skype), [MSN Messenger](https://en.wikipedia.org/wiki/Windows_Live_Messenger), [SMS](https://en.wikipedia.org/wiki/SMS), [ICQ](https://en.wikipedia.org/wiki/ICQ), [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) or [Smoke Signals](https://en.wikipedia.org/wiki/Smoke_signal). 
+
+The reason why Slack in a relative short period (5 years) gained such adoption and traction, is because its features enable organizations and communities to not only to change how they communicate, but how they behave. Namely how they understand what is going on and how they respond to events.
+
+Effective Communication and alignment are not only key competitive advantages of successful organizations, but are usually the reason they succeed or fail (see ["Aligning vectors"](https://www.linkedin.com/pulse/what-elon-musk-taught-me-growing-business-dharmesh-shah/) presentation for more details). 
+
+Slack provides an Asynchronous data/information exchange environment that can be at the epicenter of the multiple actors involved in the organization ecosystem: humans, bots, servers, applications, services and events.
+
+The potential for change is enormous, although at the moment, most companies are only taking advantage of about 10% of Slack's capabilities. In most organizations Slack is at the _'replacing email'_ stage, which quickly is followed by the _'too many channels'_ and _'how do find what is going on without having to read a gigantic slack thread'_ phases (which can have diminishing returns)
+
+The important question for you is: _"Are you going to take an active and proactive role in making Slack work for an organization?"_. I can guarantee you that if you have hands on experience in the ideas and techniques described in this chapter, you have just increased your competitive advantage and employability.
+
+### Why was Slack successful?
+
+Slack's success is a great case study of the power of marginal gains, where a large number of 1% improvements created an spectacular platform (for another great example 1% marginal gains the see the British' cycle success on _[How 1% Performance Improvements Led to Olympic Gold](https://hbr.org/2015/10/how-1-performance-improvements-led-to-olympic-gold)_ where they talk about the power of marginal gains, based on 3 areas: strategy, human performance and continuous improvement).
+
+Here are some of the features that Slack added that (in aggregation) made a massive difference:
+
+ - **Copy and Paste of images** - this 'simple' feature massively improves the user's workflow and ability to communicate (It still amazes me how companies don't realise that there is a massive usability difference between copy and pasting an image and having to upload an image). If I remember correctly this was one of the reasons I started to like Slack
+ - **Effective use of Emojis** - not only for emotions (happy/sad/angry/laughing face) but for actions/decisions (yes/no, ok, 'read document', 'need more details')
+ - **Great desktop application** - with seamless integration with web and mobile (the desktop app is built of top of [Electron](https://electronjs.org/))
+ - **Effective search and shortcuts**
+ - **Drag and drop of documents** - with ability to preview them in slack (for example pdfs)
+ - **Auto previews of links dropped** - like web pages, twitter links, videos
+ - **Buttons and forms to drive actions** - which allow the expansion/improvement of Slack's UI by 3rd party apps/services
+ - **3rd party integrations** and **Native support for Bots**
+ - **Smooth and regular deployment of new features** (audio and voice conferencing, single channel users, message reminders, message threads). Here is an example of a [_Same day fix_](https://twitter.com/p0cket/status/784141207601614848) which highlights the power of DevOps and Continuous Deployment
+ - **Scalable backend with very few outages**
+ - **Application Security** and **Security usability**
+ - **Great culture and focus** - see the _[Dear Microsoft](https://slackhq.com/dear-microsoft)_ Ad they run in Nov 2016 and the internal memo from July 2013 _[We Don’t Sell Saddles Here](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)_
+
+All of the above combined (can) create a super productive environment. Your task is to be a 'Slack master' and lead the revolution :)
+
+The big lesson here is that: 
+
+1. high focus on where you add value, speed of delivery and adaptability of the direction of travel 
+
+beats 
+
+2. a highly defined strategy 
+
+For a great example of changing directions, if you check out [Slack's history](https://en.wikipedia.org/wiki/Slack_(software)) you will see that Slack actually started as an internal tool created by the company _Tiny Speck_ while they were working on the [Glitch](https://en.wikipedia.org/wiki/Glitch_(video_game)) game
+
+### Learn how to use Slack
+
+As with every tool, you need to spend time in learning how to use it in order to be effective. It is very important to  initially not be overwhelmed by the large number of channels and messages that you will get. 
+
+Fun fact, when things get quite heavy, sometimes we call it _'Slack Tennis'_ since there is so much stuff bouncing around in multiple channels that it fells like you are playing Tennis inside Slack.
+
+Some practical tips:
+
+ - remove most  Slack notifications 
+ - mute chatty channels that don't provide important information for your day to day activities
+ - do to not be afraid to leave a channel, since if you are needed, it is easy for others to bring you in with a mention of your name
+ - consume Slack under your terms, not when a message arrives and you receive a dopamine kick
+ 
+ Think of Slack as asynchronous communications, where there is a gap of time between when:
+ 
+ 1. a message is sent
+ 2. a message is received  
+ 3. a message is processed (with our without a reply)
+
+ As with just about everything, the challenges are one of People, Process and Technology:
+ 
+ - **People**  - you and and who/what you are communicating with
+ - **Process**  - how Slack is used (conversions, workflows, human behaviors, response's protocols/expectations, new users on-boarding, documentation)
+ - **Technology**  - Slack and its integrations
+
+ The good news is that you have direct control over these three, and there is nothing stopping you from learning. 
+ 
+ This is why your understanding and use of Slack is a major sign of your own values and skills. 
+ 
+ There is no cost in learning and using slack in the ways I describe in this chapter. 
+ 
+ If you don't learn how to effectively use Slack, what is that telling about your drive, priorities, energy, desire to learn and ability to effectively use new technologies. Basically your competitive advantages in the marketplace is directly related to how you use Slack.
+
+### ChatOps
+
+Let's go up a gear and start looking at what makes Slack so powerful. I'm talking about Bot Integration.
+
+Bots are basically applications (ideally setup in a serverless pipeline) that react or generate events. For example we could have a bot that:
+
+1. receives a notification from an live server (an CPU Spike, new deployment, or an particular user action) or from an 3rd party service (like email, twitter or CI pipeline)
+2. processes and (optionally) transforms it
+3. sends a follow-up slack message to a particular channel (based on a pre-defined set of rules)
+4. gets response from user (simple acknowledgement or action)
+5. reacts to that response
+
+The concept that clearly explains this workflow is the '_ChatOps_' idea, which was initially shared in the amazing '[Chatops At GitHub](https://speakerdeck.com/jnewland/chatops-at-github) presentation (see video [here](https://www.youtube.com/watch?v=NST3u-GjjFw)). For more recent presentations see [Real World ChatOps](https://www.slideshare.net/VictorOps/real-world-chatops) , [Revolutionize Your Workflow with ChatOps](https://www.slideshare.net/Tessa99/revolutionize-your-workflow-with-chatops) and [Accelerating DevOps with ChatOps](https://www.slideshare.net/rohanrath/accelerating-devops-with-chatops-91945690)
+
+One of the definitions of ChatOps is  _"a collaboration model that connects people, tools, process, and automation into a transparent workflow"_ that creates a  _Culture of Automation, Measurement and Sharing_ (CAMS). This basically means that ChatOps is at the epicenter of information and decisions flows.
+
+A real world example is when you (as a developer) use Slack as a communication medium for what is going on (in your live servers, test's execution or even build). But even more interesting, not only you can get data into Slack, you can issue back commands and influence what is going on. 
+
+### Getting started 
+
+The best way to learn is by doing it. 
+
+Your first step is to [create a Slack workspace](https://slack.com/create) so that you have a playground for your ideas. There is [no cost](https://slack.com/pricing) to create new Slack Workspace, so what are you waiting for? 
+
+Make sure you invite your friends and colleagues to participate, so that you have a wide set of scenarios to play with.
+
+To get you going here are a couple scenarios: 
+  
+  - write code that sends messages to a slack channel (simple HTTP POST requests with your Slack API key)
+  - follow GitHub's footsteps and deploy and customize [Hubot](https://hubot.github.com/). [Errbot](http://errbot.io/) is a Python alternative, and Slack's tutorial shows an integration using [Botkit](https://api.slack.com/tutorials/easy-peasy-bots)
+  - write bot integrations with services like [Zapier](https://zapier.com/) or [IFTTT](https://ifttt.com/). See Zapier's _[How to Build Your Own Slack Bot in 5 minutes](https://zapier.com/blog/how-to-build-chat-bot/)_ guide
+  - write a serverless Slack integration using AWS API Gateway and Lambda functions
+  - write a Slack integration that automates one area of your life (maybe something to do with a task you do every day) 
+
+### Join the OWASP Slack Community
+
+OWASP (Open Web Application Security Project) is an very friendly open source community that has migrated a large part of its digital interactions to Slack (see [OWASP chapter](https://github.com/DinisCruz/Book_Generation_Z_Developer/blob/master/content/2.mvp-for-gen-z-dev/content/owasp.md) for more details).
+
+I strongly advise you to join the Owasp Slack using the http://owaspslack.com/ registration form. 
+
+Not only you will see examples of these integrations in real-world scenarios, in that workspace you will find a multiple Slack experts, who will be more than happy to help you. You can also find multiple opportunities (in OWASP project or chapters) to put your Slack integration skills in action.
+
+When you join in, drop me a message saying Hi. I should be easy to find :)
+
+
+### Talking to yourself via Slack
+
+As I mention in the [Talking to yourself digitally](https://github.com/DinisCruz/Book_Generation_Z_Developer/blob/master/content/4.life-patterns/content/talking-to-yourself.md) chapter, the practice of capturing your thoughts and workflows is super important.
+
+Slack is a great medium to do this, since it massively improves the workflow that we we usually have when using Word docs (or services like [Evernote](https://evernote.com/)) to capture notes about what we are doing. 
+
+Here is the workflow I usually use:
+
+ 1. in Slack describe what I am going to try next
+ 2. do it
+ 3. take screenshot of the latest change
+ 4. in Slack paste the screenshot
+ 5. go back to 1.
+
+This workflow is really powerful, because what you are doing is capturing how you are thinking about the problem you are solving (including all the tangents that you tried and didn't work). And yes, very often, you will find that it is only you that (initially): asks questions, provides answers, learn from failures and celebrates successes.
+
+One way to keep sanity is to remember that this information will be super useful one day to your _'future self'_, and that you now have the raw data / screenshots for a great blog post. This will help others to understand the steps you took, the challenges you had, the solutions that didn't work, the solutions that did work, and how to arrived at the final result/conclusion. 
+
+This is also how you scale your knowledge and avoid having to answer the same question twice (specially when you create a blog post which makes it really easy to find that content)
+
+A simpler version of this pattern is when you:
+
+1. ask a question in Slack
+2. find the answer
+3. reply to your own message with the solution
+
+### Use Slack when debugging code (as a log collector)
+
+When you have a bug in your code that you don't understand the root cause, a common practice is to use a [Debugger](https://en.wikipedia.org/wiki/Debugger), which will provide features like breakpoints and code stepping.
+
+This just about works when you have direct access to the execution environment and you are looking at simple applications. 
+
+But as soon as you start working on distributed systems with lots of moving parts (for example with multiple web services and serverless functions), you stop having the ability to realy understand what is going on (namely the exact sequence of events and what the data looks like in those intermediate states) 
+
+Slack gives you an environment to receive logs/messages from those internal execution flow and states. To make this scale, you should create helper APIs that make it easy to send and receive data from Slack.
+
+As simple example, here is a Python method that I wrote to help me understand and debug AWS Lambda function's execution:
+
+```
+send_to_slack('there are {0} missing ips'.format(len(missing)))
+
+    ...(do something)...
+
+send_to_slack('resolving {0} missing ips'.format(len(missing)))
+
+   ...(do something)...
+
+send_to_slack('resolved {0} ipdata ips'.format(len(ipdatas)))
+```
+
+
+ 
+
+
+ 
+
+            
+        
     
 
     
@@ -822,6 +1090,43 @@ For a nice view of what could be happening next see:
   - [Life 3.0: Being Human in the Age of Artificial Intelligence](https://www.amazon.co.uk/Life-3-0-Being-Artificial-Intelligence/dp/024123719X/)
   - [Homo Deus: A Brief History of Tomorrow](https://www.amazon.co.uk/Homo-Deus-Brief-History-Tomorrow/dp/1910701874)
   - [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
+
+
+            
+        
+
+            
+## Assembly and Bytecode             
+Assembly code is a representation of what the machine code that the CPUs actually execute. It is the lowest level of abstraction that you can program.
+
+The moment I fallen in love with programming was when (as a teenager) I executed the POKE assembly command in my ZX Spectrum, which changed a pixel on my TV screen. That was such a magical moment because I had direct control over what was happening inside the computer and screen.
+
+[PEEK and POKE](https://en.wikipedia.org/wiki/PEEK_and_POKE) were [BASIC](https://en.wikipedia.org/wiki/BASIC) commands that allow direct memory access and manipulation (PEEK reads and POKE writes). What I was doing was to write directly to the memory location that was used to control the screen (i.e. each byte in that memory address represented a small section of the screen).
+
+A while later I started learning how to go deeper and explored writing assembly code. In those 'pre internet' days there was very little information around and with only one book available, I actually remember manually translated assembly code into binary by hand (I didn't started with an assembler compiler). Eventually I got an assembler and did many experiments in the ZX Spectrum, the [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) and the x86 PCs (which when compared with the Amiga's Motorola 68000 microprocessor had a much more complex memory layout).
+
+In fact my first 'security hacks' were based around memory and disk manipulations written in assembly. They were designed to manipulate and change the behavior of the games I was playing (I think there was some cool way to get more money in SimCity)
+
+Looking back, what I can see is that when I was writing assembly language, what I was doing was learning (in a very efficient way) about: computer architecture, memory layout, systems design, programming and much more. For example learning about hardware interrupts, TSR (Terminate and Stay Resident), and Kernel vs User-land memory, did wonders for my understanding of computer science.
+
+These days you are more likely to code in Python, Java or .Net than assembly. But if you look under the hood, these languages are compiled into [bytecode](https://en.wikipedia.org/wiki/Bytecode) which is a normalized version of assembly. 
+
+For example here is what `print("Hello, World!")` looks like in [python's bytecode](https://opensource.com/article/18/4/introduction-python-bytecode)
+
+    0 LOAD_NAME                0 (print)
+    2 LOAD_CONST               0 ('Hello, World!')
+    4 CALL_FUNCTION            1    
+
+Python (as with .Net and Java) is a [stack-based virtual machine](https://en.wikipedia.org/wiki/Stack_machine) which is provides a translation layer between the language and the CPU specific machine code
+
+### Decompiling code
+
+Bytecode is the reason why .Net and Java can be easily decompiled from an .dll or .class file. 
+
+In .Net this can be quite spectacular since tools like [ILSpy](https://github.com/icsharpcode/ILSpy) allow the easy decompilation of non-obfuscated .Net assembly (including the ones from the Microsoft .Net Framework).
+
+For viewing C++ and other compiled code, two great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
+
 
 
             
@@ -1212,7 +1517,7 @@ AWS is Amazon's Cloud offering and is spectacular success story
                 
 ## Dot Language
 
-...
+[DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) is a graph description language
 
 **Topics to cover and ideas**
 
@@ -1220,6 +1525,7 @@ AWS is Amazon's Cloud offering and is spectacular success story
  - Why is this such a big deal, major paradigm shift required
  - Why visio and other diagram tools don't scale
  - the fact that you can't control the diagram layout (in the same way you do in visio) is actually a major feature
+ - http://www.graphviz.org/documentation/ 
 
                 
             
@@ -1227,22 +1533,16 @@ AWS is Amazon's Cloud offering and is spectacular success story
 
             
                 
-## Free Sofware Foundation
+## Electron
 
 ...
 
 **Topics to cover and ideas**
 
- - history
- - Richard's s story
- - copy left
- - why they were so important
- - the problem of not mapping it to a business model
- - the problem of taking an extreme view
- - key arguments have been won, but lost a lot of momentum (and not fulfilled it potential)
- - inevitability of Open Source
-    - even Microsoft does open source these days (they were the ones that called open source 'cancer)'
-
+ - https://en.wikipedia.org/wiki/Electron_(software_framework)
+ - important to learn and experience the creation of desktop applications
+ - node on the backend and chromium in the frontend
+ - major desktop applications written in it
                 
             
         
@@ -1304,76 +1604,6 @@ AWS is Amazon's Cloud offering and is spectacular success story
 
             
                 
-## OWASP
-
-Part of building you brand and carrer is the participation in Open Source community groups like OWASP
-
-OWASP (the Open Web Application Security Project) is a world wide organisation that is focused on Application Security.
-
-**Topics to cover and ideas**
-
- - Great community
-    - chapters, conferences, guidance, tools, books, summit
- - be involved
- - make of companies that are hiring now!
- - dramatic need for application security professionals
- - security is a key skills for developers (add AWS CTO quotes)
- - owasp summits
- - working sessions
- - chapters, join or start one
- - projects
-   - JuiceShop
-   - Top 10
-   - mobile testing guide
-
-                
-            
-        
-
-            
-                
-## Python
-
-...
-
-
-**Topics to cover and ideas**
-
- - Here is how it all started
- - what makes python special
- - how guido was hired by google
- - Guido van Rossum
-    - https://twitter.com/gvanrossum/
-    - guido created python when he was 35
-    - https://gvanrossum.github.io/
-        - http://neopythonic.blogspot.co.uk/2016/04/kings-day-speech.html
-
- - make reference to other languages like NodeJs
-                
-            
-        
-
-            
-                
-## Slack
-
-Similar to WhatsApp Slack is how we communicate daily inside companies and communities (just like we used to using ICQ, MSN Messenger, Skype, Phone, Smoke Signals, etc...) 
-
-**Topics to cover and ideas**
-
- - Slack bots
-    - power of bots to automate workflows    
- - Why slack won
- - Integrations using Zapier or ITTT
- - Copy and paste of images
- - there are large numbers of Slack communities that you can join, for example OWASP or the Open Security Summit one
- 
-                
-            
-        
-
-            
-                
 ## WallabyJS
 
 ...
@@ -1402,13 +1632,15 @@ Similar to WhatsApp Slack is how we communicate daily inside companies and commu
 
             
                 
-## XCode
+## XCode and Swift
 
-...
+If don't have a Mac computer and an iPhone you can ignore this chapter. If you do, then you should be hours away from your first iPhone application.
 
-**Topics to cover and ideas**
+[XCode](https://en.wikipedia.org/wiki/Xcode) is Apple's main development environment, and the best tool to create an iPhone application. 
 
- - Write your own mobile app today (now easy with Swift)
+[Swift](https://en.wikipedia.org/wiki/Swift_(programming_language) is the 
+
+See [Hello World! Build Your First App in Swift](https://www.appcoda.com/learnswift/build-your-first-app.html) for step-by-step instructions
                 
             
         
@@ -1470,6 +1702,8 @@ Similar to WhatsApp Slack is how we communicate daily inside companies and commu
  - use a raspberry PI to connect to a hardware (get one of the starter kits (add link). Make a led blink, create a mobile phone, etc..
  - connected to maker movement and IOT world
  - article [Raspberry Pi device will 'reboot computing in schools'](https://www.theguardian.com/education/2012/jan/09/raspberry-pi-computer-revolutionise-computing-schools)
+ - Create your own computer (buy the parts and create one from scratch: board, cpu, memory, disk ,graphics card)
+    - if you are into gaming, this could be your game machine
                 
             
         
@@ -1735,40 +1969,15 @@ Notes [Why We're All Addicted to Texts, Twitter and Google](https://www.psycholo
 
             
                 
-## CPU
-
-**Topics to cover and ideas**
-
- - power of assembly, the importance of learning how to code in ASM
- - how assembly relates to bytecode in .Net (MSIL) and Java
- - spectre and meltdown vulnerability
- - I learned how to code assembly by hand
-    - a bit difficult (I was 13 at the time) but I had only one book and no internet
-    - manually translated assembly code into binary (I didn't had an asm compiler at the time)
-    - I was learning massively about architecture, memory layout, programming, etc... (without noticing). I was in the 'zone'
-    - totally worth it
-    - learning about hardware interupts, TSR (Terminate and Stay Resident),and kernel vs user land memory did wonders for my understanding of Window's programming/architecture and computer science
- - when I was 16 I programmed on the Motorola 68000 which was much easier and more interresting (the 68000 CPU was used in the Amiga, and was much more powerful that the x86 architecure (we still used today))
- - my peek and poke moment: 'change a pixel on screen' (and falling in love with programming)
- - mention history of processors:
-    -  Zilog Z80,Motorola 68000 and Intel x80, x286 and Pentium
-        - "I remember when 286 was fast"
-
- - Great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
-
-
-                
-            
-        
-
-            
-                
-## CV Testing
+## CI Testing
 
 ...
 
 **Topics to cover and ideas**
 
+ - CI - Continuous Integration
+ - if you make changes and a test doesn't break, you are making random changes (and have no way to know if those changes are still active tomorrow)
+ - Pushing security to the left
  - Test your pipeline
  - "config changes can be more dangerous than code changes"
     - find source (quote from [AWS re:Invent 2017: Performing Chaos at Netflix Scale (DEV334)](https://www.youtube.com/watch?v=LaKGx0dAUlo) )
@@ -1845,28 +2054,6 @@ Notes [Why We're All Addicted to Texts, Twitter and Google](https://www.psycholo
 
             
                 
-## Copyright
-
-...
-
-**Topics to cover and ideas**
-
- - What is it
- - understand its history
- - Why was it created
- - Is it working
- - Positive side effects and Negative side effects
- - Copyleft
- - Opensource and Creative Commons are copyright licenses
- - Music and its relationship with copyright
-    - what happens when the cost of distribution goes to zero
-    - customers will still buy (if the product and distribution is right)
-                
-            
-        
-
-            
-                
 ## Deadlines
 
 ...
@@ -1881,6 +2068,30 @@ Notes [Why We're All Addicted to Texts, Twitter and Google](https://www.psycholo
  - Solution is to break the problem into small milestones and be flexible (I prefer Kanban to Agile, with Scrumban not a bad alternative) 
  - Developers are the ones that actually have the real power to do something about meeting the deadlines, since they are the ones that will actually do the work
  - One of the reasons Agile doesn't work very well is due to the amount of guess work that happens in the sprint planning
+                
+            
+        
+
+            
+                
+## Design
+
+...
+
+**Topics to cover and ideas**
+
+ - explain what it is
+ - Steve Jobs and Jon Ive on Design
+ - It's about everything
+ - 'Design of everyday things' book
+ - Design is not about how things look, it is about how they work
+ - Microsoft approach to design (story about how for J.Ive change is not a desirable goal, but a side effect of good design)
+ - with good design, evolution feel natural and the current status quo quickly feels out of date
+ - attention of detail , making it work
+ - Simple is very hard (you know it is right when there is nothing to add and remove (without severely affecting the meaning))
+ - 'I don't have time to send you a short letter so I'm going to send a long one' 
+ - constant refactoring is how we get to good design
+    - speed of iteration , beats quality of design (and ironically the speed of iteration will create a more quality outcome)
                 
             
         
@@ -2019,6 +2230,7 @@ Notes [Why We're All Addicted to Texts, Twitter and Google](https://www.psycholo
 
  - Bret Victor's inventing on principle (https://vimeo.com/36579366)
  - (add transcription reference) <- print this and read it
+ - https://en.wikipedia.org/wiki/Light_Table_(software) http://lighttable.com/ , was inspired by this presentation
                 
             
         
@@ -2196,6 +2408,7 @@ The best companies are (or will be) following these concepts, not because its 'c
     - this will be successfully because it is massively cost effective (story of the crazy cost reductions and performance gains from moving to a lambda based architecture)
     - when you look at how much process and memory (in aggregate) is actually used in by apps in dev, qa and production, you will see that the amount of waste and over-provisioning is huge (i.e. resources not used)
     - once we add more scalable and dynamic micro-services architectures and applications that are able to 'self-degragade' their features based on load (and other factors like security), we will have a very powerful, resilient, available and secure application environment.
+    - mention kubeless
 
                 
             
@@ -2635,6 +2848,9 @@ Threat Modeling is a technique used by security professionals to understand the 
         
 
             
+        
+
+            
                 
 ## Automate your Workflows
 
@@ -2811,6 +3027,24 @@ You really need to understand that everybody as doubts about their capacities an
 
  - [What 5,000 Gen Z’ers Tell Us About the Future of Work](https://medium.com/@doorofclubs/what-5-000-gen-zers-tell-us-about-the-future-of-work-6dd00f796e8f) - see reference on importance of mentoring
 
+                
+            
+        
+
+            
+                
+## One way and two way doors
+
+...
+
+**Topics to cover and ideas**
+
+ - story how to approach decisions
+ - **'One-way door'** decisions - no way back (or hard to revert). Once you go through and the door is closed you can't open it back
+ - **'Two-way door'** decisions - easy to revert decisions. You can open back the door after going through
+ - in a lot of organizations, after a while there is an mis-understanding about the status of doors. i.e. there is a tendency that two-way doors and one-way doors, which leads to decision paralysis and adverse to take risks (i.e. open doors and try it)
+ - this is related to the concept of fail-fast
+ - Similar to story (I thinking from somebody in Google) that said "My metric for approve or not a project is based on how easy it is to roll back the changes (and its impact of real customers)'
                 
             
         
@@ -3004,28 +3238,6 @@ Here are some books that really help me:
 ## Diagrams to add
 
 - Info-graphic on GenerationZ - https://twitter.com/B_La_D/status/965704619035906050
-                
-            
-        
-
-            
-                
-## EFF
-
-EFF (Electronic Frontier Foundation)
-
-**Topics to cover and ideas**
-
- - https://www.eff.org/ (one of the logos for the cover)
- - brief history
- - major success stories
- - why is it important
- - why you should support them (add link)
- - net neutrality
- - hackers it defended in court (and other privacy related cases)
-    - ones they won and lost
-
-
                 
             
         
