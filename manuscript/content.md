@@ -163,11 +163,12 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 |  Creative Commons | Copyright License to release content under | Release a blog post or other content under a CC license | zero |        
 |  Open Source | Copyright License to release software that guarantees a number of freedoms | Release some code under an Open Source license | zero |        
 |  Docker | Containerization technology that is super fast at applications or micro-services execution | Install docker and try the ubuntu, apache, elk and gogs images | free |        
-|  Hugo | static site generator and major paradigm shift on how to think about websites creation and deployment | install hugo, create a website and publish it (ideally using AWS S3) | zero (hosting might have some costs) |        
 |  Jira | Web based issue tracking system (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |        
 |  OWASP | Worldwide community focused on Application Security | Attend a chapter meeting and contribute to an project | free |        
 |  Python | Programming language that all developers should master | Create and publish an Python tool | free |        
-|  Slack and ChatOps | Communication and decision making platform | Create Slack Workspace and write a Slack bot integration | free |            
+|  Slack and ChatOps | Communication and decision making platform | Create Slack Workspace and write a Slack bot integration | free |        
+|  Hugo | static site generator and major paradigm shift on how to think about websites creation and deployment | install hugo, create a website and publish it (ideally using AWS S3) | zero (hosting might have some costs) |        
+|  Xcode and Swift | Development environment to create iPhone of Mac applications | Install Xcode and create your first Mac Application | Xcode requires a Mac (bought or rented) |            
 |  TDD (Test-Driven Development) |  |  |  |            
 |  AWS |  |  |  |            
 |  Continuous Integration |  |  |  |            
@@ -175,8 +176,7 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 |  Electron |  |  |  |            
 |  GitHub Flow |  |  |  |            
 |  IOT (Internet of Things) |  |  |  |            
-|  WallabyJS |  |  |  |            
-|  XCode and Swift |  |  |  |            
+|  Wallaby and NCrunch | Unit Testing execution add-ons that will change how you write and debug code | Install the evaluation version are give it a good test drive | Free eval for 30 days, $100 USD for personal license |            
 |  google |  |  |  |            
 |  linux |  |  |  |            
 |  raspberry-pi |  |  |  |
@@ -517,70 +517,6 @@ You would have big competitive advantage in the market place if you understood t
 For a great introduction to Containers see MAYA Design's [Containerization](https://vimeo.com/49392667) animation, and the Wendover Productions' [Containerization: The Most Influential Invention That You've Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs) video
 
 To see what is coming next see MAYA Design's [Trillions](https://vimeo.com/7395079) - video and the [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073) book
-
-            
-        
-
-            
-## Hugo             
-[Hugo IO](https://gohugo.io) is a SWG (Static Website Generator that represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
-
-In addition to having a great environment to create content (and to maintain it), what hugo creates is a completely different paradigm shift on how to create and publish websites.
-
-Basically an SWG pre-generates all possible web pages during the build stage .... and that's it! 
-
-Once the build is finished (usually in less than a second), the entire content of the website is available in an local/CI folder, that can be easily deployed/copied/synced with any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
-
-In practice this means that you have a website running from vanilla web pages, with no backed and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
-
-"Why no backend?" Well ... ask yourself the question: "Why do you need a database?" (i.e. What is the database actually doing, that you can't pre-generated all in one go?)
-
-It is amazing how in any real-world scenarios a database is not actually needed!
-
-That said, Hugo is actually using a very efficient and scalable database and cache: The file system :)
-
-I really like the pattern of using the file system as a database, specially when combined with git for deployment, and GitHub for CMS (Content Management System)
-
-Hugo also makes it really easy to create (and understand) an CD (Continuous Deployment) environment. Since it covers the key steps required: 
-
- - build the site 
- - edit the site
- - see changes
- - publish/sync the generated files (to a server/service serving static files)
- - (ideally you should also be writing tests, which I would do using: NodeJS, CoffeeScript, Mocha, Cheerio and WallabyJS)
-
-Another key feature is the integration with [LiveReload](https://github.com/livereload/livereload-js) (which very important to experience in a practical/personal way). Assuming you have the editor and web browser side-by-side in your screen, Hugo+LiveReload creates an environment where you can see your content changes immediately reflected in the browser, in an quasi-real-time way (i.e as soon as the file is saved, the browser is reloaded and the new content in rendered)
-
-Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
-
-After using (and developing) all sorts of CMS (Content Management Systems), I have to say that it gives me a spectacular and highly-productive content creation/editing workflow. 
-
-I use Hugo a lot these days, in all sort of internal and external sites, here are some examples:
-
- - The Open Security Summit 2018 website (https://open-security-summit.org/) is a highly complex data driven website (which will look like a database-powered site) that is entirely built on top of Hugo. All source code is available on [this GitHub repo](https://github.com/OpenSecuritySummit/oss2018) and the Hugo setup enabled 157 contributors to create 3575 commits
- - The Photobox Group Security Site (https://pbx-group-security.com/) is a simpler example of a fully working Hugo site in action
- - This book you are reading uses Hugo in two ways:
-    1) locally hosted website with a number of extra pages that helps to improve my productivity when writing the book (for example: an hugo-based search, and print-friendly pages), 
-    2) markdown generation for Leanpub publishing (which adds a couple extra features like the ability to create the MVP table from the content of its child pages)
-
-### Simple example (MVP)
-
-Here is simple example of my very first test of using Hugo where changes on the left are shown automagically on the right (I always start learning a new technology by creating the simplest possible version that works, i.e. an MVP)
-
-![](images/hugo-simple-example.jpg)
-
-### More advanced example (with graphs)
-
-Here is a more advanced usage of Hugo, where we are using Hugo to create VisJs visualizations of Neo4J graphs populated from JIRA data
-
-![](images/hugo-with-graphs.jpg)
-
-### Do Static Site Generators scale?
-
-Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll at scale:
-
- - HealthCare.gov - see '[It's Called Jekyll, and It Works(https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)'
- - Obama's fundraising website - see '[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)'
 
             
         
@@ -929,6 +865,302 @@ send_to_slack('resolved {0} ipdata ips'.format(len(ipdatas)))
 
             
         
+
+            
+## Hugo             
+[Hugo IO](https://gohugo.io) is a SWG (Static Website Generator that represents a very interesting twist on the development stack of a website (another popular Static Website Generator is [Jekyll](https://jekyllrb.com/) )
+
+In addition to having a great environment to create content (and to maintain it), what hugo creates is a completely different paradigm shift on how to create and publish websites.
+
+Basically an SWG pre-generates all possible web pages during the build stage .... and that's it! 
+
+Once the build is finished (usually in less than a second), the entire content of the website is available in an local/CI folder, that can be easily deployed/copied/synced with any server or service that is able to host static files (for example AWS [S3](https://aws.amazon.com/s3))
+
+In practice this means that you have a website running from vanilla web pages, with no backed and no moving parts. Not only this is massively secure (no server-side code to hack), this has amazing performance implications (i.e. the site is super fast, when compared with dynamically generated sites).
+
+"Why no backend?" Well ... ask yourself the question: "Why do you need a database?" (i.e. What is the database actually doing, that you can't pre-generated all in one go?)
+
+It is amazing how in any real-world scenarios a database is not actually needed!
+
+That said, Hugo is actually using a very efficient and scalable database and cache: The file system :)
+
+I really like the pattern of using the file system as a database, specially when combined with git for deployment, and GitHub for CMS (Content Management System)
+
+Hugo also makes it really easy to create (and understand) an CD (Continuous Deployment) environment. Since it covers the key steps required: 
+
+ - build the site 
+ - edit the site
+ - see changes
+ - publish/sync the generated files (to a server/service serving static files)
+ - (ideally you should also be writing tests, which I would do using: NodeJS, CoffeeScript, Mocha, Cheerio and WallabyJS)
+
+Another key feature is the integration with [LiveReload](https://github.com/livereload/livereload-js) (which very important to experience in a practical/personal way). Assuming you have the editor and web browser side-by-side in your screen, Hugo+LiveReload creates an environment where you can see your content changes immediately reflected in the browser, in an quasi-real-time way (i.e as soon as the file is saved, the browser is reloaded and the new content in rendered)
+
+Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
+
+After using (and developing) all sorts of CMS (Content Management Systems), I have to say that it gives me a spectacular and highly-productive content creation/editing workflow. 
+
+I use Hugo a lot these days, in all sort of internal and external sites, here are some examples:
+
+ - The Open Security Summit 2018 website (https://open-security-summit.org/) is a highly complex data driven website (which will look like a database-powered site) that is entirely built on top of Hugo. All source code is available on [this GitHub repo](https://github.com/OpenSecuritySummit/oss2018) and the Hugo setup enabled 157 contributors to create 3575 commits
+ - The Photobox Group Security Site (https://pbx-group-security.com/) is a simpler example of a fully working Hugo site in action
+ - This book you are reading uses Hugo in two ways:
+    1) locally hosted website with a number of extra pages that helps to improve my productivity when writing the book (for example: an hugo-based search, and print-friendly pages), 
+    2) markdown generation for Leanpub publishing (which adds a couple extra features like the ability to create the MVP table from the content of its child pages)
+
+### Simple example (MVP)
+
+Here is simple example of my very first test of using Hugo where changes on the left are shown automagically on the right (I always start learning a new technology by creating the simplest possible version that works, i.e. an MVP)
+
+![](images/hugo-simple-example.jpg)
+
+### More advanced example (with graphs)
+
+Here is a more advanced usage of Hugo, where we are using Hugo to create VisJs visualizations of Neo4J graphs populated from JIRA data
+
+![](images/hugo-with-graphs.jpg)
+
+### Do Static Site Generators scale?
+
+Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll at scale:
+
+ - HealthCare.gov - see '[It's Called Jekyll, and It Works(https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)'
+ - Obama's fundraising website - see '[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)'
+
+            
+        
+
+            
+## Xcode and Swift             
+If don't have a Mac computer you can ignore this chapter (or use [MacinCloud](https://www.macincloud.com) to rent one). 
+
+With a Mac there is nothing stopping you from being hours away from your first Mac or iPhone application.
+
+[Xcode](https://en.wikipedia.org/wiki/Xcode) is Apple's main development environment, and you can download it for free from the Apple store. Xcode contains everything you need you develop an Mac or iPhone application, namely an IDE, an Debugger and an execution Simulator (iOS, iPad and MacBooks)
+
+[Swift](https://developer.apple.com/swift/) is the modern Open Source language developed by Apple that I highly recommend that you use. Swift dramatically simplifies the creation of applications for macOS, iOS, watchOS and tvOS.
+
+Creating your own application is a major milestone in your programming career. You should do it even if you don't want to become an mobile developer. Not only you will learn a large number of key concepts, you will also gain an understanding of how relatively easy it is to go from an idea in your head into a deployed application.
+
+### First application
+
+To kickstart your development and experiments, start with step-by-step tutorials like the _[Hello World! Build Your First App in Swift](https://www.appcoda.com/learnswift/build-your-first-app.html)_ which will guide you through the code and technologies required to make it happen.
+
+After building your first application, your next objective is to think of an use-case that will help you to do something better in your life. This is an **App for you** and the only thing that matters is that it is useful enough that you use it regularly. 
+
+One of the key reasons why it is important at this stage that this application is only used by you (or a couple of your friends) is because that way, you can use the Xcode simulators to execute it (i.e. you don't have to release it to the AppStore). 
+
+By using the application everyday, you will get direct feedback from what works, what doesn't what and what need improvement. Initially, try to release a new version at least once a week (or once a day). It is important to create a process for this release (ideally with as much automation as possible).
+
+Make sure you release your application under an Open Source license like Apache 2.0 and that you share it on a GitHub repository. This will allow you to expand your user base and gain more users.
+
+### Write tests and create a CI pipeline
+
+Other key workflows that you need to adopt is writing tests and executing them in a CI (Continuous Integration) environment.
+
+See [Writing Test Classes and Methods](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/04-writing_tests.html) for an integration on how to write tests in Swift. 
+
+Once you have a number of tests written, it is time to start looking at cloud/SaaS based build solutions. [Travis](https://docs.travis-ci.com/user/languages/objective-c/) is one of my favorites, but also check out [BuddyBuild](https://www.buddybuild.com/), [AWS Device Farm](https://aws.amazon.com/device-farm/), [BrowserStack](https://www.browserstack.com/ios-testing) or [SauceLabs](https://saucelabs.com/resources/articles/ios-app-testing).
+
+### Experiment with Machine Learning
+
+Apple has released _Core ML 2_ which is [described in Apple's site]((https://developer.apple.com/machine-learning/)) as an _'machine learning framework used across Apple products, including Siri, Camera, and QuickType. Core ML 2 delivers blazingly fast performance with easy integration of machine learning models, enabling you to build apps with intelligent features using just a few lines of code'_.
+
+This means that you can easily add features like _Vision_ or _Natural Language_ to your application. If you do this, make sure to write blog posts about your experiments, since I'm sure any potential employer would be very interested in reading them.
+
+### Publish to AppStore
+
+If you want to take this up a level, you should try to get your application published in the AppStore. This will have some costs, but they will be worth it for the learnings that you will get. 
+
+This would also be highly impressive for any potential employer, since it will show that you were able to meet Apple's quality bar.
+
+            
+        
+
+            
+## Wallaby and NCrunch             
+[WallabyJS](https://wallabyjs.com/) is a an _Integrated Continuous Testing Tool for JavaScript_ that represents the best TDD (Test Driven Development) environment that I've seen, because it allows the creation of a highly productive and efficient development workflow. [NCrunch](https://www.ncrunch.net/) is very similar for .NET and all the concepts below also apply to it (my experience is that wallaby is a bit faster). Unfortunately there isn't an equivalent for the other languages (some IDEs do have the ability to automatically execute tests, but they only have subset of the features I describe below and the development experience is not the same)
+
+WallabyJS is an plugin/add-on for the most popular IDEs (WebStorm, IntelliJ IDEA, PhpStorm, Rider, RubyMine, PyCharm, Visual Studio , Atom Text Editor, Sublime Text) that enables the execution of Unit Tests immediately. The loop from detection to 'test execution completion', usually takes less than 1 sec, which give it a feel of real-time test execution.
+
+The proof of a good piece of technology is when it dramatically improves the productivity of its users by changing how they behave and operate (while making them awesome). WallabyJS and NCrunch are such technologies, and it is key that you as a developer understand why, and learn how to use it (or its patterns).
+
+### All developers test their code
+
+One key concept that I always try to make to developers, is that they are already testing their code changes. Then tend to do these tests in a highly inefficient way, but they are still testing their code and their changes.
+
+For example when developers make a change in a particular web page or back-end service, they will fire up a browser or PostMan and click a number of times until their reach the location where the change they made can be seen in action.
+
+The problem is that in most cases the ways they test their changes: 
+ 
+ - Are highly inefficient
+ - Can take many seconds or event minutes to test one change
+ - Are hard to repeat and [Ephemeral](https://en.wiktionary.org/wiki/ephemeral)
+ - Are limited in their scope (i.e. not testing most/all real-world moving parts affected by the changes)
+ - Tend to focus on a very narrow set of use-cases
+ - Lose the history of the multiple tests scenario tested
+ - Make the developer switch context in their mind
+ - Do not show the code coverage (in the IDE) of the changes made (seconds after the test complete)
+
+The reality is that developing using workflows that don't have the capabilities enabled by WallabyJS is highly expensive, inefficient, unproductive, slow, and frustrating for everybody involved (namely the developers who pay the price of that inefficiency every time they code, and the users who don't get a fast turn around for the features they want)
+
+### Key WallabyJS features
+
+As with everything, the key is in the People, Process and Technology ecosystem. 
+
+WallabyJS is a _Technology_ that enables a massive paradigm shift in the _People_ involved, that leads to massive changes in the _Process_ of testing and developing applications.
+
+Here are the key features that WallabyJS has (that I wished every IDE had by default):
+
+ - **Automatic execution of tests** - as soon as you make a change to the code (or save it), the tests runs automatically (WallabyJS is so fast, that some tests actually execute in between your key stokes)
+ - **Execution of only affected tests** - part of making the automatic execution of tests scale is the ability to only execute the tests that were changed. The ability to detect this also means that there is no need to keep configuring the test runner
+ - **Execution of only tests affected by code changes** - this feature answers the question _"what is the impact of the code change I just made"_. Using code coverage, it is possible to know the tests that are currently able to hit the lines that where changed (and then only execute those). This is such a simple concept, but makes a massive difference, since the alternative is to run all tests or to try to manually find the tests that can be executed.
+ - **Code coverage in the IDE after execution** - Another feature highly underestimated is the power of seeing in the IDE the status of the test's execution. Not only this clearly shows the areas of the code that are currently not being reached, the way WallabyJS (and NCrunch) do it is very cleaver, since they show the paths of pass and fail (i.e. you see in green the lines that were executed by passing tests, and in red the lines affected by failed tests). This allows for really powerful workflows, including a massive reduction of the need to 'debug' code using a 'debugger'. In many projects that I was involved in, after a while, we realized that me and development team stopped using the debugger when coding! Wallaby or NCrunch gave us enough visibility to understand where the bug was (this allowed us to not have to deal with all the inefficient of having to maintain a salad of breakpoints and hundreds of 'Step Into' or 'Step Over' clicks)
+- **Feedback of values in IDE** - A nice little feature of WallabyJS is that it has a number of ways to get feedback from the tests being executed. This goes from simple `console.log` outputs to  expressions and even variable transformations, that are showed directly in the IDE and in context.
+- **Crazy fast execution** - Is easy to underestimate the speed of execution of WallabyJS, and fail to realise that it is one of the core reasons that makes WallabyJS so effective and empowering. In fact I thought that NCrunch was fast, but after using WallabyJS for a while, NCrunch felt really slow, and using normal test runners just kills my brain. We have quite a lot of data on how page speed affects users experience (see _[Why Performance Maters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)_) and it is the same for test execution and the developer's brain. When tests execute automatically and in less than a second, there is a flow and effectiveness that occurs, which dramatically improves productivity and focus.
+
+### Aim for 100% code coverage
+
+My view of code coverage is that if you make a change in the code and a test didn't break, you are making random changes (where you don't really understand the side effects of your changes). 
+
+Even when you are doing refactoring, you should break a number of tests until you arrive back a test passing state. 
+
+This means that you need to aim for 100% code coverage, since that means that all of your code is covered by tests. I know that this high-code-coverage percentage can be gamed, and there are many horror stories on companies that abused this metric (which always are indicators of bigger problems within the development culture and management). 
+
+If fact, what you want is much more than code coverage. What you want is to make sure that the tests that are executed,  correctly represent your understanding of what the code changed is doing. 
+
+This means that the question is not _"When I made this change, did a test break?"_  but it should be instead _"When I made this change, did the tests that failed represent my understanding of the change I made"_. 
+
+The bottom line is that if you make changes to parts of your code that are not reflected in tests, then how do you know that your changes/fixes worked as expected?
+
+The only way to achieve this level of code coverage is to expose the developer to real-time code-coverage in the IDE (i.e. the developer is able to see exactly what lines and code have coverage, and even more interesting, which ones have been affected by the code changes)
+
+### Wallaby represents the real TDD
+
+One of the unfortunate side-effects of the horror stories of high code coverage exercises (namely the ones that created massive white-elephants that were completely unusable and very expensive to maintain), is the allergic reaction that TDD (Test Driven Development) can sometimes have today.
+
+What ended up happening is that everybody agrees that TDD is very important, that TDD is should be used by all developers, that TDD is an important factor in the hiring and candidate selection process, but when we look at where TDD is actually used, we tend to see that it happens on low level 'pure' Unit Tests, and code coverages of 80%+ are seen as a success. 
+
+Part of the problem is how TDD is perceived to work. The bad (in my point of view) workflow that tends to be described as TDD is: 
+
+1. Start with a passing state
+2. Write a failed test with the smallest possible feature
+3. make a code change that makes that test pass
+4. back to 1 (until the function does what it is supposed to do)
+
+The problem is that this is only useful and relevant in a couple of the TDD scenarios.
+
+The way I do TDD is 
+
+1. Start with a passing state
+2. Make a change (in production code or in an test)
+3. Fix the code or tests (so that we are back into the passing state)
+4. Back to 1 (until the feature does what it is supposed to do)
+
+Although the 1st and last steps are the same, the middle bit is very important. 
+
+I like to view it as _I'm pair programming with myself_, where I loop back and forward from code and tests. 
+
+What matters is that the code changes are made in the location that matters the most at that moment in time. Also important is that I use this workflow for everything, from tests that affect a stand alone function (traditional called an _Unit Tests_), to tests that require quite a bit of code and state to be executed in order to really test the changes (traditionally called _Integration Tests_). 
+
+For me a _Test_ is the confirmation that a particular behavior exists in a particular scenario (which can be a function, an web service, an website, an CI pipeline, an Docker container, an Cloud setup, etc..). Basically a Test is an answer to an Question. The more questions you have the better you will be. The objective is to achieve the widest possible range of scenarios and code coverage. In fact a really good measure would be to track how much code a test actually touched (the higher value, the better)
+
+A good sign that TDD has lost is mojo, is the fact that code coverage effectiveness is not usually mapped to an team's deliverables or OKRs (Objectives and Key Results). Development teams will respond to the reward's systems set in place. If we don't reward the creation of highly effective test environments with high degrees of code coverage, then we shouldn't be surprised when that doesn't happen.
+
+I keep trying to find a better name for the workflow that WallabyJs enables, but TDD still feels like the correct term, since when I code using WallabyJS I am really doing Test Driven Development. 
+
+FDD (Feedback Driven Development) is a close alternately, but TDD is still the one I like the most.
+
+
+### Test code is as important as production code
+
+I will argue that focusing on the quality of your test code is as important as focusing on the quality of the code that you actually run in production.
+
+Why? because the more effective and productive your test code and test environment is, the better your production code will be. But the opposite is not true (i.e. the better your production code is, doesn't mean that the better your test code will be ).
+
+If your team doesn't not have the same amount of care and craftsmanship with test code as they have with production code (including testing the test pipeline), then you will never achieve the speeds and quality of development that are desired.
+
+Part of the problem seems to be the horror stories caused by big and cumbersome test environments that actually slowed teams down (where a couple minutes 'code changes' required hours of 'test changes'). This is a symptom of badly engineered test environments and lack of time spending on improving the test infrastructure and effectiveness.
+
+As a developer, your test environment (and executing workflow) is one of the most important capabilities that you need to work on (and improve). Just like successful athletes put a massive amount of energy and focus in their supporting equipment, you as a developer need to make sure that the code that helps you to write good production code, is as effective and robust as possible (see _[How 1% Performance Improvements Led to Olympic Gold](https://hbr.org/2015/10/how-1-performance-improvements-led-to-olympic-gold)_)
+
+### You have to try it to believe it
+
+As with everything, the best way to learn is to experience it, so download one of the Open Source editors (like [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/)), install the Evaluation version of WallabyJS and give it a good test drive.
+
+Try it in some of the apps that you are coding, or write something new. What is important is that you experience the power of _'real-time test execution and code coverage'_.
+
+Another good use of WallabyJS is to understand how an API works. One of the patterns I follow when learning how to use a new API, is to write tests that invoke its capabilities. Not only this allows me to gain a much better understanding of how that API works, the tests I leave behind, represent my understanding of that API at that moment in time, and more importantly, how I expected that API to behave. This is very important in helping to detect future bugs caused by modifications in that API's behavior (caused by upgrades or security fixes)
+
+When learning how to use WallabyJS you are exploring the concept Bret Victor mentions in his [Inventing on principle](https://vimeo.com/36579366) presentation which is the 'The need for inventors to be close to what they create and have quick feedback'
+
+
+### Why isn't wallabyJS more widely used 
+
+For me, once I saw and experienced NCrunch and then WallabyJS, I knew that I would never be able to code in .Net or Javascript without having access to those capabilities.
+
+But the question that really puzzles me, is why its adoption is still quite low? 
+
+Why aren't more developers using it and why aren't they demanding the IDE's developers to add those features? This is one of the reasons why IDE support for these workflows is so low, there isn't enough market pressure.
+
+One reason could be a general lack of investment in tools for developers. In some companies that is seen as a cost, instead of an investment. I've seen companies that are happy to hire a new developer for £60k, but don't seem to have the budget to spend the same amount in tools for existing developers (where that £60k would have a much bigger impact)
+
+But even in companies what are ok with investing on developer's tools (and wallaby isn't that expensive, since it costs $100 per named developer or $240 for a company license), I still don't see developers asking for those licenses. Why is that?
+
+My only logical explanation is the natural resistance to change, an lack of understanding of the power of these kind of testing environments/workflows, and a lack of time to make WallabyJS work in the current application. 
+
+Usually the argument is that _'It sounds good but we are too busy to improve the test environment'_, which is a self fulfilling tragedy, since until the test environment is improved, everybody is always going to be busy and reactive.
+
+As a new developer, this blind spot is a massive opportunity for you. If you are able to make these paradigm changes, and behave in a real TDD way, you just gained a massive competitive advantage in the market place.
+
+### We need an Wallaby for the Cloud
+
+One of the side effects of current lack of efforts in making new technologies easy to test (I mean in an WallabyJS-like workflow, since we have moved a long way from the old completely un-testable APIs, like the early versions of .NET or Java web stacks), is that we are not adding these _'real-time test and code-coverage'_ capabilities to the new tech stacks.
+
+For example who is writing tests for their _'Infrastructure as Code'_ scripts? 
+
+ - How do we know that code used to setup an cloud environment is actually working as expected? 
+ - How do we know that the Auto-Scaling set-up is actually working as expected?
+ - How do we know that an DNS change is not causing massive side effects in an unrelated part of the application?
+ - How do we know that the upgrade, crash or misbehavior of Service X, actually causes an unexpected massive disruption in Service Y? (which btw is one of the questions that Chaos Engineering tries to answer)
+ - Who is writing tests for Serverless functions, for example Lambdas? I don't mean tests that run locally, I mean tests that actually run on the Serverless environment?
+
+What is really nice about making the paradigm shifts mentioned in the chapter, is that your brain will refuse to program in any other way. So when recently I had to write some Lambda functions in Python, after realising that the maturity of the Lambda TDD environment was really low, I spend a bit of time creating an environment where using the AWS `boto3`'s API (which wraps most AWS capabilities in easy to use Python functions) I was able to create an environment in [PyCharm](https://www.jetbrains.com/pycharm/) where I could execute lambdas (written locally) in AWS  in less than 1 sec. 
+
+Since PyCharm has a feature to auto execute the last test after a couple seconds of a code change, I was able to create an workflow where 2 seconds after making a code change, the affected Lambda was executed in AWS (with execution times under 1 second). Ok it is not as effective as WallabyJS and I don't get code coverage, but it is much better than anything else I saw (from  tools that created local simulated AWS Lambda environments in Docker, to tools like Serverless that used CloudFormation to deploy the Lambdas and took almost 1 minute to run)
+
+### The problem of switching context
+
+Part of the reason WallabyJS-Driven-Development makes such a difference, is because it prevents your brain from doing Context Switching.
+
+Our brains are not very good at switching context, which is why even a couple seconds interruption can be so damaging. 
+
+When we program, what we are doing is creating in our brains a whole set of model models about the problem/issue we are addressing. This is why sometimes we can be super productive, and other times, we just can't make it work. This is key in programing since the impact of bad/inefficient code can be enormous. Sometimes it's much better not to code, than to write code that will cause so many side-effects at later stage, that those code changes actually had a negative value (i.e. like when somebody is trying to help, but they are actually 'anti-help').
+
+This is also why it is very important to have un-interrupted periods of time for coding (ideally blocks of 2 or 4 hours), since it takes a while to build these mental models and gain speed.
+
+When we code in an non WallabyJS-Driven-Development environnement, what happens is that we are forced to switch context every time we want to test an code change. Even if that is only a couple seconds of  mouse clicks or keyboard strokes, the compound effect of that interruption is enormous. This is way worse when the time that it takes to start the test is more than 10 seconds or even minutes (the impact of productivity is enormous)
+
+With an WallabyJS-Driven-Development environment, what happens is that you get into a groove (or flow), where you are able to focus 100% on the code that you are writing. You will also start to use the visual feedback that you get from WallabyJS as part of your development. You need to experience this to understand but, when you get this right, this is what being the 'coding zone' really feels like, and the productivity that you achieve is really something incredible.
+
+One question I'm asked quite a lot is _How can I code and learn so fast_. The answer is in how I code and the time I spend in creating productive environments that allow me to code and learn in the 'Zone'.
+
+As a developer if you can behave like this, you will have a massive competitive advantage in the marketplace, specially when applying for new jobs. It is very common these days to ask job applicants to write some tests during an job interview. Guess who will stand out in those interviews and get the job? 
+
+
+
+### One to watch: LightTable 
+
+As a final idea, if I were you, I would spend some time with the experimental [LightTable](http://lighttable.com/ ) Open Source IDE (ideally even becoming a contributor)
+
+I need to give this tool a better test drive, but it looks really promising. since it has implemented a number of the features presented in Bret Victor's _[Inventing on principle](https://vimeo.com/36579366)_ video, namely the real time feedback of code changes and showing the values in the IDE. 
+
+One area I would like to see more examples/use-cases is how LightTable can be to applied to testing, which is a good area for you to focus your research on :)
+
+
+
+            
+        
     
 
     
@@ -1013,6 +1245,43 @@ A nice site effect of having mobile phones with cameras, is that it's easy to sh
         
 
             
+## Assembly and Bytecode             
+Assembly code is a representation of what the machine code that the CPUs actually execute. It is the lowest level of abstraction that you can program.
+
+The moment I fallen in love with programming was when (as a teenager) I executed the POKE assembly command in my ZX Spectrum, which changed a pixel on my TV screen. That was such a magical moment because I had direct control over what was happening inside the computer and screen.
+
+[PEEK and POKE](https://en.wikipedia.org/wiki/PEEK_and_POKE) were [BASIC](https://en.wikipedia.org/wiki/BASIC) commands that allow direct memory access and manipulation (PEEK reads and POKE writes). What I was doing was to write directly to the memory location that was used to control the screen (i.e. each byte in that memory address represented a small section of the screen).
+
+A while later I started learning how to go deeper and explored writing assembly code. In those 'pre internet' days there was very little information around and with only one book available, I actually remember manually translated assembly code into binary by hand (I didn't started with an assembler compiler). Eventually I got an assembler and did many experiments in the ZX Spectrum, the [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) and the x86 PCs (which when compared with the Amiga's Motorola 68000 microprocessor had a much more complex memory layout).
+
+In fact my first 'security hacks' were based around memory and disk manipulations written in assembly. They were designed to manipulate and change the behavior of the games I was playing (I think there was some cool way to get more money in SimCity)
+
+Looking back, what I can see is that when I was writing assembly language, what I was doing was learning (in a very efficient way) about: computer architecture, memory layout, systems design, programming and much more. For example learning about hardware interrupts, TSR (Terminate and Stay Resident), and Kernel vs User-land memory, did wonders for my understanding of computer science.
+
+These days you are more likely to code in Python, Java or .Net than assembly. But if you look under the hood, these languages are compiled into [bytecode](https://en.wikipedia.org/wiki/Bytecode) which is a normalized version of assembly. 
+
+For example here is what `print("Hello, World!")` looks like in [python's bytecode](https://opensource.com/article/18/4/introduction-python-bytecode)
+
+    0 LOAD_NAME                0 (print)
+    2 LOAD_CONST               0 ('Hello, World!')
+    4 CALL_FUNCTION            1    
+
+Python (as with .Net and Java) is a [stack-based virtual machine](https://en.wikipedia.org/wiki/Stack_machine) which is provides a translation layer between the language and the CPU specific machine code
+
+### Decompiling code
+
+Bytecode is the reason why .Net and Java can be easily decompiled from an .dll or .class file. 
+
+In .Net this can be quite spectacular since tools like [ILSpy](https://github.com/icsharpcode/ILSpy) allow the easy decompilation of non-obfuscated .Net assembly (including the ones from the Microsoft .Net Framework).
+
+For viewing C++ and other compiled code, two great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
+
+
+
+            
+        
+
+            
 ## Brain             
 How well do you know your brain? Do you know how it works? What areas it is really strong at, what areas it is weak and how to maximise its capabilities?
 
@@ -1064,6 +1333,36 @@ I can't explain (you need to experience it yourself) how productive is it to cod
         
 
             
+## IDE             
+We need to talk about your IDE! (Integrated development environment) 
+
+How much time have you spent: choosing it, customizing it, making it suit your development workflow, making it automate actions that you do as a developer, making it automatically execute tests
+
+Your IDE is one of the most important tools in your arsenal and the more time you spend looking after it, the better a programmer you will be:
+
+The IDE is like a car in a race that you are the driver. You really need to spend time caring about it, since your performance as a developer will be affected by how effective your IDE is for the task at hand
+
+ Note that this doesn't mean that the most feature rich IDE will be better. You need to pick the best tool for the job:
+ - for example Visual Studio has tons of features but that made it quite slow (and Windows specific), which is why other editors (like Atom) started to gain traction. Microsoft then released VS Code which is much more lightweight and effective.
+ - Sometimes Notepad or Vim are the best IDES
+ - I quite like the JetBrains suite of tools (WebStorm for Node , PyCharm for Python and IntelliJ for Java)
+ - Eclipse can also be a great editor (specially if you customize it)
+ - Cloud IDEs (like Cloud9) can be amazing in some cases (in one project I had a special docker instance that added Cloud9 to a node application)
+ 
+ One of the key requirements for me in the IDE is the ability to:
+
+ - run tests quickly (once you stopped typing)
+ - run tests affected by the latest code changes
+ - show code coverage in the IDE
+
+At the moment the only place where I have seen those features happening is in NCrunch (for .NET) and WallabyJS (for node/javascript). The auto test execution capability that some IDEs have, are a decent compromise, but not as effective (and productive as those two tools)
+
+The key point is that you need to take the time and care to chose your IDE, since it has the power to dramatically increase your productivity   
+
+            
+        
+
+            
 ## Machine Learning and AI             
 One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
 
@@ -1091,73 +1390,6 @@ For a nice view of what could be happening next see:
   - [Homo Deus: A Brief History of Tomorrow](https://www.amazon.co.uk/Homo-Deus-Brief-History-Tomorrow/dp/1910701874)
   - [What Technology Wants](https://www.amazon.co.uk/What-Technology-Wants-Kevin-Kelly/dp/0143120174)
 
-
-            
-        
-
-            
-## Assembly and Bytecode             
-Assembly code is a representation of what the machine code that the CPUs actually execute. It is the lowest level of abstraction that you can program.
-
-The moment I fallen in love with programming was when (as a teenager) I executed the POKE assembly command in my ZX Spectrum, which changed a pixel on my TV screen. That was such a magical moment because I had direct control over what was happening inside the computer and screen.
-
-[PEEK and POKE](https://en.wikipedia.org/wiki/PEEK_and_POKE) were [BASIC](https://en.wikipedia.org/wiki/BASIC) commands that allow direct memory access and manipulation (PEEK reads and POKE writes). What I was doing was to write directly to the memory location that was used to control the screen (i.e. each byte in that memory address represented a small section of the screen).
-
-A while later I started learning how to go deeper and explored writing assembly code. In those 'pre internet' days there was very little information around and with only one book available, I actually remember manually translated assembly code into binary by hand (I didn't started with an assembler compiler). Eventually I got an assembler and did many experiments in the ZX Spectrum, the [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) and the x86 PCs (which when compared with the Amiga's Motorola 68000 microprocessor had a much more complex memory layout).
-
-In fact my first 'security hacks' were based around memory and disk manipulations written in assembly. They were designed to manipulate and change the behavior of the games I was playing (I think there was some cool way to get more money in SimCity)
-
-Looking back, what I can see is that when I was writing assembly language, what I was doing was learning (in a very efficient way) about: computer architecture, memory layout, systems design, programming and much more. For example learning about hardware interrupts, TSR (Terminate and Stay Resident), and Kernel vs User-land memory, did wonders for my understanding of computer science.
-
-These days you are more likely to code in Python, Java or .Net than assembly. But if you look under the hood, these languages are compiled into [bytecode](https://en.wikipedia.org/wiki/Bytecode) which is a normalized version of assembly. 
-
-For example here is what `print("Hello, World!")` looks like in [python's bytecode](https://opensource.com/article/18/4/introduction-python-bytecode)
-
-    0 LOAD_NAME                0 (print)
-    2 LOAD_CONST               0 ('Hello, World!')
-    4 CALL_FUNCTION            1    
-
-Python (as with .Net and Java) is a [stack-based virtual machine](https://en.wikipedia.org/wiki/Stack_machine) which is provides a translation layer between the language and the CPU specific machine code
-
-### Decompiling code
-
-Bytecode is the reason why .Net and Java can be easily decompiled from an .dll or .class file. 
-
-In .Net this can be quite spectacular since tools like [ILSpy](https://github.com/icsharpcode/ILSpy) allow the easy decompilation of non-obfuscated .Net assembly (including the ones from the Microsoft .Net Framework).
-
-For viewing C++ and other compiled code, two great tools on windows are [ollydbg](http://www.ollydbg.de) and [Ida Pro](https://www.hex-rays.com/products/ida/)
-
-
-
-            
-        
-
-            
-## IDE             
-We need to talk about your IDE! (Integrated development environment) 
-
-How much time have you spent: choosing it, customizing it, making it suit your development workflow, making it automate actions that you do as a developer, making it automatically execute tests
-
-Your IDE is one of the most important tools in your arsenal and the more time you spend looking after it, the better a programmer you will be:
-
-The IDE is like a car in a race that you are the driver. You really need to spend time caring about it, since your performance as a developer will be affected by how effective your IDE is for the task at hand
-
- Note that this doesn't mean that the most feature rich IDE will be better. You need to pick the best tool for the job:
- - for example Visual Studio has tons of features but that made it quite slow (and Windows specific), which is why other editors (like Atom) started to gain traction. Microsoft then released VS Code which is much more lightweight and effective.
- - Sometimes Notepad or Vim are the best IDES
- - I quite like the JetBrains suite of tools (WebStorm for Node , PyCharm for Python and IntelliJ for Java)
- - Eclipse can also be a great editor (specially if you customize it)
- - Cloud IDEs (like Cloud9) can be amazing in some cases (in one project I had a special docker instance that added Cloud9 to a node application)
- 
- One of the key requirements for me in the IDE is the ability to:
-
- - run tests quickly (once you stopped typing)
- - run tests affected by the latest code changes
- - show code coverage in the IDE
-
-At the moment the only place where I have seen those features happening is in NCrunch (for .NET) and WallabyJS (for node/javascript). The auto test execution capability that some IDEs have, are a decent compromise, but not as effective (and productive as those two tools)
-
-The key point is that you need to take the time and care to chose your IDE, since it has the power to dramatically increase your productivity   
 
             
         
@@ -1598,49 +1830,6 @@ AWS is Amazon's Cloud offering and is spectacular success story
     - get an arduino (or raspberry pi) and create your own IoT appliance for your home ( this is a great story to go on your CV)
 
 
-                
-            
-        
-
-            
-                
-## WallabyJS
-
-...
-
----
-
-**Topics to cover and ideas**
-
- - why wallabyJS is a massive paradigm shift and why is it so good
-     - real time test execution
-     - only execution of tests affected by changes
-     - ability to see the code coverage in real-time
-     - ability to easily just run one test
-         - which with the real-time coverage, provides a much better way to debug that the normal 'debug/breakpoint model'
-     - ability to run all the tests impacted by an code change (blast radious of code changes)
-
- - the power of sub-second execution
-    - when tests require more than 1 sec to run, there is some problem somewhere
-    - only full end-to-end test should take that long
-    - power of 'surrogate dependencies' (link to presentation)
- - we need similar capabilities for cloud infrasture
- - add ideas from Bret Victor's [Inventing on principle](https://vimeo.com/36579366) presentation (name the need for inventors to be close to what they create and have quick feedback)
-                
-            
-        
-
-            
-                
-## XCode and Swift
-
-If don't have a Mac computer and an iPhone you can ignore this chapter. If you do, then you should be hours away from your first iPhone application.
-
-[XCode](https://en.wikipedia.org/wiki/Xcode) is Apple's main development environment, and the best tool to create an iPhone application. 
-
-[Swift](https://en.wikipedia.org/wiki/Swift_(programming_language) is the 
-
-See [Hello World! Build Your First App in Swift](https://www.appcoda.com/learnswift/build-your-first-app.html) for step-by-step instructions
                 
             
         
