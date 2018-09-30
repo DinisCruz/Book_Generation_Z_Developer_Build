@@ -156,38 +156,6 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
         
 
             
-### MVP Table 
-
-| name | what | task | price |
-|------|------|------|-------|        
-|  Creative Commons | Copyright License to release content under | Release a blog post or other content under a CC license | zero |        
-|  Open Source | Copyright License to release software that guarantees a number of freedoms | Release some code under an Open Source license | zero |        
-|  Docker | Containerization technology that is super fast at applications or micro-services execution | Install docker and try the ubuntu, apache, elk and gogs images | free |        
-|  Jira | Web based issue tracking system (can be used as Graph Database) | Create an free account at atlassian.com and try it out | 0 to you |        
-|  OWASP | Worldwide community focused on Application Security | Attend a chapter meeting and contribute to an project | free |        
-|  Python | Programming language that all developers should master | Create and publish an Python tool | free |        
-|  Slack and ChatOps | Communication and decision making platform | Create Slack Workspace and write a Slack bot integration | free |        
-|  Hugo | static site generator and major paradigm shift on how to think about websites creation and deployment | install hugo, create a website and publish it (ideally using AWS S3) | zero (hosting might have some costs) |        
-|  Xcode and Swift | Development environment to create iPhone of Mac applications | Install Xcode and create your first Mac Application | Xcode requires a Mac (bought or rented) |        
-|  Google Search, GDD and SRE | Search engine and development workflows | Write scripts to automate and analyse Google search results | 0 |            
-|  TDD (Test-Driven Development) |  |  |  |            
-|  AWS |  |  |  |            
-|  Continuous Integration |  |  |  |            
-|  Dot Language |  |  |  |            
-|  Electron |  |  |  |            
-|  GitHub Flow |  |  |  |            
-|  IOT (Internet of Things) |  |  |  |            
-|  Minecraft |  |  |  |            
-|  StackOverflow |  |  |  |            
-|  Wallaby and NCrunch | Unit Testing execution add-ons that will change how you write and debug code | Install the evaluation version are give it a good test drive | Free eval for 30 days, $100 USD for personal license |            
-|  Wikipedia |  |  |  |            
-|  linux |  |  |  |            
-|  raspberry-pi |  |  |  |
-
-            
-        
-
-            
 ## Creative Commons             
 Choosing which license you chose to share your work is one of the most important decisions you make in your professional life.
 
