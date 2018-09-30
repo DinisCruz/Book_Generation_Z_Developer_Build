@@ -15,7 +15,7 @@ I decided to write this book after doing a series of presentations to Gen Z audi
 
 Here is the slide that started it all, how many do you recognize?
 
-![](/images/list-of-icons.png)
+![](images/list-of-icons.png)
 
 My presentation started by asking the audience if they recognized those logos, and then realising that not only did they not recognize most of the logos, they didn't know the history behind them. More importantly, they didn't understand the story of **why** they where created, and what was the problem (or itch) they originally addressed.
 
@@ -231,7 +231,7 @@ Although all CC licenses allow content to be shared, some have more restrictions
 
  For reference here is a table with the multiple license's variations:
 
- [![](/images/wikipedia-creative-commons-licenses.png)](https://en.wikipedia.org/wiki/Creative_Commons_license)
+ [![](images/wikipedia-creative-commons-licenses.png)](https://en.wikipedia.org/wiki/Creative_Commons_license)
 
 
 ### Obscurity is your biggest threat
@@ -967,7 +967,7 @@ Once you have a number of tests written, it is time to start looking at cloud/Sa
 
 ### Experiment with Machine Learning
 
-Apple has released _Core ML 2_ which is [described in Apple's site]((https://developer.apple.com/machine-learning/)) as an _'machine learning framework used across Apple products, including Siri, Camera, and QuickType. Core ML 2 delivers blazingly fast performance with easy integration of machine learning models, enabling you to build apps with intelligent features using just a few lines of code'_.
+Apple has released _Core ML 2_ which is [described in Apple's site](https://developer.apple.com/machine-learning/)) as an _'machine learning framework used across Apple products, including Siri, Camera, and QuickType. Core ML 2 delivers blazingly fast performance with easy integration of machine learning models, enabling you to build apps with intelligent features using just a few lines of code'_.
 
 This means that you can easily add features like _Vision_ or _Natural Language_ to your application. If you do this, make sure to write blog posts about your experiments, since I'm sure any potential employer would be very interested in reading them.
 
