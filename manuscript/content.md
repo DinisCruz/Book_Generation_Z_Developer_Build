@@ -771,7 +771,7 @@ To get you going here are a couple scenarios:
 
 OWASP (Open Web Application Security Project) is an very friendly open source community that has migrated a large part of its digital interactions to Slack (see [OWASP chapter](https://github.com/DinisCruz/Book_Generation_Z_Developer/blob/master/content/2.mvp-for-gen-z-dev/content/owasp.md) for more details).
 
-I strongly advise you to join the Owasp Slack using the http://owaspslack.com/ registration form. 
+I strongly advise you to join the Owasp Slack using this [registration form](http://owaspslack.com). 
 
 Not only you will see examples of these integrations in real-world scenarios, in that workspace you will find a multiple Slack experts, who will be more than happy to help you. You can also find multiple opportunities (in OWASP project or chapters) to put your Slack integration skills in action.
 
@@ -895,8 +895,8 @@ Here is a more advanced usage of Hugo, where we are using Hugo to create VisJs v
 
 Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll at scale:
 
- - HealthCare.gov - see '[It's Called Jekyll, and It Works(https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)'
- - Obama's fundraising website - see '[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)'
+ - HealthCare.gov - see _[It's Called Jekyll, and It Works](https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)_
+ - Obama's fundraising website - see _[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)_
 
             
         
