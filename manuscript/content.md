@@ -9,33 +9,33 @@
         
 
 # Introduction  
-Hi Generation Z Developer, if you are and who want to learn as much as you can about your craft, this is the book for you.
+Hi Generation Z Developer, if you are one and want to learn as much as you can about your craft, this is the book for you.
 
-I decided to write this book after doing a series of presentations to Gen Z audiences, where I discovered gaps in your generation's understanding of the history behind a number of key ideas and technologies that underpin the technological revolution that we are the in middle of. I also wanted to share a number of real-world concepts, practices and technologies that will make you a much better and effective professional in today's highly competitive tech world. 
+I decided to write this book after doing a series of presentations to Gen Z audiences. As part of this process I discovered gaps in your generation's understanding of the history behind a number of key ideas and technologies that underpin the technological revolution that we are the in middle of. I also wanted to share a number of real-world concepts, practices and technologies that will make you a much better and effective professional in today's highly competitive tech world. 
 
-Here is the slide that started it all, how many do you recognize?
+Here is the slide that started it all in 2017, how many logos do you recognize?
 
 ![](images/list-of-icons.png)
 
-My presentation started by asking the audience if they recognized those logos, and then realising that not only did they not recognize most of the logos, they didn't know the history behind them. More importantly, they didn't understand the story of **why** they where created, and what was the problem (or itch) they originally addressed.
+The presentation started with me asking the audience if the logos looked familiar. I soon realised that, not only did the audience not recognize most of the logos, they didn't know the history behind them. More importantly, the audience didn't understand the story behind **why** they where created nor they were aware of the problem (or itch) they originally looked to address.
 
-Why is the **why** important? All these icons were 'catalysts for change'. It is important to understand the history behind them, why they occurred, and what happened next. Each one of these icons changed the world of technology, and created paradigms shifts that still impact our world today.
+Why is the **why** important? All of these icons were 'catalysts for change'. It is important to understand the history behind them, why they occurred and the change they drove. Each one of these icons changed the world of technology, and created paradigms shifts that still impact our world today.
 
-For example, one of the really significant innovations was the creation of the Creative Commons license - an adaption of a traditional copyright license. This was one of my _'WFT! you don't know what Creation Commons is???'_ realizations. 
+For example, one of the really significant innovations was the creation of the Creative Commons license - an adaption of a traditional copyright license. This was one of my initial _'WFT! you don't know what Creation Commons is???'_ realizations. 
 
-Creative Commons gives a number of rights to the consumer of creations (rather than the originator of a creation holding onto the rights). It allows ideas, creations and concepts to spread easily and without limitation. 
+Creative Commons licensing gives a number of rights to the consumer of creations (rather than the originator of a creation holding onto the rights). It allows ideas, creations and concepts to spread easily and without limitation. 
 
-This book is released under a 'Creative Commons Attribution 4.0 International License'. This license means, amongst other things, that you are free (as in freedom) to use all the material and content from this book, with the only requirement being that you should provide acknowledgement and attribution of the source. You can even sell other books and derived work based on content from this book.
+This book is released under a 'Creative Commons Attribution 4.0 International License'. This license means, amongst other things, that you are free (as in 'entitled to') to use all the material and content from this book. The only requirement on your part being around acknowledgement of the author and source attribution. You can even sell other books and any derived work based on the content from this book.
 
-Fundamentally, the freedom of knowledge isn't a new idea, but the real impact of Creative Commons was how it has been applied to a technology industry often dominated by purely commercial interests. It, and ideas like it, have shaped the technology and systems that, for better or worse, dominate the world today. As you will seen through the book, what I find interesting is not a particular technology or idea but the ways in which those ideas change how we act, how we think and how we behave.
+Fundamentally, the freedom of knowledge isn't a new idea but the real impact of Creative Commons was about how it became applied to technology, an industry often dominated solely by commercial interests. For better or worse, the closed approach has shaped the technology and systems that dominate the world today. As you will see through the book, what I find interesting is not a particular technology or idea, but the ways in which those ideas change how we act, think and behave.
 
-We are in the middle of a massive technological and cultural revolution and you have the opportunity to decide if you want to be a pawn, a player or even a play-maker in this new world. By understanding the history, thinking and mechanics of this change you will be in the best position to adapt and thrive. If you don't understand the past, you are bound to not only repeat its mistakes but miss opportunities you may not even know you have.
+We are in the middle of a massive technological and cultural revolution and you have the opportunity to decide if you want to be a pawn, a player or even a play-maker in this new world. By understanding the history, thinking and mechanics of this change you will be in the best position to adapt and thrive. If you don't understand the past, you are not only bound to repeat its mistakes but also miss opportunities you may not even be aware of.
 
 Please join me in this interesting trip down memory lane, where I will try to explain how I understand and learned from a multitude number of technologies, ideas and events.
 
 **Be involved and contribute**
 
-If you have never contributed to an Open Source (or Creative Commons) project, then what about using this book as your first experiments?
+If you have never contributed to an Open Source (or Creative Commons) project, then how about using this book as your first experiments?
 
 You can find all content for this book in [this GitHub repo](https://github.com/DinisCruz/Book_Generation_Z_Developer) and you can submit ideas and issues (you found when reading this book) [here](https://github.com/DinisCruz/Book_Generation_Z_Developer/issues)
 
@@ -49,31 +49,31 @@ Please share your views, suggestions and criticisms and don't hesitate to reach 
 
             
 ## Generation Z             
-Generation Z is the generation that was [born after 1996](https://twitter.com/PaoliCGPI/status/961121404048601088). Like all generation boundaries, the differences may be generalized and there will always be exceptions to the rule, but when viewed constructively it represents an interesting mix of great values and digital capabilities.
+Generation Z is the generation born after [1996](https://twitter.com/PaoliCGPI/status/961121404048601088). Like all generation boundaries, their differences may be generalized and there will always be exceptions to this rule. That said, when viewed constructively, it represents an interesting mix of great values and digital capabilities.
 
-The older members of this generation (at the time of writing, 2018) are about 22 years old. They were 11 when the first iPhone come out (2007) and are the first real 'born online' generation. In parts of the world privileged enough to enjoy ubiquitous access to technology, many of this generation have not experienced a world without ready access to the internet on some kind of device. This is the generation that is entering the market right now.
+The older members of this generation (at the time of writing, 2018) are about 22 years old. They don't remember the 9/11 attackes, were 11 when the first iPhone came out (2007) and are the first real 'born online' generation. In parts of the world that are privileged enough to enjoy ubiquitous access to technology, many members of this generation have not experienced a world without ready access to the internet on some kind of device. This is the generation that is entering the job market right now.
 
-I have personal experience of this generation, I have two daughters currently aged 13 and 15, and I have also been professionally involved in a number of projects focused on Generation Z. I've run sessions teaching high school kids in the UK how to 'hack' (in the traditional, rather than illegal sense of the word) and sessions teaching younger developers coding skills they would be able to apply in real world scenarios. 
+I have personal experience of this generation, I have two daughters currently aged 13 and 15, and I have also been professionally involved in a number of projects focused on Generation Z. I've run sessions teaching UK high school kids how to 'hack' (in the ethical rather than illegal sense of the word) and even younger developers how to code so they would be able to apply their skills in real world scenarios.
 
-I'm focusing on this Generation because I believe they've missed the historical understanding of a number of key technology revolutions in order to be competitive in the market place. At the current pace of technological advancement, so much history can be taken for granted. Without a full understanding of the past, we only learn from shadows and curated versions of reality.
+I'm focusing on Generation Z because I believe they've missed the historical understanding of a number of key technological revolutions required to be competitive in the market place. At the current pace of technological advancement so much history can be taken for granted. Without a full understanding of the past, we only learn from shadows and curated versions of reality.
 
 **I'm worried about Gen Z**
 
-Although Generation Z have some spectacular features and values, I occasionally perceive a lack of intellectual curiosity that worries me. This is arguably the most tolerant and diversity aware generation, but having grown up with an innate acceptance of the technology around us, many of the building blocks of todays technology stacks are simply assumed to be ever present, much like driving a car or flying a plane with no knowledge of the engineering. 
+Although Generation Z has some spectacular traits and values, I occasionally perceive a lack of intellectual curiosity that worries me. This is arguably the most tolerant and diversity-aware generation. But, having grown up with an innate acceptance of the technology around us, many of the building blocks of today's technology stacks are simply assumed to be ever present. Much like driving a car or flying a plane with no knowledge of the engineering involved.
 
-This is a huge advantage in a sense; many of the boundaries that are more imagined than real for older generations don't inhibit Generation Z; but by the same token even more opportunity comes from understanding the origin, history and stories of the technology journey so far.
+This is a huge advantage in a sense; many of the older generation perceived boundaries don't inhibit Generation Z. By the same token however, even more opportunies can come from understanding the origin, history and evolution of the technology journey so far.
 
-This is an age when information and knowledge is a click or google search away. Yet, in conversation after conversation with Generation Z teenagers, I've found - not unsurprisingly - that they have a very superficial understanding of the history that underpins the technologies they use, how and why they came to be in the first place and the original problems the technology tried to solve.
+This is an age when information and knowledge is often a Google search away. Yet, conversation after conversation I've found - perhaps unsurprisingly - that Generation Z teenagers have a very superficial understanding of the history that underpins the technologies they use. How and why this technology came to be in the first place and the original problems it tried to solve.
 
-My hope with this book is to break through these gaps and provide context and references and inform better decisions. For those that doubt how important this may be, remember: it's this generation that will need to save the world from the mess previous generations have created.
+My hope with this book is to fill these gaps and provide context and references to inform and enable better decision making. This is very important because they are the  generation will need to save the world from the mess previous generations have created.
 
 **Overwhelming curiosity**
 
-How will I know this book worked? I'm hopeful that reading it can provide a couple moments of overwhelming curiosity from learning more about topic. Moments where you may start to follow link after link about a particular topic, and that, no matter how brief it may be, you think 'WOW, that is fr**** awesome!'.
+How will I know if this book has succeded? I'm hopeful that the reader can enjoy a few moments of overwhelming curiosity and go on learning more about a certain topic. Moments when you follow link after link about a particular topic, and think 'WOW, that is fr**** awesome!'.
 
-If you are lucky enough to find yourself in this place, congratulations, you just found 'the zone'. An amazing environment where you have the chance to be single minded and 100% absorbed, which is the best way to learn.
+If you are lucky enough to find yourself in this place, congratulations! You just found 'the zone'. An amazing mental place where you have the chance to be single minded and 100% absorbed. This is the best way to learn.
 
-Whenever you find yourself in this headspace, dont stop! Follow it as long as your brain allows it, and don't stop for anything. Social events, eating and sleeping can always wait (more or less; respect your physical and mental health and never take them granted). The 'zone' is a magical place to be, so learn to recognize when you find yourself inside it, and explore as much as you can.
+Whenever you find yourself in this headspace, dont stop! Follow it as long as your brain allows it, and don't stop for anything. Social events, eating and sleeping can always wait (more or less; respect your physical and mental health and never take them for granted). The 'zone' is a magical place to be, so learn to recognize when you find yourself inside it, and use it to explore as much as you can.
 
 
             
@@ -81,33 +81,44 @@ Whenever you find yourself in this headspace, dont stop! Follow it as long as yo
 
             
 ## How to get a job             
-One of my objectives with his book is to help you to find a great job. One that you will love to go everyday, one where you are in a steep learning curve and one that aligns what you passionate about with what your employer is happy to pay for.
+One of my objectives with this book is to help you to find a great job. One that you will love going to everyday; one where you are in for a steep learning curve and one that aligns what you are passionate about with what your employer is happy to pay for.
 
-It is very important to realise that if you are in an job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your carer as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to help others to help you learn. It is not exaggeration to say that you decide your future's direction and path with every decision you make.
+It is very important to realise that if you are in a job (or school) where your learning curve is not off-the-charts, you are short-changing your life and your career. Nobody cares as much about your career as you do, and you are the only one that has full control over your attitude to learning. You can chose everyday on how engaged and receptive you are to learn and to be taught by others. It is not exaggeration to say that you decide your future's direction and path with every decision you make.
 
-There is a lot of competition out there and if you look at what is coming next, namely AI and the next billions of internet users, you need to maximise your changes and opportunities.
+There is a lot of competition out there and if you look at what is coming next, namely AI and the next billion internet users, you'll need to maximise your chances and opportunities.
 
-I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, it didn't happened by accident. I made a number of key decisions in my life, some with very short-term negative implications, that allowed me to align what I love to do with what the market wants to pay.
+I really like the Gen Z realization that a job is something that should be rewarding and not just a way to make money. After all, the best job is when you are paid to do something that you would do for free. Although I am very fortunate to be in that situation, where I love my job and what I do every day, it didn't happened by accident. I made a number of key decisions in my life, some with very short-term negative implications, that allowed me to align what I love to do with what the market wants to pay.
 
-**Being passionate and love your job**
+**Being passionate and loving your job**
 
-Find what you are passionate for, what you really care about, and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are to the company that is employing you.
+Find what you are passionate for, what you really care about and align your career with those ideas. The best part is that this is a massive win-win situation, since the more passionate you are about a particular topic, the more you care about it, and the more valuable you are to the company that is employing you.
 
 **Having one competitive advantage**
 
-The best way to get a job is to have ONE competitive advantage. One activity or task that you can do better than the person or company hiring you. For example in the 1990s for a lot of companies it was simply that you could use a computer! In the 2000s is was using the Internet. In the early days of software development or security, all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that those who could do it were the ones who proactively embraced the technologies and learned them against all odds. Individuals can become experts at new technology faster than the tech companies. You can be first in line for a job when they need that expertise. These days, it is technologies like: ML/AI, Graphs, Chaos Engineering, GitHub, Git, Jira, Creative Commons, Continuous Integration, AWS, WallabyJs and the other ideas covered in this book :)
+The best way to get a job is to have ONE competitive advantage. One activity or task that you can do better than the person or company hiring you. For example in the 1990s for a lot of companies it was simply that you could use a computer! In the 2000s is was using the Internet. In the early days of software development or security, all it took was good programming or hacking experience. Although it might look that the bar was lower those days, the reality is that those who could do it were the ones who proactively embraced the technologies and learned them against all odds. Individuals can become experts at new technology faster than the tech companies. You can be first in line for a job when they need that expertise. These days, it is technologies and ideas like (all covered in this book):
+
+- ML/AI
+- Graphs
+- Chaos Engineering
+- GitHub
+- Git
+- Jira
+- Creative Commons Licences
+- Continuous Integration
+- AWS
+- WallabyJs
 
 **Own your career development**
 
-You are the one in change of your career. Yes, listen to advice but only you can ultimately choose which paths to follow. You need to discover those paths by yourself, via trial and error, and a great way to do that is to work for companies who are aligned with those paths.
+You are the one in charge of your career. Yes, listen to advice but only you can ultimately choose which paths to follow. You need to discover those paths by yourself, via trial and error, and a great way to do that is to work for companies who are aligned with those paths.
 
 And how do you start working with those companies?
 
-Easy, start collaborating on their Open Source projects. Act like you are part of the company. Understand their values, and behave in ways that that add value to that company, namely the tech stack.
+Easy, start collaborating on their Open Source projects. Act like you are part of the company. Understand their values, and behave in ways that will add value to that company, namely the tech stack.
 
-Start by approaching the key individuals and developers from those companies and communities, offline and online, in a way that adds value to them. Build relationships that will teach you a lot, and potentially lead to very interesting job offers, or at least references. Start learning how to add value and how to become good at proactively solving problems, which is one of the most valuable assets you can bring to a company.
+Start by approaching the key individuals and developers from those companies and communities, both offline and online, in a way that adds value to them. Build relationships that will teach you a lot, and potentially lead to very interesting job offers, or at least references. Start by learning how to add value and how to become good at proactively solving problems, which is one of the most valuable assets you can bring to a company.
 
-What's interesting is that there is nothing stopping you from doing this! We are in very open, collaborative and creative times. You have nothing to lose by giving it all you've got, and all to gain.
+What's interesting is that there is nothing stopping you from doing this! We are in very open, collaborative and creative times. You have nothing to lose by giving it all you've got, and everything to gain.
 
 
             
@@ -157,11 +168,11 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 
             
 ## Creative Commons             
-Choosing which license you chose to share your work is one of the most important decisions you make in your professional life.
+Choosing which license you chose to share your work with, is one of the most important decisions you make in your professional life.
 
-You can either go down a path where you think that everything you create (outside paid work) is super precious and you need to protect it or you can realise that your value is on your ability to think about ideas, and (more importantly) your ability to execute those ideas.
+You can either go down a path where you think everything you create (outside paid work) is super precious and needs protecting or you soon realise that your ability to think about ideas, and (more importantly) to execute upon those ideas, is extremely valuable.
 
-In the first path you are afraid that your ideas will be copied and you don't share them, on the 2nd path you are happy to share your ideas as much as possible. 
+Often, with the former approach you may be afraid that your ideas will be copied so you don't share them. In the latter approach you are happy to share your ideas as much as possible. 
 
 The best way to share your ideas and way of thinking is to release your content and ideas under an Create Commons Copyright License 
 
@@ -171,7 +182,7 @@ Let's start by looking at the definition of [Creative Commons](https://en.wikipe
 
 > A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted work. A CC license is used when an author wants to give people the right to share, use, and build upon a work that they have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of their own work) and protects the people who use or redistribute an author's work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work
 
-This license is basically defining the rules of the game that are applied to the content that you publish. By releasing your content under this license (and your code under Open Source) you are sending a strong message of your values and positioning. You are also maximizing the potential reach and impact of your ideas. Like Steve Jobs said in his [Stanford Commencement address](https://news.stanford.edu/2005/06/14/jobs-061505/) in 2005 _"...you can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future..."_ , you could be generating a number of opportunities for your future self, or you could even be teaching something to your future self (it's amazing how much we forget)
+Basically, this license is defining the rules of the game that are applied to the content that you publish. By releasing your content under this license (and your code under Open Source) you are sending a strong message of your values and positioning. You are also maximizing the potential for you ideas to be far reaching and impactful. Like Steve Jobs said in his [Stanford Commencement address](https://news.stanford.edu/2005/06/14/jobs-061505/) in 2005 _"...you can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future..."_ , you could be generating a number of opportunities for your future self, or you could even be teaching something to your future self (it's amazing how much we forget over time)
 
 ### Creative Commons license variations and this book
 
@@ -183,7 +194,7 @@ This book is released under the [Creative Commons Attribution 4.0 International 
 > - Adapt — remix, transform, and build upon the material for any purpose, even commercially.
 >
 > Under the following terms:
->  - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+>  - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your intended use as licensee.
 >
 > The licensor cannot revoke these freedoms as long as you follow the license terms.
 >
@@ -192,12 +203,12 @@ This book is released under the [Creative Commons Attribution 4.0 International 
 Although all CC licenses allow content to be shared, some have more restrictions:
  
  - **Attribution-ShareAlike 4.0** - need to attribute and use the same CC license (this has a 'viral' effect since it forces changes to also have a CC license)
- - **Attribution-NoDerivatives 4.0** - need to attribute and don't allow changes
- - **Attribution-NonCommercial-NoDerivatives 4.0** -  need to attribute, don't allow commercial use and don't allow changes 
+ - **Attribution-NoDerivatives 4.0** - need to attribute and to not allow changes
+ - **Attribution-NonCommercial-NoDerivatives 4.0** -  need to attribute, to not allow commercial use and to not allow changes 
  
- I don't like the licenses above since they put restrictions on how the content can be used (which is against my views of sharing, but for companies or individuals that are new to CC, these are good first steps.
+I don't like the licenses above since they put restrictions on how the content can be used (which is against my views of sharing) but for companies or individuals that are new to CC, these are good first steps.
 
- For reference here is a table with the multiple license's variations:
+For reference here is a table with the multiple license's variations:
 
  [![](images/wikipedia-creative-commons-licenses.png)](https://en.wikipedia.org/wiki/Creative_Commons_license)
 
@@ -210,11 +221,11 @@ Although all CC licenses allow content to be shared, some have more restrictions
 
 ### Creative Commons is changing science
 
- Ironically, most modern science was built on the idea of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected 
+Ironically, the majority of modern science was built on the princple of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected few.
  
- Good news is that in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See for example the collaboration of code and data-sets that is happening on areas like cancer research
+Good news is, in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See, for example, the collaboration of code and data-sets that is happening on areas like cancer research.
 
- Also amazing is the massive amount of data that is being shared today by government's agencies. See these books for amazing info-graphics created from this data:
+Also, amazing is the massive amount of data that is being shared today by government's agencies. See these books for amazing info-graphics created from this data:
 
  - [Information is Beautiful](https://www.amazon.co.uk/Information-Beautiful-New-David-McCandless/dp/0007492898)
  - [Visualize This: The FlowingData Guide to Design, Visualization, and Statistics](https://www.amazon.co.uk/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889)
@@ -222,46 +233,44 @@ Although all CC licenses allow content to be shared, some have more restrictions
 
 See the https://data.gov.uk/ website for data-sets provided by the Uk Government (released under the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) which is compatible with Creative Commons Attribution License 4.0 )
 
-It is key that you learn how to play in this world where massive amounts of data are available, since, more and more there is an moral and technical argument that all data created by government should be released under an creative commons license, and all code paid by the government should be released under an open source license. Think about the implications that this will have on industries and professions that rely of data to make decisions.
+It is key that you learn how to play in this world where massive amounts of data is available. Increasingly so, there is an moral and technical argument that all data created by government should be released under a creative commons license, and all code paid by the government should be released under an open source license. Think about the implications that this would have on industries and professions that rely on data to make decisions.
 
 ### The importance of creating commercially viable models
 
-Note that this doesn't mean that there should no financial return (ever) from sharing your ideas or content.
+Note, that this doesn't mean that there should no financial return (ever) from sharing your ideas or content.
 
-I'm a big believer that for behaviors to scale and be sustainable, there needs to be an working economic and financial model behind those open workflows.
+I'm a big believer that for any trend to scale and become sustainable, there needs to be a working economic and financial model behind those open workflows.
 
-Basically authors should be paid for their work 
+Basically, authors should be paid for their work.
 
-Also key is that the operational teams that support those authors are also paid (for example Wikipedia or Mozilla have highly skilled and well paid professionals working as employees). 
+Also, it is key that the operational teams that support those authors are also paid (for example Wikipedia or Mozilla have highly skilled and well paid professionals working as employees). 
 
 Sometimes the payment is hard cash (i.e. the authors/teams are paid to create that content).  Sometimes the 'payment' happens in terms of: future opportunities, personal development or karma points (i.e. doing the right thing or sharing knowledge with others the same way it was shared with you).
 
-One of the big myths behind open source and creative commons is that its authors are all working for free in their bedroom by amateurs. In reality most of the value is created during paid jobs, by highly skilled professionals, with companies supporting the creating of the released code or content.
+One of the big myths behind open source and creative commons is that its authors are all working for free in their bedroom by amateurs. In reality most of the value is created during paid jobs, by highly skilled professionals, with companies supporting the creation of the released code or content.
 
 ### It is harder than it looks
 
-Don't let the fact that you (might) think that what you have created has little value to prevent you from publishing it. This Impostor Syndrome effect can be very damaging and paralyzing, and you need to take a pragmatic view of what will happen
+Don't let you perception prevent you from publishing content you deem of little value. This Impostor Syndrome effect can be very damaging and paralyzing, and you need to take a pragmatic view of what would happen if you do share.
 
- - If what you wrote is not that interesting or valuable to others, then your will have a small amount of readers and you have not lost anything
+ - If what you wrote is not that interesting or valuable to others, then your will have a small amount of readers and you have not lost anything.
  - If what you have created does get some readers and more importantly, feedback or comments, then you gained a bit and moved the needle a little bit (remember that it is all about incremental gains, and there is no such thing as 'overnight success')
 
-The bottom line is that publishing your research under an CC license is harder than it looks. 
+The bottom line is: publishing your research under a CC license is harder than it looks. 
 
-You actually have to do it, and that first step (and the next 100) are the hardest part
+You actually have to do it, and remember that taking the first step, is often the hardest part
 
-Doing that journey under an Creative Commons path, means that you have made the paradigm shift from close to open It means that you now view your value as someone who can execute ideas (and are happy to share your creations)
+Doing that journey under an Creative Commons path, means that you have shifted your paradigm from close to open. It means that you now view your value as someone who can execute ideas (and is happy to share your creations)
 
-Remember that anybody can have ideas, execution is the hard part.    
+Anybody can have ideas, execution is the hard part.    
 
 ### Align your future with Creative Commons
 
-Finally, when choosing which company to work for, take into account their current Creative Commons and Open Source strategy culture for internally developed technology ideas (this should have an impact on your choices.
+Finally, when choosing which company to work for take into account their current Creative Commons and Open Source strategy culture for internally developed technology ideas. This should have an impact on your choices).
 
 In most companies, only a very small part of what they create should be closed and proprietary. The rest should released under open licenses. 
 
-Remember that these days (specially in technology) you will be changing jobs and companies regularly. Your really want to make sure that you still have access to those ideas and code when you move of, since nothing is more soul-destroying than having to re-do something you have already created before (or not having access to good ideas you had in the past).
-
-
+Remember that these days, especially in technology, you will be changing jobs and companies regularly. Your really want to make sure that you still have access to those ideas and code when you move off; since there is nothing more soul-destroying than having to re-do something you have already created or not having access to good ideas you had in the past.
 
             
         
@@ -282,7 +291,7 @@ An Open Source licence is a copyright license that gives you the right to access
 
 As with the Creative Commons license, Open Source is a way of thinking and behaving about code. 
 
-You has a developer should be releasing everything you do with an Open Source license. This will make sure that your 'future self' can still access that code, while maximizing the potential usage and exposure of that code.
+You as a developer should be releasing everything you do with an Open Source license. This will make sure that your 'future self' can still access that code, while maximizing the potential usage and exposure of that code.
 
 You should also be an active contributor to Open Source projects! 
 
@@ -421,43 +430,42 @@ This goes to the heart of what I have noticed in effective development environme
 
             
 ## Docker             
-As a developer it is critical that you understand how docker works and how it became so successful and widely used. Docker is one of those revolutions that occur regularly in the IT industry where the right product comes at the right time and meets a number of very specific pain points that developers have.
+As a developer it is critical that you understand how Docker works and how it became so successful and widely used. Docker is one of those revolutions that occur regularly in the IT industry where the right product comes at the right time and meets a number of very specific pain points for developers.
 
-From a practical point of view, docker means that it is very easy for you to easily try and use a wide variety of applications and environments. For example you can start a local (fully working instance) of the [ELK Stack](https://www.elastic.co/elk-stack) (Elastic search + Logstash + Kibana) in docker, simply by running the `sudo docker pull sebp/elk` command (without installing anything on your host machine)
+From a practical point of view, Docker makes it very easy for you to try and use a wide variety of applications and environments. For example you can start a local (fully working instance) of the [ELK Stack](https://www.elastic.co/elk-stack) (Elastic search + Logstash + Kibana) in Docker, simply by running the `sudo Docker pull sebp/elk` command (without installing anything on your host machine)
 
-The first time I saw and used docker, I was massively impressed by its simplicity and its potential to change how not only applications are deployed, but how applications are developed.
+The first time I saw and used Docker, I was massively impressed by its simplicity and its potential to change how applications are deployed and developed.
 
-To understand Docker and its power, the first concept to master is how docker is a _"process that exposes a multi-layered file system as an fully isolated OS"_
+To understand Docker and its power, the first concept to master is how Docker is a _"process that exposes a multi-layered file system as an fully isolated OS"_
 
-It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that because they had automated VM deployments to such an extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) they dismissed Docker as just another IT fad.
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that having automated VM deployments to a sigificant extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) completely dismissed Docker as just another IT fad.
 
-The problem is that Docker is much more than just a faster VM, and By fast, I mean super-fast. normal VMs boot in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time (just run `docker run -it node bash` and when inside the docker container run `node -e 'console.log(20+22)'`).
+The problem is that Docker is much more than just a faster VM and by fast, I mean super-fast. Normal VMs boot in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time (just run `Docker run -it node bash` and when inside the Docker container run `node -e 'console.log(20+22)'`).
 
 Docker starts in second(s) because it is just a process. The magic sauce is created by:
 
 1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access and other key parts of the OS)
-2. a layered file system, where each layer contains a diff with the previous layer. This is a powerful graph db, where each file location is dynamically calculated when you are inside the docker image. Basically what is happening is that each layer is immutable, and when a file is changed inside docker it is either a) saved as new docker image or b) lost when the docker image stops. An final 'docker image' is just a collection of multiple images, all stacked up, one of top of the other. 
- 
+2. a layered file system, where each layer contains a diff with the previous layer. This is a powerful graph db, where each file location is dynamically calculated when you are inside the Docker image. Basically what is happening is that each layer is immutable, and when a file is changed inside Docker it is either a) saved as new Docker image or b) discarded when the Docker image stops. A final 'Docker image' is just a collection of multiple images, all stacked up, one of top of the other. 
 
 ### Kubernetes
 
-Once you want to:
+Say you want to:
 
-1. use multiple docker images in parallel (for example an image for the web server, an image for file system and an image with a database) or 
+1. use multiple Docker images in parallel (for example an image for the web server, an image for file system and an image with a database) or 
 
-2. start multiple images at the same time (for example a web server behind an load balancer) 
+2. Start multiple images at the same time (for example a web server behind an load balancer) 
 
-you will need to start looking at what is called orchestration technologies.
+You will need to start looking at what are called 'orchestration technologies'.
 
-The docker team has published a light version of orchestration called [Docker Compose](https://docs.docker.com/compose/) and [Docker Swarm](https://docs.docker.com/engine/swarm/), but what is widely used in the production is [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
+The Docker team has published light orchestration frameworks called [Docker Compose](https://docs.Docker.com/compose/) and [Docker Swarm](https://docs.Docker.com/engine/swarm/). Whilst both solutions are relatively effective and have their share of pros and cons,[Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) is by far the most widly used container orchestration mechanism in production environemnts.
 
-Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to scale massively in its web search and in services like GMail. Everything at Google is a container and as early as 2014 Google claimed to start [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
+Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to massively scale services like its web search and GMail. Everything at Google is a container and as early as 2014 Google claimed to be starting [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
 
-The problem that Kubernetes solves is the codification of an application environment, plus its deployment strategy and its scalably requirements. 
+Kubernetes allows the codification of an application environment thus addressing requirements such as deployment strategy, scalably, containers hygene and tracking etc. 
 
 This is very powerful, since it allows you to basically say: _"I want x number of pods (i.e. web servers and database) to always be available, and if they stop, make sure they are restarted (and configured accordingly)"_
 
-The reason why is so important to understand this is because you need to evolve from: creating environments by clicking on a lot of of things, to: codifying your server environment (which is just a higher level of programming abstraction layer). 
+The reason why is so important to understand this is because you need to evolve from creating environments by clicking on a lot of of things, to codifying your service delivery environment (which is just a higher level of programming abstraction layer). 
 
 Note that you also get a similar workflow with tools like [AWS CloudFormation](https://aws.amazon.com/cloudformation/) 
 
@@ -465,29 +473,30 @@ One easy way to give Kubernetes a test drive is to use [AWS EKS](https://aws.ama
 
 ### Security advantages
 
-From a security point of view, Docker has massive advantages. 
+From a security point of view, Docker has clear advantages. 
 
 The first is an explicit mapping of what needs to be installed and what resources (for example ports) need to be made available.
 
-Docker also makes possible to safely run 3rd party code in isolated (i.e. sandboxed) environments, where any malicious code running inside those docker containers, would not have access to the current host user's data. This is actually the future of desktop and server-side apps. where easy external (or even missing critical) service/code is executed inside containers.
+Docker also makes possible to safely run 3rd party code in isolated (i.e. sandboxed) environments, where malicious code running inside a Docker container, would not have access to the current host user's data. This is actually the future of desktop and server-side apps where simple external (or even mission critical) service/code is executed inside containers.
 
 ### Testing and visualizing Docker
 
-One area where we are still quite immature (as an industry) is the testing of Docker images and Kubernetes setups.
+One area where we are still quite immature, as an industry, is the testing of Docker images and Kubernetes setups.
 
-There isn't good tools, IDEs and Test Runners for docker and kubernetes. Basically we need a TDD workflow for docker development!
+There aren't enough good tools, IDEs and Test Runners for Docker and Kubernetes. Basically we need a TDD workflow for Docker development!
 
-If I was you, this would definitely be an area I would focus my research (while blogging about your efforts). 
+If I was you, this would definitely be an area I would focus my research on (while blogging about your efforts). 
 
-Another great research area is the visualization and mapping of kubernetes environment (i.e. who is speaking to who, and how is that traffic authentication and authorized)
+Another great research area is the visualization and mapping of Kubernetes environment (i.e. who is speaking to who, and how is that traffic authentication and authorized). See _[Weave Scope - Troubleshooting & Monitoring for Docker & Kubernetes](https://github.com/weaveworks/scope)_ for an interesting Open Source project in this space.
 
-You would have big competitive advantage in the market place if you understood these concepts and had practical experience at solving them.
+You would have a big competitive advantage in the market place if you understood these concepts and had practical experience at solving them.
 
 ### It all stated with physical containers
 
 For a great introduction to Containers see MAYA Design's [Containerization](https://vimeo.com/49392667) animation, and the Wendover Productions' [Containerization: The Most Influential Invention That You've Never Heard Of](https://www.youtube.com/watch?v=F-ZskaqBshs) video
 
 To see what is coming next see MAYA Design's [Trillions](https://vimeo.com/7395079) - video and the [Trillions: Thriving in the Emerging Information Ecology](https://www.amazon.co.uk/Trillions-Thriving-Emerging-Information-Ecology/dp/1118176073) book
+
 
             
         
@@ -504,40 +513,40 @@ We basically use Jira as an graph database and [Confluence](https://www.atlassia
 
 The key point I want to make here is: in order to make the tools that we use in the enterprise work, they need to be customized and extended. 
 
-Being able to write these customization's and understanding at a much deeper level what is possible with these tools (when compared to 'normal' or 'power' users), is a massive competitive advantage. Customizing and extending tools should not be seen as an exception, it should be the rule. 
+Being able to write these customization's and understanding at a much deeper level what is possible with these tools, when compared to 'normal' or 'power' users, is a massive competitive advantage. Customizing and extending tools should not be seen as an exception, it should be the rule. 
 
 The reason this scales is due to the compound effect (i.e. increased returns) of the features implemented. The changes/features we make today, will make us more productive tomorrow, which will help us to make more changes, which make us even more productive.
 
-In fact as a developer, if you are able to write custom JIRA workflows that are usable by your team, that will be a massive competitive advantage for you, and it will make you highly employable today.
+In fact as a developer, if you are able to write custom JIRA workflows that are usable by your team, that will be another competitive advantage for you, and it will make you highly employable today.
 
-### Reality is the one that is complex
+### Reality is the complex one
 
 It is important to note that once the complexities and interconnections of reality start to be mapped in Jira, it can be very overwhelming. 
 
-For example we use Jira heavily in our incident handling process, where we can easily create 100+ issues during an incident, with each issue being a relevant question or action to be answers or executed during the incident. It is easy to look at that setup and think that it is too complex and a massive bureaucracy. But in reality that combination of issues (of type: Incident, Task, Vulnerability and Epics) represent an accurate representation of the complex reality and massive amount of information that is created during an incident (the alternative are completely unmanageable and unreadable email, slack threads or word docs). 
+For example we use Jira heavily in our incident handling process, where we can easily create 100+ issues during an incident, with each issue being a relevant question or action to be answers or executed during the incident. It is easy to look at that setup and think that it is too complex and a massive bureaucracy. But in reality that combination of issues (of type: Incident, Task, Vulnerability and Epics) is an accurate representation of the complex reality and massive amount of information that is created during an incident. The alternative are completely unmanageable and unreadable email, slack threads or word docs). 
 
-All the work comes together via powerful up-to-date  Confluence pages (which we convert to PDFs and distribute via slack/email) that answer the key questions of: 'What has happened?', 'What are the facts?', 'What are the hypothesis we are exploring?', 'What is happening now?' and 'What are the next steps?'. This is how we keep everybody involved in sync, and how we provide regular management updates.
+All the work comes together via powerful up-to-date Confluence pages (which we convert to PDFs and distribute via slack/email) to answer the key questions of: 'What has happened?', 'What are the facts?', 'What are the hypothesis we are exploring?', 'What is happening now?' and 'What are the next steps?'. This is how we keep everybody involved in sync, and how we provide regular management updates.
 
-The other massive advantages of this setup, is that it allows us to do very effective post-incident analysis and to create playbooks with predefined tasks to be executed when a similar incident occurs in the future. Basically our playbooks are not a word document with tasks and actions, our playbooks are a lists of Jira Tasks that are used to populate the incident set of tasks.
+The other big advantage of this setup is that it allows us to do very effective post-incident analysis and to create playbooks with predefined tasks to be executed when a similar incident occurs in the future. Basically our playbooks are not a word document with tasks and actions, our playbooks are a lists of Jira Tasks that are used to populate the incident set of tasks.
 
 For more ideas about this topic see the [SecDevOps Risk Workflow](https://leanpub.com/secdevops/) book that I'm also writing and the [SecDevOps Risk Workflow - v0.6](https://www.slideshare.net/DinisCruz/secdevops-risk-workflow-v06) presentation .
 
 
 ### Use Jira in your life
 
-Create Jira projects for your life activities (with Epics to track group of tasks)
+Create Jira projects for your life activities, with Epics to track group of tasks.
 
 Create a Kanban board for your personal tasks and Epics.
 
-Create custom workflows and learn how to manage Jira. This will give you tons of confidence when using Jira in the real world (or when intervening)
+Create custom workflows and learn how to manage Jira. This will give you tons of confidence when using Jira in the real world or when intervening.
 
-And since Atlassian has evaluation version for their cloud version of Jira, there isn't any cost to try this. You have no excuse to not having used Jira before (at a level more advanced that most corporate users and the developers interviewing you)
+And since Atlassian has evaluation version for their cloud version of Jira, there isn't any cost to try this. You have no excuse for not using Jira before, at a level more advanced that most corporate users and the developers interviewing you.
 
 ### What makes Jira so powerful
 
-Although Jira has tons of really annoying features and bugs, its feature set is very powerful, and with finely tunned process and customization's it will make the difference on your productivity and will change how you work.
+Although Jira has tons of really annoying features and bugs, its feature set is very powerful. With finely tunned process and customization's it will make the difference on your productivity and will change how you work.
 
-Here are some the really powerful features that Jira has:
+Here are some of Jira's really powerful features:
  
  - **Issues** - that can be easily linked to each other (i.e. nodes and edges)
  - **Links** - which can be named, and allow the creation of named edges, for example 'RISK-111 is-created-by VULN-222'
@@ -550,9 +559,9 @@ Here are some the really powerful features that Jira has:
 
 ### Its all about People, Process and Technology
 
-In order to create a successful Jira environment (the 'Technology' part) we have to start with the 'People' part (in this case you). It is the mindset of the individual user that helps to kickstart these workflows.
+In order to create a successful Jira environment, the 'Technology' part, we have to start with the 'People' part (in this case you). It is the mindset of the individual user that helps to kickstart these workflows.
 
-The other key element to make this work is the 'Process' of how things work. What I found is that it is very hard for participants to really 'get' these processes and to really understand at a deeper level how the hyperlinked graph-based architecture works. By nature there will be a lot of changes, not only of past workflows, but of existing workflows (i.e. change is the only constant)
+The 'Process' of how things work is the other key element. I found it's very hard for participants to really 'get' these processes and to really understand at a deeper level how the hyperlinked graph-based architecture works. By nature there will be a lot of changes, not only of past workflows, but of existing workflows. Change is the only constant.
 
 Ironically this means that Jira is not key to make this work. 
 
@@ -560,7 +569,8 @@ I have built similar systems using GitHub.
 
 Although GitHub doesn't have some of the most advanced features of Jira (like workflows), the fact that GitHub has native Markdown support, that all content is managed using git and that it is super fast, makes it also an effective graph database.
 
-With the right People and Process, lots of technologies can be used to make this work. As long as they can be used a Graph Database with every piece of data being available in an hyperlinkable way
+With the right People and Process, lots of Technologies can be used to make this work. As long as they can be used a Graph Database with every piece of data being available in an hyperlinkable way
+
 
             
         
@@ -607,7 +617,7 @@ Even if you are not using Python as your main development language, due to it ma
 
 A perfect example of the power of Python is in the development of Serverless functions (executed as an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model-handler-types.html)) or in advanced customization's of event-driven workflows (like the one provided by [Zapier Python support](https://zapier.com/help/code-python/))
 
-The [AWS SDL for python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) is something you should spend quite a lot of time with and really explore its capabilities (while learning to take python into another level). 
+The [AWS SDK for python (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) is something you should spend quite a lot of time with and really explore its capabilities (while learning to take python into another level). 
 
 This API gives you access to just about everything you can do in AWS, and as a developer you need to really start thinking of AWS as an 'app' that you code your application on top of its capabilities. You need to get into the practice of writing code (driven by tests) vs clicking on things.
 
@@ -867,9 +877,9 @@ Hugo also makes it really easy to create (and understand) an CD (Continuous Depl
 
 Another key feature is the integration with [LiveReload](https://github.com/livereload/livereload-js) (which very important to experience in a practical/personal way). Assuming you have the editor and web browser side-by-side in your screen, Hugo+LiveReload creates an environment where you can see your content changes immediately reflected in the browser, in an quasi-real-time way (i.e as soon as the file is saved, the browser is reloaded and the new content in rendered)
 
-Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition (with killer features)
+Hugo is also a great case-study of how modern development techniques, technologies, and open source innovation create products/apis that are miles ahead of the competition, with killer features.
 
-After using (and developing) all sorts of CMS (Content Management Systems), I have to say that it gives me a spectacular and highly-productive content creation/editing workflow. 
+After using and developing all sorts of CMS (Content Management Systems), I have to say that it gives me a spectacular and highly-productive content creation/editing workflow. 
 
 I use Hugo a lot these days, in all sort of internal and external sites, here are some examples:
 
@@ -881,7 +891,7 @@ I use Hugo a lot these days, in all sort of internal and external sites, here ar
 
 ### Simple example (MVP)
 
-Here is simple example of my very first test of using Hugo where changes on the left are shown automagically on the right (I always start learning a new technology by creating the simplest possible version that works, i.e. an MVP)
+Here is simple example of my very first test of using Hugo where changes on the left are shown automagically on the right. I always start learning a new technology by creating the simplest possible version that works, i.e. an MVP.
 
 ![](images/hugo-simple-example.jpg)
 
@@ -897,6 +907,306 @@ Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll 
 
  - HealthCare.gov - see _[It's Called Jekyll, and It Works](https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)_
  - Obama's fundraising website - see _[Meet the Obama campaign's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/)_
+
+
+            
+        
+
+            
+## Dot Language             
+As a new developer joining the market, one of the real-world patterns that will surprise you the most, is the lack of up-to-date documentation and diagrams about how the applications, services and even code behave (and even when documentation does exists, they are usually out-of-date and not used on day-to-day decisions and coding). 
+
+When you take a step back and think about this, you should realise that it is insane. What we do when developing software is to create large interconnected and complex structures without accurate maps, without a solid understanding of what already exists and what we are supposed to be building.
+
+This doesn't happen because developers, architects or managers don't understand or value good up-to-date documentation. In fact they are usually the first ones to complain about these gaps. The problem is that most patterns and technologies used to create these diagrams are highly inefficient, time-consuming, complex and isolated.
+
+[DOT](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) is a text based representation of graphs which is a key part of the solution.
+
+With DOT you describe the graph/diagram in text which is then transformed (by tools like [Graphwiz](http://www.graphviz.org/) or [vis.js](http://visjs.org/network_examples.html)) into a diagram.
+
+Here is an example of DOT Language:
+
+``` 
+digraph G {
+     size="2";     
+     a [label="Foo"];     
+     b [shape=box];     
+     a -> b -> c [color=blue]
+     b -> d [style=dotted];  
+}
+ ```
+
+ Which looks like this when rendered (try this online at https://dreampuf.github.io/GraphvizOnline/)
+
+ ![](https://user-images.githubusercontent.com/656739/46248785-ed561880-c415-11e8-8f07-6f5c83b4b03b.png)
+
+What I'm talking about is 'Diagrams as code', which is a major paradigm shift that very few developers and professionals have been able to make. 
+
+As you will see below, text-based representation of reality using diagrams is an area that still needs a lot of innovation and usage. I strongly recommend you to get your head around how to use DOT language for diagraming, since that will give you a strong competitive advantage.
+
+
+#### Why we need diagrams
+
+One of the key challenges that exist when working in a team with multiple stake-holders and areas of expertise, is the alignment of what are the objectives and what will be delivered. Don't underestimate how hard this is. Without a graphical representation of the plan and reality, it is very hard to have that alignment. Actually what we really need are [Maps](https://medium.com/wardleymaps), but starting with diagrams is a good start.
+
+Diagrams provide an [lingua franca](https://en.wikipedia.org/wiki/Lingua_franca) to communicate between team members, where they makes it much easier to synchronize expectations, making sure that every stake holder understands the diagram's reality and action plans.
+
+### Version control graphs using Git
+
+A key advantage of storing diagram data in a text format, is that you are able to use git to version control them.
+
+The benefits are tremendous, since now you are able to manage your diagrams as you manage your code:
+
+ - commit every change
+ - branches for new features 
+ - tags to mark releases/sprints
+ - easily collaborate between multiple team members
+ - diff between versions (and actually see and understand what changed between versions)
+
+### Diff graphs and animate evolution
+
+Your brain is really good at understanding patterns, but due to the highly efficient and hyperlinked way our brains work, what we think we remember from a diagram reviewed a couple days (or weeks) ago, is not usually a good representation of what we actually saw (or think we saw). This becomes a major problem when reviewing diagrams for a 2nd, 3rd or nth time, since unless we are presented with _'what changed since the last review'_, our brains will really struggle to figure it out.
+
+One of the nice side effects of storing diagram data in a text based format, is that diffing versions becomes possible (i.e. it is possible to create text and graphical representations of those changes). 
+
+Diffing Diagrams (and making it as easy and smooth process), is is another area that we need quite a bit of innovation and a good area for you to become a player.
+
+#### Why Visio doesn't scale
+
+But why not use [Visio](https://en.wikipedia.org/wiki/Microsoft_Visio), or one of its online/offline variations (like [draw.io](https://www.draw.io/) or [Lucidchart](https://www.lucidchart.com))?
+
+Visio diagrams are the current industry standard for creating detailed technical and workflow diagrams. The reality is that Visio diagrams can look really good (specially if its creator has good design sense and good taste).
+
+The irony is that Visio's main features are actually its main drawbacks. Due to the fact that Visio allows the creation of very detailed diagrams means that it is:
+
+ - **very time consuming** - it is normal to take hours (if not days) to create detailed diagrams 
+ - **created from somebody's interpretation of reality** - the author of the Visio diagram will have a massive impact on the design, taxonomies, conventions and depth of detail, which means that it's personal bias and agenda will be reflected in the diagram
+ - **a work of art** - yes some diagrams look really beautiful, but the point of a diagram is to help with data communication,   understanding and collaboration. The point should be to empower decisions, not to look good
+ - **not created from dynamic data** - all elements in the Visio diagram are manually added, which means that once the original data/scenario/architecture changes, the diagram will be out-of-data
+ - **layout is pixel based** - which means that moving anything can become really hard because the actually location of a particular element is 'hard-coded' to a particular location in the page (i.e. its pixel). This is one of the reasons why changes are so hard, since it is easy to hit clashes between elements, when moving/adding new elements
+ - **locked to a particular design convention** - due to the fact that the design is hard-coded and the creator of the Visio diagram has enormous scope for applying its creative interpretation to the diagram's data, what ever convention the author used, becomes the one that everybody has to use. This becomes a massive issue when it is required to see the diagram's data from differnt points of view or different levels of abstraction 
+ - **very easy to mix abstraction layers** - another common problem with Visio, is the use of multiple abstractions in the same diagram (for example mixing network flows, with application flows, with user journey flows). This tends to be an side-effect of not being able to reuse part of the diagram in new diagrams for example focused on a particular use-case or user-journey.
+ - **stored in binary or xml format (very hard to diff)** - not only these files are hard/impossible to diff, some of the file formats are proprietary (i.e. not open) and sometimes on online services the data is not even available.
+ - **mixes data and design in same file** - to effectively diff data, it is key to store the data and the design in different files. Not only this will make the version diffing possible, it allows the creation of standard design templates (which will create a consistency of design, making it easier to consume)
+ - **very hard to update** - once a diagram grows to a particular size, simple changes, can required considerate amounts of time (and big changes even more). This creates situations where the diagram authors become 'alergic' to making changes (since they might not have the time required to make the changes)
+ - **not an accurate representation of reality** - due to the fact that these diagrams are hard to update, even in the unlikely situation that the diagrams were accurate on day 0 (i.e. when they were completed for the first time), due to the natural rate of change in development and systems, it is inevitable that the diagrams will start to go out of date. Then, unless they are significant efforts put in maintaining those diagrams, they stop being sources of truth (and valuable for teams)
+ - **not used everyday (by developers, architects or managers)** - usually the reason for all the properties listed above, is the simple fact that the diagram's created are not part of the multiple day-to-day conversations and decisions that occur between the multiple players
+ - **they are usually not maps** - finally the worse part of 99% of the diagrams out there is that that are not Maps. Although diagrams tend to be visual, have context (i.e. specific to purpose / perspective) and are mode of components , they miss the key [mapping properties](http://wardleypedia.org/mediawiki/index.php/Wardley_Mapping) of: anchor, position (relative to anchor) and consistency of movement.
+
+#### Not being able to control the layout is a feature
+
+When you start using text based diagraming tools (like DOT) one of the behaviors that will drive you crazy is the fact that you can't control the diagram layout (in the same way you do in Visio). Text based diagrams are dynamically rendered based on a set of predefined strategies. This means that the exact location of components will vary with most changes (note that some engines allow the fixation of components, which allows the creation of anchors and special areas).
+
+This limitation is actually the **best feature** of text base diagrams! 
+
+It is only when you stop caring about the exact layout that you realise that it doesn't really matter, since as long as you understand the diagram's context, they are easy to read and consume.
+
+The other positive site effect of this lack of control, is the fact that changes (big or small) are easy to make, which means that it is easy to keep the diagrams up-to-date.
+
+#### Automatic generation of graphs for code
+
+So what is the solution to make diagrams scale so that they are:
+
+ - a correct representation of reality
+ - easy to create and maintain
+ - able to provide multiple views from the same data
+ - able to separate code and data 
+ - easy to diff (between versions)
+
+The solution is to auto-generate the diagrams (from source-code, config files, data-analysis, logs, or other data sources). Only then will we have something that can be maintained and correctly represents reality.
+
+But doesn't this mean that we need a way to parse the (for example) config files, understand its structure and find a way to create information from it?
+
+Yes
+
+And what is wrong with being able to do that ?
+
+What is crazy is to make decisions based on shadows of reality (or even worse, what somebody thinks reality is)
+
+#### Infrastructure as Code 
+
+One of the good things of codifying the infrastructure (vs clicking on things or running a bunch of scripts), is that it provides the opportunity to use the config/recipe files to generate diagrams that represent what they create.
+
+A good example is the visualization of the relationships between multiple running Docker containers. In Docker based environments, when this visualization of running containers is not available (in quasi real-time), eventually, it will become really hard to understand what is really going on. This this is reason why system failures caused by cascading set of events, start to become a common occurrence.
+
+#### Use Threat Models as a way to create diagrams
+
+[Threat Models](https://en.wikipedia.org/wiki/Threat_model) are a technique used by application security professionals to map out the security implications of a particular design. There are multiple schools of though on how to do threat models. 
+
+I like the simple one where we create a set of architecture/flow diagrams and map a number of threads to it: Authentication, Authorization, Data Validation, Secrets Management, Resilience and Privacy. To scale the creation of the Threat Models needs to be done by Security Champions (which are usually developers embedded in a particular team)
+
+The trick here is to use Threat Models as a way to create diagrams that not only represent reality, but are kept up-to-date (by the Security Champion)
+
+And why do teams find the time to do Threat Models, when they struggle to get management/business-buy-in for doing documentation?
+
+Because doing documentation feels like a 'low/medium priority' task (when compared with the latest feature requested by the business), which is easy to keep pushing to one of the 'next sprints'. This is a typical technical debt problem, where the real impact of not doing something will only happen in the future (usually when the ones making the current decisions are not there any more)
+
+But NOT doing a Threat Model, means that that team (namely the business and technical owners) have taken an active step to _'Not understand the security implications of the current design or latest set of changes'_. This is a much higher risk and one that if you have a mature risk based workflow, will create a set of vulnerabilities and risks for those technical and management owners to accept (which is exactly what we do at Photobox Group Security).
+
+#### The crazy idea that in Agile you don't need documentation
+
+_...To go fast, you can go alone_
+
+_...To go far, you need to go in a team_ 
+
+_...To go fast and far, you need to go in a team and have real-time understanding/visualization of what is being created/executed_
+
+One of the very dangerous ideas that started to happen in Agile teams that were able to deploy fast to production, was the idea that _you don't need to document and diagrams things_ (since that will just slow things down).
+
+This is a crazy idea and very short-sighted!
+
+The quality of the test code and ability to create diagrams from what actually exists, are critical factors in creating highly productive, effective and rewarding environments.
+
+
+#### People, Process and Technology
+
+The biggest challenge in adopting (for example) DOT Language, are the _People_ and _Process_ part. 
+
+Although there still are some limitations in the _Technology_ part (for example DOT diagrams need to have better support for icons, and provide better control of the positioning/anchor of key components), what I find is the hardest part, is for the _People_ to do the paradigm shifts mentioned in this chapter. 
+
+Once they do, the _Processes_ will evolve around the existing tech stack (for reference the tech stack I use is: DOT Language, Git, GitHub, Vis.js and Hugo)
+
+#### Evolution of Diagrams into Maps
+
+What is very frustrating is that in most development teams, we are still at the _'Why do we need up-to-date diagrams?'_ phase. 
+
+Where the question that we should be looking at is _'How can we make our diagrams every better and more valuable?'_
+
+And the answer is Maps, which are diagrams with the following properties
+
+- are visual
+- have context (i.e. specific to purpose / perspective) 
+- are mode of components
+- have at least one anchor
+- have a position (relative to anchor) 
+- have a consistency of movement
+
+For a great introduction to this kind of maps see [Wardley Mapping](http://wardleypedia.org/mediawiki/index.php/Wardley_Mapping), which was created by Simon Wardley who is writing a [book about it](https://medium.com/wardleymaps) at Medium.
+
+#### Explore Vis.js Javascript engine
+
+If you are looking for a great javascript-based DOT language visualization engine, then _[vis.js network](http://visjs.org/docs/network/)_ is the one I recommen you spend a lot of time learning and customizing (see my [neovis fork](https://github.com/pbx-gs/neovis.js) for an example of what those customization can look like)
+
+#### Mermaid and WebSequenceDiagrams.com
+
+Another good example of diagram as code is the open source [Mermaid](https://mermaidjs.github.io/) tool, which is designed to help with chart generation.
+
+Here is what a Sequence Diagram code looks like in Mermaid 
+
+```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+```
+
+Which looks like this when rendered:
+
+![](https://user-images.githubusercontent.com/656739/46255423-a22f1a80-c494-11e8-8eb3-5c9c992e162c.png)
+
+An alternative is the propriatary https://www.websequencediagrams.com service, which more feature rich that mermaid and has a nicer design (the free version is already very usable and practical):
+
+```
+title Authentication Sequence
+
+Alice->Bob: Authentication Request
+note right of Bob: Bob thinks about it
+Bob->Alice: Authentication Response
+```
+
+Will look like this
+
+![](https://user-images.githubusercontent.com/656739/46255585-abb98200-c496-11e8-93a7-7ac3abeaf535.png)
+
+
+The [Diagram in R](http://rich-iannone.github.io/DiagrammeR/index.html) integration page contains a great video of DOT in action:
+
+![](https://user-images.githubusercontent.com/656739/46255638-41551180-c497-11e8-88b8-26ab35aacedf.png)
+
+Btw, if you have not learned how to code in [R](https://en.wikipedia.org/wiki/R_(programming_language)), you definitely should, since it is a great way to manipulate and visualise data).
+
+#### Try it! (learn DOT and Mermaid with real-time preview)
+
+A good tech stack to learn DOT Language (and mermaid) is the [Atom editor](https://atom.io/) with the [Markdown Preview Enhanced](https://atom.io/packages/markdown-preview-enhanced) package installed.
+
+This is create an [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) environment where you have an highly effective amd productive split screen (on the left you have the markdown page, and on the right the rended page/diagram). Once you make a code change, you will see the rended diagram in less than a second. This workflow makes it really easy to learn and to create diagrams in real-time.
+
+I have done Threat Modeling sessions in the past, where we have the UI described above projected on a wall, which allow us to create the diagrams in real-time, based on the information provided by the meeting attendees.
+
+            
+        
+
+            
+## Google Search, GDD and SRE             
+As a developer one of the most important skills you need to learn is how to GDD.
+
+GDD stands for is Google Driven Development, and it is how every professional developer codes these days. Google's search engine is so powerful and effective that when coding (and learning), Google's Search Engine can point to the correct answers much better than anyone or anything else.
+
+#### Why is Google Search so good?
+
+Google's search magic is created by the [WebGraph](https://en.wikipedia.org/wiki/Webgraph) inspired [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm, which decides the order of the search results. One of the first major innovations of this algorithm was the use of a number of links to point to particular page as an indicator of the page relevance. The other major innovation was the feedback loop between what the users are clicking and the position of the link in the page. This means that every time you click on a link in Google, you are voting with your answer and teaching Google's PageRank algorithm. To see this in action, notice when you copy the link of a Google Search result, the link is not to the page you want to see. The link is to a google service that will capture and store your choice. It is the capture of this data that allows Google to benefit from [network effects](https://en.wikipedia.org/wiki/Network_effect) and provide custom search results to each user. Yes, when you search for a particular topic you will get different results from somebody else. 
+
+Here is a challenge for you: _"how can you prove that google shows different results for different users and in different geographical locations?"_. To answer this question effectively, in fact based way, you need to programmatically detect changes in google's behavior. To do this, write using a Cloud environment, an api /tool or set of serverless functions that:
+  - is able to use Google.com to search for results from multiple IPs and geographical regions (in an pure anonymous way, and in ways that Google search engine can track each one of you 'test users')
+  - captures the responses, namely the order of the link's titles (my preference is to use services like S3 as a data store, for the raw data and any transformations done into JSON files)
+  - visualizes and compare the results (my preference is to use ELK and Neo4J as visualization and analysis engines)
+  - presents the data in easy to consume ways (my preference is to use Hugo to create a site that allows the easy navigation of the 'story you want to tell')
+
+Also very interesting is the [evolution](https://medium.com/s/story/what-google-teaches-us-2613711712de) of Google's Search technology into an Knowledge Graph (which has been [happening since 2010](https://mashable.com/2012/02/13/google-knowledge-graph-change-search/)). The real power in Google's search engine is the gigantic and hyperlinked graph (powered by machine learning) that is able to understand the meaning and intent of the queries made.
+
+#### For Google Search, you are the product
+ 
+The clever part of Google Search business model is their turning of the product (i.e. the users doing the searches) into actual 'workers' for Google. Remember that for Google, you are not the client. Google's primary focus and center of gravity is not you.
+
+[Google Adwords](https://en.wikipedia.org/wiki/AdWords) is the system that allows everybody to buy (and bid for) the placement of Ads on a particular Google search keyword. Adwords is by far the highest income stream for Google, with $94 Billion in revenue in 2017. A key problem with Ad based services that are 'free' but generate billions for the owners of the network, is the reality that you (the user) are the product. You are the 'goods' that Google sells to their real customers (the companies buying the ads). 
+
+This is why Google's business model is at odds with privacy. From Google's (and Facebook, Twitter, LinkedIn, etc..) point of view, the less Privacy you have, the more they know about you, the more a valuable asset you become (an asset that they will sell to the highest bidder). 
+
+My view is that this business model is reaching its peak and two major changes will happen in this space in the short to medium term. The move to make the user the real customer and the move to reward the users that add value to networks:
+
+1. Once the balance shifts back to the user and the protection of user data (with Privacy elevated to a Human right and something companies want to provide for their employees), the protection and anonymization of user's data will be an area with massive growth. And in ways that make the process of sharing and using personal data more secure, efficient and even more profitable. 
+
+2. Jaron Lanier in _[You are not a Gadget](https://www.amazon.co.uk/You-Are-Not-Gadget-Manifesto/dp/0141049111)_ defends the idea that creators of digital value should be paid for their contributions (in micro-payments). If you look at the income of Google and other community/Ad driven companies, you can see that the rewards and financial returns for the value created by the product (i.e. the users) is today very one sided (with small exception for areas like [YouTubers](https://en.wikipedia.org/wiki/YouTuber) and [Medium Writers](https://medium.com/words-for-life/a-100-transparent-look-at-my-first-medium-paycheck-197b69483b44)).
+
+You would be very wise to spend time researching and learning about these paradigm shifts, namely how it will impact development practices and the code that you write.
+
+### Do know how to use Google's Search Engine?
+
+How much do you really know about how to search Google for text (images, ideas, videos, books) in the most efficient and effective way? 
+
+Have you spent time to [learn how to search using Google](https://support.google.com/websearch/answer/134479?hl=en&ref_topic=3081620)? Google is just another tool, and you need to spend time learning how to use it and become a master at how to access and query the wealth of information that it stores.
+
+A great place to start is the [Advanced Search](https://www.google.com/advanced_search) page and this great list of [Google Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/).
+
+Once you've done that, take a look at [Google Dorks](https://en.wikipedia.org/wiki/Google_hacking) which is a Google Hacking technique that searches for sensitive data exposed by Google's Crawlers. To get an idea of what is possible check out the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) which has sections like: Sensitive Directories, Files Containing Passwords, Sensitive Online Shopping Info , Network or Vulnerability Data and much more. You will be surprised, amazed and horrified with what you will discover.
+
+I always find that the best way to learn a technology is using the techniques and patterns used to exploit it; because security tends to go deeper into what is 'really possible', not just how it is 'supposed to be used'. In this case, the Google Hacking Database will give you tons of examples of WTF!, how is this data exposed to the internet? More interesting and relevant to your quest into becoming a better developer, this data will make you ask the questions: _'How did that search query work?'_ and _'How did Google Crawlers found that data?'_ (which is the best way to learn)
+
+### Google's history and scale
+
+Google is one of the best Software engineering companies in the world, and one of the first companies to do _'Internet Scale'_ really well. 
+
+Google is also massive in open source with highly successful [hundreds of projects](https://opensource.google.com/) projects like Angular JS, Android or Kubernetes. Google hires some of the best Open Source developers to work on internal projects related to their passion, for example [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) who is Python's founder and lead developer, worked at Google. By the way, being hired to work on Open Source projects is a very common practice by companies that actively use a particular technology or language. This is a great way to get a dream job: write an Open Source tool/package and get hired by a company that uses it.
+
+Google's profits from the Search Engine are so high that it was able to fund a large number ideas and industries. It got so big that in 2015 the founders of Google created the [Alphabet](https://en.wikipedia.org/wiki/Alphabet_Inc.) parent company. This is a really cleaver move since it will make each division (from self-driving cars, to drone deliveries) more accountable and focused.
+
+### Learn from Google's focus on engineering and SRE
+
+Part of the reason Google has gained massive amounts of market share is due to its ability to experiment and then execute at Scale. Google allows employees to spend 20% of their time on ideas they are passionate about, which sounds crazy at first, but there is [solid data](https://www.inc.com/bryan-adams/12-ways-to-encourage-more-free-thinking-and-innovation-into-any-business.html) that says that this practice is highly effective and that it empowers developers to create new products and services. For example Google services like AdSense, Gmail, Google Maps, Google News or Google Talk where initially developed under the 20% research time. 
+
+Google also has a very high bar for quality and engineering. Two good books that explore their practices is the [How Google Tests Software](https://www.amazon.co.uk/Google-Tests-Software-James-Whittaker/dp/0321803027) and the [Site Reliability Engineering](https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X).
+
+The [SRE (Site Reliability Engineering)](https://landing.google.com/sre/) is an amazing concept, that you as a developer really need to spend time learning and understanding how it works (especially how SREs behave). At Google, the SRE teams are the ones that deploy and maintain applications. There are many lessons that we can learn from Google's experience of deploying things at scale. For example I really like the SRE idea to spend 50% on 'doing X' and 50% in improving the process + tools required to effective do that 'X'. ['Error Budgets'](https://landing.google.com/sre/book/chapters/embracing-risk.html) are another SRE concept which can make a massive difference in how applications are developed and tested. The SRE idea of 'Error Budget' is that each application or service needs to provides a clear and objective metric of how unreliable that service is allowed to be within a single period of time.
+
+Google also puts a lot of effort in understanding from a scientific point of view, and how to create great teams. See ['Work Rules'](https://www.amazon.co.uk/Work-Rules-Insights-Inside-Transform-ebook/dp/B00NLHJKBE) book,  _[Not A Happy Accident: How Google Deliberately Designs Workplace Satisfaction](https://www.fastcompany.com/3007268/not-happy-accident-how-google-deliberately-designs-workplace-satisfaction)_ and [Why Google defined a new discipline to help humans make decisions](https://www.fastcompany.com/90203073/why-google-defined-a-new-discipline-to-help-humans-make-decisions) (which introduces the role of _Chief Decision Officer_ and the field of _Decision Intelligence Engineering_)
+
 
             
         
@@ -944,73 +1254,6 @@ This means that you can easily add features like _Vision_ or _Natural Language_ 
 If you want to take this up a level, you should try to get your application published in the AppStore. This will have some costs, but they will be worth it for the learnings that you will get. 
 
 This would also be highly impressive for any potential employer, since it will show that you were able to meet Apple's quality bar.
-
-            
-        
-
-            
-## Google Search, GDD and SRE             
-As a developer one of the most important skills you need to learn is how to GDD.
-
-GDD stands for is Google Driven Development, and it how every professional developer codes these days. Google's search engine is so powerful and effective, that when coding (and learning), Google's Search Engine can point to the correct answers much better than somebody else.
-
-#### Why is Google Search so good?
-
-Google's search magic is created by the [WebGraph](https://en.wikipedia.org/wiki/Webgraph) inspired [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm, which is how it decides the order of the search results. One of the first major innovations of this algorithm was to use the number of links that point to particular page as an indicator of the page relevance. The other major innovation was the feedback loop between what the users are clicking and the position of that link in the page. This means that every time you click on a link in Google, you are voting with your answer and teaching Google's PageRank algorithm. To see this in action, note how when you copy the link of an Google Search result, the link is not to the page you want to see. The link is to an google service that will capture and store your choice. It is the capture of this data that allows Google to benefit from [network effects](https://en.wikipedia.org/wiki/Network_effect) and provide custom search results to each user (yes, when you search for a particular topic, you will get different results than somebody else). 
-
-Here is a challenge for you: _"how can you prove that google shows different results for different users and in different geographical locations?"_. To answer this question effectively (and in fact based way) you need to programmatically detect changes in google's behavior. One way to do this is to write using an Cloud environment an api /tool (or set of serverless functions) that:
-  - is able to use Google.com to search for results from multiple IPs and geographical regions (in an pure anonymous way, and in ways that Google search engine can track each one of you 'test users')
-  - captures the responses, namely the order of the link's titles (my preference is to use services like S3 as a data store, for the raw data and any transformations done into JSON files)
-  - visualizes and compare the results (my preference is to use ELK and Neo4J as visualization and analysis engines)
-  - presents the data in easy to consume ways (my preference is to use Hugo to create a site that allows the easy navigation of the 'story you want to tell')
-
-What is also very interesting is the [evolution](https://medium.com/s/story/what-google-teaches-us-2613711712de) of Google's Search technology into an Knowledge Graph (which has been [happening since 2010](https://mashable.com/2012/02/13/google-knowledge-graph-change-search/)). The real power in Google's search engine is the gigantic and hyperlinked graph (powered by machine learning) that is able to understand the meaning and intent of the queries made.
-
-#### For Google Search, you are the product
- 
-The clever part of Google Search business model is that it found a way for their product (i.e. the users doing the searches) to actually 'work' for Google. Remember that for Google, you are not the client (i.e. google primary focus and center of gravity is not you).
-
-[Google Adwords](https://en.wikipedia.org/wiki/AdWords) is the system that allows everybody to buy (and bid for) the placement of Ads on a particular Google search keyword (Adwords is by far the highest income stream for Google, with $94 Billion in revenue in 2017). A key problem with Ad based services (that are 'free' but generate billions for the owners of the network), is the reality that what actually happens is that you (the user) are the product. You are the 'goods' that Google sells to their real customers (the companies buying the ads). 
-
-This is why Google's business model is at odds with privacy. From Google's (and Facebook, Twitter, LinkedIn, etc..) point of view, the less Privacy you have, the more they know about you, the more a valuable asset you become (an asset that they will sell to the highest bidder). 
-
-My view is that this business model is reaching its peak, and two major changes will happen in this space in the short to medium term: the move to make the user the real customer and the move to reward the users that add value to networks:
-
-1. Once the balance shifts back to the user and the protection of its data (with Privacy elevated to an Human right and something that companies also want to provide for their employees), an area that will have massive growth is the protection and anonymization of user's data (in ways that actually make the process of sharing and using personal data more secure, efficient and even more profitable). 
-2. Jaron Lanier in _[You are not a Gadget](https://www.amazon.co.uk/You-Are-Not-Gadget-Manifesto/dp/0141049111)_ defends the idea that creators of digital value should be paid for their contributions (in micro-payments). If you look at the income of Google and other community/Ad driven companies, you can see that the rewards and financial returns for the value created by the product (i.e. the users) is today very one sided (with small exception for areas like [YouTubers](https://en.wikipedia.org/wiki/YouTuber) and [Medium Writers](https://medium.com/words-for-life/a-100-transparent-look-at-my-first-medium-paycheck-197b69483b44)).
-
-You would be very wise to spend time researching and learning about these paradigm shifts, namely how it will impact development practices and the code that you write.
-
-### Do know how to use Google's Search Engine?
-
-How much do you really know about how to search Google for text (images, ideas, videos, books) in the most efficient and effective way? 
-
-Have you spent time to [learn how to search using Google](https://support.google.com/websearch/answer/134479?hl=en&ref_topic=3081620)? Google is just another tool, and you need to spend time learning how to use it and become a master at how to access and query the wealth of information that it stores.
-
-A great place to start is the [Advanced Search](https://www.google.com/advanced_search) page and this great list of [Google Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/).
-
-Once you've done that, take a look at [Google Dorks](https://en.wikipedia.org/wiki/Google_hacking) which is a Google Hacking technique that searches for sensitive data exposed by Google's Crawlers. To get an  idea of what is possible check out the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) which has sections like: Sensitive Directories, Files Containing Passwords, Sensitive Online Shopping Info , Network or Vulnerability Data and much more. You will be surprised, amazed and horrified with what you will discover.
-
-I always find that the best way to learn a technology is using the techniques and patterns used to exploit it (because security tends to go deeper into what is 'really possible', not just how it is 'supposed to be used'). In this case, the Google Hacking Database will give you tons of examples of WTF!, how is this data exposed to the internet? More interesting and relevant to your quest into becoming a better developer, this data will make you ask the questions: _'How did that search query work?'_ and _'How did Google Crawlers found that data?'_ (which is the best way to learn)
-
-### Google's history and scale
-
-Google is one of the best Software engineering companies in the world, and one of the first companies to do _'Internet Scale'_ really well. 
-
-Google is also massive on open source with highly successful [hundreds of projects](https://opensource.google.com/) projects like Angular JS, Android or Kubernetes. Google also hires some of the best Open Source developers to work on internal projects related to their passion, for example [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) who is Python's founder and lead developer, worked at Google. Btw, being hired to work on Open Source projects is a very common practice by companies that actively use a particular technology or language (this is a great way to get a dream job: write an Open Source tool/package and get hired by a company that uses it)
-
-Google's profits from the Search Engine are so high that it was able to fund a large number ideas and industries. It got so big that in 2015 the founders of Google created the [Alphabet](https://en.wikipedia.org/wiki/Alphabet_Inc.) parent company. This is a really cleaver move since it will make each division (from self-driving cars, to drone deliveries) more accountable and focused.
-
-### Learn from Google's focus on engineering and SRE
-
-Part of the reason Google has gained massive amounts of market share is due to its ability to experiment and then execute at Scale. Google allows employees to spend 20% of their time on ideas they are passionate about, which sounds crazy at first, but there is [solid data](https://www.inc.com/bryan-adams/12-ways-to-encourage-more-free-thinking-and-innovation-into-any-business.html) that says that this practice is highly effective and that it empowers developers to create new products and services. For example Google services like AdSense, Gmail, Google Maps, Google News or Google Talk where initially developed under the 20% research time. 
-
-What Google also has, is a very high bar for quality and engineering. Two good books that explore their practices is the [How Google Tests Software](https://www.amazon.co.uk/Google-Tests-Software-James-Whittaker/dp/0321803027) and the [Site Reliability Engineering](https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X).
-
-The [SRE (Site Reliability Engineering)](https://landing.google.com/sre/) is an amazing concept, that you as a developer really need to spend time learning and understanding how it works (specially how SREs behave). At Google, the SRE teams are the ones that deploy and maintain applications. There are many lessons that we can learn from Google's experience of deploying things at scale. For example I really like the SRE idea to spend 50% on 'doing X' and 50% in improving the process + tools required to effective do that 'X'. ['Error Budgets'](https://landing.google.com/sre/book/chapters/embracing-risk.html) are another SRE concept which can make a massive difference in how applications are developed and tested. The SRE idea of 'Error Budget' is that each application or service needs to provides a clear and objective metric of how unreliable that service is allowed to be within a single period of time.
-
-Google also puts a lot of effort in understanding from a scientifically point of view (and fact based how to create great teams. See ['Work Rules'](https://www.amazon.co.uk/Work-Rules-Insights-Inside-Transform-ebook/dp/B00NLHJKBE) book,  _[Not A Happy Accident: How Google Deliberately Designs Workplace Satisfaction](https://www.fastcompany.com/3007268/not-happy-accident-how-google-deliberately-designs-workplace-satisfaction)_ and [Why Google defined a new discipline to help humans make decisions](https://www.fastcompany.com/90203073/why-google-defined-a-new-discipline-to-help-humans-make-decisions) (which introduces the role of _Chief Decision Officer_ and the field of _Decision Intelligence Engineering_)
-
 
             
         
@@ -1275,7 +1518,7 @@ It is great when you review your older notebooks (could be from last week or yea
 
 My favourite are the [Moleskin books](https://www.amazon.co.uk/Moleskine-Sapphire-Large-Plain-Notebook/dp/B015NG45Q0/) plain A5 notebooks, since they represent a nice balance of white space and portability ( I use them everyday)
 
-A nice site effect of having mobile phones with cameras, is that it's easy to share a picture of one of the notebook's pages.
+A nice side effect of having mobile phones with cameras, is that it's easy to share a picture of one of the notebook's pages.
 
 
 
@@ -1286,11 +1529,11 @@ A nice site effect of having mobile phones with cameras, is that it's easy to sh
 ## Assembly and Bytecode             
 Assembly code is a representation of what the machine code that the CPUs actually execute. It is the lowest level of abstraction that you can program.
 
-The moment I fallen in love with programming was when (as a teenager) I executed the POKE assembly command in my ZX Spectrum, which changed a pixel on my TV screen. That was such a magical moment because I had direct control over what was happening inside the computer and screen.
+The moment I fell in love with programming was when (as a teenager) I executed the POKE assembly command in my ZX Spectrum, which changed a pixel on my TV screen. That was such a magical moment because I had direct control over what was happening inside the computer and screen.
 
 [PEEK and POKE](https://en.wikipedia.org/wiki/PEEK_and_POKE) were [BASIC](https://en.wikipedia.org/wiki/BASIC) commands that allow direct memory access and manipulation (PEEK reads and POKE writes). What I was doing was to write directly to the memory location that was used to control the screen (i.e. each byte in that memory address represented a small section of the screen).
 
-A while later I started learning how to go deeper and explored writing assembly code. In those 'pre internet' days there was very little information around and with only one book available, I actually remember manually translated assembly code into binary by hand (I didn't started with an assembler compiler). Eventually I got an assembler and did many experiments in the ZX Spectrum, the [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) and the x86 PCs (which when compared with the Amiga's Motorola 68000 microprocessor had a much more complex memory layout).
+A while later I started learning how to go deeper and explored writing assembly code. In those 'pre internet' days there was very little information around and with only one book available, I actually remember manually translating assembly code into binary by hand (I didn't started with an assembler compiler). Eventually I got an assembler and did many experiments in the ZX Spectrum, the [Amiga 500](https://en.wikipedia.org/wiki/Amiga_500) and the x86 PCs (which when compared with the Amiga's Motorola 68000 microprocessor had a much more complex memory layout).
 
 In fact my first 'security hacks' were based around memory and disk manipulations written in assembly. They were designed to manipulate and change the behavior of the games I was playing (I think there was some cool way to get more money in SimCity)
 
@@ -1341,13 +1584,13 @@ A good place to start is the [Freakonomics: A Rogue Economist Explores the Hidde
 
 The [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531) takes that to another level, where it shows example after example how we are not rational at all in a number of decisions we make everyday
 
- The best one I've read is the [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
+ The best one I've read is [Incognito - The Secret lives of the brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464) which not only explains really well how the brain works, it really challenges our understanding of how the brain works.
 
  **How I think**
 
  When self analysing how I think (from an engineering point of view), I found that I have two types of thinking techniques.
 
-   - A slow(ish) type of thinking - where I'm basically taking to myself in my head. This is also how I tend to read (I heard the text I'm reading in my head)
+   - A slow(ish) type of thinking - where I'm basically talking to myself in my head. This is also how I tend to read (I heard the text I'm reading in my head)
    - A fast type of thinking - where I 'somehow' am making a large number of analysis and decisions, and 'know' what I'm thinking without really needing to articulate in my head all the explanations of what I'm doing. This is the kind of thinking that one tends to get when in 'the Zone' (which is that magical place where ideas 'just flow' and we are hyper productive)
 
 The more time you can spend on the 2nd type the more productive you will be.
@@ -1408,7 +1651,7 @@ This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator))
 
 This is about the next major revolution in technology and whether you are going to be a player or a pawn in what is happening next.
 
-I highly recomend that you read Kevin Kelly's [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089) book where he provides a really clean mapping of what (most likely) will happen next.
+I highly recommend that you read Kevin Kelly's [The Inevitable: Understanding the 12 Technological Forces That Will Shape Our Future](https://www.amazon.co.uk/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089) book where he provides a really clean mapping of what (most likely) will happen next.
 
 One area that Kevin talks in detail and you can already see it happening around us is the introduction of AI capabilities in all sort of devices and business activities.
 
@@ -1479,7 +1722,7 @@ The reality is that we are in age of the 'professional amateur', where you very 
 
 The best description I've read about how learning occurs is in the [Badass: Making Users Awesome](https://www.amazon.co.uk/Badass-Making-Awesome-Kathy-Sierra/dp/1491919019) book, where Kathy Sierra outlines two key requirements to learn:
 
- - **Practice right** - it is not about how much one practices, but how effective that practice is. This is connected with the idea of being in 'the zone' and it really shows that the real talent is not in being good/excellent in a particular area (for example playing guitar) but in is having the ability and perseverance  to practice and learn effectively. Ironically too much talent can actually back fire, since it makes the first part easy and doesn't prepare the student for the hard road ahead. One of my best teachers always said "being good is 1% talent and 99% perspiration'
+ - **Practice right** - it is not about how much one practices, but how effective that practice is. This is connected with the idea of being in 'the zone' and it really shows that the real talent is not in being good/excellent in a particular area (for example playing guitar) but it is having the ability and perseverance  to practice and learn effectively. Ironically too much talent can actually back fire, since it makes the first part easy and doesn't prepare the student for the hard road ahead. One of my best teachers always said "being good is 1% talent and 99% perspiration'
 - **Consume large amounts of good examples** - the very interesting data point here is how much we learn subliminally and by osmosis. Related to the idea that books are much better mediums to learn, when we learn we absorb much more that we think we do. This is why it is so important to keep seeing (and learning from) good examples of what we are are trying to learn. When we see or read from somebody that has gained mastery of a particular topic, we are learning all sorts of things. This is why as a developer is is key that you read lots of source code and try lots of technologies, since each one will teach you much more than you realise. Remember that all Open Source code is available (usually on GitHub). Spent time on projects you use and dig deep into the source code.
 
 What you really should to be worried about is when you stop learning. 
@@ -1519,7 +1762,7 @@ Ask yourself:
 
  _**"If I was a founder of the company/department/section I work now, with the responsibilities that I have at the moment: "**_
 
-   - _"Wow would I behave everyday?"_
+   - _"How would I behave everyday?"_
    - _"What needs to be done now, that will make a big difference?"_
    - _"What can I do that will help?"_
    - _"What would I do differently?"_
@@ -1588,7 +1831,7 @@ I do this a lot, since I find that it gives me a way to capture what I'm doing i
 
 By talking to yourself, I basically mean that you are having digital threads (on git commits, github threads, blogs, twitter or slack) where the main person talking (i.e. adding digital content) is you. You describe a problem you have, you write possible solutions and when you find the answer you document that too.
 
-It is very important to be comfortable in talking to yourself digital, since it is not easy and it can feel quite awkward. But it is totally worth it usually the main beneficially of those threads is actually you (I have many examples of years later finding blog posts I wrote where the step-by-step details I posted help me not to have to solve the same problem again). That said one of the loneliest moments you can have is when you have a particular problem and the only thread you find on the Internet is actually you a couple years ago talking about that problem and asking for help (it is on that that moment that you realise that you are the only one in the world that cares about that issue :) ) 
+It is very important to be comfortable in talking to yourself digitally, since it is not easy and it can feel quite awkward. But it is totally worth it, usually the main beneficially of those threads is actually you (I have many examples of years later finding blog posts I wrote where the step-by-step details I posted help me not to have to solve the same problem again). That said one of the loneliest moments you can have is when you have a particular problem and the only thread you find on the Internet is actually you a couple years ago talking about that problem and asking for help (it is in that moment that you realise that you are the only one in the world that cares about that issue :) ) 
 
 Usually the reason why you will not do this is because you think (wrongly) that:
 
@@ -1628,7 +1871,7 @@ Gen Z dev, if you are looking for a place to start replicating this idea, here i
 
 That is not a problem that has been solved today, and not only you would let a lot about how git works, you would be creating a tool very useful to you and the development community. As an example that would allow for the easily discovery of secrets stored in git repos that have been 'deleted' using commits (which means that the secrets still exist in that repo and are available to anybody that can clone it)
 
-**Pick a vision and be the one that makes the deference**
+**Pick a vision and be the one that makes the difference**
 
 Part of your path as a Gen Z developer, is to find something that you are really passionate for which you can execute. The win-win scenario is when you pick an idea that either is quite new (like chaos engineering) or has been around for a while but the momentum has been lost. For example the Zoetrope mentioned here, or SAST technology (Static analysis of software/applications/infrastructure for finding security issues)
 
