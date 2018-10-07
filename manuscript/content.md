@@ -913,6 +913,121 @@ Although I prefer Hugo to Jekyll, here are two amazing examples of using Jekyll 
         
 
             
+## Google Search, GDD and SRE             
+As a developer one of the most important skills you need to learn is how to GDD.
+
+GDD stands for is Google Driven Development, and it is how every professional developer codes these days. Google's search engine is so powerful and effective that when coding (and learning), Google's Search Engine can point to the correct answers much better than anyone or anything else.
+
+#### Why is Google Search so good?
+
+Google's search magic is created by the [WebGraph](https://en.wikipedia.org/wiki/Webgraph) inspired [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm, which decides the order of the search results. One of the first major innovations of this algorithm was the use of a number of links to point to particular page as an indicator of the page relevance. The other major innovation was the feedback loop between what the users are clicking and the position of the link in the page. This means that every time you click on a link in Google, you are voting with your answer and teaching Google's PageRank algorithm. To see this in action, notice when you copy the link of a Google Search result, the link is not to the page you want to see. The link is to a google service that will capture and store your choice. It is the capture of this data that allows Google to benefit from [network effects](https://en.wikipedia.org/wiki/Network_effect) and provide custom search results to each user. Yes, when you search for a particular topic you will get different results from somebody else. 
+
+Here is a challenge for you: _"how can you prove that google shows different results for different users and in different geographical locations?"_. To answer this question effectively, in fact based way, you need to programmatically detect changes in google's behavior. To do this, write using a Cloud environment, an api /tool or set of serverless functions that:
+  - is able to use Google.com to search for results from multiple IPs and geographical regions (in an pure anonymous way, and in ways that Google search engine can track each one of you 'test users')
+  - captures the responses, namely the order of the link's titles (my preference is to use services like S3 as a data store, for the raw data and any transformations done into JSON files)
+  - visualizes and compare the results (my preference is to use ELK and Neo4J as visualization and analysis engines)
+  - presents the data in easy to consume ways (my preference is to use Hugo to create a site that allows the easy navigation of the 'story you want to tell')
+
+Also very interesting is the [evolution](https://medium.com/s/story/what-google-teaches-us-2613711712de) of Google's Search technology into an Knowledge Graph (which has been [happening since 2010](https://mashable.com/2012/02/13/google-knowledge-graph-change-search/)). The real power in Google's search engine is the gigantic and hyperlinked graph (powered by machine learning) that is able to understand the meaning and intent of the queries made.
+
+#### For Google Search, you are the product
+ 
+The clever part of Google Search business model is their turning of the product (i.e. the users doing the searches) into actual 'workers' for Google. Remember that for Google, you are not the client. Google's primary focus and center of gravity is not you.
+
+[Google Adwords](https://en.wikipedia.org/wiki/AdWords) is the system that allows everybody to buy (and bid for) the placement of Ads on a particular Google search keyword. Adwords is by far the highest income stream for Google, with $94 Billion in revenue in 2017. A key problem with Ad based services that are 'free' but generate billions for the owners of the network, is the reality that you (the user) are the product. You are the 'goods' that Google sells to their real customers (the companies buying the ads). 
+
+This is why Google's business model is at odds with privacy. From Google's (and Facebook, Twitter, LinkedIn, etc..) point of view, the less Privacy you have, the more they know about you, the more a valuable asset you become (an asset that they will sell to the highest bidder). 
+
+My view is that this business model is reaching its peak and two major changes will happen in this space in the short to medium term. The move to make the user the real customer and the move to reward the users that add value to networks:
+
+1. Once the balance shifts back to the user and the protection of user data (with Privacy elevated to a Human right and something companies want to provide for their employees), the protection and anonymization of user's data will be an area with massive growth. And in ways that make the process of sharing and using personal data more secure, efficient and even more profitable. 
+
+2. Jaron Lanier in _[You are not a Gadget](https://www.amazon.co.uk/You-Are-Not-Gadget-Manifesto/dp/0141049111)_ defends the idea that creators of digital value should be paid for their contributions (in micro-payments). If you look at the income of Google and other community/Ad driven companies, you can see that the rewards and financial returns for the value created by the product (i.e. the users) is today very one sided (with small exception for areas like [YouTubers](https://en.wikipedia.org/wiki/YouTuber) and [Medium Writers](https://medium.com/words-for-life/a-100-transparent-look-at-my-first-medium-paycheck-197b69483b44)).
+
+You would be very wise to spend time researching and learning about these paradigm shifts, namely how it will impact development practices and the code that you write.
+
+### Do know how to use Google's Search Engine?
+
+How much do you really know about how to search Google for text (images, ideas, videos, books) in the most efficient and effective way? 
+
+Have you spent time to [learn how to search using Google](https://support.google.com/websearch/answer/134479?hl=en&ref_topic=3081620)? Google is just another tool, and you need to spend time learning how to use it and become a master at how to access and query the wealth of information that it stores.
+
+A great place to start is the [Advanced Search](https://www.google.com/advanced_search) page and this great list of [Google Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/).
+
+Once you've done that, take a look at [Google Dorks](https://en.wikipedia.org/wiki/Google_hacking) which is a Google Hacking technique that searches for sensitive data exposed by Google's Crawlers. To get an idea of what is possible check out the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) which has sections like: Sensitive Directories, Files Containing Passwords, Sensitive Online Shopping Info , Network or Vulnerability Data and much more. You will be surprised, amazed and horrified with what you will discover.
+
+I always find that the best way to learn a technology is using the techniques and patterns used to exploit it; because security tends to go deeper into what is 'really possible', not just how it is 'supposed to be used'. In this case, the Google Hacking Database will give you tons of examples of WTF!, how is this data exposed to the internet? More interesting and relevant to your quest into becoming a better developer, this data will make you ask the questions: _'How did that search query work?'_ and _'How did Google Crawlers found that data?'_ (which is the best way to learn)
+
+### Google's history and scale
+
+Google is one of the best Software engineering companies in the world, and one of the first companies to do _'Internet Scale'_ really well. 
+
+Google is also massive in open source with highly successful [hundreds of projects](https://opensource.google.com/) projects like Angular JS, Android or Kubernetes. Google hires some of the best Open Source developers to work on internal projects related to their passion, for example [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) who is Python's founder and lead developer, worked at Google. By the way, being hired to work on Open Source projects is a very common practice by companies that actively use a particular technology or language. This is a great way to get a dream job: write an Open Source tool/package and get hired by a company that uses it.
+
+Google's profits from the Search Engine are so high that it was able to fund a large number ideas and industries. It got so big that in 2015 the founders of Google created the [Alphabet](https://en.wikipedia.org/wiki/Alphabet_Inc.) parent company. This is a really cleaver move since it will make each division (from self-driving cars, to drone deliveries) more accountable and focused.
+
+### Learn from Google's focus on engineering and SRE
+
+Part of the reason Google has gained massive amounts of market share is due to its ability to experiment and then execute at Scale. Google allows employees to spend 20% of their time on ideas they are passionate about, which sounds crazy at first, but there is [solid data](https://www.inc.com/bryan-adams/12-ways-to-encourage-more-free-thinking-and-innovation-into-any-business.html) that says that this practice is highly effective and that it empowers developers to create new products and services. For example Google services like AdSense, Gmail, Google Maps, Google News or Google Talk where initially developed under the 20% research time. 
+
+Google also has a very high bar for quality and engineering. Two good books that explore their practices is the [How Google Tests Software](https://www.amazon.co.uk/Google-Tests-Software-James-Whittaker/dp/0321803027) and the [Site Reliability Engineering](https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X).
+
+The [SRE (Site Reliability Engineering)](https://landing.google.com/sre/) is an amazing concept, that you as a developer really need to spend time learning and understanding how it works (especially how SREs behave). At Google, the SRE teams are the ones that deploy and maintain applications. There are many lessons that we can learn from Google's experience of deploying things at scale. For example I really like the SRE idea to spend 50% on 'doing X' and 50% in improving the process + tools required to effective do that 'X'. ['Error Budgets'](https://landing.google.com/sre/book/chapters/embracing-risk.html) are another SRE concept which can make a massive difference in how applications are developed and tested. The SRE idea of 'Error Budget' is that each application or service needs to provides a clear and objective metric of how unreliable that service is allowed to be within a single period of time.
+
+Google also puts a lot of effort in understanding from a scientific point of view, and how to create great teams. See ['Work Rules'](https://www.amazon.co.uk/Work-Rules-Insights-Inside-Transform-ebook/dp/B00NLHJKBE) book,  _[Not A Happy Accident: How Google Deliberately Designs Workplace Satisfaction](https://www.fastcompany.com/3007268/not-happy-accident-how-google-deliberately-designs-workplace-satisfaction)_ and [Why Google defined a new discipline to help humans make decisions](https://www.fastcompany.com/90203073/why-google-defined-a-new-discipline-to-help-humans-make-decisions) (which introduces the role of _Chief Decision Officer_ and the field of _Decision Intelligence Engineering_)
+
+
+            
+        
+
+            
+## Xcode and Swift             
+If don't have a Mac computer you can ignore this chapter (or use [MacinCloud](https://www.macincloud.com) to rent one). 
+
+With a Mac there is nothing stopping you from being hours away from your first Mac or iPhone application.
+
+[Xcode](https://en.wikipedia.org/wiki/Xcode) is Apple's main development environment, and you can download it for free from the Apple store. Xcode contains everything you need you develop an Mac or iPhone application, namely an IDE, an Debugger and an execution Simulator (iOS, iPad and MacBooks)
+
+[Swift](https://developer.apple.com/swift/) is the modern Open Source language developed by Apple that I highly recommend that you use. Swift dramatically simplifies the creation of applications for macOS, iOS, watchOS and tvOS.
+
+Creating your own application is a major milestone in your programming career. You should do it even if you don't want to become an mobile developer. Not only you will learn a large number of key concepts, you will also gain an understanding of how relatively easy it is to go from an idea in your head into a deployed application.
+
+### First application
+
+To kickstart your development and experiments, start with step-by-step tutorials like the _[Hello World! Build Your First App in Swift](https://www.appcoda.com/learnswift/build-your-first-app.html)_ which will guide you through the code and technologies required to make it happen.
+
+After building your first application, your next objective is to think of an use-case that will help you to do something better in your life. This is an **App for you** and the only thing that matters is that it is useful enough that you use it regularly. 
+
+One of the key reasons why it is important at this stage that this application is only used by you (or a couple of your friends) is because that way, you can use the Xcode simulators to execute it (i.e. you don't have to release it to the AppStore). 
+
+By using the application everyday, you will get direct feedback from what works, what doesn't what and what need improvement. Initially, try to release a new version at least once a week (or once a day). It is important to create a process for this release (ideally with as much automation as possible).
+
+Make sure you release your application under an Open Source license like Apache 2.0 and that you share it on a GitHub repository. This will allow you to expand your user base and gain more users.
+
+### Write tests and create a CI pipeline
+
+Other key workflows that you need to adopt is writing tests and executing them in a CI (Continuous Integration) environment.
+
+See [Writing Test Classes and Methods](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/04-writing_tests.html) for an integration on how to write tests in Swift. 
+
+Once you have a number of tests written, it is time to start looking at cloud/SaaS based build solutions. [Travis](https://docs.travis-ci.com/user/languages/objective-c/) is one of my favorites, but also check out [BuddyBuild](https://www.buddybuild.com/), [AWS Device Farm](https://aws.amazon.com/device-farm/), [BrowserStack](https://www.browserstack.com/ios-testing) or [SauceLabs](https://saucelabs.com/resources/articles/ios-app-testing).
+
+### Experiment with Machine Learning
+
+Apple has released _Core ML 2_ which is [described in Apple's site](https://developer.apple.com/machine-learning/)) as an _'machine learning framework used across Apple products, including Siri, Camera, and QuickType. Core ML 2 delivers blazingly fast performance with easy integration of machine learning models, enabling you to build apps with intelligent features using just a few lines of code'_.
+
+This means that you can easily add features like _Vision_ or _Natural Language_ to your application. If you do this, make sure to write blog posts about your experiments, since I'm sure any potential employer would be very interested in reading them.
+
+### Publish to AppStore
+
+If you want to take this up a level, you should try to get your application published in the AppStore. This will have some costs, but they will be worth it for the learnings that you will get. 
+
+This would also be highly impressive for any potential employer, since it will show that you were able to meet Apple's quality bar.
+
+            
+        
+
+            
 ## Dot Language             
 As a new developer joining the market, one of the real-world patterns that will surprise you the most, is the lack of up-to-date documentation and diagrams about how the applications, services and even code behave (and even when documentation does exists, they are usually out-of-date and not used on day-to-day decisions and coding). 
 
@@ -938,7 +1053,7 @@ digraph G {
 
  Which looks like this when rendered (try this online at https://dreampuf.github.io/GraphvizOnline/)
 
- ![](https://user-images.githubusercontent.com/656739/46248785-ed561880-c415-11e8-8f07-6f5c83b4b03b.png)
+ ![](images/dot-language/46248785-ed561880-c415-11e8-8f07-6f5c83b4b03b.png)
 
 What I'm talking about is 'Diagrams as code', which is a major paradigm shift that very few developers and professionals have been able to make. 
 
@@ -1085,7 +1200,7 @@ For a great introduction to this kind of maps see [Wardley Mapping](http://wardl
 
 #### Explore Vis.js Javascript engine
 
-If you are looking for a great javascript-based DOT language visualization engine, then _[vis.js network](http://visjs.org/docs/network/)_ is the one I recommen you spend a lot of time learning and customizing (see my [neovis fork](https://github.com/pbx-gs/neovis.js) for an example of what those customization can look like)
+If you are looking for a great javascript-based DOT language visualization engine, then _[vis.js network](http://visjs.org/docs/network/)_ is the one I recommend you spend a lot of time learning and customizing (see my [neovis fork](https://github.com/pbx-gs/neovis.js) for an example of what those customization can look like)
 
 #### Mermaid and WebSequenceDiagrams.com
 
@@ -1109,9 +1224,9 @@ sequenceDiagram
 
 Which looks like this when rendered:
 
-![](https://user-images.githubusercontent.com/656739/46255423-a22f1a80-c494-11e8-8eb3-5c9c992e162c.png)
+![](images/dot-language/46255423-a22f1a80-c494-11e8-8eb3-5c9c992e162c.png)
 
-An alternative is the propriatary https://www.websequencediagrams.com service, which more feature rich that mermaid and has a nicer design (the free version is already very usable and practical):
+An alternative is the proprietary https://www.websequencediagrams.com service, which more feature rich that mermaid and has a nicer design (the free version is already very usable and practical):
 
 ```
 title Authentication Sequence
@@ -1123,12 +1238,12 @@ Bob->Alice: Authentication Response
 
 Will look like this
 
-![](https://user-images.githubusercontent.com/656739/46255585-abb98200-c496-11e8-93a7-7ac3abeaf535.png)
+![](images/dot-language/46255585-abb98200-c496-11e8-93a7-7ac3abeaf535.png)
 
 
 The [Diagram in R](http://rich-iannone.github.io/DiagrammeR/index.html) integration page contains a great video of DOT in action:
 
-![](https://user-images.githubusercontent.com/656739/46255638-41551180-c497-11e8-88b8-26ab35aacedf.png)
+![](images/dot-language/46255638-41551180-c497-11e8-88b8-26ab35aacedf.png)
 
 Btw, if you have not learned how to code in [R](https://en.wikipedia.org/wiki/R_(programming_language)), you definitely should, since it is a great way to manipulate and visualise data).
 
@@ -1136,124 +1251,9 @@ Btw, if you have not learned how to code in [R](https://en.wikipedia.org/wiki/R_
 
 A good tech stack to learn DOT Language (and mermaid) is the [Atom editor](https://atom.io/) with the [Markdown Preview Enhanced](https://atom.io/packages/markdown-preview-enhanced) package installed.
 
-This is create an [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) environment where you have an highly effective amd productive split screen (on the left you have the markdown page, and on the right the rended page/diagram). Once you make a code change, you will see the rended diagram in less than a second. This workflow makes it really easy to learn and to create diagrams in real-time.
+This is create an [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) environment where you have an highly effective and productive split screen (on the left you have the markdown page, and on the right the rendered page/diagram). Once you make a code change, you will see the rendered diagram in less than a second. This workflow makes it really easy to learn and to create diagrams in real-time.
 
 I have done Threat Modeling sessions in the past, where we have the UI described above projected on a wall, which allow us to create the diagrams in real-time, based on the information provided by the meeting attendees.
-
-            
-        
-
-            
-## Google Search, GDD and SRE             
-As a developer one of the most important skills you need to learn is how to GDD.
-
-GDD stands for is Google Driven Development, and it is how every professional developer codes these days. Google's search engine is so powerful and effective that when coding (and learning), Google's Search Engine can point to the correct answers much better than anyone or anything else.
-
-#### Why is Google Search so good?
-
-Google's search magic is created by the [WebGraph](https://en.wikipedia.org/wiki/Webgraph) inspired [PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm, which decides the order of the search results. One of the first major innovations of this algorithm was the use of a number of links to point to particular page as an indicator of the page relevance. The other major innovation was the feedback loop between what the users are clicking and the position of the link in the page. This means that every time you click on a link in Google, you are voting with your answer and teaching Google's PageRank algorithm. To see this in action, notice when you copy the link of a Google Search result, the link is not to the page you want to see. The link is to a google service that will capture and store your choice. It is the capture of this data that allows Google to benefit from [network effects](https://en.wikipedia.org/wiki/Network_effect) and provide custom search results to each user. Yes, when you search for a particular topic you will get different results from somebody else. 
-
-Here is a challenge for you: _"how can you prove that google shows different results for different users and in different geographical locations?"_. To answer this question effectively, in fact based way, you need to programmatically detect changes in google's behavior. To do this, write using a Cloud environment, an api /tool or set of serverless functions that:
-  - is able to use Google.com to search for results from multiple IPs and geographical regions (in an pure anonymous way, and in ways that Google search engine can track each one of you 'test users')
-  - captures the responses, namely the order of the link's titles (my preference is to use services like S3 as a data store, for the raw data and any transformations done into JSON files)
-  - visualizes and compare the results (my preference is to use ELK and Neo4J as visualization and analysis engines)
-  - presents the data in easy to consume ways (my preference is to use Hugo to create a site that allows the easy navigation of the 'story you want to tell')
-
-Also very interesting is the [evolution](https://medium.com/s/story/what-google-teaches-us-2613711712de) of Google's Search technology into an Knowledge Graph (which has been [happening since 2010](https://mashable.com/2012/02/13/google-knowledge-graph-change-search/)). The real power in Google's search engine is the gigantic and hyperlinked graph (powered by machine learning) that is able to understand the meaning and intent of the queries made.
-
-#### For Google Search, you are the product
- 
-The clever part of Google Search business model is their turning of the product (i.e. the users doing the searches) into actual 'workers' for Google. Remember that for Google, you are not the client. Google's primary focus and center of gravity is not you.
-
-[Google Adwords](https://en.wikipedia.org/wiki/AdWords) is the system that allows everybody to buy (and bid for) the placement of Ads on a particular Google search keyword. Adwords is by far the highest income stream for Google, with $94 Billion in revenue in 2017. A key problem with Ad based services that are 'free' but generate billions for the owners of the network, is the reality that you (the user) are the product. You are the 'goods' that Google sells to their real customers (the companies buying the ads). 
-
-This is why Google's business model is at odds with privacy. From Google's (and Facebook, Twitter, LinkedIn, etc..) point of view, the less Privacy you have, the more they know about you, the more a valuable asset you become (an asset that they will sell to the highest bidder). 
-
-My view is that this business model is reaching its peak and two major changes will happen in this space in the short to medium term. The move to make the user the real customer and the move to reward the users that add value to networks:
-
-1. Once the balance shifts back to the user and the protection of user data (with Privacy elevated to a Human right and something companies want to provide for their employees), the protection and anonymization of user's data will be an area with massive growth. And in ways that make the process of sharing and using personal data more secure, efficient and even more profitable. 
-
-2. Jaron Lanier in _[You are not a Gadget](https://www.amazon.co.uk/You-Are-Not-Gadget-Manifesto/dp/0141049111)_ defends the idea that creators of digital value should be paid for their contributions (in micro-payments). If you look at the income of Google and other community/Ad driven companies, you can see that the rewards and financial returns for the value created by the product (i.e. the users) is today very one sided (with small exception for areas like [YouTubers](https://en.wikipedia.org/wiki/YouTuber) and [Medium Writers](https://medium.com/words-for-life/a-100-transparent-look-at-my-first-medium-paycheck-197b69483b44)).
-
-You would be very wise to spend time researching and learning about these paradigm shifts, namely how it will impact development practices and the code that you write.
-
-### Do know how to use Google's Search Engine?
-
-How much do you really know about how to search Google for text (images, ideas, videos, books) in the most efficient and effective way? 
-
-Have you spent time to [learn how to search using Google](https://support.google.com/websearch/answer/134479?hl=en&ref_topic=3081620)? Google is just another tool, and you need to spend time learning how to use it and become a master at how to access and query the wealth of information that it stores.
-
-A great place to start is the [Advanced Search](https://www.google.com/advanced_search) page and this great list of [Google Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/).
-
-Once you've done that, take a look at [Google Dorks](https://en.wikipedia.org/wiki/Google_hacking) which is a Google Hacking technique that searches for sensitive data exposed by Google's Crawlers. To get an idea of what is possible check out the [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/) which has sections like: Sensitive Directories, Files Containing Passwords, Sensitive Online Shopping Info , Network or Vulnerability Data and much more. You will be surprised, amazed and horrified with what you will discover.
-
-I always find that the best way to learn a technology is using the techniques and patterns used to exploit it; because security tends to go deeper into what is 'really possible', not just how it is 'supposed to be used'. In this case, the Google Hacking Database will give you tons of examples of WTF!, how is this data exposed to the internet? More interesting and relevant to your quest into becoming a better developer, this data will make you ask the questions: _'How did that search query work?'_ and _'How did Google Crawlers found that data?'_ (which is the best way to learn)
-
-### Google's history and scale
-
-Google is one of the best Software engineering companies in the world, and one of the first companies to do _'Internet Scale'_ really well. 
-
-Google is also massive in open source with highly successful [hundreds of projects](https://opensource.google.com/) projects like Angular JS, Android or Kubernetes. Google hires some of the best Open Source developers to work on internal projects related to their passion, for example [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) who is Python's founder and lead developer, worked at Google. By the way, being hired to work on Open Source projects is a very common practice by companies that actively use a particular technology or language. This is a great way to get a dream job: write an Open Source tool/package and get hired by a company that uses it.
-
-Google's profits from the Search Engine are so high that it was able to fund a large number ideas and industries. It got so big that in 2015 the founders of Google created the [Alphabet](https://en.wikipedia.org/wiki/Alphabet_Inc.) parent company. This is a really cleaver move since it will make each division (from self-driving cars, to drone deliveries) more accountable and focused.
-
-### Learn from Google's focus on engineering and SRE
-
-Part of the reason Google has gained massive amounts of market share is due to its ability to experiment and then execute at Scale. Google allows employees to spend 20% of their time on ideas they are passionate about, which sounds crazy at first, but there is [solid data](https://www.inc.com/bryan-adams/12-ways-to-encourage-more-free-thinking-and-innovation-into-any-business.html) that says that this practice is highly effective and that it empowers developers to create new products and services. For example Google services like AdSense, Gmail, Google Maps, Google News or Google Talk where initially developed under the 20% research time. 
-
-Google also has a very high bar for quality and engineering. Two good books that explore their practices is the [How Google Tests Software](https://www.amazon.co.uk/Google-Tests-Software-James-Whittaker/dp/0321803027) and the [Site Reliability Engineering](https://www.amazon.co.uk/Site-Reliability-Engineering-Betsy-Beyer/dp/149192912X).
-
-The [SRE (Site Reliability Engineering)](https://landing.google.com/sre/) is an amazing concept, that you as a developer really need to spend time learning and understanding how it works (especially how SREs behave). At Google, the SRE teams are the ones that deploy and maintain applications. There are many lessons that we can learn from Google's experience of deploying things at scale. For example I really like the SRE idea to spend 50% on 'doing X' and 50% in improving the process + tools required to effective do that 'X'. ['Error Budgets'](https://landing.google.com/sre/book/chapters/embracing-risk.html) are another SRE concept which can make a massive difference in how applications are developed and tested. The SRE idea of 'Error Budget' is that each application or service needs to provides a clear and objective metric of how unreliable that service is allowed to be within a single period of time.
-
-Google also puts a lot of effort in understanding from a scientific point of view, and how to create great teams. See ['Work Rules'](https://www.amazon.co.uk/Work-Rules-Insights-Inside-Transform-ebook/dp/B00NLHJKBE) book,  _[Not A Happy Accident: How Google Deliberately Designs Workplace Satisfaction](https://www.fastcompany.com/3007268/not-happy-accident-how-google-deliberately-designs-workplace-satisfaction)_ and [Why Google defined a new discipline to help humans make decisions](https://www.fastcompany.com/90203073/why-google-defined-a-new-discipline-to-help-humans-make-decisions) (which introduces the role of _Chief Decision Officer_ and the field of _Decision Intelligence Engineering_)
-
-
-            
-        
-
-            
-## Xcode and Swift             
-If don't have a Mac computer you can ignore this chapter (or use [MacinCloud](https://www.macincloud.com) to rent one). 
-
-With a Mac there is nothing stopping you from being hours away from your first Mac or iPhone application.
-
-[Xcode](https://en.wikipedia.org/wiki/Xcode) is Apple's main development environment, and you can download it for free from the Apple store. Xcode contains everything you need you develop an Mac or iPhone application, namely an IDE, an Debugger and an execution Simulator (iOS, iPad and MacBooks)
-
-[Swift](https://developer.apple.com/swift/) is the modern Open Source language developed by Apple that I highly recommend that you use. Swift dramatically simplifies the creation of applications for macOS, iOS, watchOS and tvOS.
-
-Creating your own application is a major milestone in your programming career. You should do it even if you don't want to become an mobile developer. Not only you will learn a large number of key concepts, you will also gain an understanding of how relatively easy it is to go from an idea in your head into a deployed application.
-
-### First application
-
-To kickstart your development and experiments, start with step-by-step tutorials like the _[Hello World! Build Your First App in Swift](https://www.appcoda.com/learnswift/build-your-first-app.html)_ which will guide you through the code and technologies required to make it happen.
-
-After building your first application, your next objective is to think of an use-case that will help you to do something better in your life. This is an **App for you** and the only thing that matters is that it is useful enough that you use it regularly. 
-
-One of the key reasons why it is important at this stage that this application is only used by you (or a couple of your friends) is because that way, you can use the Xcode simulators to execute it (i.e. you don't have to release it to the AppStore). 
-
-By using the application everyday, you will get direct feedback from what works, what doesn't what and what need improvement. Initially, try to release a new version at least once a week (or once a day). It is important to create a process for this release (ideally with as much automation as possible).
-
-Make sure you release your application under an Open Source license like Apache 2.0 and that you share it on a GitHub repository. This will allow you to expand your user base and gain more users.
-
-### Write tests and create a CI pipeline
-
-Other key workflows that you need to adopt is writing tests and executing them in a CI (Continuous Integration) environment.
-
-See [Writing Test Classes and Methods](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/04-writing_tests.html) for an integration on how to write tests in Swift. 
-
-Once you have a number of tests written, it is time to start looking at cloud/SaaS based build solutions. [Travis](https://docs.travis-ci.com/user/languages/objective-c/) is one of my favorites, but also check out [BuddyBuild](https://www.buddybuild.com/), [AWS Device Farm](https://aws.amazon.com/device-farm/), [BrowserStack](https://www.browserstack.com/ios-testing) or [SauceLabs](https://saucelabs.com/resources/articles/ios-app-testing).
-
-### Experiment with Machine Learning
-
-Apple has released _Core ML 2_ which is [described in Apple's site](https://developer.apple.com/machine-learning/)) as an _'machine learning framework used across Apple products, including Siri, Camera, and QuickType. Core ML 2 delivers blazingly fast performance with easy integration of machine learning models, enabling you to build apps with intelligent features using just a few lines of code'_.
-
-This means that you can easily add features like _Vision_ or _Natural Language_ to your application. If you do this, make sure to write blog posts about your experiments, since I'm sure any potential employer would be very interested in reading them.
-
-### Publish to AppStore
-
-If you want to take this up a level, you should try to get your application published in the AppStore. This will have some costs, but they will be worth it for the learnings that you will get. 
-
-This would also be highly impressive for any potential employer, since it will show that you were able to meet Apple's quality bar.
 
             
         
@@ -1674,6 +1674,139 @@ For a nice view of what could be happening next see:
 
             
         
+
+            
+## AST (Abstract Syntax Tree)             
+[AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) (Abstract Syntax Tree) is a graph representation of source code primarily used by compilers to read code and generate the target binaries.
+
+For example, the AST of this code sample:
+```
+while b ≠ 0
+    if a > b
+       a := a − b
+    else
+        b := b − a
+    return a
+```
+Will look like this:
+
+![](images/ast-abstract-syntax-tree/800px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png)
+
+
+The transformation from source code to an AST, is a very common pattern when processing any type of structured data. The typical workflow is based on _"Creating a parser that converts raw data into an graph-based format, that can then be consumed by an rendering engine"_. 
+
+This is basically the process of converting raw data into in strongly typed in-memory objects that can be manipulated programmatically.
+
+Here is a another example from the really cool online tool [astexplorer.net](https://astexplorer.net/):
+
+![](images/ast-abstract-syntax-tree/46580312-4c212080-ca1a-11e8-8426-26335bd7d9d9.png)
+
+Note how in the image above the [DOT](https://github.com/DinisCruz/Book_Generation_Z_Developer/blob/master/content/2.mvp-for-gen-z-dev/content/dot-language.md) language raw text was converted into a object tree (which can also be consumed/saved as a json file).
+
+As a developer if you are able to _'see code or raw data as a graph'_, you will have made an amazing paradigm shift which will help you tremendously across your carer.
+
+For example I have used ASTs and custom parsers to:
+
+ - write tests that check for what is actually happening in the code (easy when you have access to an object model of the code)
+ - consume log data which normal 'regex' based parsers struggled to understand
+ - perform static analysis on code written in custom languages
+ - transform data dumps into in-memory objects (than can then be easily transformed and filtered)
+ - create transformed files with slices of multiple source code files (which I called MethodStreams and CodeStreams) - See example below for what this looks like in practice
+ - perform custom code refactoring (for example to automatically fix security issues in code) - See example below for what this looks like in practice
+ 
+
+ ### Refactoring and write code from AST
+
+ When building a parser for a particular data source, a key milestone is the round-trip capability, of being able to go from the AST, back to the original text (with no data loss). 
+ 
+ This is exactly how [code refactoring](https://en.wikipedia.org/wiki/Code_refactoring) in IDEs works (for example when you rename a variable and all instances of that variable are renamed).
+
+ Here is how this round-trip works:
+ 
+ 1. start with _file A_ (i.e. the source code)
+ 2. create the AST of _file A_
+ 3. create _file B_ as transformation from the AST
+ 4. _file A_ is equal to _file B_ (byte by byte)
+
+When this is possible, it becomes easy to change code programmatically, since we will be manipulating strongly typed objects without worrying about the creation of syntactic correct source code (which is now a transformation from the AST).
+
+### Writing tests using ASTs objects
+
+Once you start to see your source code (or data that you consume) as _'only an AST parser away from being objects you can manipulate'_, a whole word of opportunities and capabilities will open up for you. 
+
+A good example is how to detect a particular pattern in the source code that you want to make sure occurs in a large number of files, lets say for example that you want to: _"make sure that a particular Authorization (or data validation) method is called on every exposed web services method"_?
+
+This is not a trivial problem, since unless you are able to programmatically write a test that checks for this call, your only options are:
+
+1. write a 'standard document/wiki-page' that defines that requirement, and make sure that all developers read it, understand it, and more importantly, follow it 
+2. manually check if that standard/requirement was correctly implemented (on Pull Requests code reviews)
+3. try to use automation with 'regex' based tools (commercial or open source), and realise that it is really hard to get good results from it
+4. fallback on manual QA tests (and Security reviews) to pick up any blind-spots
+
+But, when you have the capability to write tests that check for this requirement, here is what happens:
+
+1. write tests that consume the code's AST to be able to very explicitly check if the standard/requirement was correctly implemented/coded 
+2. via comments in the test file, the documentation can be generated from the test code (i.e. no extra step required to create documentation for this standard/requirement)
+2. run those tests as part of the local build and as part of the main CI pipeline
+3. by having a failed test, the developers will know ASAP once an issue has been discovered, and can fix it very quickly
+
+This is a perfect example of how to scale architecture and security requirements, in a way that is embedded within the Software Development Lifecycle.
+
+### We need ASTs for legacy and cloud environments 
+
+The more your get into ASTs, the more you realise that they are abstractions layers between different layers or dimensions. More importantly they allow the manipulation of a particular layer's data in a programmatic way. 
+
+But when you look at the current legacy and cloud environments (the part that we call 'Infrastructure as code'), what you will see are large parts of that ecosystems that today don't have AST parsers to convert their reality into programable objects.
+
+This is a great area of research, where you would focus on creating DSLs (Domain Specific Languages) for either legacy systems or for cloud applications (pick one since each will have complete different sets of source materials). One example of the kind DSL we need is an language to describe and codify the behaviour of Lambda functions (namely the resources they need to execute, and what is the expected behaviour of the Lambda function)
+
+### MethodStreams
+
+One of the most powerful examples of AST manipulation I've seen, is the MethodStreams feature that I added to the [O2 Platform](http://o2platform.com). 
+
+With this feature I was able to programmatically create a file based on the call tree of a particular method. This file contained all the source code relevant to that original method (generated from multiple files), and made a massive difference when doing code reviews.
+
+To understand why I did this, let's start with the problem I had.
+
+Back in 2010 I was doing a code review of an .Net application that had a million lines of code. But I was only looking at the WebServices methods, which only covered a small part of that codebase (which made sense since those were the methods exposed to the internet). I knew how to find those internet exposed methods, but in order to understand how they worked, I had to look at hundreds of files, which were the files that contained code in the execution path of those methods.
+
+Since in the O2 Platform I already had a very strong C# parser and code refactoring support (implemented for the REPL feature), I was able to quickly write a new module that:
+ 
+1. starting on web service method X
+2. calculated all methods called from that method X
+3. calculated all methods called by 2. (recursively)
+4. capture the AST objects from all the methods identified by the previous steps
+5. created a new file with all the objects from 4.
+
+This new file was amazing, since it contained ONLY the code that I need to read during my security review.
+
+But it got event better, since in this situation, I was able to add the validation RegExs (applied to all WebServices methods) to the top of the file, and add the source code of the relevant Stored Procedures at the bottom of the file.
+
+Some of the generated files had 3k+ lines of code, which was a massive simplification of the 20+ files that contained them (which had probably 50k+ lines of code).
+
+Here is a good example of me being able to do a better job, by having access to a wide set of capabilities and techniques (in this case the ability to programmatically manipulate source code)
+
+This type of AST manipulation is an area of research that I highly recommend for you to focus on (which will also give you a massive toolkit for your day to day coding activities). Btw, If you go down this path, also check out the O2 Platform's **CodeStreams** which are an evolution of the **MethodStreams** technology. CodeStreams will give you a stream of all all variables that are touched by a particular source variable (what in static analysis is called _[Taint flow analysis](http://www.rroij.com/open-access/taint-flow-analysis-for-the-detection-of-bufferoverflow-attacks-.php)_ and _[Taint Checking](https://en.wikipedia.org/wiki/Taint_checking)_)
+
+### Fixing code in real time (or at compilation time)
+
+Another really cool example of the power of AST manipulation is the PoC I wrote in 2011 on _[Fixing/Encoding .NET code in real time (in this case Response.Write)](https://o2platform.wordpress.com/2011/11/07/fixingencoding-net-code-in-real-time-in-this-case-response-write/)_, where I show how to programmatically add a security fix to a vulnerable by design method.
+
+Here is what the UI looked like, where the code on the left, was transformed programmatically to the code on the right (by adding the extra ```AntiXSS.HtmlEncode``` wrapper method)
+
+![](images/ast-abstract-syntax-tree/46583057-a933cb00-ca48-11e8-8525-122acf63bf81.png)
+
+Here is the source code that does the transformation and code fix (note the round-trip of code):
+
+![](images/ast-abstract-syntax-tree/46583215-fc0e8200-ca4a-11e8-94b6-c7d3a59e6d9d.png)
+
+In 2018, the way to implement this workflow in a developer friendly way, is to automatically create a Pull Request with those extra changes.
+
+
+
+
+            
+        
     
 
     
@@ -1782,6 +1915,171 @@ You can choose to care about the team that you are currently in, and the work th
 
 The irony is that the more you care and the more you behave like a founder, the more value you usually add and the more valuable you will become for that company.
 
+
+            
+        
+
+            
+## Being criticized is an privilege             
+One of the most important life lessons you need to learn, is to how to give and receive feedback. Specially when the feedback is not positive, and it is criticizing something you've said or done.
+
+My view is that a very effective way to learn (and adjust  behavior) is to create environments where your friends and colleges are conformable in criticizing your actions (i.e. to provide their views on how you behave and act). This is not easy, and is something that I work hard at it, specially since my high-level of energy can very easily create blind spots in my understanding of the real impact of my actions (see [Why do others think that I'm "hard to deal with" and that "I don't listen"](http://blog.diniscruz.com/2012/10/why-do-others-think-that-im-hard-to.html)).
+
+If you are lucky enough to be in a position where you are criticized, you should see that as a privilege and an asset that you have.
+
+But listening to somebody (and their criticisms) doesn't mean that you have to agree with what they say and do what they tell you to do :)
+
+What it means is that you understand their point of view. Also important is that you let them know that you've acknowledged their feedback and will consider their ideas.
+
+Here are three models I use for the cases when I don't agree with somebody:
+
+ - [Agree to Disagree](https://en.wikipedia.org/wiki/Agree_to_disagree) 
+ - [Disagree and Commit](https://en.wikipedia.org/wiki/Disagree_and_commit). 
+ - Disagree and Ignore
+
+Usually, disagreeing and committing is a much better outcome, since that makes sure that all parties are aligned in the right objective or idea. 
+
+Agreeing to Disagree is a close 2nd since that means that you were able to reach a consensus that both don't have the same view on a particular idea/subject/behaviors. 
+
+Sometimes, specially in the social media world (or Open Source world) there are tons of people with lots of 'half-baked ideas and criticisms', where the only rational and effective solution is to ignore them (or block them)
+
+Note: always ignore and block trolls and other online personas who are completely irrational, and only bring negativity to the table. They are not worth it, and you will learn nothing from them.  
+
+### Learn who is your public persona
+
+Part of the exercise is to tune in your understanding of reality, with what is really going on. 
+
+You need to build trust relationships with your community, where your friends and colleagues (both up and down the org chart) are comfortable in telling you what they really think about you and how you behave.
+
+I really like the concept that _"if you want to go fast you can go alone"_, but _"if you want to go far (and have sustainability), you need to work with a team"_.
+
+Nobody creates anything that is valuable by itself. It is always a team effort, and you need to learn how to be an effective team player (regardless of what position you are playing at that moment in time)
+
+One of the key concepts that I have in my mind is the fact _you can't control how somebody will react to your actions_. So don't fight it and use those reactions in your feedback loop, and become a better person, professional and manager. 
+
+
+### Myers–Briggs and 16 personalities 
+
+Does this means that you need to react differently to different people?
+
+Yes! Absolutely.
+
+A feedback from person A could set a number of alert bells in your head (as in _'... Hummm... I might be going on the wrong direction ...'_), but the exact same feedback from person B could give you a confirmation that you are indeed going on the right direction :)
+
+The way to do this is to reverse-engineer how somebody behaves and think, and apply that filter to what they say. The fact is that people are different and they will react differently to the same situation. 
+
+[Myers–Briggs Type Indicator](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) is a really good framework to understand this where most people can be split into 8 learning styles:
+ 
+ - Extraversion vs Introversion
+ - Sensing vs Intuition
+ - Thinking vs Feeling
+ - Judging vs Perceiving
+
+![](images/being-criticized-is-a-privilege/46584081-fd45ac00-ca56-11e8-980c-a5bd7c4e7639.png)
+
+Another related framework is the _[Big Five Personality Traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits) which maps five factors:
+
+- Openness to experience (inventive/curious vs. consistent/cautious)
+- Conscientiousness (efficient/organized vs. easy-going/careless)
+- Extraversion (outgoing/energetic vs. solitary/reserved)
+- Agreeableness (friendly/compassionate vs. challenging/detached)
+- Neuroticism  (sensitive/nervous vs. secure/confident)
+
+![](images/being-criticized-is-a-privilege/46584313-cae97e00-ca59-11e8-91ee-10e17fb81612.png)
+
+To see both of these frameworks in action see the [16personalities.com](https://www.16personalities.com) website who have [merged these two frameworks](https://www.16personalities.com/articles/our-theory) and come up with with 16 different personalities:
+
+![](images/being-criticized-is-a-privilege/46584306-a5f50b00-ca59-11e8-8f6d-4e5cddabbf0c.png)
+
+For reference here is mine :)
+
+![](images/being-criticized-is-a-privilege/46584346-e9e81000-ca59-11e8-9fd6-88acc7d8cfd3.png)
+
+Note that although these frameworks might not be 100% accurate, I found the results I've seen to be quite exact in practice.
+
+### Learn about how the mind works
+
+One topic that has really help me to grow and understand better how to work in teams is the amazing Neuroscience and Behavioural research that has been published recently in books like:
+
+ - [Incognito: The Secret Lives of The Brain](https://www.amazon.co.uk/Incognito-Secret-Lives-Brain-Canons/dp/1782112464)
+ - [Predictably Irrational: The Hidden Forces That Shape Our Decisions](https://www.amazon.co.uk/Predictably-Irrational-Hidden-Forces-Decisions/dp/0007256531/)
+ - [Nudge: Improving Decisions About Health, Wealth and Happiness](https://www.amazon.co.uk/Nudge-Improving-Decisions-Health-Happiness/dp/0141040017/)
+ - [Fish!: A remarkable way to boost morale and improve results](https://www.amazon.co.uk/Fish-remarkable-morale-improve-results/dp/1444792806/)
+ - [Freakonomics: A Rogue Economist Explores the Hidden Side of Everything](https://www.amazon.co.uk/Freakonomics-Economist-Explores-Hidden-Everything/dp/0141019018/)
+
+### Importance of diversity and balance in teams
+
+One of the key reasons why a diverse team is so important, is because having teams made of individuals of primarily one type, will invariably create blind spots, promote [GroupThink](https://en.wikipedia.org/wiki/Groupthink) and lead to bad decisions. This is a point that Jane raises in her _[InSecurity: Why a Failure to Attract and Retain Women in Cybersecurity is Making Us All Less Safe](https://www.amazon.com/InSecurity-Failure-Attract-Retain-Cybersecurity/dp/178133269X)_ book (i.e. having cyber risk decisions being made by a predominately male population does not usually result in the best possible outcome)
+
+Being aware of the team members personalities is a great way to ensure that the right mix or the right balance exists.
+
+
+### Radical Candour
+
+As a framework to think about feedback I really like the ideas presented in the _[Radical Candor](https://www.amazon.com/Radical-Candor-Kickass-Without-Humanity/dp/1250103509)_ book, which provide a mental model based on two main axis of behavior: Care Personally and Challenge directly:
+
+![](images/being-criticized-is-a-privilege/46583619-b608ec80-ca51-11e8-997b-d55b10c6174d.png)
+
+ - When you _Care Personally_, but Don't _Challenge directly_: you have _Ruinous Empathy_ (meaning that real feedback is not provided until it is usually too late)
+ - When you Don't _Care Personally_ and  Don't _Challenge directly_: you have _Manipulative Insincerity_ (which is really something you don't want to be involved in)
+ - When you Don't _Care Personally_ but _Challenge directly_: you have _Obnoxious Aggression_ (which is not a good way to communicate and is bound to make the recipient very reactive and even aggressive)
+- When you _Care Personally_ and  _Challenge directly_: you have _Radical Candor_ (which is the sweet spot, when the message has the maximum opportunity of being listened to)
+
+Note that this is not easy at all to put in practice, _Radical Candor_ does required a lot of work and effort from both parties. For example, we usually start by saying _'Ok I want to give you some Radical Candor...'_ which is usually a good way to kickstart the conversation and prime all parties for what is going to happen next.
+
+
+### It is not easy to give feedback
+
+Although for some personality types it seems that all they can do is to give feedback (which can also be a defence mechanism to cover up for insecurity), the best feedback you can receive is one that is hard to give. You need to be very humble when receiving feedback and appreciate that it is very hard for the other person to do it (since they are going 'on the record', and in most cases it is easier to not say anything)
+
+Remember that if somebody has something to say to you, but is afraid to say it, or thinks that it wont matter because you will not listen, the real loser in this lack of communication is you (not them).
+ 
+The worse situation you can be in, is being ignored and not knowing what is really going on. You want to make sure that your colleagues are conformable saying to your face, what they say (or think) behind your back.
+
+### Learn to like criticism and use it to measure success
+ 
+The way I try to cope with criticism and comments, is to view them as positive things and even try to enjoy them (which is not easy at all to do, and it does require a lot of practice and soul searching)
+
+A good mental model is to accept that you will always be criticized, and there will always somebody/somewhere that doesn't like what you have just done, or doesn't understand your point of view. With this in mind, what you need to do is to use the 'what' is being criticized as the benchmark of your progress.
+
+Basically you should measure your evolution by what you are being criticized for. Learn to recognize what are side effects of your current path, and use that feedback to confirm your current trajectory.
+
+### Always focus on the ideas
+
+Here is an amazing quote from [Eleanor Roosevelt](https://www.brainyquote.com/quotes/eleanor_roosevelt_385439): _"Great minds discuss ideas; average minds discuss events; small minds discuss people"_.
+
+Always focus on _the Idea_, and don't worry about how that was said (_the Event_) and who said it (_The People_)
+
+
+### Music and criticism 
+
+One of my first big lessons in the power of listening to the right people for what they say, was when I was playing drums professionally and I realized that the best feedback (and criticism) that we received, was not from other musicians (who could be very objective in what was wrong), but it was from audience members (and long standing fans) who really cared about the band and the music.
+
+I was quite curious on why this happened. Why didn't the most qualified individuals to provide feedback (the musicians or music critics), were the ones that really deserved to be listened to? (in fact some of their comments would fall on the 'ignore' bucket). 
+
+Here are some thoughts:
+
+- most musicians are not very good teachers and don't know how to give effective feedback (they usually to much focus on technical aspect of the playing)
+- they are not the target audience
+- (some) could have conflict of interests (and not really be interested in  your success or improvement)
+
+Note that this doesn't mean that there wasn't value in those musicians comments, it was just that they needed to be heavily filtered. 
+
+On the other hand, the criticisms from the audience, would be much more raw and consumable (if you talk to them and get them to give you real feedback).
+
+Related to this is the fact that what I don't really like is praise and compliments, since after the nth variation of _'you looked/sounded great'_, you don't really learn a lot (and most people will default to vanilla compliments).
+
+Finally the positive feedback that is really, really, really valuable is the feedback from the people that you respect the most (which are usually the ones that give you radical candor).
+
+THAT is usually all that you should be looking for.
+
+THAT moment when one of your heroes (or individuals you really respect) gives you a gentle nod of 'well done , that was good!'. 
+
+In your life, you will be on the receiving end of many magic moments like this. Unfortunately most miss it and fail to appreciate them. Make sure you celebrate them as they occur, since nothing else matters (money, success, fame). 
+
+In life, always celebrate and enjoy the journey (and don't forget to do the _happy dance_ on your milestones and successes). 
+
+Because the moment you reach your destination, is the moment you start to look for the next challenge (with a new set of expectations)
 
             
         
