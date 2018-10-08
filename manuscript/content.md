@@ -168,21 +168,21 @@ Note: Best way to do it is via a twitter mention (i.e. tweet with a link to the 
 
             
 ## Creative Commons             
-Choosing which license you chose to share your work with, is one of the most important decisions you make in your professional life.
+Deciding which license you choose to share your work with is one of the most important decisions you make in your professional life.
 
 You can either go down a path where you think everything you create (outside paid work) is super precious and needs protecting or you soon realise that your ability to think about ideas, and (more importantly) to execute upon those ideas, is extremely valuable.
 
 Often, with the former approach you may be afraid that your ideas will be copied so you don't share them. In the latter approach you are happy to share your ideas as much as possible. 
 
-The best way to share your ideas and way of thinking is to release your content and ideas under an Create Commons Copyright License 
+The best way to share your ideas and way of thinking is to release your content and ideas under a Creative Commons Copyright License 
 
-**So what is Create Commons?**
+**So what is Creative Commons (CC)?**
 
 Let's start by looking at the definition of [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) from Wikipedia:
 
 > A Creative Commons (CC) license is one of several public copyright licenses that enable the free distribution of an otherwise copyrighted work. A CC license is used when an author wants to give people the right to share, use, and build upon a work that they have created. CC provides an author flexibility (for example, they might choose to allow only non-commercial uses of their own work) and protects the people who use or redistribute an author's work from concerns of copyright infringement as long as they abide by the conditions that are specified in the license by which the author distributes the work
 
-Basically, this license is defining the rules of the game that are applied to the content that you publish. By releasing your content under this license (and your code under Open Source) you are sending a strong message of your values and positioning. You are also maximizing the potential for you ideas to be far reaching and impactful. Like Steve Jobs said in his [Stanford Commencement address](https://news.stanford.edu/2005/06/14/jobs-061505/) in 2005 _"...you can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future..."_ , you could be generating a number of opportunities for your future self, or you could even be teaching something to your future self (it's amazing how much we forget over time)
+Basically, this license defines the rules of the game that are applied to the content that you publish. By releasing your content under this license (and your code under Open Source) you are sending a strong message of your values and positioning. You are also maximizing the potential for your ideas to be far reaching and impactful. Like Steve Jobs said in his [Stanford Commencement address](https://news.stanford.edu/2005/06/14/jobs-061505/) in 2005 _"...you can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future..."_ , you could be generating a number of opportunities for your future self, or you could even be teaching something to your future self (it's amazing how much we forget over time)
 
 ### Creative Commons license variations and this book
 
@@ -203,12 +203,12 @@ This book is released under the [Creative Commons Attribution 4.0 International 
 Although all CC licenses allow content to be shared, some have more restrictions:
  
  - **Attribution-ShareAlike 4.0** - need to attribute and use the same CC license (this has a 'viral' effect since it forces changes to also have a CC license)
- - **Attribution-NoDerivatives 4.0** - need to attribute and to not allow changes
- - **Attribution-NonCommercial-NoDerivatives 4.0** -  need to attribute, to not allow commercial use and to not allow changes 
+ - **Attribution-NoDerivatives 4.0** - need to attribute and prohibits the sharing of adaptations of the material
+ - **Attribution-NonCommercial-NoDerivatives 4.0** -  need to attribute, prohibits sharing of adaptations of the material and requires approval/permission from the rights holder before being permitted to be used commercially 
  
 I don't like the licenses above since they put restrictions on how the content can be used (which is against my views of sharing) but for companies or individuals that are new to CC, these are good first steps.
 
-For reference here is a table with the multiple license's variations:
+For reference here is a table which shows the various types of Creative Commons licenses:
 
  [![](images/wikipedia-creative-commons-licenses.png)](https://en.wikipedia.org/wiki/Creative_Commons_license)
 
@@ -223,21 +223,21 @@ For reference here is a table with the multiple license's variations:
 
 Ironically, the majority of modern science was built on the principle of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected few.
  
-Good news is, in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See, for example, the collaboration of code and data-sets that is happening on areas like cancer research.
+Good news is, in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See for example the collaboration of code and data-sets that is happening on areas like cancer research.
 
-Also, amazing is the massive amount of data that is being shared today by government's agencies. See these books for amazing info-graphics created from this data:
+Also, amazing is the massive amount of data that is being shared today by government agencies. See these books for amazing info-graphics created from this data:
 
  - [Information is Beautiful](https://www.amazon.co.uk/Information-Beautiful-New-David-McCandless/dp/0007492898)
  - [Visualize This: The FlowingData Guide to Design, Visualization, and Statistics](https://www.amazon.co.uk/Visualize-This-FlowingData-Visualization-Statistics/dp/0470944889)
  - [Knowledge is Beautiful ](https://www.amazon.co.uk/Knowledge-Beautiful-David-McCandless/dp/0007427921)
 
-See the https://data.gov.uk/ website for data-sets provided by the Uk Government (released under the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) which is compatible with Creative Commons Attribution License 4.0 )
+See the https://data.gov.uk/ website for data-sets provided by the UK Government (released under the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) which is compatible with Creative Commons Attribution License 4.0 )
 
-It is key that you learn how to play in this world where massive amounts of data is available. Increasingly so, there is an moral and technical argument that all data created by government should be released under a creative commons license, and all code paid by the government should be released under an open source license. Think about the implications that this would have on industries and professions that rely on data to make decisions.
+It is key that you learn how to play in this world where massive amounts of data is available. Increasingly so, there is a moral and technical argument that all data created by government should be released under a Creative Commons license, and all code paid by the government should be released under an open source license. Think about the implications that this would have on industries and professions that rely on data to make decisions.
 
 ### The importance of creating commercially viable models
 
-Note, that this doesn't mean that there should no financial return (ever) from sharing your ideas or content.
+Note that this doesn't mean that there should not be any financial return from sharing your ideas or content.
 
 I'm a big believer that for any trend to scale and become sustainable, there needs to be a working economic and financial model behind those open workflows.
 
@@ -247,30 +247,31 @@ Also, it is key that the operational teams that support those authors are also p
 
 Sometimes the payment is hard cash (i.e. the authors/teams are paid to create that content).  Sometimes the 'payment' happens in terms of: future opportunities, personal development or karma points (i.e. doing the right thing or sharing knowledge with others the same way it was shared with you).
 
-One of the big myths behind open source and creative commons is that its authors are all working for free in their bedroom by amateurs. In reality most of the value is created during paid jobs, by highly skilled professionals, with companies supporting the creation of the released code or content.
+One of the big myths behind open source and Creative Commons is that its authors are all working for free in their bedroom by amateurs. In reality most of the value is created during paid jobs, by highly skilled professionals, with companies supporting the creation of the released code or content.
 
 ### It is harder than it looks
 
-Don't let you perception prevent you from publishing content you deem of little value. This Impostor Syndrome effect can be very damaging and paralyzing, and you need to take a pragmatic view of what would happen if you do share.
+Don't let your perception prevent you from publishing content you deem of little value. This Impostor Syndrome effect can be very damaging and paralyzing, and you need to take a pragmatic view of what would happen if you do share.
 
- - If what you wrote is not that interesting or valuable to others, then your will have a small amount of readers and you have not lost anything.
+ - If what you wrote is not that interesting or valuable to others, then you will have a small number of readers but will have gained valuable knowledge and experience which you can use to help you write your next publication
  - If what you have created does get some readers and more importantly, feedback or comments, then you gained a bit and moved the needle a little bit (remember that it is all about incremental gains, and there is no such thing as 'overnight success')
 
 The bottom line is: publishing your research under a CC license is harder than it looks. 
 
-You actually have to do it, and remember that taking the first step, is often the hardest part
+You actually have to do it, and remember that taking the first step is often the hardest part.
 
-Doing that journey under an Creative Commons path, means that you have shifted your paradigm from close to open. It means that you now view your value as someone who can execute ideas (and is happy to share your creations)
+Doing that journey under a Creative Commons path, means that you have shifted your paradigm from closed to open. It means that you now view your value as someone who can execute ideas (and is happy to share your creations).
 
 Anybody can have ideas, execution is the hard part.    
 
 ### Align your future with Creative Commons
 
-Finally, when choosing which company to work for take into account their current Creative Commons and Open Source strategy culture for internally developed technology ideas. This should have an impact on your choices).
+Finally, when choosing which company to work for, take into account their current Creative Commons and Open Source strategy culture for internally developed technology ideas. This should have an impact on your choices.
 
-In most companies, only a very small part of what they create should be closed and proprietary. The rest should released under open licenses. 
+In most companies, only a very small part of what they create should be closed and proprietary. The rest should released under open licenses.
 
-Remember that these days, especially in technology, you will be changing jobs and companies regularly. Your really want to make sure that you still have access to those ideas and code when you move off; since there is nothing more soul-destroying than having to re-do something you have already created or not having access to good ideas you had in the past.
+Remember that in these modern times, especially in technology, it is not uncommon to change jobs regularly. You really want to make sure  you still have access to those ideas and code when you move; there is nothing more soul-destroying than having to re-do something you have already created or not having access to good ideas you had in the past.
+
 
             
         
@@ -432,20 +433,20 @@ This goes to the heart of what I have noticed in effective development environme
 ## Docker             
 As a developer it is critical that you understand how Docker works and how it became so successful and widely used. Docker is one of those revolutions that occur regularly in the IT industry where the right product comes at the right time and meets a number of very specific pain points for developers.
 
-From a practical point of view, Docker makes it very easy for you to try and use a wide variety of applications and environments. For example you can start a local (fully working instance) of the [ELK Stack](https://www.elastic.co/elk-stack) (Elastic search + Logstash + Kibana) in Docker, simply by running the `sudo Docker pull sebp/elk` command (without installing anything on your host machine)
+From a practical point of view, Docker makes it very easy for you to try and use a wide variety of applications and environments. For example you can start a local (fully working) instance of the [ELK Stack](https://www.elastic.co/elk-stack) (Elastic search + Logstash + Kibana) in Docker, simply by running the `sudo Docker pull sebp/elk` command (without installing anything on your host machine).
 
-The first time I saw and used Docker, I was massively impressed by its simplicity and its potential to change how applications are deployed and developed.
+The first time I saw and used Docker, I was massively impressed by its simplicity and its potential to change how applications are developed and deployed.
 
 To understand Docker and its power, the first concept to master is how Docker is a _"process that exposes a multi-layered file system as an fully isolated OS"_
 
 It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that having automated VM deployments to a significant extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) completely dismissed Docker as just another IT fad.
 
-The problem is that Docker is much more than just a faster VM and by fast, I mean super-fast. Normal VMs boot in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time (just run `Docker run -it node bash` and when inside the Docker container run `node -e 'console.log(20+22)'`).
+The problem is that Docker is much more than just a faster VM and by fast, I mean super-fast. VMs typically take several minutes to fully boot in to a 'ready state'; Docker can give you a fully functional Ubuntu instance with Node installed in sub-second start time (just run `Docker run -it node bash` and when inside the Docker container run `node -e 'console.log(20+22)'`).
 
 Docker starts in second(s) because it is just a process. The magic sauce is created by:
 
-1. a number of linux kernel technologies that are able create a sandboxed environment for that process (for files and network access and other key parts of the OS)
-2. a layered file system, where each layer contains a diff with the previous layer. This is a powerful graph db, where each file location is dynamically calculated when you are inside the Docker image. Basically what is happening is that each layer is immutable, and when a file is changed inside Docker it is either a) saved as new Docker image or b) discarded when the Docker image stops. A final 'Docker image' is just a collection of multiple images, all stacked up, one of top of the other. 
+1. a number of Linux kernel technologies that are able create a sandboxed environment for that process (for files and network access and other key parts of the OS)
+2. a layered file system, where each layer contains a diff of the previous layer. This is a powerful graph db, where each file location is dynamically calculated when you are inside the Docker image. Basically what is happening is that each layer is immutable, and when a file is changed inside Docker it is either a) saved as a new Docker image or b) discarded when the Docker image stops. A final 'Docker image' is just a collection of multiple images, all stacked up, one on top of the other. 
 
 ### Kubernetes
 
@@ -453,19 +454,19 @@ Say you want to:
 
 1. use multiple Docker images in parallel (for example an image for the web server, an image for file system and an image with a database) or 
 
-2. Start multiple images at the same time (for example a web server behind an load balancer) 
+2. Start multiple images at the same time (for example a web server behind a load balancer) 
 
 You will need to start looking at what are called 'orchestration technologies'.
 
 The Docker team has published light orchestration frameworks called [Docker Compose](https://docs.Docker.com/compose/) and [Docker Swarm](https://docs.Docker.com/engine/swarm/). Whilst both solutions are relatively effective and have their share of pros and cons,[Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) is by far the most widely used container orchestration mechanism in production environments.
 
-Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to massively scale services like its web search and GMail. Everything at Google is a container and as early as 2014 Google claimed to be starting [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
+Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to massively scale services like its web search and Gmail. Everything at Google is a container and as early as 2014 Google claimed to be starting [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
 
-Kubernetes allows the codification of an application environment thus addressing requirements such as deployment strategy, scalably, containers hygene and tracking etc. 
+Kubernetes allows the codification of an application environment thus addressing requirements such as deployment strategy, scalability, container hygiene and tracking etc. 
 
 This is very powerful, since it allows you to basically say: _"I want x number of pods (i.e. web servers and database) to always be available, and if they stop, make sure they are restarted (and configured accordingly)"_
 
-The reason why is so important to understand this is because you need to evolve from creating environments by clicking on a lot of of things, to codifying your service delivery environment (which is just a higher level of programming abstraction layer). 
+The reason why it is so important to understand this is because you need to evolve from creating environments by manual 'button clicking' to codifying your service delivery environment (which is just a higher level of programming abstraction layer). 
 
 Note that you also get a similar workflow with tools like [AWS CloudFormation](https://aws.amazon.com/cloudformation/) 
 
@@ -475,21 +476,21 @@ One easy way to give Kubernetes a test drive is to use [AWS EKS](https://aws.ama
 
 From a security point of view, Docker has clear advantages. 
 
-The first is an explicit mapping of what needs to be installed and what resources (for example ports) need to be made available.
+The first is an explicit mapping of what needs to be installed and what resources (e.g. ports) need to be made available.
 
-Docker also makes possible to safely run 3rd party code in isolated (i.e. sandboxed) environments, where malicious code running inside a Docker container, would not have access to the current host user's data. This is actually the future of desktop and server-side apps where simple external (or even mission critical) service/code is executed inside containers.
+Docker also makes it possible to safely run 3rd party code in isolated (i.e. sandboxed) environments, where malicious code running inside a Docker container, would not have access to the current host user's data. This is actually the future of desktop and server-side apps where simple external (or even mission critical) service/code is executed inside containers.
 
 ### Testing and visualizing Docker
 
 One area where we are still quite immature, as an industry, is the testing of Docker images and Kubernetes setups.
 
-There aren't enough good tools, IDEs and Test Runners for Docker and Kubernetes. Basically we need a TDD workflow for Docker development!
+There aren't enough good tools, IDEs and Test Runners for Docker and Kubernetes. Basically we need a Test Driven Development (TDD) workflow for Docker development!
 
-If I was you, this would definitely be an area I would focus my research on (while blogging about your efforts). 
+If I were you, this would definitely be an area I would focus my research on (while blogging about your efforts). 
 
-Another great research area is the visualization and mapping of Kubernetes environment (i.e. who is speaking to who, and how is that traffic authentication and authorized). See _[Weave Scope - Troubleshooting & Monitoring for Docker & Kubernetes](https://github.com/weaveworks/scope)_ for an interesting Open Source project in this space.
+Another great research area is the visualization and mapping of Kubernetes environments (i.e. who is speaking to who, and how is that traffic authenticated and authorized). See _[Weave Scope - Troubleshooting & Monitoring for Docker & Kubernetes](https://github.com/weaveworks/scope)_ for an interesting Open Source project in this space.
 
-You would have a big competitive advantage in the market place if you understood these concepts and had practical experience at solving them.
+You would have a big competitive advantage in the market place if you understood these concepts and had practical experience at implementing them.
 
 ### It all stated with physical containers
 
