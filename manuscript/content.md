@@ -51,7 +51,7 @@ Please share your views, suggestions and criticisms and don't hesitate to reach 
 ## Generation Z             
 Generation Z is the generation born after [1996](https://twitter.com/PaoliCGPI/status/961121404048601088). Like all generation boundaries, their differences may be generalized and there will always be exceptions to this rule. That said, when viewed constructively, it represents an interesting mix of great values and digital capabilities.
 
-The older members of this generation (at the time of writing, 2018) are about 22 years old. They don't remember the 9/11 attackes, were 11 when the first iPhone came out (2007) and are the first real 'born online' generation. In parts of the world that are privileged enough to enjoy ubiquitous access to technology, many members of this generation have not experienced a world without ready access to the internet on some kind of device. This is the generation that is entering the job market right now.
+The older members of this generation (at the time of writing, 2018) are about 22 years old. They don't remember the 9/11 attackers, were 11 when the first iPhone came out (2007) and are the first real 'born online' generation. In parts of the world that are privileged enough to enjoy ubiquitous access to technology, many members of this generation have not experienced a world without ready access to the internet on some kind of device. This is the generation that is entering the job market right now.
 
 I have personal experience of this generation, I have two daughters currently aged 13 and 15, and I have also been professionally involved in a number of projects focused on Generation Z. I've run sessions teaching UK high school kids how to 'hack' (in the ethical rather than illegal sense of the word) and even younger developers how to code so they would be able to apply their skills in real world scenarios.
 
@@ -61,7 +61,7 @@ I'm focusing on Generation Z because I believe they've missed the historical und
 
 Although Generation Z has some spectacular traits and values, I occasionally perceive a lack of intellectual curiosity that worries me. This is arguably the most tolerant and diversity-aware generation. But, having grown up with an innate acceptance of the technology around us, many of the building blocks of today's technology stacks are simply assumed to be ever present. Much like driving a car or flying a plane with no knowledge of the engineering involved.
 
-This is a huge advantage in a sense; many of the older generation perceived boundaries don't inhibit Generation Z. By the same token however, even more opportunies can come from understanding the origin, history and evolution of the technology journey so far.
+This is a huge advantage in a sense; many of the older generation perceived boundaries don't inhibit Generation Z. By the same token however, even more opportunities can come from understanding the origin, history and evolution of the technology journey so far.
 
 This is an age when information and knowledge is often a Google search away. Yet, conversation after conversation I've found - perhaps unsurprisingly - that Generation Z teenagers have a very superficial understanding of the history that underpins the technologies they use. How and why this technology came to be in the first place and the original problems it tried to solve.
 
@@ -221,7 +221,7 @@ For reference here is a table with the multiple license's variations:
 
 ### Creative Commons is changing science
 
-Ironically, the majority of modern science was built on the princple of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected few.
+Ironically, the majority of modern science was built on the principle of sharing ideas, cross-verification and healthy challenges of assumptions/theories. But for a while, science (due to a number of reasons) started to become a closed world, with large amounts of information and data only being available to a selected few.
  
 Good news is, in the last decade this has started to change. I think a big part of it was caused by the cross fertilization of practices brought to science by developers who were exposed to the Open Source workflow (and culture and effectiveness) and help to push for a much more open and collaborative environment between teams. See, for example, the collaboration of code and data-sets that is happening on areas like cancer research.
 
@@ -438,7 +438,7 @@ The first time I saw and used Docker, I was massively impressed by its simplicit
 
 To understand Docker and its power, the first concept to master is how Docker is a _"process that exposes a multi-layered file system as an fully isolated OS"_
 
-It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that having automated VM deployments to a sigificant extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) completely dismissed Docker as just another IT fad.
+It is easy to see Docker as just a faster VM environment or a faster Vagrant (which is a way to programmatically create VMs). I've seen companies that having automated VM deployments to a significant extent (i.e. they become really good at automating the creation and deployment of multi-gigabyte VMs) completely dismissed Docker as just another IT fad.
 
 The problem is that Docker is much more than just a faster VM and by fast, I mean super-fast. Normal VMs boot in minutes, Docker can give you a fully working Ubuntu box with Node installed in sub second start time (just run `Docker run -it node bash` and when inside the Docker container run `node -e 'console.log(20+22)'`).
 
@@ -457,7 +457,7 @@ Say you want to:
 
 You will need to start looking at what are called 'orchestration technologies'.
 
-The Docker team has published light orchestration frameworks called [Docker Compose](https://docs.Docker.com/compose/) and [Docker Swarm](https://docs.Docker.com/engine/swarm/). Whilst both solutions are relatively effective and have their share of pros and cons,[Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) is by far the most widly used container orchestration mechanism in production environemnts.
+The Docker team has published light orchestration frameworks called [Docker Compose](https://docs.Docker.com/compose/) and [Docker Swarm](https://docs.Docker.com/engine/swarm/). Whilst both solutions are relatively effective and have their share of pros and cons,[Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) is by far the most widely used container orchestration mechanism in production environments.
 
 Kubernetes (sometimes also called K8) was actually developed by Google and was inspired by [Google's Borg](https://ai.google/research/pubs/pub43438). The Borg is one of the key reasons why Google was able to massively scale services like its web search and GMail. Everything at Google is a container and as early as 2014 Google claimed to be starting [two billion](https://www.theregister.co.uk/2014/05/23/google_containerization_two_billion/) [containers per week](https://cloud.google.com/containers/)
 
@@ -820,7 +820,7 @@ When you have a bug in your code that you don't understand the root cause, a com
 
 This just about works when you have direct access to the execution environment and you are looking at simple applications. 
 
-But as soon as you start working on distributed systems with lots of moving parts (for example with multiple web services and serverless functions), you stop having the ability to realy understand what is going on (namely the exact sequence of events and what the data looks like in those intermediate states) 
+But as soon as you start working on distributed systems with lots of moving parts (for example with multiple web services and serverless functions), you stop having the ability to really understand what is going on (namely the exact sequence of events and what the data looks like in those intermediate states) 
 
 Slack gives you an environment to receive logs/messages from those internal execution flow and states. To make this scale, you should create helper APIs that make it easy to send and receive data from Slack.
 
@@ -1051,7 +1051,7 @@ digraph G {
 }
  ```
 
- Which looks like this when rendered (try this online at https://dreampuf.github.io/GraphvizOnline/)
+ Which looks like this when rendered (try this online at [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
 
  ![](images/dot-language/46248785-ed561880-c415-11e8-8f07-6f5c83b4b03b.png)
 
@@ -1099,7 +1099,7 @@ The irony is that Visio's main features are actually its main drawbacks. Due to 
  - **a work of art** - yes some diagrams look really beautiful, but the point of a diagram is to help with data communication,   understanding and collaboration. The point should be to empower decisions, not to look good
  - **not created from dynamic data** - all elements in the Visio diagram are manually added, which means that once the original data/scenario/architecture changes, the diagram will be out-of-data
  - **layout is pixel based** - which means that moving anything can become really hard because the actually location of a particular element is 'hard-coded' to a particular location in the page (i.e. its pixel). This is one of the reasons why changes are so hard, since it is easy to hit clashes between elements, when moving/adding new elements
- - **locked to a particular design convention** - due to the fact that the design is hard-coded and the creator of the Visio diagram has enormous scope for applying its creative interpretation to the diagram's data, what ever convention the author used, becomes the one that everybody has to use. This becomes a massive issue when it is required to see the diagram's data from differnt points of view or different levels of abstraction 
+ - **locked to a particular design convention** - due to the fact that the design is hard-coded and the creator of the Visio diagram has enormous scope for applying its creative interpretation to the diagram's data, what ever convention the author used, becomes the one that everybody has to use. This becomes a massive issue when it is required to see the diagram's data from different points of view or different levels of abstraction 
  - **very easy to mix abstraction layers** - another common problem with Visio, is the use of multiple abstractions in the same diagram (for example mixing network flows, with application flows, with user journey flows). This tends to be an side-effect of not being able to reuse part of the diagram in new diagrams for example focused on a particular use-case or user-journey.
  - **stored in binary or xml format (very hard to diff)** - not only these files are hard/impossible to diff, some of the file formats are proprietary (i.e. not open) and sometimes on online services the data is not even available.
  - **mixes data and design in same file** - to effectively diff data, it is key to store the data and the design in different files. Not only this will make the version diffing possible, it allows the creation of standard design templates (which will create a consistency of design, making it easier to consume)
@@ -1474,13 +1474,13 @@ Basically, if you don't use books or printed materials to read and review the in
 
 The digital world is really good at promoting [group think](https://en.wikipedia.org/wiki/Groupthink) and to present the previous technologies as 'legacy' and old-fashioned.
 
-My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the conveinience of access and the weight difference), in this case the books are just a transient medium that is being used to tell a story, just like in a movie (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
+My experience is that books (and printed materials) are much better technologies for the consumption of information. One area where the advantages of the digital books can be significant are novels and fictional stories (namely the convenience of access and the weight difference), in this case the books are just a transient medium that is being used to tell a story, just like in a movie (in most cases, what the reader is getting are emotional connections with the characters/story, and not really learning from the text)
 
 The reality is if you want to learn, you are better of using a book or printed materials.
 
 The same happens with reviewing materials. It not coincidence that we all have experiences of writing content in a digital medium (i.e. the computer) and while reading it on a screen it kinda looks ok. Then once we print it, and enjoy the unidirectional, offline and 100% focused activity experience that is _'reading a piece of paper'_, we find tons of errors and _'WTF was I thinking when I wrote that!'_ moments. In fact making notes on printed versions of digital content, is exactly how I am writing and reviewing this book's content.
 
-Yes, the fact that books are offline is one of the book's main competitive advantanges! 
+Yes, the fact that books are offline is one of the book's main competitive advantages! 
 
 The book's _'features'_ of not being interrupted by a constant stream of apps/websites notifications and not having a browser at hand, does wonders for your ability to focus and to consume information.
 
@@ -1608,7 +1608,7 @@ It is even worse when the interruption actually requires some extra activity (fo
 
 One area that these interruptions happen a lot in the normal developer's coding workflow is Testing. The simple fact of having to manually run a test (either via the command line, or by clinking on a web browser), will break your mental models and make you 'switch context'
 
-I can't explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minumal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
+I can't explain (you need to experience it yourself) how productive is it to code in an environment where the context switching is minimal (which is what happens when coding using tools like [wallbyjs](wallabyjs.com) or [NCrunch](http://www.ncrunch.net/))
 
             
         
@@ -1645,7 +1645,7 @@ The key point is that you need to take the time and care to chose your IDE, sinc
 
             
 ## Machine Learning and AI             
-One of the most important areas that you need to gain a strong understaning in the next 5 years is Machine Learning and Artificial Intelligence (AI).
+One of the most important areas that you need to gain a strong understanding in the next 5 years is Machine Learning and Artificial Intelligence (AI).
 
 This is not about an [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) kinda scenario where an super-intelligence [singularity](https://en.wikipedia.org/wiki/Technological_singularity) is going to take over the world and destroy humanity.
 
